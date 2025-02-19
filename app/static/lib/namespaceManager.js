@@ -1,16 +1,15 @@
-import nsMap from "./namespaceMap.js";
+import defaultNsMap from "./namespaceMap.js";
 
-// enumerate all namespaces
-// export them as an object with functions, one per namespace
-// functions are named after prefix, take a string and return a full URI
-
+console.log("nsMap in namespaceManager.js: ", defaultNsMap);
 /**
  * Class for managing namespaces
  * @param {Object} nsMap - object containing namespace prefixes and URIs
  */
 export default class NamespaceManager {
-  static init(nsMap = nsMap) {
-    for (const prefix in nsMap) {
+  static init(nsMap = defaultNsMap) {
+    this.initialized = true;
+    this.nsMap = nsMap;
+    for (const prefix in this.nsMap) {
       if (this.hasOwnProperty(prefix)) {
         throw new Error(`Namespace ${prefix} clashes with existing property`);
       }
@@ -25,7 +24,7 @@ export default class NamespaceManager {
    */
   static nsFunc(ns) {
     return function (str) {
-      return nsMap[ns] + str;
+      return this.nsMap[ns] + str;
     };
   }
 }

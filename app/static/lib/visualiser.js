@@ -2,12 +2,12 @@ import NS from "./namespaceManager.js";
 import { relevantVis } from "./defaults.js";
 
 export default class Visualiser {
-  constructor(ns = NS, relevant = relevantVis) {
+  static init(ns = NS, relevant = relevantVis) {
     this.ns = ns;
     this.relevant = relevant;
   }
 
-  labelify(str) {
+  static labelify(str) {
     // if the string is prefixed with a namespace, return the local name
     // otherwise, return the string without the protocol prefix (to help Mermaid)
   }
@@ -19,7 +19,7 @@ export default class Visualiser {
    * @param {number} blankCounter - counter for blank node IDs
    * @returns {string}
    */
-  visualise(obj, relevant = relevantVis, blankCounter = 0) {
+  static visualise(obj, relevant = relevantVis, blankCounter = 0) {
     let visgraph = "";
     // if the object has a "@id" property, use it as the node ID
     // otherwise, use a blank node ID by concatenating "blank" with the blankCounter
@@ -59,5 +59,20 @@ export default class Visualiser {
       }
     }
     return visgraph;
+  }
+
+  /**
+   * Draw a Mermaid graph of the objects passed in
+   * @param  {...Object} objectsToDraw - objects to draw in the graph
+   * @returns {string}
+   */
+  static drawGraph(...objectsToDraw) {
+    console.log("drawGraph: ", objectsToDraw);
+    let g = "graph TD;\n";
+    for (const obj of objectsToDraw) {
+      g += this.visualise(obj);
+    }
+    console.log(g);
+    return g;
   }
 }

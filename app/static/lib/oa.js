@@ -14,8 +14,7 @@ export default class OA {
       this.raw = retrieved;
       this.obj = expanded[0];
       this.validate();
-      this.visualiser = new V();
-      this.vis = this.visualiser.visualise(this.obj);
+      V.visualise(this.obj);
     });
   }
 

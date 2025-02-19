@@ -1,12 +1,12 @@
 export const version = "0.0.1";
 export const versionDate = "19 February 2025";
 
-import "./init.js"; // initialize static classes
 import NS from "./namespaceManager.js";
 import OA from "./oa.js";
 import { requestAsJsonLd } from "./http.js";
-import v from "./visualiser.js";
+import V from "./visualiser.js";
 
+V.init(NS);
 // event listener to trigger when DOM loaded
 document.addEventListener("DOMContentLoaded", async function () {
   console.log("Flask static file serving works!");
@@ -24,6 +24,11 @@ document.addEventListener("DOMContentLoaded", async function () {
           console.log("Retrieved JSON data: ", data);
           oa = new OA(data);
           console.log("Parsed OA object: ", oa);
+          let g = V.drawGraph(oa.obj);
+          // run through mermaid API to render the graph
+          mermaid.render("graph", g, function () {
+            console.log("Rendered graph");
+          });
         },
         (error) => {
           console.error(error);

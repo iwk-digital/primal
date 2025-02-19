@@ -1,22 +1,23 @@
-import ns from "./namespaceManager.js";
+import NS from "./namespaceManager.js";
 
+NS.init();
 // default relevant types and predicates for visualisation
 export const relevantVis = {
   types: [
-    ns.oa("Annotation"),
-    ns.oa("TextualBody"),
-    ns.mao("MusicalIdea"),
-    ns.mao("MusicalMaterial"),
-    ns.mao("Extract"),
-    ns.mao("Selection"),
+    NS.oa("Annotation"),
+    NS.oa("TextualBody"),
+    NS.mao("MusicalIdea"),
+    NS.mao("MusicalMaterial"),
+    NS.mao("Extract"),
+    NS.mao("Selection"),
   ],
   predicates: [
-    ns.oa("hasTarget"),
-    ns.oa("hasBody"),
-    ns.mao("setting"),
-    ns.mao("settingOf"),
-    ns.frbr("embodiment"),
-    ns.frbr("realization"),
-    ns.frbr("part"),
+    NS.oa("hasTarget"),
+    NS.oa("hasBody"),
+    NS.mao("setting"),
+    NS.mao("settingOf"),
+    NS.frbr("embodiment"),
+    NS.frbr("realization"),
+    NS.frbr("part"),
   ],
 };
