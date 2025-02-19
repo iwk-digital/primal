@@ -1,0 +1,63 @@
+<!-- a semantic HTML5 document containing:
+ - a header with a logo, title, and navigation links
+ - an area for text content, to be read from JSON-LD annotations
+ - an area displaying a graph, to be generated using Mermaid.js
+ - an area displaying music scores, to be generated using Verovio.js
+ - an area displaying audio examples, to be generated using Wavesurfer.js
+ - an area to house annotation tools
+ -->
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>SSV Viewer</title>
+    <link
+      rel="stylesheet"
+      href="{{ url_for('static', filename='css/styles.css') }}"
+    />
+    <script src="https://unpkg.com/mermaid@10/dist/mermaid.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jsonld/1.0.0/jsonld.min.js"></script>
+    <script
+      src="https://www.verovio.org/javascript/latest/verovio-toolkit-wasm.js"
+      defer
+    ></script>
+    <script
+      src="{{ url_for('static', filename='lib/main.js') }}"
+      type="module"
+    ></script>
+  </head>
+  <body>
+    <nav>
+      <a href="index.html">Home</a>
+      <a href="about.html">About</a>
+      <a href="contact.html">Contact</a>
+    </nav>
+    <header>
+      <img src="logo.png" alt="logo" />
+      <h1>SSV Viewer</h1>
+    </header>
+    <main>
+      <section>
+        <h2>Text Content</h2>
+        <p id="text-content"></p>
+      </section>
+      <section>
+        <h2>Graph</h2>
+        <div id="graph"></div>
+      </section>
+      <section>
+        <h2>Music Scores</h2>
+        <div id="music-scores"></div>
+      </section>
+      <section>
+        <h2>Audio Examples</h2>
+        <div id="audio-examples"></div>
+      </section>
+      <section>
+        <h2>Annotation Tools</h2>
+        <div id="annotation-tools"></div>
+      </section>
+    </main>
+  </body>
+</html>
