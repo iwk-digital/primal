@@ -10,6 +10,19 @@ export default class Visualiser {
   static labelify(str) {
     // if the string is prefixed with a namespace, return the local name
     // otherwise, return the string without the protocol prefix (to help Mermaid)
+    console.log("attempting to label ", str);
+    let label = str;
+    Object.keys(this.ns.nsMap).forEach((key) => {
+      if (str.startsWith(this.ns.nsMap[key])) {
+        label = str.replace(this.ns.nsMap[key], key + ":");
+        console.log("labelified ", str, " to ", label);
+      }
+    });
+    if (label === str) {
+      // doesn't match a namespace, so try to get the last part of the URL
+      label = str.substring(str.lastIndexOf("/") + 1);
+    }
+    return label;
   }
 
   /**
@@ -27,16 +40,16 @@ export default class Visualiser {
     const id = obj["@id"] ? obj["@id"] : "blank_" + blankCounter++;
     // If the current object has a @value property, draw it as a rectangle node with the @value as label and return.
     if (obj.hasOwnProperty("@value")) {
-      visgraph = `${id}["${obj["@value"]}"];\n`;
+      visgraph = `${id}["${obj["@value"]}"];`;
     } else {
       // Otherwise draw the current object as a stadium shape node
       // label it using the object's type
       // if the object has a ns.rdfs("label"), add it as a sublabel in parentheses
-      visgraph += `${id}("${obj["@type"][0]}`;
+      visgraph += `${id}("${this.labelify(obj["@type"][0])}`; // TODO consider multiple types
       if (obj.hasOwnProperty(this.ns.rdfs("label"))) {
         visgraph += `(${obj[this.ns.rdfs("label")][0]})`;
       }
-      visgraph += '")';
+      visgraph += '");';
       // draw all relevant predicates as arrows to other objects
       // calling visualise recursively on those objects, if their type is relevant
       // otherwise, draw them as a stadium shape node, labeled with their '@id" if present
@@ -45,14 +58,22 @@ export default class Visualiser {
           for (const target of obj[pred]) {
             if (
               target.hasOwnProperty("@type") &&
-              relevant.types.includes(target["@type"][0])
+              relevant.types.includes(target["@type"])
             ) {
-              visgraph += ` --> ${visualise(target, relevant, blankCounter)}`;
+              "Target 1: ", target;
+              visgraph += `${id} -- ${this.labelify(pred)} --> ${this.visualise(
+                target,
+                relevant,
+                blankCounter
+              )};`;
             } else {
+              console.log("Target: ", target);
               const targetId = target["@id"]
                 ? target["@id"]
                 : "blank_" + blankCounter++;
-              visgraph += ` --> ${targetId}("${target["@id"]}")`;
+              visgraph += `${id} -- ${this.labelify(
+                pred
+              )} --> ${targetId}("${this.labelify(target["@id"])}");`;
             }
           }
         }

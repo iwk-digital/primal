@@ -1,5 +1,5 @@
-export const version = "0.0.1";
-export const versionDate = "19 February 2025";
+export const version = "0.0.2";
+export const versionDate = "20 February 2025";
 
 import NS from "./namespaceManager.js";
 import OA from "./oa.js";
@@ -18,22 +18,27 @@ document.addEventListener("DOMContentLoaded", async function () {
     const oaUrl = new URL(oaParam);
     // if valid, request the URL as json-ld
     if (oaUrl) {
-      let oa = requestAsJsonLd(
-        oaUrl,
-        async (data) => {
-          console.log("Retrieved JSON data: ", data);
-          oa = new OA(data);
-          console.log("Parsed OA object: ", oa);
-          let g = V.drawGraph(oa.obj);
-          // run through mermaid API to render the graph
-          mermaid.render("graph", g, function () {
-            console.log("Rendered graph");
+      try {
+        let data = await requestAsJsonLd(oaUrl);
+        console.log("Retrieved JSON data: ", data);
+        let oa = new OA(data);
+        oa.prepare()
+          .then(() => {
+            if (oa.expanded) {
+              let graph = V.drawGraph(oa.expanded);
+              mermaid.render("fograph", graph).then((svg) => {
+                document.getElementById("graph").innerHTML = svg.svg;
+              });
+            } else {
+              console.error("Failed to initialize OA");
+            }
+          })
+          .catch((error) => {
+            console.error("Failed to prepare OA:", error);
           });
-        },
-        (error) => {
-          console.error(error);
-        }
-      );
+      } catch (error) {
+        console.error("Failed to retrieve OA as JSON-LD: ", error);
+      }
     } else {
       console.error("Invalid URL");
     }

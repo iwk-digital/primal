@@ -17,6 +17,9 @@
       href="{{ url_for('static', filename='css/styles.css') }}"
     />
     <script src="https://unpkg.com/mermaid@10/dist/mermaid.min.js"></script>
+    <script>
+      mermaid.initialize({ startOnLoad: false });
+    </script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jsonld/1.0.0/jsonld.min.js"></script>
     <script
       src="https://www.verovio.org/javascript/latest/verovio-toolkit-wasm.js"
@@ -44,7 +47,7 @@
       </section>
       <section>
         <h2>Graph</h2>
-        <div id="graph"></div>
+        <div id="graph">Graph</div>
       </section>
       <section>
         <h2>Music Scores</h2>

@@ -6,15 +6,23 @@ import V from "./visualiser.js";
 export default class OA {
   constructor(retrieved) {
     // expand the object using jsonld, then store the raw and expanded objects and validate
-    jsonld.expand(retrieved, (err, expanded) => {
+    this.raw = retrieved;
+  }
+
+  async prepare() {
+    return jsonld.expand(this.raw).then((expanded, err) => {
       if (err) {
         // invalid JSON-LD object
+        console.error("Failed to expand JSON-LD object");
         throw new Error(err);
       }
-      this.raw = retrieved;
-      this.obj = expanded[0];
+      console.log("Expanded object: ", expanded);
+      this.expanded = expanded[0];
+      console.log("Validating...");
       this.validate();
-      V.visualise(this.obj);
+      console.log("Visualising...");
+      V.visualise(this.expanded);
+      return this;
     });
   }
 
@@ -32,24 +40,24 @@ export default class OA {
   isOA() {
     // ensure object has OA type and at least one target
     return (
-      this.obj.hasOwnProperty("@type") &&
-      this.obj["@type"].includes(ns.oa("Annotation"))
+      this.expanded.hasOwnProperty("@type") &&
+      this.expanded["@type"].includes(ns.oa("Annotation"))
     );
   }
 
   // check if object has at least one target
   hasTarget() {
     return (
-      this.obj.hasOwnProperty(ns.oa("hasTarget")) &&
-      this.obj[ns.oa("hasTarget")].length > 0
+      this.expanded.hasOwnProperty(ns.oa("hasTarget")) &&
+      this.expanded[ns.oa("hasTarget")].length > 0
     );
   }
 
   // check if object has at least one body
   hasBody() {
     return (
-      this.obj.hasOwnProperty(ns.oa("hasBody")) &&
-      this.obj[ns.oa("hasBody")].length > 0
+      this.expanded.hasOwnProperty(ns.oa("hasBody")) &&
+      this.expanded[ns.oa("hasBody")].length > 0
     );
   }
 
@@ -57,7 +65,7 @@ export default class OA {
   hasTextualBody() {
     return (
       this.hasBody() &&
-      this.obj[ns.oa("hasBody")].some((body) =>
+      this.expanded[ns.oa("hasBody")].some((body) =>
         body["@type"].includes(ns.oa("TextualBody"))
       )
     );
