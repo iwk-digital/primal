@@ -13,13 +13,16 @@ document.addEventListener("DOMContentLoaded", async function () {
   // check for presence of ?oa parameter in URL
   const urlParams = new URLSearchParams(window.location.search);
   const oaParam = urlParams.get("oa");
+  const maoParam = urlParams.get("mao");
   // if ?oa parameter is present, ensure it is a valid URL
-  if (oaParam) {
-    const oaUrl = new URL(oaParam);
+  if (oaParam || maoParam) {
+    const paramType = oaParam ? "oa" : "mao";
+    const paramValue = paramType === "oa" ? oaParam : maoParam;
+    const objUrl = new URL(paramType);
     // if valid, request the URL as json-ld
-    if (oaUrl) {
+    if (objUrl) {
       try {
-        let data = await requestAsJsonLd(oaUrl);
+        let data = await requestAsJsonLd(objUrl);
         console.log("Retrieved JSON data: ", data);
         let oa = new OA(data);
         oa.prepare()
