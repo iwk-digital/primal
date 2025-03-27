@@ -9,7 +9,6 @@ import V from "./visualiser.js";
 V.init(NS);
 // event listener to trigger when DOM loaded
 document.addEventListener("DOMContentLoaded", async function () {
-  console.log("Flask static file serving works!");
   // check for presence of ?oa parameter in URL
   const urlParams = new URLSearchParams(window.location.search);
   const oaParam = urlParams.get("oa");
@@ -18,7 +17,7 @@ document.addEventListener("DOMContentLoaded", async function () {
   if (oaParam || maoParam) {
     const paramType = oaParam ? "oa" : "mao";
     const paramValue = paramType === "oa" ? oaParam : maoParam;
-    const objUrl = new URL(paramType);
+    const objUrl = new URL(paramValue);
     // if valid, request the URL as json-ld
     if (objUrl) {
       try {
