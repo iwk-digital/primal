@@ -21,3 +21,9 @@ export const relevantVis = {
     NS.frbr("part"),
   ],
 };
+
+export const vrvOptions = {
+  scale: 30,
+  adjustPageHeight: true,
+  breaks: "line",
+};

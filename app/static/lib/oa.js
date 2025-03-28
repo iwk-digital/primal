@@ -7,6 +7,10 @@ export default class OA {
   constructor(retrieved) {
     // expand the object using jsonld, then store the raw and expanded objects and validate
     this.raw = retrieved;
+    // the following Urls are stored as associative arrays
+    // each key is a URL, and the value is a Javascript Set of fragments
+    // that are associated with that URL and targeted by the annotation
+    this.targets = {};
   }
 
   async prepare() {
@@ -20,6 +24,8 @@ export default class OA {
       this.expanded = expanded[0];
       console.log("Validating...");
       this.validate();
+      console.log("Evaluating targets");
+      this.processTargets();
       console.log("Visualising...");
       V.visualise(this.expanded);
       return this;
@@ -53,6 +59,31 @@ export default class OA {
     );
   }
 
+  // process targets:
+  // record MEI file URL of targets that look like MEI file fragments
+  // record audio file URL of targets that look like audio file fragments
+  processTargets() {
+    console.log("Locating targets...");
+    this.expanded[ns.oa("hasTarget")].forEach((target) => {
+      if (target["@id"]) {
+        const url = new URL(target["@id"]);
+        if (url.protocol === "http:" || url.protocol === "https:") {
+          const strippedUrl = url.origin + url.pathname;
+          if (strippedUrl.endsWith(".mei")) {
+            if (!this.targets[strippedUrl]) {
+              this.targets[strippedUrl] = {
+                type: "MEI",
+                fragments: new Set(),
+              };
+            }
+            // add the fragment to the set of fragments for this URL
+            this.targets[strippedUrl].fragments.add(url.hash.substring(1));
+          }
+        }
+      }
+    });
+  }
+
   // check if object has at least one body
   hasBody() {
     return (
@@ -69,5 +100,14 @@ export default class OA {
         body["@type"].includes(ns.oa("TextualBody"))
       )
     );
+  }
+
+  getTextualBodies() {
+    if (this.hasTextualBody()) {
+      return this.expanded[ns.oa("hasBody")].filter((body) =>
+        body["@type"].includes(ns.oa("TextualBody"))
+      );
+    }
+    return [];
   }
 }

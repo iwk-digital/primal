@@ -5,6 +5,7 @@ import NS from "./namespaceManager.js";
 import OA from "./oa.js";
 import { requestAsJsonLd } from "./http.js";
 import V from "./visualiser.js";
+import { vrvOptions } from "./defaults.js";
 
 V.init(NS);
 // event listener to trigger when DOM loaded
@@ -33,6 +34,65 @@ document.addEventListener("DOMContentLoaded", async function () {
               });
             } else {
               console.error("Failed to initialize OA");
+            }
+            if (oa.hasTarget()) {
+              // for each target with type "MEI",
+              // create a div inside #music-scores
+              // and use Verovio to render the MEI to SVG inside the div
+              let meiTargets = Object.keys(oa.targets).filter((key) => {
+                return oa.targets[key].type === "MEI";
+              });
+              meiTargets.forEach((target) => {
+                // use fetch to retrieve the target
+                fetch(target)
+                  .then((response) => {
+                    if (!response.ok) {
+                      throw new Error(
+                        "Network response was not ok",
+                        response,
+                        target
+                      );
+                    }
+                    return response.text();
+                  })
+                  .then((meiData) => {
+                    // create a new div for the MEI
+                    let meiDiv = document.createElement("div");
+                    meiDiv.className = "mei";
+                    meiDiv.id = target;
+                    document.getElementById("music-scores").appendChild(meiDiv);
+                    // use Verovio to render the MEI to SVG inside the div
+                    let vrvToolkit = new verovio.toolkit();
+                    vrvToolkit.setOptions(vrvOptions);
+                    vrvToolkit.loadData(meiData);
+                    let fragments = Array.from(oa.targets[target].fragments);
+                    let fragment = fragments[0];
+                    let pageNum = vrvToolkit.getPageWithElement(fragment);
+                    let svg = vrvToolkit.renderToSVG(pageNum);
+                    meiDiv.innerHTML = svg;
+                    // add "highlight" class to each element with the fragment ID
+                    fragments.forEach((f) => {
+                      let el = meiDiv.querySelector(`[id="${f}"]`);
+                      if (el) {
+                        el.classList.add("highlight");
+                      }
+                      console.log("element: ", el);
+                    });
+                  })
+                  .catch((error) => {
+                    console.error("Failed to load MEI data: ", error);
+                  });
+              });
+            }
+            if (oa.hasTextualBody()) {
+              const textDiv = document.getElementById("text-content");
+              oa.getTextualBodies().forEach((b) => {
+                let text = b["@value"];
+                let textDivChild = document.createElement("div");
+                textDivChild.className = "textual-body";
+                textDivChild.innerHTML = text;
+                textDiv.appendChild(textDivChild);
+              });
             }
           })
           .catch((error) => {
