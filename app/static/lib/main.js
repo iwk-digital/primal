@@ -66,10 +66,17 @@ document.addEventListener("DOMContentLoaded", async function () {
                     vrvToolkit.setOptions(vrvOptions);
                     vrvToolkit.loadData(meiData);
                     let fragments = Array.from(oa.targets[target].fragments);
+                    let meifriendDiv = document.createElement("div");
+                    meifriendDiv.className = "meifriendLink";
+                    let link = "https://mei-friend.mdw.ac.at/?file=" + target;
+                    link += "&select=" + fragments.join(",");
+                    meifriendDiv.innerHTML = `<a href="${link} target="_blank">Open in mei-friend</a>`;
+                    meiDiv.innerHTML = "";
+                    meiDiv.appendChild(meifriendDiv);
                     let fragment = fragments[0];
                     let pageNum = vrvToolkit.getPageWithElement(fragment);
                     let svg = vrvToolkit.renderToSVG(pageNum);
-                    meiDiv.innerHTML = svg;
+                    meiDiv.innerHTML += svg;
                     // add "highlight" class to each element with the fragment ID
                     fragments.forEach((f) => {
                       let el = meiDiv.querySelector(`[id="${f}"]`);
