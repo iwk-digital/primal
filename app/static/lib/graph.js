@@ -100,6 +100,8 @@ export default class Graph {
    */
 
   static visualise(obj, relevant = relevantVis, blankCounter = 0) {
+    console.log("Registery before visualise: ", this.registry);
+    console.log("visualise called with: ", obj);
     let visgraph = "";
     // if the object has a "@id" property, use it as the node ID
     // otherwise, use a blank node ID by concatenating "blank" with the blankCounter
@@ -126,27 +128,30 @@ export default class Graph {
         if (obj.hasOwnProperty(pred)) {
           for (const target of obj[pred]) {
             if (
-              target.hasOwnProperty("@type") &&
-              relevant.types.includes(target["@type"])
+              //target.hasOwnProperty("@type") &&
+              //relevant.types.includes(target["@type"])
+              target["@id"] in this.registry
             ) {
-              //"Target 1: ", target;
-              visgraph += `${id} -- ${this.labelify(pred)} --> ${this.visualise(
-                // if the target is in the registry, use it
-                // otherwise, use the sub-object
-                target["@id"] in this.registry
-                  ? this.registry[target["@id"]]
-                  : target,
-                relevant,
-                blankCounter
-              )};`;
+              console.log("Target in registry: ", target);
+              visgraph +=
+                `${id} -- ${this.labelify(pred)} --> ${target["@id"]};` +
+                `${this.visualise(
+                  // if the target is in the registry, use it
+                  // otherwise, use the sub-object
+                  target["@id"] in this.registry
+                    ? this.registry[target["@id"]].expanded
+                    : target,
+                  relevant,
+                  blankCounter
+                )};`;
             } else {
-              console.log("Target: ", target);
+              console.log("Target not in registry: ", target);
               const targetId = target["@id"]
                 ? target["@id"]
                 : "blank_" + blankCounter++;
               visgraph += `${id} -- ${this.labelify(
                 pred
-              )} --> ${targetId}("${this.labelify(target["@id"])}");`;
+              )} --> ${targetId}("${this.labelify(targetId)}");`;
             }
           }
         }

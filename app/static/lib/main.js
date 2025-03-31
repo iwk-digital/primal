@@ -16,6 +16,8 @@ function traversalsComplete() {
   if (objUrl in Graph.registry) {
     let visgraph =
       "graph TD; " + Graph.visualise(Graph.registry[objUrl].expanded);
+    // remove protocols from the URLs to not upset mermaid
+    visgraph = visgraph.replace(/https?:\/\//g, "");
     console.log("Visualising graph: ", visgraph);
     mermaid.render("fograph", visgraph).then((svg) => {
       document.getElementById("graph").innerHTML = svg.svg;

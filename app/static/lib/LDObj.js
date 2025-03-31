@@ -1,12 +1,11 @@
 import ns from "./namespaceManager.js";
 import V from "./graph.js";
-import fetchAndRegister from "./traverser.js";
+import Traverser from "./traverser.js";
 import { getContentType, getTraversalPredicatesForType } from "./http.js";
 // Class: LODObj
 // Description: A class to parse and work with (MAO-flavoured) Web Annotation data
 export default class LDObj {
   constructor(retrieved) {
-    // expand the object using jsonld, then store the raw and expanded objects and validate
     this.raw = retrieved;
     // the following Urls are stored as associative arrays
     // each key is a URL, and the value is a Javascript Set of fragments
@@ -108,12 +107,12 @@ export default class LDObj {
     }
     console.log("Locating targets...");
     let toTraverse = []; // array of target URLs to traverse
-    // find traversal targets by looking for relevant predicates
-    traversalPredicates.forEach(async (predicate) => {
+
+    // Use a for...of loop to handle asynchronous operations properly
+    for (const predicate of traversalPredicates) {
       if (this.expanded.hasOwnProperty(predicate)) {
         if (this.expanded[predicate].length > 0) {
-          // handle each target connected by the traversal predicate
-          this.expanded[predicate].forEach(async (target) => {
+          for (const target of this.expanded[predicate]) {
             if (target["@id"]) {
               const url = new URL(target["@id"]);
               if (url.protocol === "http:" || url.protocol === "https:") {
@@ -133,24 +132,34 @@ export default class LDObj {
                   );
                 } else {
                   // check target's contenttype
-                  const contentType = await getContentType(strippedUrl);
+                  console.log(
+                    "Checking potential traversal target: ",
+                    strippedUrl
+                  );
+                  const contentType = await getContentType(strippedUrl); // Properly await here
+                  console.log("Content type: ", contentType);
                   if (contentType === "application/ld+json") {
+                    console.log("Ooof, found one");
                     // if target is a JSON-LD file, mark it for traversal
                     toTraverse.push(strippedUrl);
                   }
+                  console.log("toTraverse: ", toTraverse);
                 }
               }
             }
-          });
+          }
         }
       }
-    });
+    }
+
     // traverse the targets
     console.log("Traversing targets: ", toTraverse);
     if (toTraverse.length > 0) {
       // fetch and register the targets
-      await fetchAndRegister(toTraverse);
+      await Traverser.fetchAndRegister(toTraverse);
     }
+    // now we are finished with this object
+    Traverser.finishedOne();
   }
 
   // check if object has at least one body

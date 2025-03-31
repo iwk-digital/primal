@@ -15,6 +15,15 @@ export default class Traverser {
     console.log("after init, numTraversals: ", this.numTraversals);
   }
 
+  static finishedOne() {
+    // mark that one traversal round, i.e. a full fetchAndRegister cycle, is finished
+    this.numTraversals--;
+    if (this.numTraversals <= 0) {
+      // emit event to indicate all traversals are complete
+      document.dispatchEvent(this.completionEvent);
+      console.log("All traversals complete");
+    }
+  }
   static async fetchAndRegister(urls = []) {
     console.log("fetchAndRegister called with urls: ", urls);
     console.log("numTraversals before: ", this.numTraversals);
@@ -35,13 +44,7 @@ export default class Traverser {
       console.log("Based on data ", data);
       await obj.prepare();
       Graph.register(obj, url);
-      this.numTraversals--;
       console.log("Traversals remaining: ", this.numTraversals);
-      if (this.numTraversals === 0) {
-        // emit event to indicate all traversals are complete
-        document.dispatchEvent(this.completionEvent);
-        console.log("All traversals complete");
-      }
     });
   }
 }
