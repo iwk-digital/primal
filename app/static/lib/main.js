@@ -11,7 +11,7 @@ import { vrvOptions } from "./defaults.js";
 let objUrl = null;
 
 function traversalsComplete() {
-  console.log("All traversals complete");
+  console.log("Handling traversals completed");
   // render the graph using mermaid
   if (objUrl in Graph.registry) {
     let visgraph =
@@ -33,6 +33,7 @@ function traversalsComplete() {
   // create a div inside #music-scores
   // and use Verovio to render the respective MEI to SVG inside the div
   let meiTargets = Graph.getMEITargets();
+  console.log("Main got MEI targets: ", meiTargets);
   Object.keys(meiTargets).forEach((target) => {
     // use fetch to retrieve the target
     fetchTextData(target).then((data) =>

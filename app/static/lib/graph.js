@@ -36,8 +36,13 @@ export default class Graph {
   static getMEITargets() {
     // return a list of all MEI targets in the graph
     const meiTargets = {};
+    console.log(
+      "GetMEITargets called with registry : ",
+      Object.keys(this.registry)
+    );
     Object.keys(this.registry).forEach((key) => {
       const obj = this.registry[key];
+      console.log("Considering object: ", obj, " with key: ", key);
       if (obj.hasOwnProperty("targets")) {
         const targets = obj.getMEITargets();
         console.log("Working with targets: ", targets);

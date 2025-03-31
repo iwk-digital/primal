@@ -130,6 +130,7 @@ export default class LDObj {
                   this.targets[strippedUrl].fragments.add(
                     url.hash.substring(1)
                   );
+                  console.log("** Targets now: ", this.targets, this);
                 } else {
                   // check target's contenttype
                   console.log(
@@ -139,7 +140,6 @@ export default class LDObj {
                   const contentType = await getContentType(strippedUrl); // Properly await here
                   console.log("Content type: ", contentType);
                   if (contentType === "application/ld+json") {
-                    console.log("Ooof, found one");
                     // if target is a JSON-LD file, mark it for traversal
                     toTraverse.push(strippedUrl);
                   }
@@ -153,7 +153,7 @@ export default class LDObj {
     }
 
     // traverse the targets
-    console.log("Traversing targets: ", toTraverse);
+    console.log("** Traversing targets: ", toTraverse);
     if (toTraverse.length > 0) {
       // fetch and register the targets
       await Traverser.fetchAndRegister(toTraverse);
@@ -191,6 +191,7 @@ export default class LDObj {
 
   getMEITargets() {
     // return the MEI targets
+    console.log("** Obj getMEITargets: ", this.targets);
     const t = Object.keys(this.targets).filter((key) => {
       return this.targets[key].type === "MEI";
     });

@@ -20,14 +20,14 @@ export default class Traverser {
     this.numTraversals--;
     if (this.numTraversals <= 0) {
       // emit event to indicate all traversals are complete
-      document.dispatchEvent(this.completionEvent);
       console.log("All traversals complete");
+      document.dispatchEvent(this.completionEvent);
     }
   }
   static async fetchAndRegister(urls = []) {
     console.log("fetchAndRegister called with urls: ", urls);
     console.log("numTraversals before: ", this.numTraversals);
-    urls.forEach(async (url) => {
+    for (const url of urls) {
       // fetch the object from the URL
       // and register it in the registry
       this.numTraversals = this.numTraversals < 0 ? 1 : this.numTraversals + 1;
@@ -45,6 +45,6 @@ export default class Traverser {
       await obj.prepare();
       Graph.register(obj, url);
       console.log("Traversals remaining: ", this.numTraversals);
-    });
+    }
   }
 }
