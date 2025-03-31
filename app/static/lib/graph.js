@@ -1,10 +1,76 @@
 import NS from "./namespaceManager.js";
+import { requestAsJsonLd } from "./http.js";
 import { relevantVis } from "./defaults.js";
+import LDObj from "./LDObj.js";
 
-export default class Visualiser {
-  static init(ns = NS, relevant = relevantVis) {
-    this.ns = ns;
-    this.relevant = relevant;
+export default class Graph {
+  static init(relevantVis = relevantVis) {
+    this.relevantVis = relevantVis;
+    this.registry = {}; // registry of retrieved Linked Data objects
+  }
+
+  static register(obj, uri) {
+    // register the object in the registry
+    // if it is not already present
+    if (!obj.hasOwnProperty("expanded")) {
+      console.error("Object is not expanded: ", obj);
+      return;
+    }
+    if (!this.registry.hasOwnProperty(uri)) {
+      this.registry[uri] = obj;
+    } else {
+      console.log("object already registered: ", uri);
+    }
+    console.log("Registry now: ", this.registry);
+  }
+
+  static getGraph() {
+    // make a JSON structure of all registered object's 'expanded' properties
+    const graph = {};
+    Object.keys(this.registry).forEach((key) => {
+      graph[key] = this.registry[key].expanded;
+    });
+    return graph;
+  }
+
+  static getMEITargets() {
+    // return a list of all MEI targets in the graph
+    const meiTargets = {};
+    Object.keys(this.registry).forEach((key) => {
+      const obj = this.registry[key];
+      if (obj.hasOwnProperty("targets")) {
+        const targets = obj.getMEITargets();
+        console.log("Working with targets: ", targets);
+        targets.forEach((target) => {
+          if (target.url in meiTargets) {
+            console.log("About to add fragments: ", target.fragments);
+            target.fragments.forEach((fragment) => {
+              console.log("Adding fragment", fragment);
+              meiTargets[target.url].add(fragment);
+            });
+          } else {
+            console.log("Adding new fragments: ", target.fragments);
+            meiTargets[target.url] = target.fragments;
+          }
+        });
+      }
+    });
+    return meiTargets;
+  }
+
+  static getTextualBodies() {
+    // return a list of all textual bodies in the graph
+    const textualBodies = [];
+    Object.keys(this.registry).forEach((key) => {
+      const obj = this.registry[key];
+      if (obj.hasOwnProperty("expanded")) {
+        const bodies = obj.getTextualBodies();
+        bodies.forEach((body) => {
+          textualBodies.push(body);
+        });
+      }
+    });
+    return textualBodies;
   }
 
   static labelify(str) {
@@ -12,9 +78,9 @@ export default class Visualiser {
     // otherwise, return the string without the protocol prefix (to help Mermaid)
     console.log("attempting to label ", str);
     let label = str;
-    Object.keys(this.ns.nsMap).forEach((key) => {
-      if (str.startsWith(this.ns.nsMap[key])) {
-        label = str.replace(this.ns.nsMap[key], key + ":");
+    Object.keys(NS.nsMap).forEach((key) => {
+      if (str.startsWith(NS.nsMap[key])) {
+        label = str.replace(NS.nsMap[key], key + ":");
         console.log("labelified ", str, " to ", label);
       }
     });
@@ -32,6 +98,7 @@ export default class Visualiser {
    * @param {number} blankCounter - counter for blank node IDs
    * @returns {string}
    */
+
   static visualise(obj, relevant = relevantVis, blankCounter = 0) {
     let visgraph = "";
     // if the object has a "@id" property, use it as the node ID
@@ -45,9 +112,11 @@ export default class Visualiser {
       // Otherwise draw the current object as a stadium shape node
       // label it using the object's type
       // if the object has a ns.rdfs("label"), add it as a sublabel in parentheses
-      visgraph += `${id}("${this.labelify(obj["@type"][0])}`; // TODO consider multiple types
-      if (obj.hasOwnProperty(this.ns.rdfs("label"))) {
-        visgraph += `(${obj[this.ns.rdfs("label")][0]})`;
+      if (obj.hasOwnProperty("@type")) {
+        visgraph += `${id}("${this.labelify(obj["@type"][0])}`; // TODO consider multiple types
+      }
+      if (obj.hasOwnProperty(NS.rdfs("label"))) {
+        visgraph += `(${obj[NS.rdfs("label")][0]})`;
       }
       visgraph += '");';
       // draw all relevant predicates as arrows to other objects
@@ -60,9 +129,13 @@ export default class Visualiser {
               target.hasOwnProperty("@type") &&
               relevant.types.includes(target["@type"])
             ) {
-              "Target 1: ", target;
+              //"Target 1: ", target;
               visgraph += `${id} -- ${this.labelify(pred)} --> ${this.visualise(
-                target,
+                // if the target is in the registry, use it
+                // otherwise, use the sub-object
+                target["@id"] in this.registry
+                  ? this.registry[target["@id"]]
+                  : target,
                 relevant,
                 blankCounter
               )};`;

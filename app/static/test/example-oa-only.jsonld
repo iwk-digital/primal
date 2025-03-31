@@ -9,12 +9,15 @@
   "oa:hasBody": [
     {
       "@type": "oa:TextualBody",
-      "@value": "A textual description of a MAO Musical Material"
+      "@value": "A textual description targeting a number of notes identified within an MEI document"
     }
   ],
   "oa:hasTarget": [
     {
-      "@id": "http://localhost:5001/static/test/example-mao-musmat.jsonld"
+      "@id": "http://localhost:5001/static/test/example.mei#n1tqvgeb"
+    },
+    {
+      "@id": "http://localhost:5001/static/test/example.mei#n172sakw"
     }
   ]
 }

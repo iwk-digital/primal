@@ -1,5 +1,4 @@
 import NS from "./namespaceManager.js";
-
 NS.init();
 // default relevant types and predicates for visualisation
 export const relevantVis = {
@@ -27,3 +26,12 @@ export const vrvOptions = {
   adjustPageHeight: true,
   breaks: "line",
 };
+
+export const contentTypesToTraverse = [
+  "application/ld+json",
+  "application/json",
+  "text/turtle",
+  "application/rdf+xml",
+  "text/n3",
+  "application/n-triples",
+];
