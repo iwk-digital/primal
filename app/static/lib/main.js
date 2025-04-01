@@ -112,6 +112,10 @@ document.addEventListener("DOMContentLoaded", async function () {
   const urlParams = new URLSearchParams(window.location.search);
   const objParam = urlParams.get("obj");
   try {
+    let currentUri = document.querySelector("#current-uri");
+    if (currentUri) {
+      currentUri.innerHTML = "&lt;" + objParam + "&gt;";
+    }
     objUrl = new URL(objParam);
     // fetch and register the object
     Traverser.fetchAndRegister([objUrl]);
