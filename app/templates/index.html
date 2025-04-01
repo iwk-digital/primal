@@ -16,7 +16,17 @@
       rel="stylesheet"
       href="{{ url_for('static', filename='css/styles.css') }}"
     />
+    <link
+      rel="stylesheet"
+      href="{{ url_for('static', filename='css/prism.css') }}"
+    />
+    <link
+      href="https://cdnjs.cloudflare.com/ajax/libs/prism/1.29.0/themes/prism.min.css"
+      rel="stylesheet"
+    />
     <script src="https://unpkg.com/mermaid@10/dist/mermaid.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/prism/1.29.0/prism.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/prism/1.29.0/components/prism-json.min.js"></script>
     <script>
       mermaid.initialize({ startOnLoad: false });
     </script>
@@ -42,28 +52,32 @@
     </header>
     <main>
       <section>
-        <h2>Current URI</h2>
-        <p id="current-uri"></p>
-      </section>
-      <section>
         <h2>Text Content</h2>
         <p id="text-content"></p>
-      </section>
-      <section>
-        <h2>Graph</h2>
-        <div id="graph">Graph</div>
       </section>
       <section>
         <h2>Music Scores</h2>
         <div id="music-scores"></div>
       </section>
       <section>
-        <h2>Audio Examples</h2>
-        <div id="audio-examples"></div>
+        <h2>Current URI</h2>
+        <p id="current-uri"></p>
+      </section>
+      <section>
+        <h2>Graph</h2>
+        <div id="graph">Graph</div>
+      </section>
+      <section>
+        <h2>Current Linked Data</h2>
+        <pre><code id="json-display" class="language-json"></code></pre>
       </section>
       <section>
         <h2>Annotation Tools</h2>
         <div id="annotation-tools"></div>
+      </section>
+      <section>
+        <h2>Audio Examples</h2>
+        <div id="audio-examples"></div>
       </section>
     </main>
   </body>

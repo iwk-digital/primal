@@ -15,7 +15,7 @@ function traversalsComplete() {
   // render the graph using mermaid
   if (objUrl in Graph.registry) {
     let visgraph =
-      "graph TD; " + Graph.visualise(Graph.registry[objUrl].expanded);
+      "graph TD; " + Graph.visualise(Graph.registry[objUrl].expanded, true);
     // remove protocols from the URLs to not upset mermaid
     visgraph = visgraph.replace(/https?:\/\//g, "");
     Object.keys(Graph.registry).forEach((key) => {
@@ -27,6 +27,13 @@ function traversalsComplete() {
         key +
         '" "Tooltip: Foo";';
     });
+    let jsonDisplay = document.querySelector("#json-display");
+    jsonDisplay.textContent = JSON.stringify(
+      Graph.registry[objUrl].compacted,
+      null,
+      2
+    );
+    Prism.highlightElement(jsonDisplay);
 
     console.log("Visualising graph: ", visgraph);
     mermaid.render("fograph", visgraph).then((svg) => {
@@ -114,7 +121,7 @@ document.addEventListener("DOMContentLoaded", async function () {
   try {
     let currentUri = document.querySelector("#current-uri");
     if (currentUri) {
-      currentUri.innerHTML = "&lt;" + objParam + "&gt;";
+      currentUri.innerHTML = `<a href="${objParam}" target="_blank">&lt;${objParam}&gt;</a>`;
     }
     objUrl = new URL(objParam);
     // fetch and register the object

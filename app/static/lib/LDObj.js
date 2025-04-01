@@ -14,7 +14,7 @@ export default class LDObj {
   }
 
   async prepare() {
-    return jsonld.expand(this.raw).then((expanded, err) => {
+    return jsonld.expand(this.raw).then(async (expanded, err) => {
       if (err) {
         // invalid JSON-LD object
         console.error("Failed to expand JSON-LD object");
@@ -22,6 +22,13 @@ export default class LDObj {
       }
       console.log("Expanded object: ", expanded);
       this.expanded = expanded[0];
+
+      this.compacted = await jsonld.compact(
+        this.expanded,
+        this.raw["@context"]
+      );
+      console.log("Compacted object: ", this.compacted);
+
       console.log("Validating...");
       this.validate();
       console.log("Evaluating targets");

@@ -1,7 +1,5 @@
 import NS from "./namespaceManager.js";
-import { requestAsJsonLd } from "./http.js";
 import { relevantVis } from "./defaults.js";
-import LDObj from "./LDObj.js";
 
 export default class Graph {
   static init(relevantVis = relevantVis) {
@@ -99,15 +97,30 @@ export default class Graph {
   /**
    * Return a partial Mermaid graph string to visualise the relevant parts of the object
    * @param {Object} obj - current object to visualise
+   * @param {boolean} current - whether the object correponds to the current URL
    * @param {Object} relevant - object containing relevant types and predicates
    * @param {number} blankCounter - counter for blank node IDs
    * @returns {string}
    */
 
-  static visualise(obj, relevant = relevantVis, blankCounter = 0) {
+  static visualise(
+    obj,
+    current = false,
+    relevant = relevantVis,
+    blankCounter = 0
+  ) {
     console.log("Registery before visualise: ", this.registry);
-    console.log("visualise called with: ", obj);
+    console.log(
+      "visualise called with: ",
+      obj,
+      current,
+      relevant,
+      blankCounter
+    );
     let visgraph = "";
+    if (current) {
+      visgraph += "class " + obj["@id"] + " current;\n";
+    }
     // if the object has a "@id" property, use it as the node ID
     // otherwise, use a blank node ID by concatenating "blank" with the blankCounter
     // and increment the blankCounter
@@ -146,6 +159,7 @@ export default class Graph {
                   target["@id"] in this.registry
                     ? this.registry[target["@id"]].expanded
                     : target,
+                  false,
                   relevant,
                   blankCounter
                 )};`;
