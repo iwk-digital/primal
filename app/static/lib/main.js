@@ -18,6 +18,16 @@ function traversalsComplete() {
       "graph TD; " + Graph.visualise(Graph.registry[objUrl].expanded);
     // remove protocols from the URLs to not upset mermaid
     visgraph = visgraph.replace(/https?:\/\//g, "");
+    Object.keys(Graph.registry).forEach((key) => {
+      // only replace the first protocol (acting as label), not the second (acting as URL)
+      visgraph +=
+        "\n click " +
+        key.replace(/https?:\/\//, "") +
+        ' "http://localhost:5001/?obj=' +
+        key +
+        '" "Tooltip: Foo";';
+    });
+
     console.log("Visualising graph: ", visgraph);
     mermaid.render("fograph", visgraph).then((svg) => {
       document.getElementById("graph").innerHTML = svg.svg;
