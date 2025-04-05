@@ -17,76 +17,71 @@ export default class Graph {
     if (!this.registry.hasOwnProperty(uri)) {
       this.registry[uri] = obj;
     } else {
-      console.log("object already registered: ", uri);
+      console.warn("object already registered: ", uri);
     }
-    console.log("Registry now: ", this.registry);
+    console.debug("Registry now: ", this.registry);
   }
 
   static getGraph() {
     // make a JSON structure of all registered object's 'expanded' properties
     const graph = {};
-    Object.keys(this.registry).forEach((key) => {
-      graph[key] = this.registry[key].expanded;
-    });
+    for (const key in this.registry) {
+      if (this.registry[key].hasOwnProperty("expanded")) {
+        graph[key] = this.registry[key].expanded;
+      } else {
+        console.error("Object does not have expanded property: ", key);
+        console.error("Object: ", this.registry[key]);
+      }
+    }
+    console.debug("Graph: ", graph);
     return graph;
   }
 
   static getMEITargets() {
     // return a list of all MEI targets in the graph
     const meiTargets = {};
-    console.log(
-      "GetMEITargets called with registry : ",
-      Object.keys(this.registry)
-    );
-    Object.keys(this.registry).forEach((key) => {
+    for (const key in this.registry) {
       const obj = this.registry[key];
-      console.log("Considering object: ", obj, " with key: ", key);
       if (obj.hasOwnProperty("targets")) {
         const targets = obj.getMEITargets();
-        console.log("Working with targets: ", targets);
-        targets.forEach((target) => {
+        for (const target of targets) {
           if (target.url in meiTargets) {
-            console.log("About to add fragments: ", target.fragments);
-            target.fragments.forEach((fragment) => {
-              console.log("Adding fragment", fragment);
+            for (const fragment of target.fragments) {
               meiTargets[target.url].add(fragment);
-            });
+            }
           } else {
-            console.log("Adding new fragments: ", target.fragments);
             meiTargets[target.url] = target.fragments;
           }
-        });
+        }
       }
-    });
+    }
     return meiTargets;
   }
 
   static getTextualBodies() {
     // return a list of all textual bodies in the graph
     const textualBodies = [];
-    Object.keys(this.registry).forEach((key) => {
+    for (const key in this.registry) {
       const obj = this.registry[key];
       if (obj.hasOwnProperty("expanded")) {
         const bodies = obj.getTextualBodies();
-        bodies.forEach((body) => {
+        for (const body of bodies) {
           textualBodies.push(body);
-        });
+        }
       }
-    });
+    }
     return textualBodies;
   }
 
   static labelify(str) {
     // if the string is prefixed with a namespace, return the local name
     // otherwise, return the string without the protocol prefix (to help Mermaid)
-    console.log("attempting to label ", str);
     let label = str;
-    Object.keys(NS.nsMap).forEach((key) => {
-      if (str.startsWith(NS.nsMap[key])) {
-        label = str.replace(NS.nsMap[key], key + ":");
-        console.log("labelified ", str, " to ", label);
+    for (const prefix in NS.nsMap) {
+      if (str.startsWith(NS.nsMap[prefix])) {
+        label = str.replace(NS.nsMap[prefix], prefix + ":");
       }
-    });
+    }
     if (label === str) {
       // doesn't match a namespace, so try to get the last part of the URL
       label = str.substring(str.lastIndexOf("/") + 1);
@@ -109,14 +104,6 @@ export default class Graph {
     relevant = relevantVis,
     blankCounter = 0
   ) {
-    console.log("Registery before visualise: ", this.registry);
-    console.log(
-      "visualise called with: ",
-      obj,
-      current,
-      relevant,
-      blankCounter
-    );
     let visgraph = "";
     if (current) {
       visgraph += "class " + obj["@id"] + " current;\n";
@@ -150,7 +137,6 @@ export default class Graph {
               //relevant.types.includes(target["@type"])
               target["@id"] in this.registry
             ) {
-              console.log("Target in registry: ", target);
               visgraph +=
                 `${id} -- ${this.labelify(pred)} --> ${target["@id"]};` +
                 `${this.visualise(
@@ -164,7 +150,6 @@ export default class Graph {
                   blankCounter
                 )};`;
             } else {
-              console.log("Target not in registry: ", target);
               const targetId = target["@id"]
                 ? target["@id"]
                 : "blank_" + blankCounter++;
@@ -185,12 +170,11 @@ export default class Graph {
    * @returns {string}
    */
   static drawGraph(...objectsToDraw) {
-    console.log("drawGraph: ", objectsToDraw);
     let g = "graph TD;\n";
     for (const obj of objectsToDraw) {
       g += this.visualise(obj);
     }
-    console.log(g);
+    console.debug(g);
     return g;
   }
 }

@@ -1,39 +1,42 @@
 import NS from "./namespaceManager.js";
 
 export async function requestAsJsonLd(url) {
-  return fetch(url).then((response) => response.json());
+  let response = await fetch(url);
+  return await response.json();
 }
 
 export async function fetchTextData(url) {
-  console.log("fetchTextData called with url: ", url);
-  return fetch(url)
-    .then((response) => {
-      if (response.ok) {
-        return response.text();
-      } else {
-        throw new Error("Network response was not ok");
-      }
-    })
-    .catch((error) => {
-      console.error("Error fetching MEI:", error);
-    });
+  console.debug("fetchTextData called with url: ", url);
+  try {
+    let response = await fetch(url);
+    if (response.ok) {
+      return response.text();
+    } else {
+      throw new Error("Network response was not ok");
+    }
+  } catch (error) {
+    console.error("Error fetching MEI:", error);
+  }
 }
 
 export async function getContentType(url) {
-  return fetch(url, { method: "HEAD" })
-    .then((response) => {
-      if (response.ok) {
-        const contentType = response.headers.get("Content-Type");
-        // split contentType string and strip spaces:
-        let types = contentType.split(";").map((type) => type.trim());
-        return types[0];
-      } else {
-        throw new Error("Network response was not ok");
+  try {
+    let response = await fetch(url, { method: "HEAD" });
+    if (response.ok) {
+      const contentType = response.headers.get("Content-Type");
+      // split contentType string and strip spaces:
+      let types = contentType.split(";");
+      let trimmed = [];
+      for (const t of types) {
+        trimmed.push(t.trim());
       }
-    })
-    .catch((error) => {
-      console.error("Error fetching content type:", error);
-    });
+      return trimmed[0];
+    } else {
+      throw new Error("Network response was not ok");
+    }
+  } catch (error) {
+    console.error("Error fetching content type:", error);
+  }
 }
 
 export function getTraversalPredicatesForType(type) {

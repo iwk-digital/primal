@@ -1,6 +1,7 @@
 import ns from "./namespaceManager.js";
 import V from "./graph.js";
 import Traverser from "./traverser.js";
+import { defaultContext } from "./defaults.js";
 import { getContentType, getTraversalPredicatesForType } from "./http.js";
 // Class: LODObj
 // Description: A class to parse and work with (MAO-flavoured) Web Annotation data
@@ -14,29 +15,23 @@ export default class LDObj {
   }
 
   async prepare() {
-    return jsonld.expand(this.raw).then(async (expanded, err) => {
-      if (err) {
-        // invalid JSON-LD object
-        console.error("Failed to expand JSON-LD object");
-        throw new Error(err);
-      }
-      console.log("Expanded object: ", expanded);
+    try {
+      let expanded = await jsonld.expand(this.raw);
       this.expanded = expanded[0];
-
-      this.compacted = await jsonld.compact(
-        this.expanded,
-        this.raw["@context"]
-      );
-      console.log("Compacted object: ", this.compacted);
-
-      console.log("Validating...");
+      let context;
+      if (this.raw.hasOwnProperty("@context")) {
+        context = this.raw["@context"];
+      } else {
+        context = defaultContext; // OA, MAO, FRBR and friends
+      }
+      this.compacted = await jsonld.compact(this.expanded, context);
       this.validate();
-      console.log("Evaluating targets");
-      this.processTargets();
-      //console.log("Visualising...");
-      //V.visualise(this.expanded);
+      await this.processTargets();
       return this;
-    });
+    } catch (err) {
+      console.error("Failed to prepare LD object");
+      throw new Error(err);
+    }
   }
 
   // validate the object
@@ -105,14 +100,14 @@ export default class LDObj {
     if (this.expanded.hasOwnProperty("@type")) {
       // get the traversal predicates for this type
       const travP = new Set();
-      this.expanded["@type"].forEach((type) => {
-        getTraversalPredicatesForType(type).forEach((predicate) => {
+      for (const type of this.expanded["@type"]) {
+        let predicates = getTraversalPredicatesForType(type);
+        for (const predicate of predicates) {
           travP.add(predicate);
-        });
-      });
+        }
+      }
       traversalPredicates.push(...Array.from(travP));
     }
-    console.log("Locating targets...");
     let toTraverse = []; // array of target URLs to traverse
 
     // Use a for...of loop to handle asynchronous operations properly
@@ -137,20 +132,13 @@ export default class LDObj {
                   this.targets[strippedUrl].fragments.add(
                     url.hash.substring(1)
                   );
-                  console.log("** Targets now: ", this.targets, this);
                 } else {
                   // check target's contenttype
-                  console.log(
-                    "Checking potential traversal target: ",
-                    strippedUrl
-                  );
                   const contentType = await getContentType(strippedUrl); // Properly await here
-                  console.log("Content type: ", contentType);
                   if (contentType === "application/ld+json") {
                     // if target is a JSON-LD file, mark it for traversal
-                    toTraverse.push(strippedUrl);
+                    toTraverse.push(new URL(strippedUrl));
                   }
-                  console.log("toTraverse: ", toTraverse);
                 }
               }
             }
@@ -160,7 +148,6 @@ export default class LDObj {
     }
 
     // traverse the targets
-    console.log("** Traversing targets: ", toTraverse);
     if (toTraverse.length > 0) {
       // fetch and register the targets
       await Traverser.fetchAndRegister(toTraverse);
@@ -198,16 +185,16 @@ export default class LDObj {
 
   getMEITargets() {
     // return the MEI targets
-    console.log("** Obj getMEITargets: ", this.targets);
     const t = Object.keys(this.targets).filter((key) => {
       return this.targets[key].type === "MEI";
     });
-    return t.map((key) => {
-      console.log("Returning MEI target: ", key, this.targets[key]);
-      return {
+    let meiTargets = [];
+    for (const key of t) {
+      meiTargets.push({
         url: key,
         fragments: this.targets[key].fragments,
-      };
-    });
+      });
+    }
+    return meiTargets;
   }
 }

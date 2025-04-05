@@ -35,3 +35,15 @@ export const contentTypesToTraverse = [
   "text/n3",
   "application/n-triples",
 ];
+
+export const defaultContext = {
+  "@context": {
+    "@vocab": "http://www.w3.org/ns/oa#",
+    oa: "http://www.w3.org/ns/oa#",
+    mao: "https://domestic-beethoven.eu/ontology/1.0/music-annotation-ontology.ttl#",
+    frbr: "http://purl.org/vocab/frbr/core#",
+    dcterms: "http://purl.org/dc/terms/",
+    rdf: "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+    rdfs: "http://www.w3.org/2000/01/rdf-schema#",
+  },
+};
