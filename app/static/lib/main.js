@@ -1,5 +1,5 @@
 export const version = "0.1.0";
-export const versionDate = "5 April 2025";
+export const versionDate = "6 April 2025";
 
 import NS from "./namespaceManager.js";
 import Traverser from "./traverser.js";
