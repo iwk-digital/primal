@@ -114,7 +114,7 @@ export default class Graph {
     const id = obj["@id"] ? obj["@id"] : "blank_" + blankCounter++;
     // If the current object has a @value property, draw it as a rectangle node with the @value as label and return.
     if (obj.hasOwnProperty("@value")) {
-      visgraph = `${id}["${obj["@value"]}"];`;
+      visgraph = `${id}["${obj["@value"]};`;
     } else {
       // Otherwise draw the current object as a stadium shape node
       // label it using the object's type

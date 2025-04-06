@@ -1,7 +1,8 @@
 {
   "@context": {
     "oa": "http://www.w3.org/ns/oa#",
-    "mao": "https://domestic-beethoven.eu/ontology/1.0/music-annotation-ontology.ttl#"
+    "mao": "https://domestic-beethoven.eu/ontology/1.0/music-annotation-ontology.ttl#",
+    "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#"
   },
   "@type": "oa:Annotation",
   "@id": "http://localhost:5001/static/test/example-oa.jsonld",
@@ -9,7 +10,7 @@
   "oa:hasBody": [
     {
       "@type": "oa:TextualBody",
-      "@value": "A textual description targeting a number of notes identified within an MEI document"
+      "rdf:value": "A textual description targeting a number of notes identified within an MEI document"
     }
   ],
   "oa:hasTarget": [

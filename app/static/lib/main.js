@@ -71,7 +71,9 @@ function traversalsComplete() {
 function renderTextualBodies(textBodies) {
   const textDiv = document.getElementById("text-content");
   for (const b of Object.keys(textBodies)) {
-    let text = textBodies[b]["@value"];
+    let text = textBodies[b][NS.rdf("value")]
+      .map((x) => x["@value"])
+      .join("<br/>");
     let textDivChild = document.createElement("div");
     textDivChild.className = "textual-body";
     textDivChild.innerHTML = text;

@@ -20,10 +20,11 @@ export default class LDObj {
       this.expanded = expanded[0];
       let context;
       if (this.raw.hasOwnProperty("@context")) {
-        context = this.raw["@context"];
+        context = { ...this.raw["@context"], ...defaultContext };
       } else {
         context = defaultContext; // OA, MAO, FRBR and friends
       }
+      console.log("Compacting with context: ", context);
       this.compacted = await jsonld.compact(this.expanded, context);
       this.validate();
       await this.processTargets();
