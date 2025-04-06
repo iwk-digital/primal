@@ -1,4 +1,8 @@
-# SSV-Viewer (to be renamed) CHANGELOG
+# Overview of Music Annotation Objects CHANGELOG
+
+### 0.2.0 - 6 Apr 2025
+* Implement navigation bar
+* Implement styling
 
 ### 0.1.0 - 5 Apr 2025
 * Visualisation of MAO as well as OA

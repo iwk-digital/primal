@@ -1,4 +1,4 @@
-export const version = "0.1.0";
+export const version = "0.2.0";
 export const versionDate = "6 April 2025";
 
 import NS from "./namespaceManager.js";

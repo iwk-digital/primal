@@ -1,14 +1,132 @@
+/* set CSS variables */
+:root {
+    --primary-color: #163c7a;
+    --secondary-color: #b4becf;
+    --text-color: var(--primary-color);
+    --font-family: 'Arial', sans-serif;
+}
+
+html { 
+    scroll-behavior: smooth;
+    scroll-padding-top: 1.5em; /* to offset sticky nav bar */
+}
+
+#version-header { 
+    height: 1em;
+    line-height:1em;
+}
+
+header img { 
+    width: 100px;
+    height: auto;
+    margin: 0 auto;
+    display: inline;
+    vertical-align:middle;
+}
+
+
+/* General body styling */
 body {
-    font-family: Arial, sans-serif;
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: var(--secondary-color);
+    color: #333;
+    line-height: 2.5;
+    position:relative;
+}
+
+/* Header styling */
+header {
+    background-color: var(--primary-color);
+    color: white;
+    padding: 20px 0;
     text-align: center;
-    margin: 50px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    position:relative;
 }
 
-#music-scores .highlight { 
-    fill:red;
+header h1 {
+    margin: 0;
+    font-size: 2.5rem;
 }
 
-#graph .current rect{
+/* Navigation bar styling */
+
+nav ul {
+    color: white;
+    padding: 10px 0;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    background-color: var(--primary-color);
+    position: sticky;
+    top: 0;
+    z-index: 1000; /* Keep the nav on top */
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+
+nav ul li {
+    display: inline;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+    font-size: 1rem;
+    padding: 5px 10px;
+    border-radius: 4px;
+    transition: background-color 0.3s ease;
+}
+
+nav ul li a:hover {
+    background-color: var(--secondary-color);
+    color: var(--primary-color);
+}
+
+/* Main content styling */
+main {
+    max-width: 1200px;
+    margin: 20px auto;
+    padding: 20px;
+    background: white;
+    border-radius: 8px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    color: var(--text-color)
+}
+
+/* Section styling */
+section {
+    margin-bottom: 30px;
+}
+
+section h2 {
+    font-size: 1.8rem;
+    color: var(--text-color);
+    border-bottom: 2px solid var(--primary-color);
+    padding-bottom: 5px;
+    margin-bottom: 15px;
+}
+
+section p, section div, section pre {
+    text-align: left;
+    font-size: 1rem;
+    margin: 10px 0;
+}
+
+/* Styling for the graph */
+#graph {
+    border: 1px solid #ddd;
+    padding: 20px;
+    border-radius: 8px;
+    background-color: #f4f4f4;
+    overflow-x: auto;
+}
+
+#graph .current rect {
     stroke: red !important;
 }
 
@@ -16,4 +134,78 @@ body {
     position: absolute;
     text-align: center;
     max-width: 200px;
+    background-color: #fff;
+    border: 1px solid #ddd;
+    padding: 5px;
+    border-radius: 4px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+/* Styling for JSON display */
+#json-display {
+    line-height:2;
+}
+
+/* Styling for music scores */
+#music-scores {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    justify-content: center;
+}
+
+#music-scores .mei {
+    border: 1px solid #ddd;
+    padding: 10px;
+    border-radius: 8px;
+    background-color: #f9f9f9;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+#music-scores .highlight {
+    fill: red;
+}
+
+/* Styling for textual content */
+#text-content {
+    font-size: 1.2rem;
+    color: #555;
+}
+
+/* Styling for JSON display */
+#json-display {
+    background-color: #f4f4f4;
+    padding: 15px;
+    border-radius: 8px;
+    overflow-x: auto;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 0.9rem;
+    color: #333;
+}
+
+/* Footer styling */
+footer {
+    text-align: center;
+    padding: 10px 0;
+    background-color: var(--primary-color)
+    color: white;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
+
+/* Responsive design */
+@media (max-width: 768px) {
+    main {
+        padding: 10px;
+    }
+
+    section h2 {
+        font-size: 1.5rem;
+    }
+
+    #music-scores {
+        flex-direction: column;
+        align-items: center;
+    }
 }

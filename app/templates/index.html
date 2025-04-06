@@ -46,37 +46,59 @@
       <a href="about.html">About</a>
       <a href="contact.html">Contact</a>
     </nav>-->
-    <div>Version: <span id="version"></span> (<span id="date"></span>)</div>
+    <div id="version-header">Version: <span id="version"></span> (<span id="date"></span>)</div>
     <header>
-      <!--<img src="logo.png" alt="logo" />-->
-      <h1>Overview of Music Annotation Objects</h1>
+      <h1>
+        <img src="{{ url_for('static', filename='img/logo.png') }}" alt="logo" />
+        Overview of Music Annotation Objects
+      </h1>
     </header>
+    <!-- Horizontal nav bar with internal links to each section: -->
+    <nav>
+      <ul>
+        <li><a href="#a-text-content">Text Content</a></li>
+        <li><a href="#a-music-scores">Music Scores</a></li>
+        <li><a href="#a-current-uri">Current URI</a></li>
+        <li><a href="#a-graph">Graph</a></li>
+        <li><a href="#a-json-display">Current Linked Data</a></li>
+        <li><a href="#a-annotation-tools">Annotation Tools</a></li>
+        <li><a href="#a-audio-examples">Audio Examples</a></li>
+      </ul>
+    <nav>
+    </nav>
     <main>
-      <section>
+      <a id="a-text-content"></a>
+      <section id="h-text-content">
         <h2>Text Content</h2>
         <p id="text-content"></p>
       </section>
-      <section>
+      <a id="a-music-scores"></a>
+      <section id="h-music-scores">
         <h2>Music Scores</h2>
         <div id="music-scores"></div>
       </section>
-      <section>
+      <a id="a-current-uri"></a>
+      <section id="h-current-uri">
         <h2>Current URI</h2>
         <p id="current-uri"></p>
       </section>
-      <section>
+      <a id="a-graph"></a>
+      <section id="h-graph">
         <h2>Graph</h2>
         <div id="graph">Graph</div>
       </section>
-      <section>
+      <a id="a-json-display"></a>
+      <section id="h-json-display">
         <h2>Current Linked Data</h2>
         <pre><code id="json-display" class="language-json"></code></pre>
       </section>
-      <section>
+      <a id="a-annotation-tools"></a>
+      <section id="h-annotation-tools">
         <h2>Annotation Tools</h2>
         <div id="annotation-tools"></div>
       </section>
-      <section>
+      <a id="a-audio-examples"></a>
+      <section id="h-audio-examples">
         <h2>Audio Examples</h2>
         <div id="audio-examples"></div>
       </section>
