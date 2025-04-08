@@ -125,6 +125,7 @@ section p, section div, section pre {
     border-radius: 8px;
     background-color: #f4f4f4;
     overflow-x: auto;
+    line-height: .5;
 }
 
 #graph .current rect {

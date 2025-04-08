@@ -5,6 +5,7 @@ export default class Graph {
   static init(relevantVis = relevantVis) {
     this.relevantVis = relevantVis;
     this.registry = {}; // registry of retrieved Linked Data objects
+    this.blanks = {}; // registry of blank nodes
   }
 
   static register(obj, uri) {
@@ -20,6 +21,14 @@ export default class Graph {
       console.warn("object already registered: ", uri);
     }
     console.debug("Registry now: ", this.registry);
+  }
+
+  static registerBlank(uri, blankId) {
+    if (uri in this.blanks) {
+      this.blanks[uri].push(blankId);
+    } else {
+      this.blanks[uri] = [blankId];
+    }
   }
 
   static getGraph() {
@@ -150,9 +159,13 @@ export default class Graph {
                   blankCounter
                 )};`;
             } else {
-              const targetId = target["@id"]
-                ? target["@id"]
-                : "blank_" + blankCounter++;
+              let targetId;
+              if (target.hasOwnProperty("@id")) {
+                targetId = target["@id"];
+              } else {
+                targetId = "blank_" + blankCounter++;
+                this.registerBlank(obj["@id"], targetId);
+              }
               visgraph += `${id} -- ${this.labelify(
                 pred
               )} --> ${targetId}("${this.labelify(targetId)}");`;

@@ -5,7 +5,7 @@ import NS from "./namespaceManager.js";
 import Traverser from "./traverser.js";
 import Graph from "./graph.js";
 import { fetchTextData } from "./http.js";
-import { vrvOptions } from "./defaults.js";
+import { vrvOptions, relevantVis } from "./defaults.js";
 
 let objUrl = null;
 
@@ -26,6 +26,29 @@ function traversalsComplete() {
         key +
         '" "Tooltip: Foo";';
     }
+    // draw in subgraph containing subject and objects in current URI's resource
+    // current subject:
+    visgraph +=
+      "\n subgraph Current resource\n" +
+      Graph.registry[objUrl].compacted["@id"].replace(/https?:\/\//, "");
+    // attached objects:
+    const toInclude = relevantVis.predicates.forEach((p) => {
+      if (Graph.registry[objUrl].expanded.hasOwnProperty(p)) {
+        Graph.registry[objUrl].expanded[p].forEach((o) => {
+          console.log("Adding object: ", o);
+          if (o["@id"]) {
+            visgraph += "\n" + o["@id"].replace(/https?:\/\//, "") + "\n";
+          }
+        });
+      }
+    });
+    // add any blank nodes associated with the subject
+    if (Graph.blanks[objUrl.href]) {
+      Graph.blanks[objUrl.href].forEach((b) => {
+        visgraph += "\n" + b + "\n";
+      });
+    }
+    visgraph += "\n end\n";
     let jsonDisplay = document.querySelector("#json-display");
     jsonDisplay.textContent = JSON.stringify(
       Graph.registry[objUrl].compacted,
