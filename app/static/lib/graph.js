@@ -117,6 +117,13 @@ export default class Graph {
     if (current) {
       visgraph += "class " + obj["@id"] + " current;\n";
     }
+    // we want to avoid drawing a huge amount of "part" relationships when the same
+    // resource has many target fragments
+    // so, we only draw one "part" relationship per resource, and include the number of fragments in the label
+    // TODO, for now only MEI targets, should be extended to other types
+    const targetResources = this.getMEITargets();
+    const targetResourcePredFragments = {};
+
     // if the object has a "@id" property, use it as the node ID
     // otherwise, use a blank node ID by concatenating "blank" with the blankCounter
     // and increment the blankCounter
@@ -141,6 +148,24 @@ export default class Graph {
       for (const pred of relevant.predicates) {
         if (obj.hasOwnProperty(pred)) {
           for (const target of obj[pred]) {
+            // skip if target's resource is in targetResources
+            // (they are handled separately later)
+            const matches = Object.keys(targetResources).filter((t) => {
+              if ("@id" in target && target["@id"].startsWith(t)) {
+                if (pred in targetResourcePredFragments) {
+                  targetResourcePredFragments[pred][t] =
+                    targetResources[t].size;
+                } else {
+                  targetResourcePredFragments[pred] = {};
+                  targetResourcePredFragments[pred][t] =
+                    targetResources[t].size;
+                }
+                return true;
+              }
+            });
+            if (matches.length) {
+              break;
+            }
             if (
               //target.hasOwnProperty("@type") &&
               //relevant.types.includes(target["@type"])
@@ -151,9 +176,7 @@ export default class Graph {
                 `${this.visualise(
                   // if the target is in the registry, use it
                   // otherwise, use the sub-object
-                  target["@id"] in this.registry
-                    ? this.registry[target["@id"]].expanded
-                    : target,
+                  this.registry[target["@id"]].expanded,
                   false,
                   relevant,
                   blankCounter
@@ -169,6 +192,15 @@ export default class Graph {
               visgraph += `${id} -- ${this.labelify(
                 pred
               )} --> ${targetId}("${this.labelify(targetId)}");`;
+            }
+          }
+          // draw the targetResourcePredFragments, one arrow per ?s ?p ?o, label with the number of fragments
+          for (const pred in targetResourcePredFragments) {
+            for (const target in targetResourcePredFragments[pred]) {
+              const numFrag = targetResourcePredFragments[pred][target];
+              visgraph += `${id} -- ${this.labelify(pred) + " (" + numFrag}`;
+              visgraph += numFrag > 1 ? " fragments)" : " fragment)";
+              visgraph += ` --> ${target};`;
             }
           }
         }
