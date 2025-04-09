@@ -194,15 +194,15 @@ export default class Graph {
               )} --> ${targetId}("${this.labelify(targetId)}");`;
             }
           }
-          // draw the targetResourcePredFragments, one arrow per ?s ?p ?o, label with the number of fragments
-          for (const pred in targetResourcePredFragments) {
-            for (const target in targetResourcePredFragments[pred]) {
-              const numFrag = targetResourcePredFragments[pred][target];
-              visgraph += `${id} -- ${this.labelify(pred) + " (" + numFrag}`;
-              visgraph += numFrag > 1 ? " fragments)" : " fragment)";
-              visgraph += ` --> ${target};`;
-            }
-          }
+        }
+      }
+      // draw the targetResourcePredFragments, one arrow per ?s ?p ?o, label with the number of fragments
+      for (const pred in targetResourcePredFragments) {
+        for (const target in targetResourcePredFragments[pred]) {
+          const numFrag = targetResourcePredFragments[pred][target];
+          visgraph += `${id} -- ${this.labelify(pred) + " (" + numFrag}`;
+          visgraph += numFrag > 1 ? " fragments)" : " fragment)";
+          visgraph += ` --> ${target};`;
         }
       }
     }

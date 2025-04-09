@@ -27,7 +27,15 @@ function traversalsComplete() {
         '" "Tooltip: Foo";';
     }
     // draw in subgraph containing subject and objects in current URI's resource
-    // current subject:
+    // current subject.
+    // Only draw one representation per resource, even if many resource fragments are included
+
+    const fragmentedResources = Graph.getMEITargets(); // TODO include other types
+    const fragmentedResourcesToExclude = new Set();
+    Object.keys(fragmentedResources).forEach((k) => {
+      fragmentedResourcesToExclude.add(k);
+    });
+
     visgraph +=
       "\n subgraph Current resource\n" +
       Graph.registry[objUrl].compacted["@id"].replace(/https?:\/\//, "");
@@ -35,8 +43,13 @@ function traversalsComplete() {
     const toInclude = relevantVis.predicates.forEach((p) => {
       if (Graph.registry[objUrl].expanded.hasOwnProperty(p)) {
         Graph.registry[objUrl].expanded[p].forEach((o) => {
-          console.log("Adding object: ", o);
-          if (o["@id"]) {
+          // does o["@id"] start with any of the fragmentedResourcesToExclude?
+          const matches = Array.from(fragmentedResourcesToExclude).filter(
+            (r) => "@id" in o && o["@id"].startsWith(r)
+          );
+          // skip fragmented resources
+          if (!matches.length && o["@id"]) {
+            console.log("Adding object: ", o);
             visgraph += "\n" + o["@id"].replace(/https?:\/\//, "") + "\n";
           }
         });
