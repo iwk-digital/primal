@@ -139,7 +139,10 @@ export default class Graph {
         visgraph += `${id}("${this.labelify(obj["@type"][0])}`; // TODO consider multiple types
       }
       if (obj.hasOwnProperty(NS.rdfs("label"))) {
-        visgraph += `(${obj[NS.rdfs("label")][0]})`;
+        let lab = obj[NS.rdfs("label")][0]; // TODO consider multiple labels
+        if (typeof lab === "string") visgraph += `( ${lab})`;
+        else if (typeof lab === "object" && "@value" in lab)
+          visgraph += ` ('${lab["@value"]}')`;
       }
       visgraph += '");';
       // draw all relevant predicates as arrows to other objects
