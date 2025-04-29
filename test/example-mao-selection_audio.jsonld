@@ -2,10 +2,12 @@
   "@context": {
     "oa": "http://www.w3.org/ns/oa#",
     "mao": "https://domestic-beethoven.eu/ontology/1.0/music-annotation-ontology.ttl#",
-    "frbr": "http://purl.org/vocab/frbr/core#"
+    "frbr": "http://purl.org/vocab/frbr/core#",
+    "rdfs": "http://www.w3.org/2000/01/rdf-schema#"
   },
   "@type": "mao:Selection",
   "@id": "http://localhost:8000/test/example-mao-selection_audio.jsonld",
+  "rdfs:comment": "CC0 licensed recording taken from https://ia801909.us.archive.org/4/items/J.STRAUSSKaiser-Walzer-NEWTRANSFER/J.Strauss-Kaiser-walzeremperorWaltz.ogg",
   "frbr:part": [
     {
       "@id": "http://localhost:8000/test/example-audio.ogg#t=3.3,7.0"
