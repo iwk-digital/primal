@@ -6,7 +6,12 @@
   },
   "@type": "mao:Extract",
   "@id": "http://localhost:8000/test/example-mao-extract.jsonld",
-  "frbr:embodiment": {
-    "@id": "http://localhost:8000/test/example-mao-selection.jsonld"
-  }
+  "frbr:embodiment": [
+    {
+      "@id": "http://localhost:8000/test/example-mao-selection.jsonld"
+    },
+    {
+      "@id": "http://localhost:8000/test/example-mao-selection_audio.jsonld"
+    }
+  ]
 }
