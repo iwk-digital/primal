@@ -5,7 +5,7 @@
     "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#"
   },
   "@type": "oa:Annotation",
-  "@id": "http://localhost:5001/static/test/example-oa.jsonld",
+  "@id": "http://localhost:8000/test/example-oa.jsonld",
   "oa:motivatedBy": "mao:describing",
   "oa:hasBody": [
     {
@@ -15,10 +15,10 @@
   ],
   "oa:hasTarget": [
     {
-      "@id": "http://localhost:5001/static/test/example.mei#n1tqvgeb"
+      "@id": "http://localhost:8000/test/example.mei#n1tqvgeb"
     },
     {
-      "@id": "http://localhost:5001/static/test/example.mei#n172sakw"
+      "@id": "http://localhost:8000/test/example.mei#n172sakw"
     }
   ]
 }

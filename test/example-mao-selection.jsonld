@@ -5,13 +5,13 @@
     "frbr": "http://purl.org/vocab/frbr/core#"
   },
   "@type": "mao:Selection",
-  "@id": "http://localhost:5001/static/test/example-mao-selection.jsonld",
+  "@id": "http://localhost:8000/test/example-mao-selection.jsonld",
   "frbr:part": [
     {
-      "@id": "http://localhost:5001/static/test/example.mei#n1tqvgeb"
+      "@id": "http://localhost:8000/test/example.mei#n1tqvgeb"
     },
     {
-      "@id": "http://localhost:5001/static/test/example.mei#n172sakw"
+      "@id": "http://localhost:8000/test/example.mei#n172sakw"
     }
   ]
 }

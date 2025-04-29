@@ -1,4 +1,9 @@
-# Overview of Music Annotation Objects CHANGELOG
+# Platform for Review and Interaction with Music Annotation Linked-data CHANGELOG
+
+
+### 0.3.0 - 29 Apr 2025
+* Rename from OMAnnO to PRIMAL
+* Restructure code to remove Flask dependency
 
 ### 0.2.0 - 6 Apr 2025
 * Implement navigation bar

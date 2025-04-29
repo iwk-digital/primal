@@ -5,8 +5,8 @@
     "frbr": "http://purl.org/vocab/frbr/core#"
   },
   "@type": "mao:Extract",
-  "@id": "http://localhost:5001/static/test/example-mao-extract.jsonld",
+  "@id": "http://localhost:8000/test/example-mao-extract.jsonld",
   "frbr:embodiment": {
-    "@id": "http://localhost:5001/static/test/example-mao-selection.jsonld"
+    "@id": "http://localhost:8000/test/example-mao-selection.jsonld"
   }
 }
