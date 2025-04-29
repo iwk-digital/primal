@@ -2,7 +2,7 @@
 
 <img src="https://github.com/iwk-digital/primal/blob/main/img/logo.png?raw=true" width="250px"/>
 
-## Platform for Review and Interaction with Music Annotation Linked-data
+## Platform for Reviewing and Interacting with Music Annotation Linked-data
 
 Rudimentary public viewer for Web Annotations and Music Annotation Ontology linked data structures.
 
