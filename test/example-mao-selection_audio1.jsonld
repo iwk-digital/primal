@@ -6,7 +6,7 @@
     "rdfs": "http://www.w3.org/2000/01/rdf-schema#"
   },
   "@type": "mao:Selection",
-  "@id": "http://localhost:8000/test/example-mao-selection_audio.jsonld",
+  "@id": "http://localhost:8000/test/example-mao-selection_audio1.jsonld",
   "rdfs:comment": "CC0 licensed recording taken from https://ia801909.us.archive.org/4/items/J.STRAUSSKaiser-Walzer-NEWTRANSFER/J.Strauss-Kaiser-walzeremperorWaltz.ogg",
   "frbr:part": [
     {

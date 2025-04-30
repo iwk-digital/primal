@@ -6,7 +6,7 @@
     "rdfs": "http://www.w3.org/2000/01/rdf-schema#"
   },
   "@type": "mao:Selection",
-  "@id": "http://localhost:8000/test/example-mao-selection_audio.jsonld",
+  "@id": "http://localhost:8000/test/example-mao-selection_audio2.jsonld",
   "rdfs:comment": "CC0 licensed recording taken from https://archive.org/details/78_kaiserwalzer_wiener-konzert-orchester-j-w-ganglberger-strau_gbia7037433a",
   "frbr:part": [
     {
