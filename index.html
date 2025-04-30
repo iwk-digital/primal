@@ -16,8 +16,8 @@
       href="https://cdnjs.cloudflare.com/ajax/libs/prism/1.29.0/themes/prism.min.css"
       rel="stylesheet"
     />
-    <script src="https://unpkg.com/wavesurfer.js@7"></script>
-    <script src="https://unpkg.com/wavesurfer.js@7/dist/plugins/regions.min.js"></script>
+<script src="deps/wavesurfer.js" type="module"></script> <!-- WaveSurfer 7-->
+    <script src="deps/regions.js" type="module"></script> <!-- WS 7 Regions plugin -->
     <script src="https://unpkg.com/mermaid@10/dist/mermaid.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/prism/1.29.0/prism.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/prism/1.29.0/components/prism-json.min.js"></script>
@@ -44,7 +44,7 @@
     <header>
       <h1>
         <img src="img/logo.png" alt="logo" />
-        Music Annotation Viewer 
+        Primal: Music Annotation Linked-data Viewer 
       </h1>
     </header>
     <!-- Horizontal nav bar with internal links to each section: -->
@@ -52,10 +52,10 @@
       <ul>
         <li><a href="#a-text-content">Text</a></li>
         <li><a href="#a-music-scores">Scores</a></li>
+        <li><a href="#a-audio-examples">Audio</a></li>
         <li><a href="#a-current-uri">Metadata</a></li>
         <li><a href="#a-graph">Graph</a></li>
         <li><a href="#a-json-display">JSON-LD</a></li>
-        <li><a href="#a-audio-examples">Audio</a></li>
         <!--<li><a href="#a-annotation-tools">Tools</a></li>-->
       </ul>
     <nav>
@@ -70,6 +70,11 @@
       <section id="h-music-scores">
         <h2>Music Scores</h2>
         <div id="music-scores"></div>
+      </section>
+      <a id="a-audio-examples"></a>
+      <section id="h-audio-examples">
+        <h2>Audio Recordings</h2>
+        <div id="audio-examples"></div>
       </section>
       <a id="a-current-uri"></a>
       <section id="h-current-uri">
@@ -91,11 +96,6 @@
         <h2>Annotation Tools</h2>
         <div id="annotation-tools"></div>
       </section>-->
-      <a id="a-audio-examples"></a>
-      <section id="h-audio-examples">
-        <h2>Audio Examples</h2>
-        <div id="audio-examples"></div>
-      </section>
     </main>
   </body>
 </html>
