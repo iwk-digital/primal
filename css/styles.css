@@ -11,7 +11,7 @@ html {
     scroll-padding-top: 1.5em; /* to offset sticky nav bar */
 }
 
-#version-header { 
+#version-footer{ 
     height: 1em;
     line-height:1em;
 }
