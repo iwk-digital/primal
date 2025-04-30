@@ -1,5 +1,6 @@
 # Platform for Review and Interaction with Music Annotation Linked-data CHANGELOG
-
+### 0.3.1 - 30 Apr 2025
+* Add support for audio recordings using wavesurfer.js
 
 ### 0.3.0 - 29 Apr 2025
 * Rename from OMAnnO to PRIMAL
