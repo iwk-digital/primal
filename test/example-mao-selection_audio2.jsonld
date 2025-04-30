@@ -1,0 +1,16 @@
+{
+  "@context": {
+    "oa": "http://www.w3.org/ns/oa#",
+    "mao": "https://domestic-beethoven.eu/ontology/1.0/music-annotation-ontology.ttl#",
+    "frbr": "http://purl.org/vocab/frbr/core#",
+    "rdfs": "http://www.w3.org/2000/01/rdf-schema#"
+  },
+  "@type": "mao:Selection",
+  "@id": "http://localhost:8000/test/example-mao-selection_audio.jsonld",
+  "rdfs:comment": "CC0 licensed recording taken from https://archive.org/details/78_kaiserwalzer_wiener-konzert-orchester-j-w-ganglberger-strau_gbia7037433a",
+  "frbr:part": [
+    {
+      "@id": "http://localhost:8000/test/example-audio2.mp3#t=40.3,77.8"
+    }
+  ]
+}

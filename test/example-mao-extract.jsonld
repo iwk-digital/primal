@@ -11,7 +11,10 @@
       "@id": "http://localhost:8000/test/example-mao-selection.jsonld"
     },
     {
-      "@id": "http://localhost:8000/test/example-mao-selection_audio.jsonld"
+      "@id": "http://localhost:8000/test/example-mao-selection_audio1.jsonld"
+    },
+    {
+      "@id": "http://localhost:8000/test/example-mao-selection_audio2.jsonld"
     }
   ]
 }
