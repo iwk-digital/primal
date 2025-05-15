@@ -1,4 +1,8 @@
 # Platform for Review and Interaction with Music Annotation Linked-data CHANGELOG
+
+### 0.3.2 - 15 May 2025
+* Display creator metadata if available
+
 ### 0.3.1 - 30 Apr 2025
 * Add support for audio recordings using wavesurfer.js
 
