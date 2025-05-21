@@ -168,6 +168,21 @@ section p, section div, section pre {
     fill: red;
 }
 
+
+.audio-container {
+    position: relative;
+}
+
+.audio-label {
+    position: absolute;
+    top: -20px;
+    left: 5px;
+    color: black;
+    font-family: Arial, sans-serif;
+    font-size: 16px;
+    z-index: 10;
+}
+
 /* Styling for textual content */
 #text-content {
     font-size: 1.2rem;
