@@ -1,5 +1,8 @@
 # Platform for Review and Interaction with Music Annotation Linked-data CHANGELOG
 
+### 0.3.3 - 26  May 2025
+* Display peaks visualisation if audio not available (and precalculated peaks available)
+
 ### 0.3.2 - 15 May 2025
 * Display creator metadata if available
 
