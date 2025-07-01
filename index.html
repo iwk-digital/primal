@@ -3,47 +3,45 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>PRIMAL: Platform for Review and Interaction with Music Annotation Linked-data</title>
-    <link
-      rel="stylesheet"
-      href="css/styles.css"
-    />
-    <link
-      rel="stylesheet"
-      href="css/prism.css"
-    />
+    <title>
+      PRIMAL: Platform for Review and Interaction with Music Annotation
+      Linked-data
+    </title>
+    <link rel="stylesheet" href="css/styles.css" />
+    <link rel="stylesheet" href="css/prism.css" />
     <link
       href="https://cdnjs.cloudflare.com/ajax/libs/prism/1.29.0/themes/prism.min.css"
       rel="stylesheet"
     />
-<script src="deps/wavesurfer.js" type="module"></script> <!-- WaveSurfer 7-->
-    <script src="deps/regions.js" type="module"></script> <!-- WS 7 Regions plugin -->
+    <script src="deps/wavesurfer.js" type="module"></script>
+    <!-- WaveSurfer 7-->
+    <script src="deps/regions.js" type="module"></script>
+    <!-- WS 7 Regions plugin -->
     <script src="https://unpkg.com/mermaid@10/dist/mermaid.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/prism/1.29.0/prism.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/prism/1.29.0/components/prism-json.min.js"></script>
     <script>
-      mermaid.initialize({ startOnLoad: false });
+      mermaid.initialize({
+        startOnLoad: false,
+        flowchart: {
+          htmlLabels: true,
+          useMaxWidth: false,
+          curve: "linear",
+        },
+      });
     </script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jsonld/1.0.0/jsonld.min.js"></script>
     <script
       src="https://www.verovio.org/javascript/latest/verovio-toolkit-wasm.js"
       defer
     ></script>
-    <script
-      src="lib/main.js"
-      type="module"
-    ></script>
+    <script src="lib/main.js" type="module"></script>
   </head>
   <body>
-    <!--<nav>
-      <a href="index.html">Home</a>
-      <a href="about.html">About</a>
-      <a href="contact.html">Contact</a>
-    </nav>-->
     <header>
       <h1>
         <img src="img/logo.png" alt="logo" />
-        Primal: Music Annotation Linked-data Viewer 
+        Primal: Music Annotation Linked-data Viewer
       </h1>
     </header>
     <!-- Horizontal nav bar with internal links to each section: -->
@@ -57,7 +55,6 @@
         <li><a href="#a-json-display">JSON-LD</a></li>
         <!--<li><a href="#a-annotation-tools">Tools</a></li>-->
       </ul>
-    <nav>
     </nav>
     <main>
       <a id="a-text-content"></a>
@@ -96,7 +93,102 @@
         <h2>Annotation Tools</h2>
         <div id="annotation-tools"></div>
       </section>-->
-      <div id="version-footer">Primal version: <span id="version"></span> (<span id="date"></span>)</div>
+      <div id="splash">
+        <p>
+          Welcome to Primal, the <span>P</span>latform for <span>R</span>eview
+          and <span>I</span>nteraction with <span>M</span>usic
+          <span>A</span>nnotation <span>L</span>inked-data. This platform
+          provides human-readable views over Linked Data structures adhering to
+          the
+          <a href="https://google.com" target="_blank">
+            Web Annotation Data Model
+          </a>
+          and/or the
+          <a
+            href="https://domestic-beethoven.eu/dissemination/"
+            target="_blank"
+          >
+            Annotation Ontology</a
+          >, visualising textual content, targeted
+          <a href="https://music-encoding.org" target="_blank">MEI</a> fragments
+          (rendered as digital scores using
+          <a href="https://www.verovio.org" target="_blank">Verovio</a>), audio
+          examples (rendered using
+          <a href="https://wavesurfer-js.org" target="_blank">WaveSurfer.js</a
+          >), as well as a graph view and formatted code listing of the
+          underlying Linked Data structure.
+        </p>
+        <p>
+          To use Primal, simply append the URI of a Web-hosted (and
+          <a href="https://enable-cors.org" target="_blank">CORS-compliant</a>)
+          music annotation Linked Data resource to the URL of this page using
+          the ?obj query parameter, e.g.:
+          <a
+            href="https://primal.mdw.ac.at/?obj=https://raw.githubusercontent.com/Signature-Sound-Vienna/data/TISMIR/annot/oa/ExDonau.jsonld"
+          >
+            <pre>
+https://primal.mdw.ac.at/?obj=https://raw.githubusercontent.com/Signature-Sound-Vienna/data/TISMIR/annot/oa/ExDonau.jsonld</pre
+            >
+          </a>
+        </p>
+        <p>
+          If you are using Primal to publish a collection of music annotations,
+          perhaps to provide supporting evidence in scholarly dissemination, you
+          may find it convenient to register proxy URIs that implement content
+          negotiation, with a redirection service such as
+          <a href="https://w3id.org" target="_blank">https://w3id.org</a> to
+          forward your readers here. This way, requests from a browser can be
+          forwarded to Primal for visualisation, whereas requests from machines
+          can be forwarded to the original resource. For example, the following
+          link provides such a proxy to the one used above:
+          <a href="https://w3id.org/ssv/TISMIR/annot/oa/ExDonau">
+            <pre>https://w3id.org/ssv/TISMIR/annot/oa/ExDonau</pre>
+          </a>
+        </p>
+        <p>
+          <a href="https://github.com/iwk-digital/primal"
+            >Primal's open-source codebase</a
+          >
+          is written in JavaScript, licensed under
+          <a href="https://github.com/iwk-digital/primal/blob/main/LICENSE.md"
+            >AGPL-3.0</a
+          >, developed within
+          <a href="https://github.com/signature-sound-vienna"
+            >Signature Sound Vienna</a
+          >, a research project funded by the
+          <a href="https://fwf.ac.at" target="_blank">
+            FWF – Austrian Science Fund</a
+          >
+          (<a href="https://doi.org/10.55776/P34664" target="_blank">34664-G</a
+          >). Hosting is provided by the
+          <a href="https://iwk.mdw.ac.at" target="_blank"
+            >Department of Music Acoustics – Wiener Klangstil</a
+          >
+          at the
+          <a href="https://mdw.ac.at" target="_blank"
+            >mdw – University of Music and Performing Arts Vienna</a
+          >.
+        </p>
+      </div>
+      <div id="version-footer">
+        Primal version: <span id="version"></span> (<span id="date"></span>).
+        Hosted by <a href="https://iwk.mdw.ac.at">IWK</a> at
+        <a href="https://mdw.ac.at">mdw</a>, with
+        <svg
+          id="heart"
+          fill="var(--primary-color)"
+          stroke="var(--primary-color)"
+          :w3
+          height="1em"
+          viewBox="-50 -50 900 880"
+          xmlns="http://www.w3.org/2000/svg"
+        >
+          <path
+            d="M384 864c399-314 384-425 384-512s-72-192-192-192-192 128-192 128-72-128-192-128-192 105-192 192-15 198 384 512z"
+          ></path>
+        </svg>
+        from Vienna. <a href="https://iwk.mdw.ac.at/impressum">Imprint</a>.
+      </div>
     </main>
   </body>
 </html>
