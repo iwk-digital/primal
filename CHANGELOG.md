@@ -1,5 +1,9 @@
 # Platform for Review and Interaction with Music Annotation Linked-data CHANGELOG
 
+### 0.4.0 - 1 July 2025
+* Add splash screen when arriving without ?obj parameter
+* Handle large graph visualisations (make graphs scrollable) without shrinking them
+
 ### 0.3.3 - 26  May 2025
 * Display peaks visualisation if audio not available (and precalculated peaks available)
 
