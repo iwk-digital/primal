@@ -12,8 +12,13 @@ html {
 }
 
 #version-footer{ 
+    margin-top: 1em;
     height: 1em;
     line-height:1em;
+}
+
+#version-footer a {
+    display:inline;
 }
 
 header img { 
@@ -214,7 +219,7 @@ footer {
 
 /* Link to open score in mei-friend, 
    styled as centered button */
-   .meifriendLink{
+.meifriendLink{
     display: block;
     text-align: center;
     margin: 10px 0;
@@ -224,7 +229,39 @@ footer {
     text-decoration: none;
     border-radius: 4px;
     transition: background-color 0.3s ease;
-   }
+}
+
+/* Hide content if splash page is active, i.e. no ?obj parameter */
+.splash nav, .splash main a, .splash main section{
+    display: none;
+}
+
+#splash {
+    display:none;
+    text-align: justify;
+    line-height: 1.6;
+    padding: 10px;
+    border: 2px solid var(--primary-color);
+    border-radius: 8px;
+    color: #555;
+    font-size: 1.2rem;
+}
+
+#splash span {
+    text-decoration: underline
+}
+
+#splash a { 
+    display: inline;
+}
+
+.splash #splash {
+    display: block;
+}
+
+#splash pre {
+    font-size:.9rem; 
+}
 
 
 /* Responsive design */
