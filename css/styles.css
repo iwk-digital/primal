@@ -15,10 +15,16 @@ html {
     margin-top: 1em;
     height: 1em;
     line-height:1em;
+    color: #555;
 }
 
 #version-footer a {
     display:inline;
+    color: var(--primary-color);
+    text-decoration: none;
+}
+#version-footer a:hover {
+    color: var(--secondary-color);
 }
 
 header img { 
@@ -253,6 +259,12 @@ footer {
 
 #splash a { 
     display: inline;
+    color: var(--primary-color);
+    text-decoration: none;
+}
+
+#splash a:hover {
+    color: var(--secondary-color);
 }
 
 .splash #splash {
