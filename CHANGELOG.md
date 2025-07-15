@@ -1,5 +1,8 @@
 # Platform for Review and Interaction with Music Annotation Linked-data CHANGELOG
 
+### 0.4.1 - 15 July 2025
+* Vocab namespace fix
+
 ### 0.4.0 - 1 July 2025
 * Add splash screen when arriving without ?obj parameter
 * Handle large graph visualisations (make graphs scrollable) without shrinking them
