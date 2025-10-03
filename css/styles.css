@@ -64,15 +64,16 @@ header h1 {
 }
 
 /* Navigation bar styling */
-
-nav ul {
-    color: var(--text-color);
-    padding: 10px 0;
-    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
-    background-color: var(--primary-color);
+nav {
     position: sticky;
     top: 0;
     z-index: 1000; /* Keep the nav on top */
+    background-color: var(--primary-color);
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    color: var(--text-color);
+}
+nav ul {
+    padding: 10px 0;
     list-style: none;
     margin: 0;
     padding: 0;
