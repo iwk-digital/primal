@@ -432,6 +432,25 @@ footer {
     100% { transform: rotate(360deg); }
 }
 
+/* Subtle zoom wobble animation to indicate zoomability */
+@keyframes zoomWobble {
+    0% { transform: scale(1); }
+    25% { transform: scale(1.02); }
+    50% { transform: scale(0.98); }
+    75% { transform: scale(1.01); }
+    100% { transform: scale(1); }
+}
+
+/* Animation class for modal graph */
+.graph-modal-content svg.zoom-wobble {
+    animation: zoomWobble 1.2s ease-in-out;
+}
+
+/* Smooth zoom transitions for button clicks */
+.graph-modal-content svg.zoom-transition {
+    transition: transform 0.3s ease-out;
+}
+
 /* Hide loading spinner when content is loaded */
 .content-loaded .loading-spinner {
     display: none;
