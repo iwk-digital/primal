@@ -12,10 +12,20 @@ html {
 }
 
 #version-footer{ 
-    margin-top: 1em;
-    height: 1em;
-    line-height:1em;
+    max-width: 1200px;
+    margin: 15px auto;
+    padding: 8px 15px;
+    background: white;
+    border-radius: 8px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
     color: #555;
+    font-size: 0.8em;
+    line-height: 1.3;
+}
+
+#version-footer p {
+    margin: 0.2em 0;
+    text-align: left;
 }
 
 #version-footer a {
@@ -396,6 +406,36 @@ footer {
     font-size:.9rem; 
 }
 
+
+/* Loading spinner styles */
+.loading-spinner {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 20px;
+    color: #999;
+    font-style: italic;
+}
+
+.spinner {
+    width: 20px;
+    height: 20px;
+    border: 2px solid #f3f3f3;
+    border-top: 2px solid var(--primary-color);
+    border-radius: 50%;
+    animation: spin 1s linear infinite;
+    margin-right: 10px;
+}
+
+@keyframes spin {
+    0% { transform: rotate(0deg); }
+    100% { transform: rotate(360deg); }
+}
+
+/* Hide loading spinner when content is loaded */
+.content-loaded .loading-spinner {
+    display: none;
+}
 
 /* Responsive design */
 @media (max-width: 768px) {

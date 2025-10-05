@@ -60,27 +60,47 @@
       <a id="a-text-content"></a>
       <section id="h-text-content">
         <h2>Text Content</h2>
+        <div class="loading-spinner">
+          <div class="spinner"></div>
+          Loading text content...
+        </div>
         <p id="text-content"></p>
       </section>
       <a id="a-music-scores"></a>
       <section id="h-music-scores">
         <h2>Music Scores</h2>
+        <div class="loading-spinner">
+          <div class="spinner"></div>
+          Loading music scores...
+        </div>
         <div id="music-scores"></div>
       </section>
       <a id="a-audio-examples"></a>
       <section id="h-audio-examples">
         <h2>Audio Recordings</h2>
+        <div class="loading-spinner">
+          <div class="spinner"></div>
+          Loading audio recordings...
+        </div>
         <div id="audio-examples"></div>
       </section>
       <a id="a-metadata"></a>
       <section id="h-metadata">
         <h2>Metadata</h2>
+        <div class="loading-spinner">
+          <div class="spinner"></div>
+          Loading metadata...
+        </div>
         <p id="meta-current-uri"></p>
         <p id="meta-created-by"></p>
       </section>
       <a id="a-graph"></a>
       <section id="h-graph">
         <h2>Music Annotation Graph</h2>
+        <div class="loading-spinner">
+          <div class="spinner"></div>
+          Loading graph...
+        </div>
         <div id="graph">
           Graph
           <button
@@ -95,6 +115,10 @@
       <a id="a-json-display"></a>
       <section id="h-json-display">
         <h2>JSON-LD (Current resource)</h2>
+        <div class="loading-spinner">
+          <div class="spinner"></div>
+          Loading JSON-LD...
+        </div>
         <pre><code id="json-display" class="language-json"></code></pre>
       </section>
       <!-- <a id="a-annotation-tools"></a>
@@ -179,7 +203,11 @@ https://primal.mdw.ac.at/?obj=https://raw.githubusercontent.com/Signature-Sound-
           >.
         </p>
       </div>
-      <div id="version-footer">
+    </main>
+
+    <!-- Footer -->
+    <div id="version-footer">
+      <p>
         Primal version: <span id="version"></span> (<span id="date"></span>).
         Hosted by <a href="https://iwk.mdw.ac.at">IWK</a> at
         <a href="https://mdw.ac.at">mdw</a>, with
@@ -187,7 +215,7 @@ https://primal.mdw.ac.at/?obj=https://raw.githubusercontent.com/Signature-Sound-
           id="heart"
           fill="var(--primary-color)"
           stroke="var(--primary-color)"
-          :w3
+          width="1em"
           height="1em"
           viewBox="-50 -50 900 880"
           xmlns="http://www.w3.org/2000/svg"
@@ -197,8 +225,14 @@ https://primal.mdw.ac.at/?obj=https://raw.githubusercontent.com/Signature-Sound-
           ></path>
         </svg>
         from Vienna. <a href="https://iwk.mdw.ac.at/impressum">Imprint</a>.
-      </div>
-    </main>
+      </p>
+      <p>
+        Funded by the FWF – Austrian Science Fund
+        <a href="https://doi.org/10.55776/P34664"
+          >P 34664-G (Signature Sound Vienna)</a
+        >.
+      </p>
+    </div>
 
     <!-- Graph Modal -->
     <div id="graph-modal" class="graph-modal">
