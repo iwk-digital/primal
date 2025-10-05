@@ -81,7 +81,16 @@
       <a id="a-graph"></a>
       <section id="h-graph">
         <h2>Music Annotation Graph</h2>
-        <div id="graph">Graph</div>
+        <div id="graph">
+          Graph
+          <button
+            class="graph-expand-icon"
+            id="graph-expand-btn"
+            title="Expand to full screen"
+          >
+            ⤢
+          </button>
+        </div>
       </section>
       <a id="a-json-display"></a>
       <section id="h-json-display">
@@ -190,5 +199,34 @@ https://primal.mdw.ac.at/?obj=https://raw.githubusercontent.com/Signature-Sound-
         from Vienna. <a href="https://iwk.mdw.ac.at/impressum">Imprint</a>.
       </div>
     </main>
+
+    <!-- Graph Modal -->
+    <div id="graph-modal" class="graph-modal">
+      <div class="graph-modal-content">
+        <div class="graph-modal-header">
+          <button class="graph-modal-button" id="zoom-in-btn" title="Zoom In">
+            +
+          </button>
+          <button class="graph-modal-button" id="zoom-out-btn" title="Zoom Out">
+            −
+          </button>
+          <button
+            class="graph-modal-button"
+            id="fit-graph-btn"
+            title="Fit to View"
+          >
+            ⤢
+          </button>
+        </div>
+        <button
+          class="graph-modal-button graph-modal-close"
+          id="close-modal-btn"
+          title="Close"
+        >
+          ×
+        </button>
+        <div id="graph-modal-content" class="graph-modal-graph"></div>
+      </div>
+    </div>
   </body>
 </html>
