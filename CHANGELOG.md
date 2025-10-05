@@ -1,5 +1,11 @@
 # Platform for Review and Interaction with Music Annotation Linked-data CHANGELOG
 
+## 0.6.0 - 5 October 2025
+* Implement graph modal view feature with zoom and panning
+
+## 0.5.0 - 3 October 2025
+* Display time interval information in waveform labels
+
 ### 0.4.1 - 15 July 2025
 * Vocab namespace fix
 
