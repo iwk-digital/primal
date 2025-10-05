@@ -4,6 +4,7 @@
 * Implement graph modal view feature with zoom and panning
 * Add funding acknowledgement to footer and improve styling
 * Add loading spinners
+* Handle errors more gracefully
 
 ## 0.5.0 - 3 October 2025
 * Display time interval information in waveform labels
