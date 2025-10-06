@@ -1,5 +1,9 @@
 # Platform for Review and Interaction with Music Annotation Linked-data CHANGELOG
 
+## 0.7.0 - 6 October 2025
+* Correct peaks-duration calculation to fix positioning of regions
+* Add robust error handling around peaks data
+
 ## 0.6.0 - 5 October 2025
 * Implement graph modal view feature with zoom and panning
 * Add funding acknowledgement to footer and improve styling
