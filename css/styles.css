@@ -568,3 +568,58 @@ footer {
         align-items: center;
     }
 }
+
+/* Audio selections metadata styling */
+#meta-audio-selections {
+    margin: 1em 0;
+    padding: 1em;
+    background: #f8f9fa;
+    border-radius: 8px;
+    border-left: 4px solid var(--primary-color);
+}
+
+#meta-audio-selections h3 {
+    margin-top: 0;
+    color: var(--primary-color);
+    font-size: 1.1rem;
+}
+
+#meta-audio-selections ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0.5em 0;
+}
+
+#meta-audio-selections li {
+    margin: 1em 0;
+    padding: 0.8em;
+    background: white;
+    border-radius: 4px;
+    box-shadow: 0 1px 3px rgba(0, 0, 0, 0.1);
+}
+
+#meta-audio-selections li strong {
+    color: var(--primary-color);
+    font-size: 1.05em;
+}
+
+#meta-audio-selections a {
+    color: var(--primary-color);
+    text-decoration: none;
+    font-size: 0.9em;
+    display: inline-block;
+    margin-right: 10px;
+}
+
+#meta-audio-selections a:hover {
+    text-decoration: underline;
+}
+
+#meta-audio-selections a:before {
+    content: "🔗 ";
+    opacity: 0.7;
+}
+
+#meta-audio-selections a[href*="musicbrainz.org"]:before {
+    content: "🎵 ";
+}

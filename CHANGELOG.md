@@ -1,5 +1,11 @@
 # Platform for Review and Interaction with Music Annotation Linked-data CHANGELOG
 
+## 0.8.0 - 10 October 2025
+* Add comprehensive audio file metadata display in metadata container
+* Include mo:Signal and mo:Track objects in registry traversal for complete metadata extraction
+* Enhanced audio selections section with track labels and direct MusicBrainz links
+* Add visual icons and improved styling for different link types
+
 ## 0.7.0 - 6 October 2025
 * Correct peaks-duration calculation to fix positioning of regions
 * Add robust error handling around peaks data
