@@ -1,5 +1,9 @@
 # Platform for Review and Interaction with Music Annotation Linked-data CHANGELOG
 
+## 0.9.0 - 16 December 2025
+* Optimize traversal to improve load times
+* Improve input validation to prevent XSS-style vulnerabilities
+
 ## 0.8.0 - 10 October 2025
 * Add comprehensive audio file metadata display in metadata container
 * Include mo:Signal and mo:Track objects in registry traversal for complete metadata extraction

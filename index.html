@@ -13,6 +13,27 @@
       href="https://cdnjs.cloudflare.com/ajax/libs/prism/1.29.0/themes/prism.min.css"
       rel="stylesheet"
     />
+    <script>
+      // Early query sanitization to avoid ever interpreting HTML-ish obj params
+      (function () {
+        const qs = window.location.search || "";
+        if (!qs) return;
+        const params = new URLSearchParams(qs);
+        const obj = params.get("obj");
+        if (!obj) return;
+        const trimmed = obj.trim();
+        const looksDangerous =
+          /[<>]/.test(trimmed) || /^javascript:/i.test(trimmed);
+        if (looksDangerous || !/^https?:\/\//i.test(trimmed)) {
+          // Remove the querystring from the address bar immediately
+          if (window.history && window.history.replaceState) {
+            window.history.replaceState(null, "", window.location.pathname);
+          }
+          // Share the rejected value for the app to display a safe error later
+          window.__PRIMAL_INVALID_OBJ__ = trimmed;
+        }
+      })();
+    </script>
     <script src="deps/wavesurfer.js" type="module"></script>
     <!-- WaveSurfer 7-->
     <script src="deps/regions.js" type="module"></script>
