@@ -220,6 +220,7 @@ section p, section div, section pre {
     background-color: rgba(0, 0, 0, 0.8);
     z-index: 1000;
     touch-action: none;
+    overscroll-behavior: contain;
 }
 
 .graph-modal.show {
@@ -237,10 +238,12 @@ section p, section div, section pre {
     overflow: hidden;
     box-shadow: 0 4px 20px rgba(0, 0, 0, 0.3);
     touch-action: none;
+    overscroll-behavior: contain;
 }
 
 body.modal-open {
     overflow: hidden;
+    overscroll-behavior: contain;
 }
 
 .graph-modal-header {
