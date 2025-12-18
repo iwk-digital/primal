@@ -1,5 +1,8 @@
 # Platform for Review and Interaction with Music Annotation Linked-data CHANGELOG
 
+## 0.10.0 - 18 December 2025
+* Fix and improve styling on mobile devices
+
 ## 0.9.0 - 16 December 2025
 * Scale score rendering to available space
 * Optimize traversal to improve load times
