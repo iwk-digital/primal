@@ -219,6 +219,7 @@ section p, section div, section pre {
     height: 100%;
     background-color: rgba(0, 0, 0, 0.8);
     z-index: 1000;
+    touch-action: none;
 }
 
 .graph-modal.show {
@@ -235,6 +236,11 @@ section p, section div, section pre {
     position: relative;
     overflow: hidden;
     box-shadow: 0 4px 20px rgba(0, 0, 0, 0.3);
+    touch-action: none;
+}
+
+body.modal-open {
+    overflow: hidden;
 }
 
 .graph-modal-header {
