@@ -241,6 +241,11 @@ section p, section div, section pre {
     overscroll-behavior: contain;
 }
 
+.graph-modal-content svg {
+    touch-action: none;
+    pointer-events: auto;
+}
+
 body.modal-open {
     overflow: hidden;
     overscroll-behavior: contain;
