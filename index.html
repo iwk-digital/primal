@@ -67,7 +67,16 @@
     </header>
     <!-- Horizontal nav bar with internal links to each section: -->
     <nav>
-      <ul>
+      <button
+        id="nav-toggle"
+        class="nav-toggle"
+        aria-expanded="false"
+        aria-controls="nav-links"
+        aria-label="Toggle navigation"
+      >
+        ☰ Menu
+      </button>
+      <ul id="nav-links" class="nav-links">
         <li><a href="#a-text-content">Text</a></li>
         <li><a href="#a-music-scores">Scores</a></li>
         <li><a href="#a-audio-examples">Audio</a></li>

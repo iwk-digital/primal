@@ -51,7 +51,7 @@ header img {
 body {
     font-family: 'Arial', sans-serif;
     margin: 0;
-    padding: 0;
+    padding: env(safe-area-inset-top, 0) 0 0 0;
     background-color: var(--secondary-color);
     color: #333;
     line-height: 2.5;
@@ -83,13 +83,13 @@ nav {
     color: var(--text-color);
 }
 nav ul {
-    padding: 10px 0;
     list-style: none;
     margin: 0;
-    padding: 0;
+    padding: 8px 12px;
     display: flex;
+    flex-wrap: wrap;
     justify-content: center;
-    gap: 20px;
+    gap: 12px;
 }
 
 nav ul li {
@@ -102,12 +102,30 @@ nav ul li a {
     font-size: 1rem;
     padding: 5px 10px;
     border-radius: 4px;
+    white-space: nowrap;
     transition: background-color 0.3s ease;
 }
 
 nav ul li a:hover {
     background-color: var(--secondary-color);
     color: var(--primary-color);
+}
+
+.nav-toggle {
+    display: none;
+    align-items: center;
+    gap: 6px;
+    background: transparent;
+    color: var(--text-color);
+    border: 1px solid rgba(255, 255, 255, 0.5);
+    border-radius: 4px;
+    padding: 6px 10px;
+    font-size: 1rem;
+    cursor: pointer;
+    position: sticky;
+    top: 0;
+    z-index: 1001;
+    background-color: var(--primary-color);
 }
 
 /* Main content styling */
@@ -124,6 +142,13 @@ main {
 /* Section styling */
 section {
     margin-bottom: 30px;
+    scroll-margin-top: 90px; /* offset for sticky nav */
+}
+
+/* Ensure anchor targets land below sticky nav on jump */
+main > a[id^="a-"] {
+    display: block;
+    scroll-margin-top: 20px;
 }
 
 section h2 {
@@ -194,6 +219,8 @@ section p, section div, section pre {
     height: 100%;
     background-color: rgba(0, 0, 0, 0.8);
     z-index: 1000;
+    touch-action: none;
+    overscroll-behavior: contain;
 }
 
 .graph-modal.show {
@@ -210,6 +237,18 @@ section p, section div, section pre {
     position: relative;
     overflow: hidden;
     box-shadow: 0 4px 20px rgba(0, 0, 0, 0.3);
+    touch-action: none;
+    overscroll-behavior: contain;
+}
+
+.graph-modal-content svg {
+    touch-action: none;
+    pointer-events: auto;
+}
+
+body.modal-open {
+    overflow: hidden;
+    overscroll-behavior: contain;
 }
 
 .graph-modal-header {
@@ -304,7 +343,7 @@ section p, section div, section pre {
     border-radius: 8px;
     background-color: #f9f9f9;
     box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
-    width: 100%;
+    width: calc(100% - 20px);
     max-width: 800px;
 }
 
@@ -334,15 +373,37 @@ section p, section div, section pre {
     line-height: 1.6;
 }
 
+/* Prevent long metadata labels from forcing horizontal scroll */
+#h-metadata {
+    word-break: break-word;
+}
+
+#h-metadata p,
+#h-metadata li,
+#h-metadata a {
+    overflow-wrap: anywhere;
+    word-break: break-word;
+    max-width: 100%;
+}
+
+#h-metadata a {
+    display: inline-block;
+}
+
 /* Styling for JSON display */
 #json-display {
     background-color: #f4f4f4;
     padding: 15px;
     border-radius: 8px;
+    display: block;
     overflow-x: auto;
     font-family: 'Courier New', Courier, monospace;
     font-size: 0.9rem;
     color: #333;
+    max-width: 100%;
+    box-sizing: border-box;
+    white-space: pre-wrap;
+    word-break: break-word;
 }
 
 /* Footer styling */
@@ -559,6 +620,41 @@ footer {
 @media (max-width: 768px) {
     main {
         padding: 10px;
+    }
+
+    nav {
+        padding: 8px 12px;
+    }
+
+    .nav-toggle {
+        display: inline-flex;
+    }
+
+    nav ul {
+        display: none;
+        width: 100%;
+        flex-direction: column;
+        align-items: stretch;
+        gap: 8px;
+        padding: 8px 0 0;
+        max-height: calc(100vh - 56px);
+        overflow-y: auto;
+    }
+
+    nav.nav-open ul {
+        display: flex;
+    }
+
+    nav ul li {
+        display: block;
+        width: 100%;
+    }
+
+    nav ul li a {
+        font-size: 0.9rem;
+        padding: 4px 8px;
+        width: 100%;
+        text-align: left;
     }
 
     section h2 {
