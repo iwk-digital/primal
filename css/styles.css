@@ -324,6 +324,34 @@ body.modal-open {
     box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
 }
 
+/* Mermaid node link affordances: clickable nodes get hover color + pointer */
+#graph .node,
+.graph-modal .node {
+    cursor: default;
+}
+
+#graph .node.clickable,
+.graph-modal .node.clickable {
+    cursor: pointer;
+}
+
+#graph .node .clickable,
+.graph-modal .node .clickable {
+    cursor: pointer;
+    text-decoration: none;
+    color: inherit;
+    padding: 2px 4px;
+    border-radius: 4px;
+    transition: background-color 0.2s ease;
+}
+
+#graph .node .clickable:hover,
+#graph .node .clickable:focus-visible,
+.graph-modal .node .clickable:hover,
+.graph-modal .node .clickable:focus-visible {
+    background-color: #e8eef9;
+}
+
 /* Styling for JSON display */
 #json-display {
     line-height:2;
