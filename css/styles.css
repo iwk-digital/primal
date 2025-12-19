@@ -335,6 +335,12 @@ body.modal-open {
     cursor: pointer;
 }
 
+/* Highlight entire node background on hover for clickables */
+#graph .node.clickable:hover rect,
+.graph-modal .node.clickable:hover rect {
+    fill: white !important;
+}
+
 #graph .node .clickable,
 .graph-modal .node .clickable {
     cursor: pointer;
