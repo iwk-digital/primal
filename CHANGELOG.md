@@ -1,5 +1,8 @@
 # Platform for Review and Interaction with Music Annotation Linked-data CHANGELOG
 
+## 0.11.0 - 5 March 2025
+* Support peaks specification within MAO:Selections
+
 ## 0.10.0 - 18 December 2025
 * Fix and improve styling on mobile devices
 * Add touch support for Mermaid graph modal
