@@ -1,0 +1,618 @@
+{
+  "root": {
+    "set": "TISMIR",
+    "folder": "oa",
+    "name": "ExVer1",
+    "obj": "https://raw.githubusercontent.com/Signature-Sound-Vienna/data/TISMIR/annot/oa/ExVer1.jsonld",
+    "w3id": "https://w3id.org/ssv/TISMIR/annot/oa/ExVer1",
+    "quick": true
+  },
+  "recordedAt": "2026-11-02T16:31:17.154Z",
+  "compare": {
+    "splash": false,
+    "traversalsComplete": true,
+    "sections": {
+      "h-text-content": {
+        "loaded": true,
+        "noContent": []
+      },
+      "h-music-scores": {
+        "loaded": true,
+        "noContent": []
+      },
+      "h-audio-examples": {
+        "loaded": true,
+        "noContent": []
+      },
+      "h-metadata": {
+        "loaded": true,
+        "noContent": []
+      },
+      "h-graph": {
+        "loaded": true,
+        "noContent": []
+      },
+      "h-json-display": {
+        "loaded": true,
+        "noContent": []
+      }
+    },
+    "banners": [],
+    "textBodies": [
+      [
+        "Trains, a theme in eleven Strauss family compositions, can be evoked in various ways, one of which is the sounding of the Kondukteurhorn (conductor's horn), scored solely in the trio. The instrument called for is a simple brass instrument historically worn around the train conductor’s neck or sat next to him on the bench which were sounded to warn of the train’s arrival before the use of signals installed in the trains themselves became widespread. Just as there was likely no standardized form for these signal horns when they were in use, their form varies from a tiny, flared trumpet that resembles a children's toy or party favor (1950s,1970, 1992 2001, Harnoncourt) to a tri-bulbed contraption (2016), or -- in a Deutsche Radio Philharmonie performance in 2021 conducted by Karen Kamensek-- a long flared tube around two feet long painted to resemble a German flag and giving an effect similar to an Alphorn. If no horn is available, sometimes whistles or other noisemakers are also employed in connection with standard brass to create a similar effect (Estonian National Symphony). When employed, they sound distinctively out of tune with the rest of the ensemble. For this reason, they are sometimes avoided entirely in New Years' Concert performances, with only the standard trumpets which double the Kondukteurhorn employed in their stead, sacrificing the works's essential character for a more polished sound (1982, 1987, 2005, Michalski)."
+      ]
+    ],
+    "scores": [
+      {
+        "id": "https://raw.githubusercontent.com/Signature-Sound-Vienna/Johann-Strauss-Sohn_Op281_Vergnuegungszug_Spina/main/Josef-Strauss_Vergnuegungszug_Spina.mei",
+        "highlighted": [
+          "mscdmul",
+          "n68ehma",
+          "nbftx8n",
+          "ndsfmp0",
+          "nq2svj7",
+          "nr1lkw2",
+          "nym6jj1",
+          "r7bn134",
+          "rfluuq2",
+          "rqgvb3p",
+          "rtsmbdx",
+          "t4bs0hn",
+          "tuujl6"
+        ],
+        "svg": {
+          "viewBox": "0 0 2100 4568",
+          "elementsWithDataId": 2127
+        }
+      }
+    ],
+    "meiFriendLinks": [
+      "https://mei-friend.mdw.ac.at/?file=https://raw.githubusercontent.com/Signature-Sound-Vienna/Johann-Strauss-Sohn_Op281_Vergnuegungszug_Spina/main/Josef-Strauss_Vergnuegungszug_Spina.mei&select=nq2svj7,nr1lkw2,tuujl6,nbftx8n,rqgvb3p,mscdmul,rfluuq2,rtsmbdx,n68ehma,nym6jj1,t4bs0hn,ndsfmp0,r7bn134"
+    ],
+    "audio": [
+      {
+        "id": "https://w3id.org/ssv/TISMIR/data/signal/1951-1954#13-container",
+        "hidden": false,
+        "label": "TISMIR Example 5.2.5a: Vienna Philharmonic Orchestra, Clemens Krauss (1951-1954) -- Vergnügungszug [playback restricted] (01:35.90–01:40.55)",
+        "waveform": true,
+        "regions": [
+          {
+            "left": "53.9808%",
+            "width": ""
+          }
+        ]
+      },
+      {
+        "id": "https://w3id.org/ssv/TISMIR/data/signal/1963-1979_-20_-28Neujahr_-20in_-20Wien_-29__1963-1979_-20_-28DVD_-201_-29#20-container",
+        "hidden": false,
+        "label": "TISMIR Example 5.2.5a: Vienna Philharmonic Orchestra (1970, Neujahr in Wien DVD 1) -- Vergnügungszug [playback restricted] (01:55.86–02:00.23)",
+        "waveform": true,
+        "regions": [
+          {
+            "left": "50.3855%",
+            "width": ""
+          }
+        ]
+      },
+      {
+        "id": "https://w3id.org/ssv/TISMIR/data/signal/1980-1983#17-container",
+        "hidden": false,
+        "label": "TISMIR Example 5.2.5a: Vienna Philharmonic Orchestra (1982) -- Vergnügungszug [playback restricted] (01:24.77–01:29.06)",
+        "waveform": true,
+        "regions": [
+          {
+            "left": "51.4769%",
+            "width": ""
+          }
+        ]
+      },
+      {
+        "id": "https://w3id.org/ssv/TISMIR/data/signal/1987#7-container",
+        "hidden": false,
+        "label": "TISMIR Example 5.2.5a: Vienna Philharmonic Orchestra (1987) -- Vergnügungszug [playback restricted] (01:31.27–01:35.79)",
+        "waveform": true,
+        "regions": [
+          {
+            "left": "47.4375%",
+            "width": ""
+          }
+        ]
+      },
+      {
+        "id": "https://w3id.org/ssv/TISMIR/data/signal/1992#5-container",
+        "hidden": false,
+        "label": "TISMIR Example 5.2.5a: Vienna Philharmonic Orchestra (1992) -- Vergnügungszug [playback restricted] (01:32.94–01:37.26)",
+        "waveform": true,
+        "regions": [
+          {
+            "left": "31.2093%",
+            "width": ""
+          }
+        ]
+      },
+      {
+        "id": "https://w3id.org/ssv/TISMIR/data/signal/2001#11-container",
+        "hidden": false,
+        "label": "TISMIR Example 5.2.5a: Vienna Philharmonic Orchestra (2001) -- Vergnügungszug [playback restricted] (01:34.32–01:38.83)",
+        "waveform": true,
+        "regions": [
+          {
+            "left": "43.9185%",
+            "width": ""
+          }
+        ]
+      },
+      {
+        "id": "https://w3id.org/ssv/TISMIR/data/signal/2005#14-container",
+        "hidden": false,
+        "label": "TISMIR Example 5.2.5a: Vienna Philharmonic Orchestra (2005) -- Vergnügungszug [playback restricted] (01:26.08–01:30.45)",
+        "waveform": true,
+        "regions": [
+          {
+            "left": "47.0153%",
+            "width": ""
+          }
+        ]
+      },
+      {
+        "id": "https://w3id.org/ssv/TISMIR/data/signal/2016#5-container",
+        "hidden": false,
+        "label": "TISMIR Example 5.2.5a: Vienna Philharmonic Orchestra (2016) -- Vergnügungszug [playback restricted] (01:34.00–01:38.52)",
+        "waveform": true,
+        "regions": [
+          {
+            "left": "47.4533%",
+            "width": ""
+          }
+        ]
+      },
+      {
+        "id": "https://w3id.org/ssv/TISMIR/data/signal/Estonian_-20National_-20Symphony_-20Orchestra_-2C_-20Neeme_-20J_-C3_-A4rvi_-20_-282017_-29#12-container",
+        "hidden": false,
+        "label": "TISMIR Example 5.2.5a: Estonian National Symphony Orchestra, Neeme Järvi (2017) -- Vergnügungszug [playback restricted] (01:30.33–01:34.99)",
+        "waveform": true,
+        "regions": [
+          {
+            "left": "53.3414%",
+            "width": ""
+          }
+        ]
+      },
+      {
+        "id": "https://w3id.org/ssv/TISMIR/data/signal/Orchester_-20der_-20Wiener_-20Volksoper_-2C_-20Carl_-20Michalski_-20_-281988_-29_-2C_-20Vol._-203#4-container",
+        "hidden": false,
+        "label": "TISMIR Example 5.2.5a: Orchester der Wiener Volksoper, Carl Michalski (1988) -- Vergnügungszug [playback restricted] (01:33.66–01:38.46)",
+        "waveform": true,
+        "regions": [
+          {
+            "left": "52.6167%",
+            "width": ""
+          }
+        ]
+      }
+    ],
+    "metadata": {
+      "currentUri": "Current resource: <https://raw.githubusercontent.com/Signature-Sound-Vienna/data/TISMIR/annot/oa/ExVer1.jsonld>",
+      "createdBy": "Created by: Dr. Chanda VanderHart",
+      "createdByLinks": [
+        {
+          "text": "Dr. Chanda VanderHart",
+          "href": "https://orcid.org/0000-0002-2055-273X"
+        }
+      ],
+      "audioSelectionsHeading": "Audio Files",
+      "audioSelections": [
+        {
+          "text": "TISMIR Example 5.2.5a: Estonian National Symphony Orchestra, Neeme Järvi (2017) -- VergnügungszugSignal: Estonian_-20National_-20Symphony_-20Orchestra_-2C_-20Neeme_-20J_-C3_-A4rvi_-20_-282017_-29#12Track: &quot;Vergnügungszug, op. 281&quot;MusicBrainz: 81718299-dc89-41e0-8f29-e3cef4f84ba1",
+          "links": [
+            {
+              "text": "Signal: Estonian_-20National_-20Symphony_-20Orchestra_-2C_-20Neeme_-20J_-C3_-A4rvi_-20_-282017_-29#12",
+              "href": "https://w3id.org/ssv/TISMIR/data/signal/Estonian_-20National_-20Symphony_-20Orchestra_-2C_-20Neeme_-20J_-C3_-A4rvi_-20_-282017_-29#12"
+            },
+            {
+              "text": "Track: &quot;Vergnügungszug, op. 281&quot;",
+              "href": "https://w3id.org/ssv/TISMIR/data/track/Estonian_-20National_-20Symphony_-20Orchestra_-2C_-20Neeme_-20J_-C3_-A4rvi_-20_-282017_-29#12"
+            },
+            {
+              "text": "MusicBrainz: 81718299-dc89-41e0-8f29-e3cef4f84ba1",
+              "href": "https://musicbrainz.org/track/81718299-dc89-41e0-8f29-e3cef4f84ba1"
+            }
+          ]
+        },
+        {
+          "text": "TISMIR Example 5.2.5a: Orchester der Wiener Volksoper, Carl Michalski (1988) -- VergnügungszugSignal: Orchester_-20der_-20Wiener_-20Volksoper_-2C_-20Carl_-20Michalski_-20_-281988_-29_-2C_-20Vol._-203#4Track: &quot;Vergnügungszug Op. 281&quot;MusicBrainz: 96c0aa2a-c114-4195-b9a1-42b07e48f79f",
+          "links": [
+            {
+              "text": "Signal: Orchester_-20der_-20Wiener_-20Volksoper_-2C_-20Carl_-20Michalski_-20_-281988_-29_-2C_-20Vol._-203#4",
+              "href": "https://w3id.org/ssv/TISMIR/data/signal/Orchester_-20der_-20Wiener_-20Volksoper_-2C_-20Carl_-20Michalski_-20_-281988_-29_-2C_-20Vol._-203#4"
+            },
+            {
+              "text": "Track: &quot;Vergnügungszug Op. 281&quot;",
+              "href": "https://w3id.org/ssv/TISMIR/data/track/Orchester_-20der_-20Wiener_-20Volksoper_-2C_-20Carl_-20Michalski_-20_-281988_-29_-2C_-20Vol._-203#4"
+            },
+            {
+              "text": "MusicBrainz: 96c0aa2a-c114-4195-b9a1-42b07e48f79f",
+              "href": "https://musicbrainz.org/track/96c0aa2a-c114-4195-b9a1-42b07e48f79f"
+            }
+          ]
+        },
+        {
+          "text": "TISMIR Example 5.2.5a: Vienna Philharmonic Orchestra (1970, Neujahr in Wien DVD 1) -- VergnügungszugSignal: 1963-1979_-20_-28Neujahr_-20in_-20Wien_-29__1963-1979_-20_-28DVD_-201_-29#20Track: &quot;Vergnügungszug, op. 281&quot;MusicBrainz: c50e81df-c90e-4df8-bc5f-b8c91d081f7f",
+          "links": [
+            {
+              "text": "Signal: 1963-1979_-20_-28Neujahr_-20in_-20Wien_-29__1963-1979_-20_-28DVD_-201_-29#20",
+              "href": "https://w3id.org/ssv/TISMIR/data/signal/1963-1979_-20_-28Neujahr_-20in_-20Wien_-29__1963-1979_-20_-28DVD_-201_-29#20"
+            },
+            {
+              "text": "Track: &quot;Vergnügungszug, op. 281&quot;",
+              "href": "https://w3id.org/ssv/TISMIR/data/track/1963-1979_-20_-28Neujahr_-20in_-20Wien_-29__1963-1979_-20_-28DVD_-201_-29#20"
+            },
+            {
+              "text": "MusicBrainz: c50e81df-c90e-4df8-bc5f-b8c91d081f7f",
+              "href": "https://musicbrainz.org/track/c50e81df-c90e-4df8-bc5f-b8c91d081f7f"
+            }
+          ]
+        },
+        {
+          "text": "TISMIR Example 5.2.5a: Vienna Philharmonic Orchestra (1982) -- VergnügungszugSignal: 1980-1983#17Track: &quot;Vergnügungszug Op.281&quot;MusicBrainz: 039cbe10-54c6-40ac-9552-44ff82382d63",
+          "links": [
+            {
+              "text": "Signal: 1980-1983#17",
+              "href": "https://w3id.org/ssv/TISMIR/data/signal/1980-1983#17"
+            },
+            {
+              "text": "Track: &quot;Vergnügungszug Op.281&quot;",
+              "href": "https://w3id.org/ssv/TISMIR/data/track/1980-1983#17"
+            },
+            {
+              "text": "MusicBrainz: 039cbe10-54c6-40ac-9552-44ff82382d63",
+              "href": "https://musicbrainz.org/track/039cbe10-54c6-40ac-9552-44ff82382d63"
+            }
+          ]
+        },
+        {
+          "text": "TISMIR Example 5.2.5a: Vienna Philharmonic Orchestra (1987) -- VergnügungszugSignal: 1987#7Track: &quot;Vergnügungszug, op. 281&quot;MusicBrainz: 2b3d7eee-a5a4-4a92-ab4b-1863b1dcf33a",
+          "links": [
+            {
+              "text": "Signal: 1987#7",
+              "href": "https://w3id.org/ssv/TISMIR/data/signal/1987#7"
+            },
+            {
+              "text": "Track: &quot;Vergnügungszug, op. 281&quot;",
+              "href": "https://w3id.org/ssv/TISMIR/data/track/1987#7"
+            },
+            {
+              "text": "MusicBrainz: 2b3d7eee-a5a4-4a92-ab4b-1863b1dcf33a",
+              "href": "https://musicbrainz.org/track/2b3d7eee-a5a4-4a92-ab4b-1863b1dcf33a"
+            }
+          ]
+        },
+        {
+          "text": "TISMIR Example 5.2.5a: Vienna Philharmonic Orchestra (1992) -- VergnügungszugSignal: 1992#5Track: VergnügungszugMusicBrainz: 15957c4a-5e5d-4e22-99d3-dba61cffdcec",
+          "links": [
+            {
+              "text": "Signal: 1992#5",
+              "href": "https://w3id.org/ssv/TISMIR/data/signal/1992#5"
+            },
+            {
+              "text": "Track: Vergnügungszug",
+              "href": "https://w3id.org/ssv/TISMIR/data/track/1992#5"
+            },
+            {
+              "text": "MusicBrainz: 15957c4a-5e5d-4e22-99d3-dba61cffdcec",
+              "href": "https://musicbrainz.org/track/15957c4a-5e5d-4e22-99d3-dba61cffdcec"
+            }
+          ]
+        },
+        {
+          "text": "TISMIR Example 5.2.5a: Vienna Philharmonic Orchestra (2001) -- VergnügungszugSignal: 2001#11Track: &quot;Vergnügungszug, Polka schnell, op. 281&quot;MusicBrainz: d90e5893-14b1-4ec4-b75a-73a3d40c7a80",
+          "links": [
+            {
+              "text": "Signal: 2001#11",
+              "href": "https://w3id.org/ssv/TISMIR/data/signal/2001#11"
+            },
+            {
+              "text": "Track: &quot;Vergnügungszug, Polka schnell, op. 281&quot;",
+              "href": "https://w3id.org/ssv/TISMIR/data/track/2001#11"
+            },
+            {
+              "text": "MusicBrainz: d90e5893-14b1-4ec4-b75a-73a3d40c7a80",
+              "href": "https://musicbrainz.org/track/d90e5893-14b1-4ec4-b75a-73a3d40c7a80"
+            }
+          ]
+        },
+        {
+          "text": "TISMIR Example 5.2.5a: Vienna Philharmonic Orchestra (2005) -- VergnügungszugSignal: 2005#14Track: &quot;Vergnügungszug, Polka schnell, op. 281&quot;MusicBrainz: 01468ebc-9309-4919-9b9d-99ef7d291dd4",
+          "links": [
+            {
+              "text": "Signal: 2005#14",
+              "href": "https://w3id.org/ssv/TISMIR/data/signal/2005#14"
+            },
+            {
+              "text": "Track: &quot;Vergnügungszug, Polka schnell, op. 281&quot;",
+              "href": "https://w3id.org/ssv/TISMIR/data/track/2005#14"
+            },
+            {
+              "text": "MusicBrainz: 01468ebc-9309-4919-9b9d-99ef7d291dd4",
+              "href": "https://musicbrainz.org/track/01468ebc-9309-4919-9b9d-99ef7d291dd4"
+            }
+          ]
+        },
+        {
+          "text": "TISMIR Example 5.2.5a: Vienna Philharmonic Orchestra (2016) -- VergnügungszugSignal: 2016#5Track: &quot;Vergnügungszug, op. 281&quot;MusicBrainz: 281b6be0-1ebd-49cd-a8d1-3c4e95977f03",
+          "links": [
+            {
+              "text": "Signal: 2016#5",
+              "href": "https://w3id.org/ssv/TISMIR/data/signal/2016#5"
+            },
+            {
+              "text": "Track: &quot;Vergnügungszug, op. 281&quot;",
+              "href": "https://w3id.org/ssv/TISMIR/data/track/2016#5"
+            },
+            {
+              "text": "MusicBrainz: 281b6be0-1ebd-49cd-a8d1-3c4e95977f03",
+              "href": "https://musicbrainz.org/track/281b6be0-1ebd-49cd-a8d1-3c4e95977f03"
+            }
+          ]
+        },
+        {
+          "text": "TISMIR Example 5.2.5a: Vienna Philharmonic Orchestra, Clemens Krauss (1951-1954) -- VergnügungszugSignal: 1951-1954#13Track: &quot;Vergnugunszug, Polka schnell, Op.281&quot;MusicBrainz: 1cf29f9b-0d36-46db-b394-4dc1efe74f5d",
+          "links": [
+            {
+              "text": "Signal: 1951-1954#13",
+              "href": "https://w3id.org/ssv/TISMIR/data/signal/1951-1954#13"
+            },
+            {
+              "text": "Track: &quot;Vergnugunszug, Polka schnell, Op.281&quot;",
+              "href": "https://w3id.org/ssv/TISMIR/data/track/1951-1954#13"
+            },
+            {
+              "text": "MusicBrainz: 1cf29f9b-0d36-46db-b394-4dc1efe74f5d",
+              "href": "https://musicbrainz.org/track/1cf29f9b-0d36-46db-b394-4dc1efe74f5d"
+            }
+          ]
+        }
+      ]
+    },
+    "graph": {
+      "svg": true,
+      "nodes": 25,
+      "edges": 25
+    },
+    "mermaid": [
+      [
+        "</em>\")",
+        "Trains, a theme in eleven Strauss family compositions, can be evoked in various ways, ...&quot",
+        "blank_0",
+        "class raw.githubusercontent.com/Signature-Sound-Vienna/data/TISMIR/annot/oa/ExVer1.jsonld current",
+        "click anno:ExVer1.jsonld \"http://primal.mdw.ac.at/?obj=anno:ExVer1.jsonld\" \"Tooltip: \"",
+        "click blank_0 \"#a-text-content\" \"View textual body\"",
+        "click extract:ExVer1.jsonld \"http://primal.mdw.ac.at/?obj=extract:ExVer1.jsonld\" \"Tooltip: \"",
+        "click musMat:ExVer1.jsonld \"http://primal.mdw.ac.at/?obj=musMat:ExVer1.jsonld\" \"Tooltip: \"",
+        "click raw.githubusercontent.com/Signature-Sound-Vienna/data/TISMIR/annot/mao/extract/ExVer1.jsonld \"http://primal.mdw.ac.at/?obj=https://raw.githubusercontent.com/Signature-Sound-Vienna/data/TISMIR/annot/mao/extract/ExVer1.jsonld\" \"Tooltip: \"",
+        "click raw.githubusercontent.com/Signature-Sound-Vienna/data/TISMIR/annot/mao/musicalMaterial/ExVer1.jsonld \"http://primal.mdw.ac.at/?obj=https://raw.githubusercontent.com/Signature-Sound-Vienna/data/TISMIR/annot/mao/musicalMaterial/ExVer1.jsonld\" \"Tooltip: \"",
+        "click raw.githubusercontent.com/Signature-Sound-Vienna/data/TISMIR/annot/mao/selection/ExVer1-audio1.jsonld \"http://primal.mdw.ac.at/?obj=https://raw.githubusercontent.com/Signature-Sound-Vienna/data/TISMIR/annot/mao/selection/ExVer1-audio1.jsonld\" \"Tooltip: \"",
+        "click raw.githubusercontent.com/Signature-Sound-Vienna/data/TISMIR/annot/mao/selection/ExVer1-audio10.jsonld \"http://primal.mdw.ac.at/?obj=https://raw.githubusercontent.com/Signature-Sound-Vienna/data/TISMIR/annot/mao/selection/ExVer1-audio10.jsonld\" \"Tooltip: \"",
+        "click raw.githubusercontent.com/Signature-Sound-Vienna/data/TISMIR/annot/mao/selection/ExVer1-audio11.jsonld \"http://primal.mdw.ac.at/?obj=https://raw.githubusercontent.com/Signature-Sound-Vienna/data/TISMIR/annot/mao/selection/ExVer1-audio11.jsonld\" \"Tooltip: \"",
+        "click raw.githubusercontent.com/Signature-Sound-Vienna/data/TISMIR/annot/mao/selection/ExVer1-audio2.jsonld \"http://primal.mdw.ac.at/?obj=https://raw.githubusercontent.com/Signature-Sound-Vienna/data/TISMIR/annot/mao/selection/ExVer1-audio2.jsonld\" \"Tooltip: \"",
+        "click raw.githubusercontent.com/Signature-Sound-Vienna/data/TISMIR/annot/mao/selection/ExVer1-audio3.jsonld \"http://primal.mdw.ac.at/?obj=https://raw.githubusercontent.com/Signature-Sound-Vienna/data/TISMIR/annot/mao/selection/ExVer1-audio3.jsonld\" \"Tooltip: \"",
+        "click raw.githubusercontent.com/Signature-Sound-Vienna/data/TISMIR/annot/mao/selection/ExVer1-audio4.jsonld \"http://primal.mdw.ac.at/?obj=https://raw.githubusercontent.com/Signature-Sound-Vienna/data/TISMIR/annot/mao/selection/ExVer1-audio4.jsonld\" \"Tooltip: \"",
+        "click raw.githubusercontent.com/Signature-Sound-Vienna/data/TISMIR/annot/mao/selection/ExVer1-audio6.jsonld \"http://primal.mdw.ac.at/?obj=https://raw.githubusercontent.com/Signature-Sound-Vienna/data/TISMIR/annot/mao/selection/ExVer1-audio6.jsonld\" \"Tooltip: \"",
+        "click raw.githubusercontent.com/Signature-Sound-Vienna/data/TISMIR/annot/mao/selection/ExVer1-audio7.jsonld \"http://primal.mdw.ac.at/?obj=https://raw.githubusercontent.com/Signature-Sound-Vienna/data/TISMIR/annot/mao/selection/ExVer1-audio7.jsonld\" \"Tooltip: \"",
+        "click raw.githubusercontent.com/Signature-Sound-Vienna/data/TISMIR/annot/mao/selection/ExVer1-audio8.jsonld \"http://primal.mdw.ac.at/?obj=https://raw.githubusercontent.com/Signature-Sound-Vienna/data/TISMIR/annot/mao/selection/ExVer1-audio8.jsonld\" \"Tooltip: \"",
+        "click raw.githubusercontent.com/Signature-Sound-Vienna/data/TISMIR/annot/mao/selection/ExVer1-audio9.jsonld \"http://primal.mdw.ac.at/?obj=https://raw.githubusercontent.com/Signature-Sound-Vienna/data/TISMIR/annot/mao/selection/ExVer1-audio9.jsonld\" \"Tooltip: \"",
+        "click raw.githubusercontent.com/Signature-Sound-Vienna/data/TISMIR/annot/mao/selection/ExVer1.jsonld \"http://primal.mdw.ac.at/?obj=https://raw.githubusercontent.com/Signature-Sound-Vienna/data/TISMIR/annot/mao/selection/ExVer1.jsonld\" \"Tooltip: \"",
+        "click raw.githubusercontent.com/Signature-Sound-Vienna/data/TISMIR/annot/oa/ExVer1.jsonld \"http://primal.mdw.ac.at/?obj=https://raw.githubusercontent.com/Signature-Sound-Vienna/data/TISMIR/annot/oa/ExVer1.jsonld\" \"Tooltip: \"",
+        "click selection:ExVer1-audio1.jsonld \"http://primal.mdw.ac.at/?obj=selection:ExVer1-audio1.jsonld\" \"Tooltip: \"",
+        "click selection:ExVer1-audio10.jsonld \"http://primal.mdw.ac.at/?obj=selection:ExVer1-audio10.jsonld\" \"Tooltip: \"",
+        "click selection:ExVer1-audio11.jsonld \"http://primal.mdw.ac.at/?obj=selection:ExVer1-audio11.jsonld\" \"Tooltip: \"",
+        "click selection:ExVer1-audio2.jsonld \"http://primal.mdw.ac.at/?obj=selection:ExVer1-audio2.jsonld\" \"Tooltip: \"",
+        "click selection:ExVer1-audio3.jsonld \"http://primal.mdw.ac.at/?obj=selection:ExVer1-audio3.jsonld\" \"Tooltip: \"",
+        "click selection:ExVer1-audio4.jsonld \"http://primal.mdw.ac.at/?obj=selection:ExVer1-audio4.jsonld\" \"Tooltip: \"",
+        "click selection:ExVer1-audio6.jsonld \"http://primal.mdw.ac.at/?obj=selection:ExVer1-audio6.jsonld\" \"Tooltip: \"",
+        "click selection:ExVer1-audio7.jsonld \"http://primal.mdw.ac.at/?obj=selection:ExVer1-audio7.jsonld\" \"Tooltip: \"",
+        "click selection:ExVer1-audio8.jsonld \"http://primal.mdw.ac.at/?obj=selection:ExVer1-audio8.jsonld\" \"Tooltip: \"",
+        "click selection:ExVer1-audio9.jsonld \"http://primal.mdw.ac.at/?obj=selection:ExVer1-audio9.jsonld\" \"Tooltip: \"",
+        "click selection:ExVer1.jsonld \"http://primal.mdw.ac.at/?obj=selection:ExVer1.jsonld\" \"Tooltip: \"",
+        "end",
+        "graph TD",
+        "raw.githubusercontent.com/Signature-Sound-Vienna/data/TISMIR/annot/mao/extract/ExVer1.jsonld -- frbr:embodiment --> raw.githubusercontent.com/Signature-Sound-Vienna/data/TISMIR/annot/mao/selection/ExVer1-audio1.jsonld",
+        "raw.githubusercontent.com/Signature-Sound-Vienna/data/TISMIR/annot/mao/extract/ExVer1.jsonld -- frbr:embodiment --> raw.githubusercontent.com/Signature-Sound-Vienna/data/TISMIR/annot/mao/selection/ExVer1-audio10.jsonld",
+        "raw.githubusercontent.com/Signature-Sound-Vienna/data/TISMIR/annot/mao/extract/ExVer1.jsonld -- frbr:embodiment --> raw.githubusercontent.com/Signature-Sound-Vienna/data/TISMIR/annot/mao/selection/ExVer1-audio11.jsonld",
+        "raw.githubusercontent.com/Signature-Sound-Vienna/data/TISMIR/annot/mao/extract/ExVer1.jsonld -- frbr:embodiment --> raw.githubusercontent.com/Signature-Sound-Vienna/data/TISMIR/annot/mao/selection/ExVer1-audio2.jsonld",
+        "raw.githubusercontent.com/Signature-Sound-Vienna/data/TISMIR/annot/mao/extract/ExVer1.jsonld -- frbr:embodiment --> raw.githubusercontent.com/Signature-Sound-Vienna/data/TISMIR/annot/mao/selection/ExVer1-audio3.jsonld",
+        "raw.githubusercontent.com/Signature-Sound-Vienna/data/TISMIR/annot/mao/extract/ExVer1.jsonld -- frbr:embodiment --> raw.githubusercontent.com/Signature-Sound-Vienna/data/TISMIR/annot/mao/selection/ExVer1-audio4.jsonld",
+        "raw.githubusercontent.com/Signature-Sound-Vienna/data/TISMIR/annot/mao/extract/ExVer1.jsonld -- frbr:embodiment --> raw.githubusercontent.com/Signature-Sound-Vienna/data/TISMIR/annot/mao/selection/ExVer1-audio6.jsonld",
+        "raw.githubusercontent.com/Signature-Sound-Vienna/data/TISMIR/annot/mao/extract/ExVer1.jsonld -- frbr:embodiment --> raw.githubusercontent.com/Signature-Sound-Vienna/data/TISMIR/annot/mao/selection/ExVer1-audio7.jsonld",
+        "raw.githubusercontent.com/Signature-Sound-Vienna/data/TISMIR/annot/mao/extract/ExVer1.jsonld -- frbr:embodiment --> raw.githubusercontent.com/Signature-Sound-Vienna/data/TISMIR/annot/mao/selection/ExVer1-audio8.jsonld",
+        "raw.githubusercontent.com/Signature-Sound-Vienna/data/TISMIR/annot/mao/extract/ExVer1.jsonld -- frbr:embodiment --> raw.githubusercontent.com/Signature-Sound-Vienna/data/TISMIR/annot/mao/selection/ExVer1-audio9.jsonld",
+        "raw.githubusercontent.com/Signature-Sound-Vienna/data/TISMIR/annot/mao/extract/ExVer1.jsonld -- frbr:embodiment --> raw.githubusercontent.com/Signature-Sound-Vienna/data/TISMIR/annot/mao/selection/ExVer1.jsonld",
+        "raw.githubusercontent.com/Signature-Sound-Vienna/data/TISMIR/annot/mao/extract/ExVer1.jsonld(\"mao:Extract: <em>TISMIR Example 5.2.5a (Vergnügungszug)</em>\")",
+        "raw.githubusercontent.com/Signature-Sound-Vienna/data/TISMIR/annot/mao/musicalMaterial/ExVer1.jsonld -- mao:setting --> raw.githubusercontent.com/Signature-Sound-Vienna/data/TISMIR/annot/mao/extract/ExVer1.jsonld",
+        "raw.githubusercontent.com/Signature-Sound-Vienna/data/TISMIR/annot/mao/musicalMaterial/ExVer1.jsonld(\"mao:MusicalMaterial: <em>TISMIR Example 5.2.5a (Vergnügungszug)</em>\")",
+        "raw.githubusercontent.com/Signature-Sound-Vienna/data/TISMIR/annot/mao/selection/ExVer1-audio1.jsonld -- frbr:part (1 time interval) --> 13-StraussII_Vergnugungszug%2C%20Op.281%2C%20Polka%20schnell.wav",
+        "raw.githubusercontent.com/Signature-Sound-Vienna/data/TISMIR/annot/mao/selection/ExVer1-audio1.jsonld(\"mao:Selection: <em>TISMIR Example 5.2.5a: Vienna Philharmonic Orchestra, Clemens Krauss (1951-1954) -- Vergnügungszug</em>\")",
+        "raw.githubusercontent.com/Signature-Sound-Vienna/data/TISMIR/annot/mao/selection/ExVer1-audio10.jsonld -- frbr:part (1 time interval) --> 14%20-%20Vergn%C3%BCgungszug%2C%20Polka%20schnell%2C%20op.%20281%20-%20Johann%20Strauss%20II.wav",
+        "raw.githubusercontent.com/Signature-Sound-Vienna/data/TISMIR/annot/mao/selection/ExVer1-audio10.jsonld(\"mao:Selection: <em>TISMIR Example 5.2.5a: Vienna Philharmonic Orchestra (2005) -- Vergnügungszug</em>\")",
+        "raw.githubusercontent.com/Signature-Sound-Vienna/data/TISMIR/annot/mao/selection/ExVer1-audio11.jsonld -- frbr:part (1 time interval) --> 04-Vergn%C3%BCgungszug%20Op.%20281%20-%20Johann%20Strauss%20II.wav",
+        "raw.githubusercontent.com/Signature-Sound-Vienna/data/TISMIR/annot/mao/selection/ExVer1-audio11.jsonld(\"mao:Selection: <em>TISMIR Example 5.2.5a: Orchester der Wiener Volksoper, Carl Michalski (1988) -- Vergnügungszug</em>\")",
+        "raw.githubusercontent.com/Signature-Sound-Vienna/data/TISMIR/annot/mao/selection/ExVer1-audio2.jsonld -- frbr:part (1 time interval) --> 07%20-%20Vergn%C3%BCgungszug%2C%20op.%20281%20-%20Johann%20Strauss%20II.wav",
+        "raw.githubusercontent.com/Signature-Sound-Vienna/data/TISMIR/annot/mao/selection/ExVer1-audio2.jsonld(\"mao:Selection: <em>TISMIR Example 5.2.5a: Vienna Philharmonic Orchestra (1970, Neujahr in Wien DVD 1) -- Vergnügungszug</em>\")",
+        "raw.githubusercontent.com/Signature-Sound-Vienna/data/TISMIR/annot/mao/selection/ExVer1-audio3.jsonld -- frbr:part (1 time interval) --> 05%20-%20Vergn%C3%BCgungszug%20-%20Johann%20Strauss%20II.wav",
+        "raw.githubusercontent.com/Signature-Sound-Vienna/data/TISMIR/annot/mao/selection/ExVer1-audio3.jsonld(\"mao:Selection: <em>TISMIR Example 5.2.5a: Vienna Philharmonic Orchestra (1992) -- Vergnügungszug</em>\")",
+        "raw.githubusercontent.com/Signature-Sound-Vienna/data/TISMIR/annot/mao/selection/ExVer1-audio4.jsonld -- frbr:part (1 time interval) --> 11%20-%20Vergn%C3%BCgungszug%2C%20Polka%20schnell%20op.%20281%20-%20Johann%20Strauss%20II.wav",
+        "raw.githubusercontent.com/Signature-Sound-Vienna/data/TISMIR/annot/mao/selection/ExVer1-audio4.jsonld(\"mao:Selection: <em>TISMIR Example 5.2.5a: Vienna Philharmonic Orchestra (2001) -- Vergnügungszug</em>\")",
+        "raw.githubusercontent.com/Signature-Sound-Vienna/data/TISMIR/annot/mao/selection/ExVer1-audio6.jsonld -- frbr:part (1 time interval) --> 05%20-%20Vergn%C3%BCgungszug%2C%20op.%20281%20-%20Johann%20Strauss%20II.wav",
+        "raw.githubusercontent.com/Signature-Sound-Vienna/data/TISMIR/annot/mao/selection/ExVer1-audio6.jsonld(\"mao:Selection: <em>TISMIR Example 5.2.5a: Vienna Philharmonic Orchestra (2016) -- Vergnügungszug</em>\")",
+        "raw.githubusercontent.com/Signature-Sound-Vienna/data/TISMIR/annot/mao/selection/ExVer1-audio7.jsonld -- frbr:part (1 time interval) --> 12-Vergn%C3%BCgungszug%2C%20Op.%20281.wav",
+        "raw.githubusercontent.com/Signature-Sound-Vienna/data/TISMIR/annot/mao/selection/ExVer1-audio7.jsonld(\"mao:Selection: <em>TISMIR Example 5.2.5a: Estonian National Symphony Orchestra, Neeme Järvi (2017) -- Vergnügungszug</em>\")",
+        "raw.githubusercontent.com/Signature-Sound-Vienna/data/TISMIR/annot/mao/selection/ExVer1-audio8.jsonld -- frbr:part (1 time interval) --> 06-Strauss%20Johann%20Jr%20%20_%20Vergn%C3%BCgungszug%20Op.281.wav",
+        "raw.githubusercontent.com/Signature-Sound-Vienna/data/TISMIR/annot/mao/selection/ExVer1-audio8.jsonld(\"mao:Selection: <em>TISMIR Example 5.2.5a: Vienna Philharmonic Orchestra (1982) -- Vergnügungszug</em>\")",
+        "raw.githubusercontent.com/Signature-Sound-Vienna/data/TISMIR/annot/mao/selection/ExVer1-audio9.jsonld -- frbr:part (1 time interval) --> 07%20-%20Vergn%C3%BCgungszug%2C%20op.%20281%20-%20Johann%20Strauss%20II.wav",
+        "raw.githubusercontent.com/Signature-Sound-Vienna/data/TISMIR/annot/mao/selection/ExVer1-audio9.jsonld(\"mao:Selection: <em>TISMIR Example 5.2.5a: Vienna Philharmonic Orchestra (1987) -- Vergnügungszug</em>\")",
+        "raw.githubusercontent.com/Signature-Sound-Vienna/data/TISMIR/annot/mao/selection/ExVer1.jsonld -- frbr:part (13 fragments) --> Josef-Strauss_Vergnuegungszug_Spina.mei",
+        "raw.githubusercontent.com/Signature-Sound-Vienna/data/TISMIR/annot/mao/selection/ExVer1.jsonld(\"mao:Selection: <em>TISMIR Example 5.2.5a (Vergnügungszug)</em>\")",
+        "raw.githubusercontent.com/Signature-Sound-Vienna/data/TISMIR/annot/oa/ExVer1.jsonld -- oa:hasBody --> blank_0(\"<em>&quot",
+        "raw.githubusercontent.com/Signature-Sound-Vienna/data/TISMIR/annot/oa/ExVer1.jsonld -- oa:hasTarget --> raw.githubusercontent.com/Signature-Sound-Vienna/data/TISMIR/annot/mao/musicalMaterial/ExVer1.jsonld",
+        "raw.githubusercontent.com/Signature-Sound-Vienna/data/TISMIR/annot/oa/ExVer1.jsonld",
+        "raw.githubusercontent.com/Signature-Sound-Vienna/data/TISMIR/annot/oa/ExVer1.jsonld(\"oa:Annotation\")",
+        "subgraph Current resource"
+      ]
+    ],
+    "json": "{\n  \"@context\": {\n    \"@vocab\": \"http://www.w3.org/ns/oa#\",\n    \"oa\": \"http://www.w3.org/ns/oa#\",\n    \"mao\": \"https://domestic-beethoven.eu/ontology/1.0/music-annotation-ontology.ttl#\",\n    \"frbr\": \"http://purl.org/vocab/frbr/core#\",\n    \"dc\": \"http://purl.org/dc/terms/\",\n    \"rdfs\": \"http://www.w3.org/2000/01/rdf-schema#\",\n    \"rdf\": \"http://www.w3.org/1999/02/22-rdf-syntax-ns#\",\n    \"mo\": \"http://purl.org/ontology/mo/\",\n    \"tl\": \"http://purl.org/NET/c4dm/timeline.owl#\",\n    \"ssv\": \"https://w3id.org/ssv/vocab#\"\n  },\n  \"@id\": \"https://raw.githubusercontent.com/Signature-Sound-Vienna/data/TISMIR/annot/oa/ExVer1.jsonld\",\n  \"@type\": \"Annotation\",\n  \"dc:creator\": {\n    \"@id\": \"https://orcid.org/0000-0002-2055-273X\",\n    \"rdfs:label\": \"Dr. Chanda VanderHart\"\n  },\n  \"hasBody\": {\n    \"@type\": \"TextualBody\",\n    \"rdf:value\": \"Trains, a theme in eleven Strauss family compositions, can be evoked in various ways, one of which is the sounding of the Kondukteurhorn (conductor's horn), scored solely in the trio. The instrument called for is a simple brass instrument historically worn around the train conductor’s neck or sat next to him on the bench which were sounded to warn of the train’s arrival before the use of signals installed in the trains themselves became widespread. Just as there was likely no standardized form for these signal horns when they were in use, their form varies from a tiny, flared trumpet that resembles a children's toy or party favor (1950s,1970, 1992 2001, Harnoncourt) to a tri-bulbed contraption (2016), or -- in a Deutsche Radio Philharmonie performance in 2021 conducted by Karen Kamensek-- a long flared tube around two feet long painted to resemble a German flag and giving an effect similar to an Alphorn. If no horn is available, sometimes whistles or other noisemakers are also employed in connection with standard brass to create a similar effect (Estonian National Symphony). When employed, they sound distinctively out of tune with the rest of the ensemble. For this reason, they are sometimes avoided entirely in New Years' Concert performances, with only the standard trumpets which double the Kondukteurhorn employed in their stead, sacrificing the works's essential character for a more polished sound (1982, 1987, 2005, Michalski).\"\n  },\n  \"hasTarget\": {\n    \"@id\": \"https://raw.githubusercontent.com/Signature-Sound-Vienna/data/TISMIR/annot/mao/musicalMaterial/ExVer1.jsonld\"\n  },\n  \"motivatedBy\": {\n    \"@id\": \"mao:commenting\"\n  }\n}",
+    "versions": {
+      "verovio": "6.4.0-33d1633",
+      "mermaid": "10.9.8"
+    },
+    "requests": {
+      "GET app:/?obj=https://raw.githubusercontent.com/Signature-Sound-Vienna/data/TISMIR/annot/oa/ExVer1.jsonld": 1,
+      "GET app:/css/prism.css": 1,
+      "GET app:/css/styles.css": 1,
+      "GET app:/deps/regions.js": 1,
+      "GET app:/deps/wavesurfer.js": 1,
+      "GET app:/img/logo.png": 1,
+      "GET app:/lib/LDObj.js": 1,
+      "GET app:/lib/defaults.js": 1,
+      "GET app:/lib/env.js": 1,
+      "GET app:/lib/errorBanner.js": 1,
+      "GET app:/lib/graph.js": 1,
+      "GET app:/lib/graphModal.js": 1,
+      "GET app:/lib/httpUtil.js": 1,
+      "GET app:/lib/main.js": 1,
+      "GET app:/lib/namespaceManager.js": 1,
+      "GET app:/lib/namespaceMap.js": 1,
+      "GET app:/lib/render.js": 1,
+      "GET app:/lib/sanitize.js": 1,
+      "GET app:/lib/traverser.js": 1,
+      "GET https://cdnjs.cloudflare.com/ajax/libs/jsonld/1.0.0/jsonld.min.js": 1,
+      "GET https://cdnjs.cloudflare.com/ajax/libs/prism/1.29.0/components/prism-json.min.js": 1,
+      "GET https://cdnjs.cloudflare.com/ajax/libs/prism/1.29.0/prism.min.js": 1,
+      "GET https://cdnjs.cloudflare.com/ajax/libs/prism/1.29.0/themes/prism.min.css": 1,
+      "GET https://raw.githubusercontent.com/Signature-Sound-Vienna/Johann-Strauss-Sohn_Op281_Vergnuegungszug_Spina/main/Josef-Strauss_Vergnuegungszug_Spina.mei": 1,
+      "GET https://raw.githubusercontent.com/Signature-Sound-Vienna/data/TISMIR/annot/mao/extract/ExVer1.jsonld": 1,
+      "GET https://raw.githubusercontent.com/Signature-Sound-Vienna/data/TISMIR/annot/mao/musicalMaterial/ExVer1.jsonld": 1,
+      "GET https://raw.githubusercontent.com/Signature-Sound-Vienna/data/TISMIR/annot/mao/selection/ExVer1-audio1.jsonld": 1,
+      "GET https://raw.githubusercontent.com/Signature-Sound-Vienna/data/TISMIR/annot/mao/selection/ExVer1-audio10.jsonld": 1,
+      "GET https://raw.githubusercontent.com/Signature-Sound-Vienna/data/TISMIR/annot/mao/selection/ExVer1-audio11.jsonld": 1,
+      "GET https://raw.githubusercontent.com/Signature-Sound-Vienna/data/TISMIR/annot/mao/selection/ExVer1-audio2.jsonld": 1,
+      "GET https://raw.githubusercontent.com/Signature-Sound-Vienna/data/TISMIR/annot/mao/selection/ExVer1-audio3.jsonld": 1,
+      "GET https://raw.githubusercontent.com/Signature-Sound-Vienna/data/TISMIR/annot/mao/selection/ExVer1-audio4.jsonld": 1,
+      "GET https://raw.githubusercontent.com/Signature-Sound-Vienna/data/TISMIR/annot/mao/selection/ExVer1-audio6.jsonld": 1,
+      "GET https://raw.githubusercontent.com/Signature-Sound-Vienna/data/TISMIR/annot/mao/selection/ExVer1-audio7.jsonld": 1,
+      "GET https://raw.githubusercontent.com/Signature-Sound-Vienna/data/TISMIR/annot/mao/selection/ExVer1-audio8.jsonld": 1,
+      "GET https://raw.githubusercontent.com/Signature-Sound-Vienna/data/TISMIR/annot/mao/selection/ExVer1-audio9.jsonld": 1,
+      "GET https://raw.githubusercontent.com/Signature-Sound-Vienna/data/TISMIR/annot/mao/selection/ExVer1.jsonld": 1,
+      "GET https://raw.githubusercontent.com/Signature-Sound-Vienna/data/TISMIR/annot/oa/ExVer1.jsonld": 1,
+      "GET https://unpkg.com/mermaid@10/dist/mermaid.min.js": 1,
+      "GET https://w3id.org/ssv/TISMIR/data/peaks/1951-1954/13.peaks.json": 1,
+      "GET https://w3id.org/ssv/TISMIR/data/peaks/1963-1979_-20_-28Neujahr_-20in_-20Wien_-29__1963-1979_-20_-28DVD_-201_-29/20.peaks.json": 1,
+      "GET https://w3id.org/ssv/TISMIR/data/peaks/1980-1983/17.peaks.json": 1,
+      "GET https://w3id.org/ssv/TISMIR/data/peaks/1987/7.peaks.json": 1,
+      "GET https://w3id.org/ssv/TISMIR/data/peaks/1992/5.peaks.json": 1,
+      "GET https://w3id.org/ssv/TISMIR/data/peaks/2001/11.peaks.json": 1,
+      "GET https://w3id.org/ssv/TISMIR/data/peaks/2005/14.peaks.json": 1,
+      "GET https://w3id.org/ssv/TISMIR/data/peaks/2016/5.peaks.json": 1,
+      "GET https://w3id.org/ssv/TISMIR/data/peaks/Estonian_-20National_-20Symphony_-20Orchestra_-2C_-20Neeme_-20J_-C3_-A4rvi_-20_-282017_-29/12.peaks.json": 1,
+      "GET https://w3id.org/ssv/TISMIR/data/peaks/Orchester_-20der_-20Wiener_-20Volksoper_-2C_-20Carl_-20Michalski_-20_-281988_-29_-2C_-20Vol._-203/4.peaks.json": 1,
+      "GET https://w3id.org/ssv/TISMIR/data/signal/1951-1954": 2,
+      "GET https://w3id.org/ssv/TISMIR/data/signal/1963-1979_-20_-28Neujahr_-20in_-20Wien_-29__1963-1979_-20_-28DVD_-201_-29": 2,
+      "GET https://w3id.org/ssv/TISMIR/data/signal/1980-1983": 2,
+      "GET https://w3id.org/ssv/TISMIR/data/signal/1987": 2,
+      "GET https://w3id.org/ssv/TISMIR/data/signal/1992": 2,
+      "GET https://w3id.org/ssv/TISMIR/data/signal/2001": 2,
+      "GET https://w3id.org/ssv/TISMIR/data/signal/2005": 2,
+      "GET https://w3id.org/ssv/TISMIR/data/signal/2016": 2,
+      "GET https://w3id.org/ssv/TISMIR/data/signal/Estonian_-20National_-20Symphony_-20Orchestra_-2C_-20Neeme_-20J_-C3_-A4rvi_-20_-282017_-29": 2,
+      "GET https://w3id.org/ssv/TISMIR/data/signal/Orchester_-20der_-20Wiener_-20Volksoper_-2C_-20Carl_-20Michalski_-20_-281988_-29_-2C_-20Vol._-203": 2,
+      "GET https://w3id.org/ssv/TISMIR/data/track/1951-1954": 1,
+      "GET https://w3id.org/ssv/TISMIR/data/track/1963-1979_-20_-28Neujahr_-20in_-20Wien_-29__1963-1979_-20_-28DVD_-201_-29": 1,
+      "GET https://w3id.org/ssv/TISMIR/data/track/1980-1983": 1,
+      "GET https://w3id.org/ssv/TISMIR/data/track/1987": 1,
+      "GET https://w3id.org/ssv/TISMIR/data/track/1992": 1,
+      "GET https://w3id.org/ssv/TISMIR/data/track/2001": 1,
+      "GET https://w3id.org/ssv/TISMIR/data/track/2005": 1,
+      "GET https://w3id.org/ssv/TISMIR/data/track/2016": 1,
+      "GET https://w3id.org/ssv/TISMIR/data/track/Estonian_-20National_-20Symphony_-20Orchestra_-2C_-20Neeme_-20J_-C3_-A4rvi_-20_-282017_-29": 1,
+      "GET https://w3id.org/ssv/TISMIR/data/track/Orchester_-20der_-20Wiener_-20Volksoper_-2C_-20Carl_-20Michalski_-20_-281988_-29_-2C_-20Vol._-203": 1,
+      "GET https://www.verovio.org/javascript/latest/verovio-toolkit-wasm.js": 1,
+      "HEAD https://raw.githubusercontent.com/Signature-Sound-Vienna/Johann-Strauss-Sohn_Op281_Vergnuegungszug_Spina/main/Josef-Strauss_Vergnuegungszug_Spina.mei": 26,
+      "HEAD https://raw.githubusercontent.com/Signature-Sound-Vienna/data/TISMIR/annot/mao/extract/ExVer1.jsonld": 2,
+      "HEAD https://raw.githubusercontent.com/Signature-Sound-Vienna/data/TISMIR/annot/mao/musicalMaterial/ExVer1.jsonld": 2,
+      "HEAD https://raw.githubusercontent.com/Signature-Sound-Vienna/data/TISMIR/annot/mao/selection/ExVer1-audio1.jsonld": 2,
+      "HEAD https://raw.githubusercontent.com/Signature-Sound-Vienna/data/TISMIR/annot/mao/selection/ExVer1-audio10.jsonld": 2,
+      "HEAD https://raw.githubusercontent.com/Signature-Sound-Vienna/data/TISMIR/annot/mao/selection/ExVer1-audio11.jsonld": 2,
+      "HEAD https://raw.githubusercontent.com/Signature-Sound-Vienna/data/TISMIR/annot/mao/selection/ExVer1-audio2.jsonld": 2,
+      "HEAD https://raw.githubusercontent.com/Signature-Sound-Vienna/data/TISMIR/annot/mao/selection/ExVer1-audio3.jsonld": 2,
+      "HEAD https://raw.githubusercontent.com/Signature-Sound-Vienna/data/TISMIR/annot/mao/selection/ExVer1-audio4.jsonld": 2,
+      "HEAD https://raw.githubusercontent.com/Signature-Sound-Vienna/data/TISMIR/annot/mao/selection/ExVer1-audio6.jsonld": 2,
+      "HEAD https://raw.githubusercontent.com/Signature-Sound-Vienna/data/TISMIR/annot/mao/selection/ExVer1-audio7.jsonld": 2,
+      "HEAD https://raw.githubusercontent.com/Signature-Sound-Vienna/data/TISMIR/annot/mao/selection/ExVer1-audio8.jsonld": 2,
+      "HEAD https://raw.githubusercontent.com/Signature-Sound-Vienna/data/TISMIR/annot/mao/selection/ExVer1-audio9.jsonld": 2,
+      "HEAD https://raw.githubusercontent.com/Signature-Sound-Vienna/data/TISMIR/annot/mao/selection/ExVer1.jsonld": 2,
+      "HEAD https://w3id.org/ssv/audio/1951-1954/13-StraussII_Vergnugungszug%2C%20Op.281%2C%20Polka%20schnell.wav": 2,
+      "HEAD https://w3id.org/ssv/audio/1963-1979_-20_-28Neujahr_-20in_-20Wien_-29__1963-1979_-20_-28DVD_-201_-29/07%20-%20Vergn%C3%BCgungszug%2C%20op.%20281%20-%20Johann%20Strauss%20II.wav": 2,
+      "HEAD https://w3id.org/ssv/audio/1980-1983/06-Strauss%20Johann%20Jr%20%20_%20Vergn%C3%BCgungszug%20Op.281.wav": 2,
+      "HEAD https://w3id.org/ssv/audio/1987/07%20-%20Vergn%C3%BCgungszug%2C%20op.%20281%20-%20Johann%20Strauss%20II.wav": 2,
+      "HEAD https://w3id.org/ssv/audio/1992/05%20-%20Vergn%C3%BCgungszug%20-%20Johann%20Strauss%20II.wav": 2,
+      "HEAD https://w3id.org/ssv/audio/2001/11%20-%20Vergn%C3%BCgungszug%2C%20Polka%20schnell%20op.%20281%20-%20Johann%20Strauss%20II.wav": 2,
+      "HEAD https://w3id.org/ssv/audio/2005/14%20-%20Vergn%C3%BCgungszug%2C%20Polka%20schnell%2C%20op.%20281%20-%20Johann%20Strauss%20II.wav": 2,
+      "HEAD https://w3id.org/ssv/audio/2016/05%20-%20Vergn%C3%BCgungszug%2C%20op.%20281%20-%20Johann%20Strauss%20II.wav": 2,
+      "HEAD https://w3id.org/ssv/audio/Estonian_-20National_-20Symphony_-20Orchestra_-2C_-20Neeme_-20J_-C3_-A4rvi_-20_-282017_-29/12-Vergn%C3%BCgungszug%2C%20Op.%20281.wav": 2,
+      "HEAD https://w3id.org/ssv/audio/Orchester_-20der_-20Wiener_-20Volksoper_-2C_-20Carl_-20Michalski_-20_-281988_-29_-2C_-20Vol._-203/04-Vergn%C3%BCgungszug%20Op.%20281%20-%20Johann%20Strauss%20II.wav": 2
+    },
+    "consoleErrors": {
+      "Error fetching content type: Error: Network response was not ok": 10,
+      "Failed to load resource: the server responded with a status of 403 (Forbidden)": 20,
+      "Failed to prepare LD object Error: Object must be an OA or MAO object": 20,
+      "URL not accessible: Forbidden": 10
+    },
+    "pageErrors": {}
+  },
+  "info": {
+    "timings": {
+      "traversalMs": 1844,
+      "networkIdle": true,
+      "idleMs": 24147,
+      "stablePolls": 0,
+      "totalMs": 24916
+    },
+    "order": {
+      "textBodies": [
+        "Trains, a theme in eleven Strauss family"
+      ],
+      "scores": [
+        "https://raw.githubusercontent.com/Signature-Sound-Vienna/Johann-Strauss-Sohn_Op281_Vergnuegungszug_Spina/main/Josef-Strauss_Vergnuegungszug_Spina.mei"
+      ],
+      "audio": [
+        "https://w3id.org/ssv/TISMIR/data/signal/1951-1954#13-container",
+        "https://w3id.org/ssv/TISMIR/data/signal/1963-1979_-20_-28Neujahr_-20in_-20Wien_-29__1963-1979_-20_-28DVD_-201_-29#20-container",
+        "https://w3id.org/ssv/TISMIR/data/signal/1992#5-container",
+        "https://w3id.org/ssv/TISMIR/data/signal/2001#11-container",
+        "https://w3id.org/ssv/TISMIR/data/signal/2016#5-container",
+        "https://w3id.org/ssv/TISMIR/data/signal/Estonian_-20National_-20Symphony_-20Orchestra_-2C_-20Neeme_-20J_-C3_-A4rvi_-20_-282017_-29#12-container",
+        "https://w3id.org/ssv/TISMIR/data/signal/1980-1983#17-container",
+        "https://w3id.org/ssv/TISMIR/data/signal/1987#7-container",
+        "https://w3id.org/ssv/TISMIR/data/signal/Orchester_-20der_-20Wiener_-20Volksoper_-2C_-20Carl_-20Michalski_-20_-281988_-29_-2C_-20Vol._-203#4-container",
+        "https://w3id.org/ssv/TISMIR/data/signal/2005#14-container"
+      ],
+      "audioSelections": [
+        "TISMIR Example 5.2.5a: Vienna Philharmonic Orchestra, Clemen",
+        "TISMIR Example 5.2.5a: Vienna Philharmonic Orchestra (1970, ",
+        "TISMIR Example 5.2.5a: Vienna Philharmonic Orchestra (1992) ",
+        "TISMIR Example 5.2.5a: Vienna Philharmonic Orchestra (2001) ",
+        "TISMIR Example 5.2.5a: Vienna Philharmonic Orchestra (2016) ",
+        "TISMIR Example 5.2.5a: Estonian National Symphony Orchestra,",
+        "TISMIR Example 5.2.5a: Vienna Philharmonic Orchestra (1982) ",
+        "TISMIR Example 5.2.5a: Vienna Philharmonic Orchestra (1987) ",
+        "TISMIR Example 5.2.5a: Orchester der Wiener Volksoper, Carl ",
+        "TISMIR Example 5.2.5a: Vienna Philharmonic Orchestra (2005) "
+      ]
+    },
+    "mermaidSources": [
+      "graph TD; class raw.githubusercontent.com/Signature-Sound-Vienna/data/TISMIR/annot/oa/ExVer1.jsonld current;\nraw.githubusercontent.com/Signature-Sound-Vienna/data/TISMIR/annot/oa/ExVer1.jsonld(\"oa:Annotation\");raw.githubusercontent.com/Signature-Sound-Vienna/data/TISMIR/annot/oa/ExVer1.jsonld -- oa:hasTarget --> raw.githubusercontent.com/Signature-Sound-Vienna/data/TISMIR/annot/mao/musicalMaterial/ExVer1.jsonld;raw.githubusercontent.com/Signature-Sound-Vienna/data/TISMIR/annot/mao/musicalMaterial/ExVer1.jsonld(\"mao:MusicalMaterial: <em>TISMIR Example 5.2.5a (Vergnügungszug)</em>\");raw.githubusercontent.com/Signature-Sound-Vienna/data/TISMIR/annot/mao/musicalMaterial/ExVer1.jsonld -- mao:setting --> raw.githubusercontent.com/Signature-Sound-Vienna/data/TISMIR/annot/mao/extract/ExVer1.jsonld;raw.githubusercontent.com/Signature-Sound-Vienna/data/TISMIR/annot/mao/extract/ExVer1.jsonld(\"mao:Extract: <em>TISMIR Example 5.2.5a (Vergnügungszug)</em>\");raw.githubusercontent.com/Signature-Sound-Vienna/data/TISMIR/annot/mao/extract/ExVer1.jsonld -- frbr:embodiment --> raw.githubusercontent.com/Signature-Sound-Vienna/data/TISMIR/annot/mao/selection/ExVer1.jsonld;raw.githubusercontent.com/Signature-Sound-Vienna/data/TISMIR/annot/mao/selection/ExVer1.jsonld(\"mao:Selection: <em>TISMIR Example 5.2.5a (Vergnügungszug)</em>\");raw.githubusercontent.com/Signature-Sound-Vienna/data/TISMIR/annot/mao/selection/ExVer1.jsonld -- frbr:part (13 fragments) --> Josef-Strauss_Vergnuegungszug_Spina.mei;raw.githubusercontent.com/Signature-Sound-Vienna/data/TISMIR/annot/mao/extract/ExVer1.jsonld -- frbr:embodiment --> raw.githubusercontent.com/Signature-Sound-Vienna/data/TISMIR/annot/mao/selection/ExVer1-audio1.jsonld;raw.githubusercontent.com/Signature-Sound-Vienna/data/TISMIR/annot/mao/selection/ExVer1-audio1.jsonld(\"mao:Selection: <em>TISMIR Example 5.2.5a: Vienna Philharmonic Orchestra, Clemens Krauss (1951-1954) -- Vergnügungszug</em>\");raw.githubusercontent.com/Signature-Sound-Vienna/data/TISMIR/annot/mao/selection/ExVer1-audio1.jsonld -- frbr:part (1 time interval) --> 13-StraussII_Vergnugungszug%2C%20Op.281%2C%20Polka%20schnell.wav;raw.githubusercontent.com/Signature-Sound-Vienna/data/TISMIR/annot/mao/extract/ExVer1.jsonld -- frbr:embodiment --> raw.githubusercontent.com/Signature-Sound-Vienna/data/TISMIR/annot/mao/selection/ExVer1-audio2.jsonld;raw.githubusercontent.com/Signature-Sound-Vienna/data/TISMIR/annot/mao/selection/ExVer1-audio2.jsonld(\"mao:Selection: <em>TISMIR Example 5.2.5a: Vienna Philharmonic Orchestra (1970, Neujahr in Wien DVD 1) -- Vergnügungszug</em>\");raw.githubusercontent.com/Signature-Sound-Vienna/data/TISMIR/annot/mao/selection/ExVer1-audio2.jsonld -- frbr:part (1 time interval) --> 07%20-%20Vergn%C3%BCgungszug%2C%20op.%20281%20-%20Johann%20Strauss%20II.wav;raw.githubusercontent.com/Signature-Sound-Vienna/data/TISMIR/annot/mao/extract/ExVer1.jsonld -- frbr:embodiment --> raw.githubusercontent.com/Signature-Sound-Vienna/data/TISMIR/annot/mao/selection/ExVer1-audio3.jsonld;raw.githubusercontent.com/Signature-Sound-Vienna/data/TISMIR/annot/mao/selection/ExVer1-audio3.jsonld(\"mao:Selection: <em>TISMIR Example 5.2.5a: Vienna Philharmonic Orchestra (1992) -- Vergnügungszug</em>\");raw.githubusercontent.com/Signature-Sound-Vienna/data/TISMIR/annot/mao/selection/ExVer1-audio3.jsonld -- frbr:part (1 time interval) --> 05%20-%20Vergn%C3%BCgungszug%20-%20Johann%20Strauss%20II.wav;raw.githubusercontent.com/Signature-Sound-Vienna/data/TISMIR/annot/mao/extract/ExVer1.jsonld -- frbr:embodiment --> raw.githubusercontent.com/Signature-Sound-Vienna/data/TISMIR/annot/mao/selection/ExVer1-audio4.jsonld;raw.githubusercontent.com/Signature-Sound-Vienna/data/TISMIR/annot/mao/selection/ExVer1-audio4.jsonld(\"mao:Selection: <em>TISMIR Example 5.2.5a: Vienna Philharmonic Orchestra (2001) -- Vergnügungszug</em>\");raw.githubusercontent.com/Signature-Sound-Vienna/data/TISMIR/annot/mao/selection/ExVer1-audio4.jsonld -- frbr:part (1 time interval) --> 11%20-%20Vergn%C3%BCgungszug%2C%20Polka%20schnell%20op.%20281%20-%20Johann%20Strauss%20II.wav;raw.githubusercontent.com/Signature-Sound-Vienna/data/TISMIR/annot/mao/extract/ExVer1.jsonld -- frbr:embodiment --> raw.githubusercontent.com/Signature-Sound-Vienna/data/TISMIR/annot/mao/selection/ExVer1-audio6.jsonld;raw.githubusercontent.com/Signature-Sound-Vienna/data/TISMIR/annot/mao/selection/ExVer1-audio6.jsonld(\"mao:Selection: <em>TISMIR Example 5.2.5a: Vienna Philharmonic Orchestra (2016) -- Vergnügungszug</em>\");raw.githubusercontent.com/Signature-Sound-Vienna/data/TISMIR/annot/mao/selection/ExVer1-audio6.jsonld -- frbr:part (1 time interval) --> 05%20-%20Vergn%C3%BCgungszug%2C%20op.%20281%20-%20Johann%20Strauss%20II.wav;raw.githubusercontent.com/Signature-Sound-Vienna/data/TISMIR/annot/mao/extract/ExVer1.jsonld -- frbr:embodiment --> raw.githubusercontent.com/Signature-Sound-Vienna/data/TISMIR/annot/mao/selection/ExVer1-audio7.jsonld;raw.githubusercontent.com/Signature-Sound-Vienna/data/TISMIR/annot/mao/selection/ExVer1-audio7.jsonld(\"mao:Selection: <em>TISMIR Example 5.2.5a: Estonian National Symphony Orchestra, Neeme Järvi (2017) -- Vergnügungszug</em>\");raw.githubusercontent.com/Signature-Sound-Vienna/data/TISMIR/annot/mao/selection/ExVer1-audio7.jsonld -- frbr:part (1 time interval) --> 12-Vergn%C3%BCgungszug%2C%20Op.%20281.wav;raw.githubusercontent.com/Signature-Sound-Vienna/data/TISMIR/annot/mao/extract/ExVer1.jsonld -- frbr:embodiment --> raw.githubusercontent.com/Signature-Sound-Vienna/data/TISMIR/annot/mao/selection/ExVer1-audio8.jsonld;raw.githubusercontent.com/Signature-Sound-Vienna/data/TISMIR/annot/mao/selection/ExVer1-audio8.jsonld(\"mao:Selection: <em>TISMIR Example 5.2.5a: Vienna Philharmonic Orchestra (1982) -- Vergnügungszug</em>\");raw.githubusercontent.com/Signature-Sound-Vienna/data/TISMIR/annot/mao/selection/ExVer1-audio8.jsonld -- frbr:part (1 time interval) --> 06-Strauss%20Johann%20Jr%20%20_%20Vergn%C3%BCgungszug%20Op.281.wav;raw.githubusercontent.com/Signature-Sound-Vienna/data/TISMIR/annot/mao/extract/ExVer1.jsonld -- frbr:embodiment --> raw.githubusercontent.com/Signature-Sound-Vienna/data/TISMIR/annot/mao/selection/ExVer1-audio9.jsonld;raw.githubusercontent.com/Signature-Sound-Vienna/data/TISMIR/annot/mao/selection/ExVer1-audio9.jsonld(\"mao:Selection: <em>TISMIR Example 5.2.5a: Vienna Philharmonic Orchestra (1987) -- Vergnügungszug</em>\");raw.githubusercontent.com/Signature-Sound-Vienna/data/TISMIR/annot/mao/selection/ExVer1-audio9.jsonld -- frbr:part (1 time interval) --> 07%20-%20Vergn%C3%BCgungszug%2C%20op.%20281%20-%20Johann%20Strauss%20II.wav;raw.githubusercontent.com/Signature-Sound-Vienna/data/TISMIR/annot/mao/extract/ExVer1.jsonld -- frbr:embodiment --> raw.githubusercontent.com/Signature-Sound-Vienna/data/TISMIR/annot/mao/selection/ExVer1-audio10.jsonld;raw.githubusercontent.com/Signature-Sound-Vienna/data/TISMIR/annot/mao/selection/ExVer1-audio10.jsonld(\"mao:Selection: <em>TISMIR Example 5.2.5a: Vienna Philharmonic Orchestra (2005) -- Vergnügungszug</em>\");raw.githubusercontent.com/Signature-Sound-Vienna/data/TISMIR/annot/mao/selection/ExVer1-audio10.jsonld -- frbr:part (1 time interval) --> 14%20-%20Vergn%C3%BCgungszug%2C%20Polka%20schnell%2C%20op.%20281%20-%20Johann%20Strauss%20II.wav;raw.githubusercontent.com/Signature-Sound-Vienna/data/TISMIR/annot/mao/extract/ExVer1.jsonld -- frbr:embodiment --> raw.githubusercontent.com/Signature-Sound-Vienna/data/TISMIR/annot/mao/selection/ExVer1-audio11.jsonld;raw.githubusercontent.com/Signature-Sound-Vienna/data/TISMIR/annot/mao/selection/ExVer1-audio11.jsonld(\"mao:Selection: <em>TISMIR Example 5.2.5a: Orchester der Wiener Volksoper, Carl Michalski (1988) -- Vergnügungszug</em>\");raw.githubusercontent.com/Signature-Sound-Vienna/data/TISMIR/annot/mao/selection/ExVer1-audio11.jsonld -- frbr:part (1 time interval) --> 04-Vergn%C3%BCgungszug%20Op.%20281%20-%20Johann%20Strauss%20II.wav;raw.githubusercontent.com/Signature-Sound-Vienna/data/TISMIR/annot/oa/ExVer1.jsonld -- oa:hasBody --> blank_0(\"<em>&quot;Trains, a theme in eleven Strauss family compositions, can be evoked in various ways, ...&quot;</em>\");\n click blank_0 \"#a-text-content\" \"View textual body\";\n click raw.githubusercontent.com/Signature-Sound-Vienna/data/TISMIR/annot/mao/selection/ExVer1.jsonld \"http://primal.mdw.ac.at/?obj=https://raw.githubusercontent.com/Signature-Sound-Vienna/data/TISMIR/annot/mao/selection/ExVer1.jsonld\" \"Tooltip: \";\n click selection:ExVer1.jsonld \"http://primal.mdw.ac.at/?obj=selection:ExVer1.jsonld\" \"Tooltip: \";\n click raw.githubusercontent.com/Signature-Sound-Vienna/data/TISMIR/annot/mao/selection/ExVer1-audio1.jsonld \"http://primal.mdw.ac.at/?obj=https://raw.githubusercontent.com/Signature-Sound-Vienna/data/TISMIR/annot/mao/selection/ExVer1-audio1.jsonld\" \"Tooltip: \";\n click selection:ExVer1-audio1.jsonld \"http://primal.mdw.ac.at/?obj=selection:ExVer1-audio1.jsonld\" \"Tooltip: \";\n click raw.githubusercontent.com/Signature-Sound-Vienna/data/TISMIR/annot/mao/selection/ExVer1-audio2.jsonld \"http://primal.mdw.ac.at/?obj=https://raw.githubusercontent.com/Signature-Sound-Vienna/data/TISMIR/annot/mao/selection/ExVer1-audio2.jsonld\" \"Tooltip: \";\n click selection:ExVer1-audio2.jsonld \"http://primal.mdw.ac.at/?obj=selection:ExVer1-audio2.jsonld\" \"Tooltip: \";\n click raw.githubusercontent.com/Signature-Sound-Vienna/data/TISMIR/annot/mao/selection/ExVer1-audio3.jsonld \"http://primal.mdw.ac.at/?obj=https://raw.githubusercontent.com/Signature-Sound-Vienna/data/TISMIR/annot/mao/selection/ExVer1-audio3.jsonld\" \"Tooltip: \";\n click selection:ExVer1-audio3.jsonld \"http://primal.mdw.ac.at/?obj=selection:ExVer1-audio3.jsonld\" \"Tooltip: \";\n click raw.githubusercontent.com/Signature-Sound-Vienna/data/TISMIR/annot/mao/selection/ExVer1-audio4.jsonld \"http://primal.mdw.ac.at/?obj=https://raw.githubusercontent.com/Signature-Sound-Vienna/data/TISMIR/annot/mao/selection/ExVer1-audio4.jsonld\" \"Tooltip: \";\n click selection:ExVer1-audio4.jsonld \"http://primal.mdw.ac.at/?obj=selection:ExVer1-audio4.jsonld\" \"Tooltip: \";\n click raw.githubusercontent.com/Signature-Sound-Vienna/data/TISMIR/annot/mao/selection/ExVer1-audio6.jsonld \"http://primal.mdw.ac.at/?obj=https://raw.githubusercontent.com/Signature-Sound-Vienna/data/TISMIR/annot/mao/selection/ExVer1-audio6.jsonld\" \"Tooltip: \";\n click selection:ExVer1-audio6.jsonld \"http://primal.mdw.ac.at/?obj=selection:ExVer1-audio6.jsonld\" \"Tooltip: \";\n click raw.githubusercontent.com/Signature-Sound-Vienna/data/TISMIR/annot/mao/selection/ExVer1-audio7.jsonld \"http://primal.mdw.ac.at/?obj=https://raw.githubusercontent.com/Signature-Sound-Vienna/data/TISMIR/annot/mao/selection/ExVer1-audio7.jsonld\" \"Tooltip: \";\n click selection:ExVer1-audio7.jsonld \"http://primal.mdw.ac.at/?obj=selection:ExVer1-audio7.jsonld\" \"Tooltip: \";\n click raw.githubusercontent.com/Signature-Sound-Vienna/data/TISMIR/annot/mao/selection/ExVer1-audio8.jsonld \"http://primal.mdw.ac.at/?obj=https://raw.githubusercontent.com/Signature-Sound-Vienna/data/TISMIR/annot/mao/selection/ExVer1-audio8.jsonld\" \"Tooltip: \";\n click selection:ExVer1-audio8.jsonld \"http://primal.mdw.ac.at/?obj=selection:ExVer1-audio8.jsonld\" \"Tooltip: \";\n click raw.githubusercontent.com/Signature-Sound-Vienna/data/TISMIR/annot/mao/selection/ExVer1-audio9.jsonld \"http://primal.mdw.ac.at/?obj=https://raw.githubusercontent.com/Signature-Sound-Vienna/data/TISMIR/annot/mao/selection/ExVer1-audio9.jsonld\" \"Tooltip: \";\n click selection:ExVer1-audio9.jsonld \"http://primal.mdw.ac.at/?obj=selection:ExVer1-audio9.jsonld\" \"Tooltip: \";\n click raw.githubusercontent.com/Signature-Sound-Vienna/data/TISMIR/annot/mao/selection/ExVer1-audio11.jsonld \"http://primal.mdw.ac.at/?obj=https://raw.githubusercontent.com/Signature-Sound-Vienna/data/TISMIR/annot/mao/selection/ExVer1-audio11.jsonld\" \"Tooltip: \";\n click selection:ExVer1-audio11.jsonld \"http://primal.mdw.ac.at/?obj=selection:ExVer1-audio11.jsonld\" \"Tooltip: \";\n click raw.githubusercontent.com/Signature-Sound-Vienna/data/TISMIR/annot/mao/selection/ExVer1-audio10.jsonld \"http://primal.mdw.ac.at/?obj=https://raw.githubusercontent.com/Signature-Sound-Vienna/data/TISMIR/annot/mao/selection/ExVer1-audio10.jsonld\" \"Tooltip: \";\n click selection:ExVer1-audio10.jsonld \"http://primal.mdw.ac.at/?obj=selection:ExVer1-audio10.jsonld\" \"Tooltip: \";\n click raw.githubusercontent.com/Signature-Sound-Vienna/data/TISMIR/annot/mao/extract/ExVer1.jsonld \"http://primal.mdw.ac.at/?obj=https://raw.githubusercontent.com/Signature-Sound-Vienna/data/TISMIR/annot/mao/extract/ExVer1.jsonld\" \"Tooltip: \";\n click extract:ExVer1.jsonld \"http://primal.mdw.ac.at/?obj=extract:ExVer1.jsonld\" \"Tooltip: \";\n click raw.githubusercontent.com/Signature-Sound-Vienna/data/TISMIR/annot/mao/musicalMaterial/ExVer1.jsonld \"http://primal.mdw.ac.at/?obj=https://raw.githubusercontent.com/Signature-Sound-Vienna/data/TISMIR/annot/mao/musicalMaterial/ExVer1.jsonld\" \"Tooltip: \";\n click musMat:ExVer1.jsonld \"http://primal.mdw.ac.at/?obj=musMat:ExVer1.jsonld\" \"Tooltip: \";\n click raw.githubusercontent.com/Signature-Sound-Vienna/data/TISMIR/annot/oa/ExVer1.jsonld \"http://primal.mdw.ac.at/?obj=https://raw.githubusercontent.com/Signature-Sound-Vienna/data/TISMIR/annot/oa/ExVer1.jsonld\" \"Tooltip: \";\n click anno:ExVer1.jsonld \"http://primal.mdw.ac.at/?obj=anno:ExVer1.jsonld\" \"Tooltip: \";\n subgraph Current resource\nraw.githubusercontent.com/Signature-Sound-Vienna/data/TISMIR/annot/oa/ExVer1.jsonld\nblank_0\n\n end\n"
+    ],
+    "requestCount": 152,
+    "corsBlocked": []
+  }
+}

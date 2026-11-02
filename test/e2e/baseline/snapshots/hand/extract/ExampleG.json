@@ -1,0 +1,298 @@
+{
+  "root": {
+    "set": "hand",
+    "folder": "extract",
+    "name": "ExampleG",
+    "obj": "https://raw.githubusercontent.com/Signature-Sound-Vienna/data/hand/annot/mao/extract/ExampleG.jsonld",
+    "w3id": "https://w3id.org/ssv/hand/annot/mao/extract/ExampleG",
+    "quick": false
+  },
+  "recordedAt": "2026-11-02T16:13:09.422Z",
+  "compare": {
+    "splash": false,
+    "traversalsComplete": true,
+    "sections": {
+      "h-text-content": {
+        "loaded": true,
+        "noContent": [
+          "No text content found in this annotation."
+        ]
+      },
+      "h-music-scores": {
+        "loaded": true,
+        "noContent": []
+      },
+      "h-audio-examples": {
+        "loaded": true,
+        "noContent": []
+      },
+      "h-metadata": {
+        "loaded": true,
+        "noContent": []
+      },
+      "h-graph": {
+        "loaded": true,
+        "noContent": []
+      },
+      "h-json-display": {
+        "loaded": true,
+        "noContent": []
+      }
+    },
+    "banners": [],
+    "textBodies": [],
+    "scores": [
+      {
+        "id": "https://raw.githubusercontent.com/Signature-Sound-Vienna/Johann-Strauss-Sohn-Op437_Kaiser-Walzer_Breitkopf/main/Kaiser-Walzer_Breitkopf-expanded.mei",
+        "highlighted": [
+          "m110p7yn",
+          "m1gueehz",
+          "m1hr4avz",
+          "m1q7k91w",
+          "m1u7bzje",
+          "m4aq1ow",
+          "m9fd4h2",
+          "mnp2asa"
+        ],
+        "svg": {
+          "viewBox": "0 0 2100 3995",
+          "elementsWithDataId": 1823
+        }
+      }
+    ],
+    "meiFriendLinks": [
+      "https://mei-friend.mdw.ac.at/?file=https://raw.githubusercontent.com/Signature-Sound-Vienna/Johann-Strauss-Sohn-Op437_Kaiser-Walzer_Breitkopf/main/Kaiser-Walzer_Breitkopf-expanded.mei&select=m1hr4avz,m9fd4h2,m1gueehz,m4aq1ow,m1u7bzje,m1q7k91w,m110p7yn,mnp2asa"
+    ],
+    "audio": [
+      {
+        "id": "https://w3id.org/ssv/0.9/data/signal/1984_Berliner_-20Philharmoniker_-2C_-20Karajan_-20_-28Kaiser_-E2_-80_-93Walzer_-29#1-container",
+        "hidden": false,
+        "label": "Example G: Karajan, Berliner Philharmoniker (1984) [playback restricted] (04:41.48–04:48.87)",
+        "waveform": true,
+        "regions": [
+          {
+            "left": "42.6557%",
+            "width": ""
+          }
+        ]
+      },
+      {
+        "id": "https://w3id.org/ssv/0.9/data/signal/New_-20York_-20Philharmonic_-2C_-20Leonard_-20Bernstein_-20_-281982_-29#2-container",
+        "hidden": false,
+        "label": "Example G: Bernstein, New York Philharmonic (1982) [playback restricted] (05:39.44–05:46.62)",
+        "waveform": true,
+        "regions": [
+          {
+            "left": "47.4071%",
+            "width": ""
+          }
+        ]
+      },
+      {
+        "id": "https://w3id.org/ssv/0.9/data/signal/Orchester_-20der_-20Wiener_-20Volksoper_-2C_-20Peter_-20Falk_-20_-281988_-29_-2C_-20Vol._-202#1-container",
+        "hidden": false,
+        "label": "Example G: Falk, Orchester der Wiener Volksoper (1988) [playback restricted] (04:42.74–04:49.64)",
+        "waveform": true,
+        "regions": [
+          {
+            "left": "41.5173%",
+            "width": ""
+          }
+        ]
+      }
+    ],
+    "metadata": {
+      "currentUri": "Current resource: <https://raw.githubusercontent.com/Signature-Sound-Vienna/data/hand/annot/mao/extract/ExampleG.jsonld>",
+      "createdBy": "Created by: <https://ssv.solidcommunity.net/profile/card#me>",
+      "createdByLinks": [
+        {
+          "text": "<https://ssv.solidcommunity.net/profile/card#me>",
+          "href": "https://ssv.solidcommunity.net/profile/card#me"
+        }
+      ],
+      "audioSelectionsHeading": "Audio Files",
+      "audioSelections": [
+        {
+          "text": "Example G: Bernstein, New York Philharmonic (1982)Signal: New_-20York_-20Philharmonic_-2C_-20Leonard_-20Bernstein_-20_-281982_-29#2Track: &quot;The Emperor Waltz, op. 437&quot;MusicBrainz: d19a9ecc-4a9c-4aa2-9a98-31c67789e7ed",
+          "links": [
+            {
+              "text": "Signal: New_-20York_-20Philharmonic_-2C_-20Leonard_-20Bernstein_-20_-281982_-29#2",
+              "href": "https://w3id.org/ssv/0.9/data/signal/New_-20York_-20Philharmonic_-2C_-20Leonard_-20Bernstein_-20_-281982_-29#2"
+            },
+            {
+              "text": "Track: &quot;The Emperor Waltz, op. 437&quot;",
+              "href": "https://w3id.org/ssv/0.9/data/track/New_-20York_-20Philharmonic_-2C_-20Leonard_-20Bernstein_-20_-281982_-29#2"
+            },
+            {
+              "text": "MusicBrainz: d19a9ecc-4a9c-4aa2-9a98-31c67789e7ed",
+              "href": "https://musicbrainz.org/track/d19a9ecc-4a9c-4aa2-9a98-31c67789e7ed"
+            }
+          ]
+        },
+        {
+          "text": "Example G: Falk, Orchester der Wiener Volksoper (1988)Signal: Orchester_-20der_-20Wiener_-20Volksoper_-2C_-20Peter_-20Falk_-20_-281988_-29_-2C_-20Vol._-202#1Track: &quot;Kaiserwalzer op. 437&quot;MusicBrainz: 40bcc2f9-38a3-4d06-aa4d-0ed61ba6d9da",
+          "links": [
+            {
+              "text": "Signal: Orchester_-20der_-20Wiener_-20Volksoper_-2C_-20Peter_-20Falk_-20_-281988_-29_-2C_-20Vol._-202#1",
+              "href": "https://w3id.org/ssv/0.9/data/signal/Orchester_-20der_-20Wiener_-20Volksoper_-2C_-20Peter_-20Falk_-20_-281988_-29_-2C_-20Vol._-202#1"
+            },
+            {
+              "text": "Track: &quot;Kaiserwalzer op. 437&quot;",
+              "href": "https://w3id.org/ssv/0.9/data/track/Orchester_-20der_-20Wiener_-20Volksoper_-2C_-20Peter_-20Falk_-20_-281988_-29_-2C_-20Vol._-202#1"
+            },
+            {
+              "text": "MusicBrainz: 40bcc2f9-38a3-4d06-aa4d-0ed61ba6d9da",
+              "href": "https://musicbrainz.org/track/40bcc2f9-38a3-4d06-aa4d-0ed61ba6d9da"
+            }
+          ]
+        },
+        {
+          "text": "Example G: Karajan, Berliner Philharmoniker (1984)Signal: 1984_Berliner_-20Philharmoniker_-2C_-20Karajan_-20_-28Kaiser_-E2_-80_-93Walzer_-29#1Track: &quot;Kaiser–Walzer, op. 437&quot;MusicBrainz: 83870041-e855-3b97-825c-8ce7525c91fa",
+          "links": [
+            {
+              "text": "Signal: 1984_Berliner_-20Philharmoniker_-2C_-20Karajan_-20_-28Kaiser_-E2_-80_-93Walzer_-29#1",
+              "href": "https://w3id.org/ssv/0.9/data/signal/1984_Berliner_-20Philharmoniker_-2C_-20Karajan_-20_-28Kaiser_-E2_-80_-93Walzer_-29#1"
+            },
+            {
+              "text": "Track: &quot;Kaiser–Walzer, op. 437&quot;",
+              "href": "https://w3id.org/ssv/0.9/data/track/1984_Berliner_-20Philharmoniker_-2C_-20Karajan_-20_-28Kaiser_-E2_-80_-93Walzer_-29#1"
+            },
+            {
+              "text": "MusicBrainz: 83870041-e855-3b97-825c-8ce7525c91fa",
+              "href": "https://musicbrainz.org/track/83870041-e855-3b97-825c-8ce7525c91fa"
+            }
+          ]
+        }
+      ]
+    },
+    "graph": {
+      "svg": true,
+      "nodes": 9,
+      "edges": 8
+    },
+    "mermaid": [
+      [
+        "class raw.githubusercontent.com/Signature-Sound-Vienna/data/hand/annot/mao/extract/ExampleG.jsonld current",
+        "click extract:ExampleG.jsonld \"http://primal.mdw.ac.at/?obj=extract:ExampleG.jsonld\" \"Tooltip: \"",
+        "click raw.githubusercontent.com/Signature-Sound-Vienna/data/hand/annot/mao/extract/ExampleG.jsonld \"http://primal.mdw.ac.at/?obj=https://raw.githubusercontent.com/Signature-Sound-Vienna/data/hand/annot/mao/extract/ExampleG.jsonld\" \"Tooltip: \"",
+        "click raw.githubusercontent.com/Signature-Sound-Vienna/data/hand/annot/mao/selection/ExampleG-audio1.jsonld \"http://primal.mdw.ac.at/?obj=https://raw.githubusercontent.com/Signature-Sound-Vienna/data/hand/annot/mao/selection/ExampleG-audio1.jsonld\" \"Tooltip: \"",
+        "click raw.githubusercontent.com/Signature-Sound-Vienna/data/hand/annot/mao/selection/ExampleG-audio2.jsonld \"http://primal.mdw.ac.at/?obj=https://raw.githubusercontent.com/Signature-Sound-Vienna/data/hand/annot/mao/selection/ExampleG-audio2.jsonld\" \"Tooltip: \"",
+        "click raw.githubusercontent.com/Signature-Sound-Vienna/data/hand/annot/mao/selection/ExampleG-audio3.jsonld \"http://primal.mdw.ac.at/?obj=https://raw.githubusercontent.com/Signature-Sound-Vienna/data/hand/annot/mao/selection/ExampleG-audio3.jsonld\" \"Tooltip: \"",
+        "click raw.githubusercontent.com/Signature-Sound-Vienna/data/hand/annot/mao/selection/ExampleG.jsonld \"http://primal.mdw.ac.at/?obj=https://raw.githubusercontent.com/Signature-Sound-Vienna/data/hand/annot/mao/selection/ExampleG.jsonld\" \"Tooltip: \"",
+        "click selection:ExampleG-audio1.jsonld \"http://primal.mdw.ac.at/?obj=selection:ExampleG-audio1.jsonld\" \"Tooltip: \"",
+        "click selection:ExampleG-audio2.jsonld \"http://primal.mdw.ac.at/?obj=selection:ExampleG-audio2.jsonld\" \"Tooltip: \"",
+        "click selection:ExampleG-audio3.jsonld \"http://primal.mdw.ac.at/?obj=selection:ExampleG-audio3.jsonld\" \"Tooltip: \"",
+        "click selection:ExampleG.jsonld \"http://primal.mdw.ac.at/?obj=selection:ExampleG.jsonld\" \"Tooltip: \"",
+        "end",
+        "graph TD",
+        "raw.githubusercontent.com/Signature-Sound-Vienna/data/hand/annot/mao/extract/ExampleG.jsonld -- frbr:embodiment --> raw.githubusercontent.com/Signature-Sound-Vienna/data/hand/annot/mao/selection/ExampleG-audio1.jsonld",
+        "raw.githubusercontent.com/Signature-Sound-Vienna/data/hand/annot/mao/extract/ExampleG.jsonld -- frbr:embodiment --> raw.githubusercontent.com/Signature-Sound-Vienna/data/hand/annot/mao/selection/ExampleG-audio2.jsonld",
+        "raw.githubusercontent.com/Signature-Sound-Vienna/data/hand/annot/mao/extract/ExampleG.jsonld -- frbr:embodiment --> raw.githubusercontent.com/Signature-Sound-Vienna/data/hand/annot/mao/selection/ExampleG-audio3.jsonld",
+        "raw.githubusercontent.com/Signature-Sound-Vienna/data/hand/annot/mao/extract/ExampleG.jsonld -- frbr:embodiment --> raw.githubusercontent.com/Signature-Sound-Vienna/data/hand/annot/mao/selection/ExampleG.jsonld",
+        "raw.githubusercontent.com/Signature-Sound-Vienna/data/hand/annot/mao/extract/ExampleG.jsonld",
+        "raw.githubusercontent.com/Signature-Sound-Vienna/data/hand/annot/mao/extract/ExampleG.jsonld(\"mao:Extract: <em>Example G</em>\")",
+        "raw.githubusercontent.com/Signature-Sound-Vienna/data/hand/annot/mao/selection/ExampleG-audio1.jsonld -- frbr:part (1 time interval) --> 02-The%20Emperor%20Waltz%2COP.437.wav",
+        "raw.githubusercontent.com/Signature-Sound-Vienna/data/hand/annot/mao/selection/ExampleG-audio1.jsonld(\"mao:Selection: <em>Example G: Bernstein, New York Philharmonic (1982)</em>\")",
+        "raw.githubusercontent.com/Signature-Sound-Vienna/data/hand/annot/mao/selection/ExampleG-audio2.jsonld -- frbr:part (1 time interval) --> 01-Kaiser%E2%80%93Walzer%2C%20op.%20437.wav",
+        "raw.githubusercontent.com/Signature-Sound-Vienna/data/hand/annot/mao/selection/ExampleG-audio2.jsonld(\"mao:Selection: <em>Example G: Karajan, Berliner Philharmoniker (1984)</em>\")",
+        "raw.githubusercontent.com/Signature-Sound-Vienna/data/hand/annot/mao/selection/ExampleG-audio3.jsonld -- frbr:part (1 time interval) --> 01-Kaiser-Walzer.wav",
+        "raw.githubusercontent.com/Signature-Sound-Vienna/data/hand/annot/mao/selection/ExampleG-audio3.jsonld(\"mao:Selection: <em>Example G: Falk, Orchester der Wiener Volksoper (1988)</em>\")",
+        "raw.githubusercontent.com/Signature-Sound-Vienna/data/hand/annot/mao/selection/ExampleG.jsonld -- frbr:part (8 fragments) --> Kaiser-Walzer_Breitkopf-expanded.mei",
+        "raw.githubusercontent.com/Signature-Sound-Vienna/data/hand/annot/mao/selection/ExampleG.jsonld(\"mao:Selection: <em>Example G</em>\")",
+        "subgraph Current resource"
+      ]
+    ],
+    "json": "{\n  \"@context\": {\n    \"@vocab\": \"http://www.w3.org/ns/oa#\",\n    \"oa\": \"http://www.w3.org/ns/oa#\",\n    \"mao\": \"https://domestic-beethoven.eu/ontology/1.0/music-annotation-ontology.ttl#\",\n    \"frbr\": \"http://purl.org/vocab/frbr/core#\",\n    \"dc\": \"http://purl.org/dc/terms/\",\n    \"rdfs\": \"http://www.w3.org/2000/01/rdf-schema#\",\n    \"rdf\": \"http://www.w3.org/1999/02/22-rdf-syntax-ns#\",\n    \"mo\": \"http://purl.org/ontology/mo/\",\n    \"tl\": \"http://purl.org/NET/c4dm/timeline.owl#\",\n    \"ssv\": \"https://w3id.org/ssv/vocab#\"\n  },\n  \"@id\": \"https://raw.githubusercontent.com/Signature-Sound-Vienna/data/hand/annot/mao/extract/ExampleG.jsonld\",\n  \"@type\": [\n    \"mao:Extract\",\n    \"https://schema.org/Dataset\"\n  ],\n  \"dc:created\": \"2024-05-28T11:53:39.108Z\",\n  \"dc:creator\": {\n    \"@id\": \"https://ssv.solidcommunity.net/profile/card#me\"\n  },\n  \"dc:provenance\": \"Generated using mei-friend v.1.0.14: https://mei-friend.mdw.ac.at\",\n  \"frbr:embodiment\": [\n    {\n      \"@id\": \"https://raw.githubusercontent.com/Signature-Sound-Vienna/data/hand/annot/mao/selection/ExampleG.jsonld\"\n    },\n    {\n      \"@id\": \"https://raw.githubusercontent.com/Signature-Sound-Vienna/data/hand/annot/mao/selection/ExampleG-audio1.jsonld\"\n    },\n    {\n      \"@id\": \"https://raw.githubusercontent.com/Signature-Sound-Vienna/data/hand/annot/mao/selection/ExampleG-audio2.jsonld\"\n    },\n    {\n      \"@id\": \"https://raw.githubusercontent.com/Signature-Sound-Vienna/data/hand/annot/mao/selection/ExampleG-audio3.jsonld\"\n    }\n  ],\n  \"rdfs:label\": \"Example G\",\n  \"https://schema.org/about\": {\n    \"@id\": \"https://raw.githubusercontent.com/Signature-Sound-Vienna/Johann-Strauss-Sohn-Op437_Kaiser-Walzer_Breitkopf/main/Kaiser-Walzer_Breitkopf-expanded.mei\"\n  }\n}",
+    "versions": {
+      "verovio": "6.4.0-33d1633",
+      "mermaid": "10.9.8"
+    },
+    "requests": {
+      "GET app:/?obj=https://raw.githubusercontent.com/Signature-Sound-Vienna/data/hand/annot/mao/extract/ExampleG.jsonld": 1,
+      "GET app:/css/prism.css": 1,
+      "GET app:/css/styles.css": 1,
+      "GET app:/deps/regions.js": 1,
+      "GET app:/deps/wavesurfer.js": 1,
+      "GET app:/img/logo.png": 1,
+      "GET app:/lib/LDObj.js": 1,
+      "GET app:/lib/defaults.js": 1,
+      "GET app:/lib/env.js": 1,
+      "GET app:/lib/errorBanner.js": 1,
+      "GET app:/lib/graph.js": 1,
+      "GET app:/lib/graphModal.js": 1,
+      "GET app:/lib/httpUtil.js": 1,
+      "GET app:/lib/main.js": 1,
+      "GET app:/lib/namespaceManager.js": 1,
+      "GET app:/lib/namespaceMap.js": 1,
+      "GET app:/lib/render.js": 1,
+      "GET app:/lib/sanitize.js": 1,
+      "GET app:/lib/traverser.js": 1,
+      "GET https://cdnjs.cloudflare.com/ajax/libs/jsonld/1.0.0/jsonld.min.js": 1,
+      "GET https://cdnjs.cloudflare.com/ajax/libs/prism/1.29.0/components/prism-json.min.js": 1,
+      "GET https://cdnjs.cloudflare.com/ajax/libs/prism/1.29.0/prism.min.js": 1,
+      "GET https://cdnjs.cloudflare.com/ajax/libs/prism/1.29.0/themes/prism.min.css": 1,
+      "GET https://raw.githubusercontent.com/Signature-Sound-Vienna/Johann-Strauss-Sohn-Op437_Kaiser-Walzer_Breitkopf/main/Kaiser-Walzer_Breitkopf-expanded.mei": 1,
+      "GET https://raw.githubusercontent.com/Signature-Sound-Vienna/data/hand/annot/mao/extract/ExampleG.jsonld": 1,
+      "GET https://raw.githubusercontent.com/Signature-Sound-Vienna/data/hand/annot/mao/selection/ExampleG-audio1.jsonld": 1,
+      "GET https://raw.githubusercontent.com/Signature-Sound-Vienna/data/hand/annot/mao/selection/ExampleG-audio2.jsonld": 1,
+      "GET https://raw.githubusercontent.com/Signature-Sound-Vienna/data/hand/annot/mao/selection/ExampleG-audio3.jsonld": 1,
+      "GET https://raw.githubusercontent.com/Signature-Sound-Vienna/data/hand/annot/mao/selection/ExampleG.jsonld": 1,
+      "GET https://unpkg.com/mermaid@10/dist/mermaid.min.js": 1,
+      "GET https://w3id.org/ssv/0.9/data/peaks/1984_Berliner_-20Philharmoniker_-2C_-20Karajan_-20_-28Kaiser_-E2_-80_-93Walzer_-29/1.peaks.json": 1,
+      "GET https://w3id.org/ssv/0.9/data/peaks/New_-20York_-20Philharmonic_-2C_-20Leonard_-20Bernstein_-20_-281982_-29/2.peaks.json": 1,
+      "GET https://w3id.org/ssv/0.9/data/peaks/Orchester_-20der_-20Wiener_-20Volksoper_-2C_-20Peter_-20Falk_-20_-281988_-29_-2C_-20Vol._-202/1.peaks.json": 1,
+      "GET https://w3id.org/ssv/0.9/data/signal/1984_Berliner_-20Philharmoniker_-2C_-20Karajan_-20_-28Kaiser_-E2_-80_-93Walzer_-29": 2,
+      "GET https://w3id.org/ssv/0.9/data/signal/New_-20York_-20Philharmonic_-2C_-20Leonard_-20Bernstein_-20_-281982_-29": 2,
+      "GET https://w3id.org/ssv/0.9/data/signal/Orchester_-20der_-20Wiener_-20Volksoper_-2C_-20Peter_-20Falk_-20_-281988_-29_-2C_-20Vol._-202": 2,
+      "GET https://w3id.org/ssv/0.9/data/track/1984_Berliner_-20Philharmoniker_-2C_-20Karajan_-20_-28Kaiser_-E2_-80_-93Walzer_-29": 1,
+      "GET https://w3id.org/ssv/0.9/data/track/New_-20York_-20Philharmonic_-2C_-20Leonard_-20Bernstein_-20_-281982_-29": 1,
+      "GET https://w3id.org/ssv/0.9/data/track/Orchester_-20der_-20Wiener_-20Volksoper_-2C_-20Peter_-20Falk_-20_-281988_-29_-2C_-20Vol._-202": 1,
+      "GET https://www.verovio.org/javascript/latest/verovio-toolkit-wasm.js": 1,
+      "HEAD https://raw.githubusercontent.com/Signature-Sound-Vienna/Johann-Strauss-Sohn-Op437_Kaiser-Walzer_Breitkopf/main/Kaiser-Walzer_Breitkopf-expanded.mei": 16,
+      "HEAD https://raw.githubusercontent.com/Signature-Sound-Vienna/data/hand/annot/mao/selection/ExampleG-audio1.jsonld": 2,
+      "HEAD https://raw.githubusercontent.com/Signature-Sound-Vienna/data/hand/annot/mao/selection/ExampleG-audio2.jsonld": 2,
+      "HEAD https://raw.githubusercontent.com/Signature-Sound-Vienna/data/hand/annot/mao/selection/ExampleG-audio3.jsonld": 2,
+      "HEAD https://raw.githubusercontent.com/Signature-Sound-Vienna/data/hand/annot/mao/selection/ExampleG.jsonld": 2,
+      "HEAD https://w3id.org/ssv/audio/1984_Berliner_-20Philharmoniker_-2C_-20Karajan_-20_-28Kaiser_-E2_-80_-93Walzer_-29/01-Kaiser%E2%80%93Walzer%2C%20op.%20437.wav": 2,
+      "HEAD https://w3id.org/ssv/audio/New_-20York_-20Philharmonic_-2C_-20Leonard_-20Bernstein_-20_-281982_-29/02-The%20Emperor%20Waltz%2COP.437.wav": 2,
+      "HEAD https://w3id.org/ssv/audio/Orchester_-20der_-20Wiener_-20Volksoper_-2C_-20Peter_-20Falk_-20_-281988_-29_-2C_-20Vol._-202/01-Kaiser-Walzer.wav": 2
+    },
+    "consoleErrors": {
+      "Error fetching content type: Error: Network response was not ok": 3,
+      "Failed to load resource: the server responded with a status of 403 (Forbidden)": 6,
+      "Failed to prepare LD object Error: Object must be an OA or MAO object": 6,
+      "URL not accessible: Forbidden": 3
+    },
+    "pageErrors": {}
+  },
+  "info": {
+    "timings": {
+      "traversalMs": 3088,
+      "networkIdle": true,
+      "idleMs": 12886,
+      "stablePolls": 0,
+      "totalMs": 13653
+    },
+    "order": {
+      "textBodies": [],
+      "scores": [
+        "https://raw.githubusercontent.com/Signature-Sound-Vienna/Johann-Strauss-Sohn-Op437_Kaiser-Walzer_Breitkopf/main/Kaiser-Walzer_Breitkopf-expanded.mei"
+      ],
+      "audio": [
+        "https://w3id.org/ssv/0.9/data/signal/New_-20York_-20Philharmonic_-2C_-20Leonard_-20Bernstein_-20_-281982_-29#2-container",
+        "https://w3id.org/ssv/0.9/data/signal/Orchester_-20der_-20Wiener_-20Volksoper_-2C_-20Peter_-20Falk_-20_-281988_-29_-2C_-20Vol._-202#1-container",
+        "https://w3id.org/ssv/0.9/data/signal/1984_Berliner_-20Philharmoniker_-2C_-20Karajan_-20_-28Kaiser_-E2_-80_-93Walzer_-29#1-container"
+      ],
+      "audioSelections": [
+        "Example G: Bernstein, New York Philharmonic (1982)Signal: Ne",
+        "Example G: Falk, Orchester der Wiener Volksoper (1988)Signal",
+        "Example G: Karajan, Berliner Philharmoniker (1984)Signal: 19"
+      ]
+    },
+    "mermaidSources": [
+      "graph TD; class raw.githubusercontent.com/Signature-Sound-Vienna/data/hand/annot/mao/extract/ExampleG.jsonld current;\nraw.githubusercontent.com/Signature-Sound-Vienna/data/hand/annot/mao/extract/ExampleG.jsonld(\"mao:Extract: <em>Example G</em>\");raw.githubusercontent.com/Signature-Sound-Vienna/data/hand/annot/mao/extract/ExampleG.jsonld -- frbr:embodiment --> raw.githubusercontent.com/Signature-Sound-Vienna/data/hand/annot/mao/selection/ExampleG.jsonld;raw.githubusercontent.com/Signature-Sound-Vienna/data/hand/annot/mao/selection/ExampleG.jsonld(\"mao:Selection: <em>Example G</em>\");raw.githubusercontent.com/Signature-Sound-Vienna/data/hand/annot/mao/selection/ExampleG.jsonld -- frbr:part (8 fragments) --> Kaiser-Walzer_Breitkopf-expanded.mei;raw.githubusercontent.com/Signature-Sound-Vienna/data/hand/annot/mao/extract/ExampleG.jsonld -- frbr:embodiment --> raw.githubusercontent.com/Signature-Sound-Vienna/data/hand/annot/mao/selection/ExampleG-audio1.jsonld;raw.githubusercontent.com/Signature-Sound-Vienna/data/hand/annot/mao/selection/ExampleG-audio1.jsonld(\"mao:Selection: <em>Example G: Bernstein, New York Philharmonic (1982)</em>\");raw.githubusercontent.com/Signature-Sound-Vienna/data/hand/annot/mao/selection/ExampleG-audio1.jsonld -- frbr:part (1 time interval) --> 02-The%20Emperor%20Waltz%2COP.437.wav;raw.githubusercontent.com/Signature-Sound-Vienna/data/hand/annot/mao/extract/ExampleG.jsonld -- frbr:embodiment --> raw.githubusercontent.com/Signature-Sound-Vienna/data/hand/annot/mao/selection/ExampleG-audio2.jsonld;raw.githubusercontent.com/Signature-Sound-Vienna/data/hand/annot/mao/selection/ExampleG-audio2.jsonld(\"mao:Selection: <em>Example G: Karajan, Berliner Philharmoniker (1984)</em>\");raw.githubusercontent.com/Signature-Sound-Vienna/data/hand/annot/mao/selection/ExampleG-audio2.jsonld -- frbr:part (1 time interval) --> 01-Kaiser%E2%80%93Walzer%2C%20op.%20437.wav;raw.githubusercontent.com/Signature-Sound-Vienna/data/hand/annot/mao/extract/ExampleG.jsonld -- frbr:embodiment --> raw.githubusercontent.com/Signature-Sound-Vienna/data/hand/annot/mao/selection/ExampleG-audio3.jsonld;raw.githubusercontent.com/Signature-Sound-Vienna/data/hand/annot/mao/selection/ExampleG-audio3.jsonld(\"mao:Selection: <em>Example G: Falk, Orchester der Wiener Volksoper (1988)</em>\");raw.githubusercontent.com/Signature-Sound-Vienna/data/hand/annot/mao/selection/ExampleG-audio3.jsonld -- frbr:part (1 time interval) --> 01-Kaiser-Walzer.wav;\n click raw.githubusercontent.com/Signature-Sound-Vienna/data/hand/annot/mao/selection/ExampleG.jsonld \"http://primal.mdw.ac.at/?obj=https://raw.githubusercontent.com/Signature-Sound-Vienna/data/hand/annot/mao/selection/ExampleG.jsonld\" \"Tooltip: \";\n click selection:ExampleG.jsonld \"http://primal.mdw.ac.at/?obj=selection:ExampleG.jsonld\" \"Tooltip: \";\n click raw.githubusercontent.com/Signature-Sound-Vienna/data/hand/annot/mao/selection/ExampleG-audio1.jsonld \"http://primal.mdw.ac.at/?obj=https://raw.githubusercontent.com/Signature-Sound-Vienna/data/hand/annot/mao/selection/ExampleG-audio1.jsonld\" \"Tooltip: \";\n click selection:ExampleG-audio1.jsonld \"http://primal.mdw.ac.at/?obj=selection:ExampleG-audio1.jsonld\" \"Tooltip: \";\n click raw.githubusercontent.com/Signature-Sound-Vienna/data/hand/annot/mao/selection/ExampleG-audio3.jsonld \"http://primal.mdw.ac.at/?obj=https://raw.githubusercontent.com/Signature-Sound-Vienna/data/hand/annot/mao/selection/ExampleG-audio3.jsonld\" \"Tooltip: \";\n click selection:ExampleG-audio3.jsonld \"http://primal.mdw.ac.at/?obj=selection:ExampleG-audio3.jsonld\" \"Tooltip: \";\n click raw.githubusercontent.com/Signature-Sound-Vienna/data/hand/annot/mao/selection/ExampleG-audio2.jsonld \"http://primal.mdw.ac.at/?obj=https://raw.githubusercontent.com/Signature-Sound-Vienna/data/hand/annot/mao/selection/ExampleG-audio2.jsonld\" \"Tooltip: \";\n click selection:ExampleG-audio2.jsonld \"http://primal.mdw.ac.at/?obj=selection:ExampleG-audio2.jsonld\" \"Tooltip: \";\n click raw.githubusercontent.com/Signature-Sound-Vienna/data/hand/annot/mao/extract/ExampleG.jsonld \"http://primal.mdw.ac.at/?obj=https://raw.githubusercontent.com/Signature-Sound-Vienna/data/hand/annot/mao/extract/ExampleG.jsonld\" \"Tooltip: \";\n click extract:ExampleG.jsonld \"http://primal.mdw.ac.at/?obj=extract:ExampleG.jsonld\" \"Tooltip: \";\n subgraph Current resource\nraw.githubusercontent.com/Signature-Sound-Vienna/data/hand/annot/mao/extract/ExampleG.jsonld\n end\n"
+    ],
+    "requestCount": 73,
+    "corsBlocked": []
+  }
+}

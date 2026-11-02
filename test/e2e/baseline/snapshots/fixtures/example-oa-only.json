@@ -1,0 +1,155 @@
+{
+  "root": {
+    "set": "fixtures",
+    "folder": null,
+    "name": "example-oa-only",
+    "obj": "http://localhost:8000/test/example-oa-only.jsonld"
+  },
+  "recordedAt": "2026-11-02T16:32:16.021Z",
+  "compare": {
+    "splash": false,
+    "traversalsComplete": true,
+    "sections": {
+      "h-text-content": {
+        "loaded": true,
+        "noContent": []
+      },
+      "h-music-scores": {
+        "loaded": true,
+        "noContent": []
+      },
+      "h-audio-examples": {
+        "loaded": true,
+        "noContent": [
+          "No audio recordings found in this annotation."
+        ]
+      },
+      "h-metadata": {
+        "loaded": true,
+        "noContent": []
+      },
+      "h-graph": {
+        "loaded": true,
+        "noContent": []
+      },
+      "h-json-display": {
+        "loaded": true,
+        "noContent": []
+      }
+    },
+    "banners": [],
+    "textBodies": [
+      [
+        "A textual description targeting a number of notes identified within an MEI document"
+      ]
+    ],
+    "scores": [
+      {
+        "id": "http://localhost:8000/test/example.mei",
+        "highlighted": [
+          "n172sakw",
+          "n1tqvgeb"
+        ],
+        "svg": {
+          "viewBox": "0 0 2100 3950",
+          "elementsWithDataId": 1892
+        }
+      }
+    ],
+    "meiFriendLinks": [
+      "https://mei-friend.mdw.ac.at/?file=http://localhost:8000/test/example.mei&select=n1tqvgeb,n172sakw"
+    ],
+    "audio": [],
+    "metadata": {
+      "currentUri": "Current resource: <http://localhost:8000/test/example-oa-only.jsonld>",
+      "createdBy": "",
+      "createdByLinks": [],
+      "audioSelectionsHeading": null,
+      "audioSelections": []
+    },
+    "graph": {
+      "svg": true,
+      "nodes": 3,
+      "edges": 2
+    },
+    "mermaid": [
+      [
+        "</em>\")",
+        "A textual description targeting a number of notes identified within an MEI document&quot",
+        "blank_0",
+        "class localhost:8000/test/example-oa.jsonld current",
+        "click blank_0 \"#a-text-content\" \"View textual body\"",
+        "click localhost:8000/test/example-oa-only.jsonld \"http://primal.mdw.ac.at/?obj=http://localhost:8000/test/example-oa-only.jsonld\" \"Tooltip: \"",
+        "click localhost:8000/test/example-oa.jsonld \"http://primal.mdw.ac.at/?obj=http://localhost:8000/test/example-oa.jsonld\" \"Tooltip: \"",
+        "end",
+        "graph TD",
+        "localhost:8000/test/example-oa.jsonld -- oa:hasBody --> blank_0(\"<em>&quot",
+        "localhost:8000/test/example-oa.jsonld -- oa:hasTarget (2 fragments) --> example.mei",
+        "localhost:8000/test/example-oa.jsonld",
+        "localhost:8000/test/example-oa.jsonld(\"oa:Annotation\")",
+        "subgraph Current resource"
+      ]
+    ],
+    "json": "{\n  \"@context\": {\n    \"@vocab\": \"http://www.w3.org/ns/oa#\",\n    \"oa\": \"http://www.w3.org/ns/oa#\",\n    \"mao\": \"https://domestic-beethoven.eu/ontology/1.0/music-annotation-ontology.ttl#\",\n    \"frbr\": \"http://purl.org/vocab/frbr/core#\",\n    \"dc\": \"http://purl.org/dc/terms/\",\n    \"rdfs\": \"http://www.w3.org/2000/01/rdf-schema#\",\n    \"rdf\": \"http://www.w3.org/1999/02/22-rdf-syntax-ns#\",\n    \"mo\": \"http://purl.org/ontology/mo/\",\n    \"tl\": \"http://purl.org/NET/c4dm/timeline.owl#\",\n    \"ssv\": \"https://w3id.org/ssv/vocab#\"\n  },\n  \"@id\": \"http://localhost:8000/test/example-oa.jsonld\",\n  \"@type\": \"Annotation\",\n  \"hasBody\": {\n    \"@type\": \"TextualBody\",\n    \"rdf:value\": \"A textual description targeting a number of notes identified within an MEI document\"\n  },\n  \"hasTarget\": [\n    {\n      \"@id\": \"http://localhost:8000/test/example.mei#n1tqvgeb\"\n    },\n    {\n      \"@id\": \"http://localhost:8000/test/example.mei#n172sakw\"\n    }\n  ],\n  \"motivatedBy\": \"mao:describing\"\n}",
+    "versions": {
+      "verovio": "6.4.0-33d1633",
+      "mermaid": "10.9.8"
+    },
+    "requests": {
+      "GET app:/?obj=http://localhost:8000/test/example-oa-only.jsonld": 1,
+      "GET app:/css/prism.css": 1,
+      "GET app:/css/styles.css": 1,
+      "GET app:/deps/regions.js": 1,
+      "GET app:/deps/wavesurfer.js": 1,
+      "GET app:/img/logo.png": 1,
+      "GET app:/lib/LDObj.js": 1,
+      "GET app:/lib/defaults.js": 1,
+      "GET app:/lib/env.js": 1,
+      "GET app:/lib/errorBanner.js": 1,
+      "GET app:/lib/graph.js": 1,
+      "GET app:/lib/graphModal.js": 1,
+      "GET app:/lib/httpUtil.js": 1,
+      "GET app:/lib/main.js": 1,
+      "GET app:/lib/namespaceManager.js": 1,
+      "GET app:/lib/namespaceMap.js": 1,
+      "GET app:/lib/render.js": 1,
+      "GET app:/lib/sanitize.js": 1,
+      "GET app:/lib/traverser.js": 1,
+      "GET http://localhost:8000/test/example-oa-only.jsonld": 1,
+      "GET http://localhost:8000/test/example.mei": 1,
+      "GET https://cdnjs.cloudflare.com/ajax/libs/jsonld/1.0.0/jsonld.min.js": 1,
+      "GET https://cdnjs.cloudflare.com/ajax/libs/prism/1.29.0/components/prism-json.min.js": 1,
+      "GET https://cdnjs.cloudflare.com/ajax/libs/prism/1.29.0/prism.min.js": 1,
+      "GET https://cdnjs.cloudflare.com/ajax/libs/prism/1.29.0/themes/prism.min.css": 1,
+      "GET https://unpkg.com/mermaid@10/dist/mermaid.min.js": 1,
+      "GET https://www.verovio.org/javascript/latest/verovio-toolkit-wasm.js": 1,
+      "HEAD http://localhost:8000/test/example.mei": 4
+    },
+    "consoleErrors": {},
+    "pageErrors": {}
+  },
+  "info": {
+    "timings": {
+      "traversalMs": 3062,
+      "networkIdle": true,
+      "idleMs": 4677,
+      "stablePolls": 0,
+      "totalMs": 5440
+    },
+    "order": {
+      "textBodies": [
+        "A textual description targeting a number"
+      ],
+      "scores": [
+        "http://localhost:8000/test/example.mei"
+      ],
+      "audio": [],
+      "audioSelections": []
+    },
+    "mermaidSources": [
+      "graph TD; class localhost:8000/test/example-oa.jsonld current;\nlocalhost:8000/test/example-oa.jsonld(\"oa:Annotation\");localhost:8000/test/example-oa.jsonld -- oa:hasTarget (2 fragments) --> example.mei;localhost:8000/test/example-oa.jsonld -- oa:hasBody --> blank_0(\"<em>&quot;A textual description targeting a number of notes identified within an MEI document&quot;</em>\");\n click blank_0 \"#a-text-content\" \"View textual body\";\n click localhost:8000/test/example-oa-only.jsonld \"http://primal.mdw.ac.at/?obj=http://localhost:8000/test/example-oa-only.jsonld\" \"Tooltip: \";\n click localhost:8000/test/example-oa.jsonld \"http://primal.mdw.ac.at/?obj=http://localhost:8000/test/example-oa.jsonld\" \"Tooltip: \";\n subgraph Current resource\nlocalhost:8000/test/example-oa.jsonld\nblank_0\n\n end\n"
+    ],
+    "requestCount": 31,
+    "corsBlocked": []
+  }
+}

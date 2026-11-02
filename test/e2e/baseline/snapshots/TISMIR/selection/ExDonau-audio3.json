@@ -1,0 +1,179 @@
+{
+  "root": {
+    "set": "TISMIR",
+    "folder": "selection",
+    "name": "ExDonau-audio3",
+    "obj": "https://raw.githubusercontent.com/Signature-Sound-Vienna/data/TISMIR/annot/mao/selection/ExDonau-audio3.jsonld",
+    "w3id": "https://w3id.org/ssv/TISMIR/annot/mao/selection/ExDonau-audio3",
+    "quick": false
+  },
+  "recordedAt": "2026-11-02T16:26:36.582Z",
+  "compare": {
+    "splash": false,
+    "traversalsComplete": true,
+    "sections": {
+      "h-text-content": {
+        "loaded": true,
+        "noContent": [
+          "No text content found in this annotation."
+        ]
+      },
+      "h-music-scores": {
+        "loaded": true,
+        "noContent": [
+          "No music scores found in this annotation."
+        ]
+      },
+      "h-audio-examples": {
+        "loaded": true,
+        "noContent": []
+      },
+      "h-metadata": {
+        "loaded": true,
+        "noContent": []
+      },
+      "h-graph": {
+        "loaded": true,
+        "noContent": []
+      },
+      "h-json-display": {
+        "loaded": true,
+        "noContent": []
+      }
+    },
+    "banners": [],
+    "textBodies": [],
+    "scores": [],
+    "meiFriendLinks": [],
+    "audio": [
+      {
+        "id": "https://w3id.org/ssv/TISMIR/data/signal/2011_-20_-28Kendlinger_-29#15-container",
+        "hidden": false,
+        "label": "TISMIR Example 5.2.2: K&K Philharmoniker (2011) -- An der schönen blauen Donau [playback restricted] (00:11.70–00:18.00)",
+        "waveform": true,
+        "regions": [
+          {
+            "left": "1.58831%",
+            "width": ""
+          }
+        ]
+      }
+    ],
+    "metadata": {
+      "currentUri": "Current resource: <https://raw.githubusercontent.com/Signature-Sound-Vienna/data/TISMIR/annot/mao/selection/ExDonau-audio3.jsonld>",
+      "createdBy": "Created by: <https://ssv.solidcommunity.net/profile/card#me>",
+      "createdByLinks": [
+        {
+          "text": "<https://ssv.solidcommunity.net/profile/card#me>",
+          "href": "https://ssv.solidcommunity.net/profile/card#me"
+        }
+      ],
+      "audioSelectionsHeading": "Audio Files",
+      "audioSelections": [
+        {
+          "text": "TISMIR Example 5.2.2: K&amp;K Philharmoniker (2011) -- An der schönen blauen DonauSignal: 2011_-20_-28Kendlinger_-29#15Track: &quot;An der schönen, blauen Donau&quot;MusicBrainz: 86bcbd54-1127-451b-a957-41c72a551b64",
+          "links": [
+            {
+              "text": "Signal: 2011_-20_-28Kendlinger_-29#15",
+              "href": "https://w3id.org/ssv/TISMIR/data/signal/2011_-20_-28Kendlinger_-29#15"
+            },
+            {
+              "text": "Track: &quot;An der schönen, blauen Donau&quot;",
+              "href": "https://w3id.org/ssv/TISMIR/data/track/2011_-20_-28Kendlinger_-29#15"
+            },
+            {
+              "text": "MusicBrainz: 86bcbd54-1127-451b-a957-41c72a551b64",
+              "href": "https://musicbrainz.org/track/86bcbd54-1127-451b-a957-41c72a551b64"
+            }
+          ]
+        }
+      ]
+    },
+    "graph": {
+      "svg": true,
+      "nodes": 2,
+      "edges": 1
+    },
+    "mermaid": [
+      [
+        "class raw.githubusercontent.com/Signature-Sound-Vienna/data/TISMIR/annot/mao/selection/ExDonau-audio3.jsonld current",
+        "click raw.githubusercontent.com/Signature-Sound-Vienna/data/TISMIR/annot/mao/selection/ExDonau-audio3.jsonld \"http://primal.mdw.ac.at/?obj=https://raw.githubusercontent.com/Signature-Sound-Vienna/data/TISMIR/annot/mao/selection/ExDonau-audio3.jsonld\" \"Tooltip: \"",
+        "click selection:ExDonau-audio3.jsonld \"http://primal.mdw.ac.at/?obj=selection:ExDonau-audio3.jsonld\" \"Tooltip: \"",
+        "end",
+        "graph TD",
+        "raw.githubusercontent.com/Signature-Sound-Vienna/data/TISMIR/annot/mao/selection/ExDonau-audio3.jsonld -- frbr:part (1 time interval) --> 15%20-%20An%20der%20sch%C3%B6nen%2C%20blauen%20Donau%20-%20Johann%20Strauss%20II.wav",
+        "raw.githubusercontent.com/Signature-Sound-Vienna/data/TISMIR/annot/mao/selection/ExDonau-audio3.jsonld",
+        "raw.githubusercontent.com/Signature-Sound-Vienna/data/TISMIR/annot/mao/selection/ExDonau-audio3.jsonld(\"mao:Selection: <em>TISMIR Example 5.2.2: K&K Philharmoniker (2011) -- An der schönen blauen Donau</em>\")",
+        "subgraph Current resource"
+      ]
+    ],
+    "json": "{\n  \"@context\": {\n    \"@vocab\": \"http://www.w3.org/ns/oa#\",\n    \"oa\": \"http://www.w3.org/ns/oa#\",\n    \"mao\": \"https://domestic-beethoven.eu/ontology/1.0/music-annotation-ontology.ttl#\",\n    \"frbr\": \"http://purl.org/vocab/frbr/core#\",\n    \"dc\": \"http://purl.org/dc/terms/\",\n    \"rdfs\": \"http://www.w3.org/2000/01/rdf-schema#\",\n    \"rdf\": \"http://www.w3.org/1999/02/22-rdf-syntax-ns#\",\n    \"mo\": \"http://purl.org/ontology/mo/\",\n    \"tl\": \"http://purl.org/NET/c4dm/timeline.owl#\",\n    \"ssv\": \"https://w3id.org/ssv/vocab#\"\n  },\n  \"@id\": \"https://raw.githubusercontent.com/Signature-Sound-Vienna/data/TISMIR/annot/mao/selection/ExDonau-audio3.jsonld\",\n  \"@type\": [\n    \"mao:Selection\",\n    \"https://schema.org/Dataset\"\n  ],\n  \"dc:created\": \"2024-05-27T13:55:58.231Z\",\n  \"dc:creator\": {\n    \"@id\": \"https://ssv.solidcommunity.net/profile/card#me\"\n  },\n  \"frbr:part\": {\n    \"@id\": \"https://w3id.org/ssv/audio/2011_-20_-28Kendlinger_-29/15%20-%20An%20der%20sch%C3%B6nen%2C%20blauen%20Donau%20-%20Johann%20Strauss%20II.wav#t=11.7,18.0\",\n    \"@type\": \"tl:Interval\",\n    \"tl:onTimeLine\": {\n      \"@id\": \"https://w3id.org/ssv/TISMIR/data/signal/2011_-20_-28Kendlinger_-29#15\"\n    }\n  },\n  \"rdfs:label\": \"TISMIR Example 5.2.2: K&K Philharmoniker (2011) -- An der schönen blauen Donau\",\n  \"https://schema.org/about\": {\n    \"@id\": \"https://raw.githubusercontent.com/Signature-Sound-Vienna/Johann-Strauss-Sohn_Op314_Donauwalzer_Breitkopf/main/Longest_Version_Krauss.mei\"\n  }\n}",
+    "versions": {
+      "verovio": "6.4.0-33d1633",
+      "mermaid": "10.9.8"
+    },
+    "requests": {
+      "GET app:/?obj=https://raw.githubusercontent.com/Signature-Sound-Vienna/data/TISMIR/annot/mao/selection/ExDonau-audio3.jsonld": 1,
+      "GET app:/css/prism.css": 1,
+      "GET app:/css/styles.css": 1,
+      "GET app:/deps/regions.js": 1,
+      "GET app:/deps/wavesurfer.js": 1,
+      "GET app:/img/logo.png": 1,
+      "GET app:/lib/LDObj.js": 1,
+      "GET app:/lib/defaults.js": 1,
+      "GET app:/lib/env.js": 1,
+      "GET app:/lib/errorBanner.js": 1,
+      "GET app:/lib/graph.js": 1,
+      "GET app:/lib/graphModal.js": 1,
+      "GET app:/lib/httpUtil.js": 1,
+      "GET app:/lib/main.js": 1,
+      "GET app:/lib/namespaceManager.js": 1,
+      "GET app:/lib/namespaceMap.js": 1,
+      "GET app:/lib/render.js": 1,
+      "GET app:/lib/sanitize.js": 1,
+      "GET app:/lib/traverser.js": 1,
+      "GET https://cdnjs.cloudflare.com/ajax/libs/jsonld/1.0.0/jsonld.min.js": 1,
+      "GET https://cdnjs.cloudflare.com/ajax/libs/prism/1.29.0/components/prism-json.min.js": 1,
+      "GET https://cdnjs.cloudflare.com/ajax/libs/prism/1.29.0/prism.min.js": 1,
+      "GET https://cdnjs.cloudflare.com/ajax/libs/prism/1.29.0/themes/prism.min.css": 1,
+      "GET https://raw.githubusercontent.com/Signature-Sound-Vienna/data/TISMIR/annot/mao/selection/ExDonau-audio3.jsonld": 1,
+      "GET https://unpkg.com/mermaid@10/dist/mermaid.min.js": 1,
+      "GET https://w3id.org/ssv/TISMIR/data/peaks/2011_-20_-28Kendlinger_-29/15.peaks.json": 1,
+      "GET https://w3id.org/ssv/TISMIR/data/signal/2011_-20_-28Kendlinger_-29": 2,
+      "GET https://w3id.org/ssv/TISMIR/data/track/2011_-20_-28Kendlinger_-29": 1,
+      "GET https://www.verovio.org/javascript/latest/verovio-toolkit-wasm.js": 1,
+      "HEAD https://w3id.org/ssv/audio/2011_-20_-28Kendlinger_-29/15%20-%20An%20der%20sch%C3%B6nen%2C%20blauen%20Donau%20-%20Johann%20Strauss%20II.wav": 2
+    },
+    "consoleErrors": {
+      "Error fetching content type: Error: Network response was not ok": 1,
+      "Failed to load resource: the server responded with a status of 403 (Forbidden)": 2,
+      "Failed to prepare LD object Error: Object must be an OA or MAO object": 2,
+      "URL not accessible: Forbidden": 1
+    },
+    "pageErrors": {}
+  },
+  "info": {
+    "timings": {
+      "traversalMs": 1278,
+      "networkIdle": true,
+      "idleMs": 5419,
+      "stablePolls": 0,
+      "totalMs": 6182
+    },
+    "order": {
+      "textBodies": [],
+      "scores": [],
+      "audio": [
+        "https://w3id.org/ssv/TISMIR/data/signal/2011_-20_-28Kendlinger_-29#15-container"
+      ],
+      "audioSelections": [
+        "TISMIR Example 5.2.2: K&amp;K Philharmoniker (2011) -- An de"
+      ]
+    },
+    "mermaidSources": [
+      "graph TD; class raw.githubusercontent.com/Signature-Sound-Vienna/data/TISMIR/annot/mao/selection/ExDonau-audio3.jsonld current;\nraw.githubusercontent.com/Signature-Sound-Vienna/data/TISMIR/annot/mao/selection/ExDonau-audio3.jsonld(\"mao:Selection: <em>TISMIR Example 5.2.2: K&K Philharmoniker (2011) -- An der schönen blauen Donau</em>\");raw.githubusercontent.com/Signature-Sound-Vienna/data/TISMIR/annot/mao/selection/ExDonau-audio3.jsonld -- frbr:part (1 time interval) --> 15%20-%20An%20der%20sch%C3%B6nen%2C%20blauen%20Donau%20-%20Johann%20Strauss%20II.wav;\n click raw.githubusercontent.com/Signature-Sound-Vienna/data/TISMIR/annot/mao/selection/ExDonau-audio3.jsonld \"http://primal.mdw.ac.at/?obj=https://raw.githubusercontent.com/Signature-Sound-Vienna/data/TISMIR/annot/mao/selection/ExDonau-audio3.jsonld\" \"Tooltip: \";\n click selection:ExDonau-audio3.jsonld \"http://primal.mdw.ac.at/?obj=selection:ExDonau-audio3.jsonld\" \"Tooltip: \";\n subgraph Current resource\nraw.githubusercontent.com/Signature-Sound-Vienna/data/TISMIR/annot/mao/selection/ExDonau-audio3.jsonld\n end\n"
+    ],
+    "requestCount": 32,
+    "corsBlocked": []
+  }
+}

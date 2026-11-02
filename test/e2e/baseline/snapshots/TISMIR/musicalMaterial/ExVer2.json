@@ -1,0 +1,213 @@
+{
+  "root": {
+    "set": "TISMIR",
+    "folder": "musicalMaterial",
+    "name": "ExVer2",
+    "obj": "https://raw.githubusercontent.com/Signature-Sound-Vienna/data/TISMIR/annot/mao/musicalMaterial/ExVer2.jsonld",
+    "w3id": "https://w3id.org/ssv/TISMIR/annot/mao/musicalMaterial/ExVer2",
+    "quick": false
+  },
+  "recordedAt": "2026-11-02T16:26:19.676Z",
+  "compare": {
+    "splash": false,
+    "traversalsComplete": true,
+    "sections": {
+      "h-text-content": {
+        "loaded": true,
+        "noContent": [
+          "No text content found in this annotation."
+        ]
+      },
+      "h-music-scores": {
+        "loaded": true,
+        "noContent": []
+      },
+      "h-audio-examples": {
+        "loaded": true,
+        "noContent": []
+      },
+      "h-metadata": {
+        "loaded": true,
+        "noContent": []
+      },
+      "h-graph": {
+        "loaded": true,
+        "noContent": []
+      },
+      "h-json-display": {
+        "loaded": true,
+        "noContent": []
+      }
+    },
+    "banners": [],
+    "textBodies": [],
+    "scores": [
+      {
+        "id": "https://raw.githubusercontent.com/Signature-Sound-Vienna/Johann-Strauss-Sohn_Op281_Vergnuegungszug_Spina/main/Josef-Strauss_Vergnuegungszug_Spina.mei",
+        "highlighted": [
+          "mlblhn5"
+        ],
+        "svg": {
+          "viewBox": "0 0 2100 4422",
+          "elementsWithDataId": 2307
+        }
+      }
+    ],
+    "meiFriendLinks": [
+      "https://mei-friend.mdw.ac.at/?file=https://raw.githubusercontent.com/Signature-Sound-Vienna/Johann-Strauss-Sohn_Op281_Vergnuegungszug_Spina/main/Josef-Strauss_Vergnuegungszug_Spina.mei&select=mlblhn5"
+    ],
+    "audio": [
+      {
+        "id": "https://w3id.org/ssv/TISMIR/data/signal/1963-1979_-20_-28Neujahr_-20in_-20Wien_-29__1963-1979_-20_-28DVD_-201_-29#20-container",
+        "hidden": false,
+        "label": "TISMIR Example 5.2.5b: Vienna Philharmonic Orchestra (1970, Neujahr in Wien DVD 1) -- Vergnügungszug [playback restricted] (02:04.98–02:27.23)",
+        "waveform": true,
+        "regions": [
+          {
+            "left": "54.3516%",
+            "width": ""
+          }
+        ]
+      }
+    ],
+    "metadata": {
+      "currentUri": "Current resource: <https://raw.githubusercontent.com/Signature-Sound-Vienna/data/TISMIR/annot/mao/musicalMaterial/ExVer2.jsonld>",
+      "createdBy": "Created by: <https://ssv.solidcommunity.net/profile/card#me>",
+      "createdByLinks": [
+        {
+          "text": "<https://ssv.solidcommunity.net/profile/card#me>",
+          "href": "https://ssv.solidcommunity.net/profile/card#me"
+        }
+      ],
+      "audioSelectionsHeading": "Audio Files",
+      "audioSelections": [
+        {
+          "text": "TISMIR Example 5.2.5b: Vienna Philharmonic Orchestra (1970, Neujahr in Wien DVD 1) -- VergnügungszugSignal: 1963-1979_-20_-28Neujahr_-20in_-20Wien_-29__1963-1979_-20_-28DVD_-201_-29#20Track: &quot;Vergnügungszug, op. 281&quot;MusicBrainz: c50e81df-c90e-4df8-bc5f-b8c91d081f7f",
+          "links": [
+            {
+              "text": "Signal: 1963-1979_-20_-28Neujahr_-20in_-20Wien_-29__1963-1979_-20_-28DVD_-201_-29#20",
+              "href": "https://w3id.org/ssv/TISMIR/data/signal/1963-1979_-20_-28Neujahr_-20in_-20Wien_-29__1963-1979_-20_-28DVD_-201_-29#20"
+            },
+            {
+              "text": "Track: &quot;Vergnügungszug, op. 281&quot;",
+              "href": "https://w3id.org/ssv/TISMIR/data/track/1963-1979_-20_-28Neujahr_-20in_-20Wien_-29__1963-1979_-20_-28DVD_-201_-29#20"
+            },
+            {
+              "text": "MusicBrainz: c50e81df-c90e-4df8-bc5f-b8c91d081f7f",
+              "href": "https://musicbrainz.org/track/c50e81df-c90e-4df8-bc5f-b8c91d081f7f"
+            }
+          ]
+        }
+      ]
+    },
+    "graph": {
+      "svg": true,
+      "nodes": 6,
+      "edges": 5
+    },
+    "mermaid": [
+      [
+        "class raw.githubusercontent.com/Signature-Sound-Vienna/data/TISMIR/annot/mao/musicalMaterial/ExVer2.jsonld current",
+        "click extract:ExVer2.jsonld \"http://primal.mdw.ac.at/?obj=extract:ExVer2.jsonld\" \"Tooltip: \"",
+        "click musMat:ExVer2.jsonld \"http://primal.mdw.ac.at/?obj=musMat:ExVer2.jsonld\" \"Tooltip: \"",
+        "click raw.githubusercontent.com/Signature-Sound-Vienna/data/TISMIR/annot/mao/extract/ExVer2.jsonld \"http://primal.mdw.ac.at/?obj=https://raw.githubusercontent.com/Signature-Sound-Vienna/data/TISMIR/annot/mao/extract/ExVer2.jsonld\" \"Tooltip: \"",
+        "click raw.githubusercontent.com/Signature-Sound-Vienna/data/TISMIR/annot/mao/musicalMaterial/ExVer2.jsonld \"http://primal.mdw.ac.at/?obj=https://raw.githubusercontent.com/Signature-Sound-Vienna/data/TISMIR/annot/mao/musicalMaterial/ExVer2.jsonld\" \"Tooltip: \"",
+        "click raw.githubusercontent.com/Signature-Sound-Vienna/data/TISMIR/annot/mao/selection/ExVer2-audio1.jsonld \"http://primal.mdw.ac.at/?obj=https://raw.githubusercontent.com/Signature-Sound-Vienna/data/TISMIR/annot/mao/selection/ExVer2-audio1.jsonld\" \"Tooltip: \"",
+        "click raw.githubusercontent.com/Signature-Sound-Vienna/data/TISMIR/annot/mao/selection/ExVer2.jsonld \"http://primal.mdw.ac.at/?obj=https://raw.githubusercontent.com/Signature-Sound-Vienna/data/TISMIR/annot/mao/selection/ExVer2.jsonld\" \"Tooltip: \"",
+        "click selection:ExVer2-audio1.jsonld \"http://primal.mdw.ac.at/?obj=selection:ExVer2-audio1.jsonld\" \"Tooltip: \"",
+        "click selection:ExVer2.jsonld \"http://primal.mdw.ac.at/?obj=selection:ExVer2.jsonld\" \"Tooltip: \"",
+        "end",
+        "graph TD",
+        "raw.githubusercontent.com/Signature-Sound-Vienna/data/TISMIR/annot/mao/extract/ExVer2.jsonld -- frbr:embodiment --> raw.githubusercontent.com/Signature-Sound-Vienna/data/TISMIR/annot/mao/selection/ExVer2-audio1.jsonld",
+        "raw.githubusercontent.com/Signature-Sound-Vienna/data/TISMIR/annot/mao/extract/ExVer2.jsonld -- frbr:embodiment --> raw.githubusercontent.com/Signature-Sound-Vienna/data/TISMIR/annot/mao/selection/ExVer2.jsonld",
+        "raw.githubusercontent.com/Signature-Sound-Vienna/data/TISMIR/annot/mao/extract/ExVer2.jsonld(\"mao:Extract: <em>TISMIR Example 5.2.5b (Vergnügungszug)</em>\")",
+        "raw.githubusercontent.com/Signature-Sound-Vienna/data/TISMIR/annot/mao/musicalMaterial/ExVer2.jsonld -- mao:setting --> raw.githubusercontent.com/Signature-Sound-Vienna/data/TISMIR/annot/mao/extract/ExVer2.jsonld",
+        "raw.githubusercontent.com/Signature-Sound-Vienna/data/TISMIR/annot/mao/musicalMaterial/ExVer2.jsonld",
+        "raw.githubusercontent.com/Signature-Sound-Vienna/data/TISMIR/annot/mao/musicalMaterial/ExVer2.jsonld(\"mao:MusicalMaterial: <em>TISMIR Example 5.2.5b (Vergnügungszug)</em>\")",
+        "raw.githubusercontent.com/Signature-Sound-Vienna/data/TISMIR/annot/mao/selection/ExVer2-audio1.jsonld -- frbr:part (1 time interval) --> 07%20-%20Vergn%C3%BCgungszug%2C%20op.%20281%20-%20Johann%20Strauss%20II.wav",
+        "raw.githubusercontent.com/Signature-Sound-Vienna/data/TISMIR/annot/mao/selection/ExVer2-audio1.jsonld(\"mao:Selection: <em>TISMIR Example 5.2.5b: Vienna Philharmonic Orchestra (1970, Neujahr in Wien DVD 1) -- Vergnügungszug</em>\")",
+        "raw.githubusercontent.com/Signature-Sound-Vienna/data/TISMIR/annot/mao/selection/ExVer2.jsonld -- frbr:part (1 fragment) --> Josef-Strauss_Vergnuegungszug_Spina.mei",
+        "raw.githubusercontent.com/Signature-Sound-Vienna/data/TISMIR/annot/mao/selection/ExVer2.jsonld(\"mao:Selection: <em>TISMIR Example 5.2.5b (Vergnügungszug)</em>\")",
+        "subgraph Current resource"
+      ]
+    ],
+    "json": "{\n  \"@context\": {\n    \"@vocab\": \"http://www.w3.org/ns/oa#\",\n    \"oa\": \"http://www.w3.org/ns/oa#\",\n    \"mao\": \"https://domestic-beethoven.eu/ontology/1.0/music-annotation-ontology.ttl#\",\n    \"frbr\": \"http://purl.org/vocab/frbr/core#\",\n    \"dc\": \"http://purl.org/dc/terms/\",\n    \"rdfs\": \"http://www.w3.org/2000/01/rdf-schema#\",\n    \"rdf\": \"http://www.w3.org/1999/02/22-rdf-syntax-ns#\",\n    \"mo\": \"http://purl.org/ontology/mo/\",\n    \"tl\": \"http://purl.org/NET/c4dm/timeline.owl#\",\n    \"ssv\": \"https://w3id.org/ssv/vocab#\"\n  },\n  \"@id\": \"https://raw.githubusercontent.com/Signature-Sound-Vienna/data/TISMIR/annot/mao/musicalMaterial/ExVer2.jsonld\",\n  \"@type\": [\n    \"mao:MusicalMaterial\",\n    \"https://schema.org/Dataset\"\n  ],\n  \"dc:created\": \"2024-05-28T11:41:00.768Z\",\n  \"dc:creator\": {\n    \"@id\": \"https://ssv.solidcommunity.net/profile/card#me\"\n  },\n  \"dc:provenance\": \"Generated using mei-friend v.1.0.14: https://mei-friend.mdw.ac.at\",\n  \"rdfs:label\": \"TISMIR Example 5.2.5b (Vergnügungszug)\",\n  \"mao:setting\": {\n    \"@id\": \"https://raw.githubusercontent.com/Signature-Sound-Vienna/data/TISMIR/annot/mao/extract/ExVer2.jsonld\"\n  },\n  \"https://schema.org/about\": {\n    \"@id\": \"https://raw.githubusercontent.com/Signature-Sound-Vienna/Johann-Strauss-Sohn_Op281_Vergnuegungszug_Spina/main/Josef-Strauss_Vergnuegungszug_Spina.mei\"\n  }\n}",
+    "versions": {
+      "verovio": "6.4.0-33d1633",
+      "mermaid": "10.9.8"
+    },
+    "requests": {
+      "GET app:/?obj=https://raw.githubusercontent.com/Signature-Sound-Vienna/data/TISMIR/annot/mao/musicalMaterial/ExVer2.jsonld": 1,
+      "GET app:/css/prism.css": 1,
+      "GET app:/css/styles.css": 1,
+      "GET app:/deps/regions.js": 1,
+      "GET app:/deps/wavesurfer.js": 1,
+      "GET app:/img/logo.png": 1,
+      "GET app:/lib/LDObj.js": 1,
+      "GET app:/lib/defaults.js": 1,
+      "GET app:/lib/env.js": 1,
+      "GET app:/lib/errorBanner.js": 1,
+      "GET app:/lib/graph.js": 1,
+      "GET app:/lib/graphModal.js": 1,
+      "GET app:/lib/httpUtil.js": 1,
+      "GET app:/lib/main.js": 1,
+      "GET app:/lib/namespaceManager.js": 1,
+      "GET app:/lib/namespaceMap.js": 1,
+      "GET app:/lib/render.js": 1,
+      "GET app:/lib/sanitize.js": 1,
+      "GET app:/lib/traverser.js": 1,
+      "GET https://cdnjs.cloudflare.com/ajax/libs/jsonld/1.0.0/jsonld.min.js": 1,
+      "GET https://cdnjs.cloudflare.com/ajax/libs/prism/1.29.0/components/prism-json.min.js": 1,
+      "GET https://cdnjs.cloudflare.com/ajax/libs/prism/1.29.0/prism.min.js": 1,
+      "GET https://cdnjs.cloudflare.com/ajax/libs/prism/1.29.0/themes/prism.min.css": 1,
+      "GET https://raw.githubusercontent.com/Signature-Sound-Vienna/Johann-Strauss-Sohn_Op281_Vergnuegungszug_Spina/main/Josef-Strauss_Vergnuegungszug_Spina.mei": 1,
+      "GET https://raw.githubusercontent.com/Signature-Sound-Vienna/data/TISMIR/annot/mao/extract/ExVer2.jsonld": 1,
+      "GET https://raw.githubusercontent.com/Signature-Sound-Vienna/data/TISMIR/annot/mao/musicalMaterial/ExVer2.jsonld": 1,
+      "GET https://raw.githubusercontent.com/Signature-Sound-Vienna/data/TISMIR/annot/mao/selection/ExVer2-audio1.jsonld": 1,
+      "GET https://raw.githubusercontent.com/Signature-Sound-Vienna/data/TISMIR/annot/mao/selection/ExVer2.jsonld": 1,
+      "GET https://unpkg.com/mermaid@10/dist/mermaid.min.js": 1,
+      "GET https://w3id.org/ssv/TISMIR/data/peaks/1963-1979_-20_-28Neujahr_-20in_-20Wien_-29__1963-1979_-20_-28DVD_-201_-29/20.peaks.json": 1,
+      "GET https://w3id.org/ssv/TISMIR/data/signal/1963-1979_-20_-28Neujahr_-20in_-20Wien_-29__1963-1979_-20_-28DVD_-201_-29": 2,
+      "GET https://w3id.org/ssv/TISMIR/data/track/1963-1979_-20_-28Neujahr_-20in_-20Wien_-29__1963-1979_-20_-28DVD_-201_-29": 1,
+      "GET https://www.verovio.org/javascript/latest/verovio-toolkit-wasm.js": 1,
+      "HEAD https://raw.githubusercontent.com/Signature-Sound-Vienna/Johann-Strauss-Sohn_Op281_Vergnuegungszug_Spina/main/Josef-Strauss_Vergnuegungszug_Spina.mei": 2,
+      "HEAD https://raw.githubusercontent.com/Signature-Sound-Vienna/data/TISMIR/annot/mao/extract/ExVer2.jsonld": 2,
+      "HEAD https://raw.githubusercontent.com/Signature-Sound-Vienna/data/TISMIR/annot/mao/selection/ExVer2-audio1.jsonld": 2,
+      "HEAD https://raw.githubusercontent.com/Signature-Sound-Vienna/data/TISMIR/annot/mao/selection/ExVer2.jsonld": 2,
+      "HEAD https://w3id.org/ssv/audio/1963-1979_-20_-28Neujahr_-20in_-20Wien_-29__1963-1979_-20_-28DVD_-201_-29/07%20-%20Vergn%C3%BCgungszug%2C%20op.%20281%20-%20Johann%20Strauss%20II.wav": 2
+    },
+    "consoleErrors": {
+      "Error fetching content type: Error: Network response was not ok": 1,
+      "Failed to load resource: the server responded with a status of 403 (Forbidden)": 2,
+      "Failed to prepare LD object Error: Object must be an OA or MAO object": 2,
+      "URL not accessible: Forbidden": 1
+    },
+    "pageErrors": {}
+  },
+  "info": {
+    "timings": {
+      "traversalMs": 2169,
+      "networkIdle": true,
+      "idleMs": 4999,
+      "stablePolls": 0,
+      "totalMs": 5758
+    },
+    "order": {
+      "textBodies": [],
+      "scores": [
+        "https://raw.githubusercontent.com/Signature-Sound-Vienna/Johann-Strauss-Sohn_Op281_Vergnuegungszug_Spina/main/Josef-Strauss_Vergnuegungszug_Spina.mei"
+      ],
+      "audio": [
+        "https://w3id.org/ssv/TISMIR/data/signal/1963-1979_-20_-28Neujahr_-20in_-20Wien_-29__1963-1979_-20_-28DVD_-201_-29#20-container"
+      ],
+      "audioSelections": [
+        "TISMIR Example 5.2.5b: Vienna Philharmonic Orchestra (1970, "
+      ]
+    },
+    "mermaidSources": [
+      "graph TD; class raw.githubusercontent.com/Signature-Sound-Vienna/data/TISMIR/annot/mao/musicalMaterial/ExVer2.jsonld current;\nraw.githubusercontent.com/Signature-Sound-Vienna/data/TISMIR/annot/mao/musicalMaterial/ExVer2.jsonld(\"mao:MusicalMaterial: <em>TISMIR Example 5.2.5b (Vergnügungszug)</em>\");raw.githubusercontent.com/Signature-Sound-Vienna/data/TISMIR/annot/mao/musicalMaterial/ExVer2.jsonld -- mao:setting --> raw.githubusercontent.com/Signature-Sound-Vienna/data/TISMIR/annot/mao/extract/ExVer2.jsonld;raw.githubusercontent.com/Signature-Sound-Vienna/data/TISMIR/annot/mao/extract/ExVer2.jsonld(\"mao:Extract: <em>TISMIR Example 5.2.5b (Vergnügungszug)</em>\");raw.githubusercontent.com/Signature-Sound-Vienna/data/TISMIR/annot/mao/extract/ExVer2.jsonld -- frbr:embodiment --> raw.githubusercontent.com/Signature-Sound-Vienna/data/TISMIR/annot/mao/selection/ExVer2.jsonld;raw.githubusercontent.com/Signature-Sound-Vienna/data/TISMIR/annot/mao/selection/ExVer2.jsonld(\"mao:Selection: <em>TISMIR Example 5.2.5b (Vergnügungszug)</em>\");raw.githubusercontent.com/Signature-Sound-Vienna/data/TISMIR/annot/mao/selection/ExVer2.jsonld -- frbr:part (1 fragment) --> Josef-Strauss_Vergnuegungszug_Spina.mei;raw.githubusercontent.com/Signature-Sound-Vienna/data/TISMIR/annot/mao/extract/ExVer2.jsonld -- frbr:embodiment --> raw.githubusercontent.com/Signature-Sound-Vienna/data/TISMIR/annot/mao/selection/ExVer2-audio1.jsonld;raw.githubusercontent.com/Signature-Sound-Vienna/data/TISMIR/annot/mao/selection/ExVer2-audio1.jsonld(\"mao:Selection: <em>TISMIR Example 5.2.5b: Vienna Philharmonic Orchestra (1970, Neujahr in Wien DVD 1) -- Vergnügungszug</em>\");raw.githubusercontent.com/Signature-Sound-Vienna/data/TISMIR/annot/mao/selection/ExVer2-audio1.jsonld -- frbr:part (1 time interval) --> 07%20-%20Vergn%C3%BCgungszug%2C%20op.%20281%20-%20Johann%20Strauss%20II.wav;\n click raw.githubusercontent.com/Signature-Sound-Vienna/data/TISMIR/annot/mao/selection/ExVer2.jsonld \"http://primal.mdw.ac.at/?obj=https://raw.githubusercontent.com/Signature-Sound-Vienna/data/TISMIR/annot/mao/selection/ExVer2.jsonld\" \"Tooltip: \";\n click selection:ExVer2.jsonld \"http://primal.mdw.ac.at/?obj=selection:ExVer2.jsonld\" \"Tooltip: \";\n click raw.githubusercontent.com/Signature-Sound-Vienna/data/TISMIR/annot/mao/selection/ExVer2-audio1.jsonld \"http://primal.mdw.ac.at/?obj=https://raw.githubusercontent.com/Signature-Sound-Vienna/data/TISMIR/annot/mao/selection/ExVer2-audio1.jsonld\" \"Tooltip: \";\n click selection:ExVer2-audio1.jsonld \"http://primal.mdw.ac.at/?obj=selection:ExVer2-audio1.jsonld\" \"Tooltip: \";\n click raw.githubusercontent.com/Signature-Sound-Vienna/data/TISMIR/annot/mao/extract/ExVer2.jsonld \"http://primal.mdw.ac.at/?obj=https://raw.githubusercontent.com/Signature-Sound-Vienna/data/TISMIR/annot/mao/extract/ExVer2.jsonld\" \"Tooltip: \";\n click extract:ExVer2.jsonld \"http://primal.mdw.ac.at/?obj=extract:ExVer2.jsonld\" \"Tooltip: \";\n click raw.githubusercontent.com/Signature-Sound-Vienna/data/TISMIR/annot/mao/musicalMaterial/ExVer2.jsonld \"http://primal.mdw.ac.at/?obj=https://raw.githubusercontent.com/Signature-Sound-Vienna/data/TISMIR/annot/mao/musicalMaterial/ExVer2.jsonld\" \"Tooltip: \";\n click musMat:ExVer2.jsonld \"http://primal.mdw.ac.at/?obj=musMat:ExVer2.jsonld\" \"Tooltip: \";\n subgraph Current resource\nraw.githubusercontent.com/Signature-Sound-Vienna/data/TISMIR/annot/mao/musicalMaterial/ExVer2.jsonld\n end\n"
+    ],
+    "requestCount": 44,
+    "corsBlocked": []
+  }
+}

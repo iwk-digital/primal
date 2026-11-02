@@ -1,0 +1,278 @@
+{
+  "root": {
+    "set": "hand",
+    "folder": "selection",
+    "name": "ExampleD",
+    "obj": "https://raw.githubusercontent.com/Signature-Sound-Vienna/data/hand/annot/mao/selection/ExampleD.jsonld",
+    "w3id": "https://w3id.org/ssv/hand/annot/mao/selection/ExampleD",
+    "quick": false
+  },
+  "recordedAt": "2026-11-02T16:16:28.879Z",
+  "compare": {
+    "splash": false,
+    "traversalsComplete": true,
+    "sections": {
+      "h-text-content": {
+        "loaded": true,
+        "noContent": [
+          "No text content found in this annotation."
+        ]
+      },
+      "h-music-scores": {
+        "loaded": true,
+        "noContent": []
+      },
+      "h-audio-examples": {
+        "loaded": true,
+        "noContent": [
+          "No audio recordings found in this annotation."
+        ]
+      },
+      "h-metadata": {
+        "loaded": true,
+        "noContent": []
+      },
+      "h-graph": {
+        "loaded": true,
+        "noContent": []
+      },
+      "h-json-display": {
+        "loaded": true,
+        "noContent": []
+      }
+    },
+    "banners": [],
+    "textBodies": [],
+    "scores": [
+      {
+        "id": "https://raw.githubusercontent.com/Signature-Sound-Vienna/Johann-Strauss-Sohn-Op437_Kaiser-Walzer_Breitkopf/main/Kaiser-Walzer_Breitkopf-expanded.mei",
+        "highlighted": [
+          "d4vtw0t",
+          "m123k0im",
+          "m19x55wl",
+          "m1qc4r33",
+          "m60717a",
+          "mb9zq19",
+          "mg5l7al",
+          "mm0qpnx",
+          "n108lksk",
+          "n1223q5a",
+          "n1333tks",
+          "n144nwem",
+          "n15hh4z9",
+          "n15q7oy1",
+          "n16s5ojs",
+          "n17immuz",
+          "n183pqgb",
+          "n18ipqqx",
+          "n19xowjg",
+          "n1ayayas",
+          "n1bx69jy",
+          "n1erx88m",
+          "n1fe1f42",
+          "n1fuhg45",
+          "n1jzsny5",
+          "n1kkl9kf",
+          "n1kollug",
+          "n1kze49e",
+          "n1lcddj6",
+          "n1mibc03",
+          "n1nm0zi8",
+          "n1nmcv55",
+          "n1np2wq7",
+          "n1nw0pea",
+          "n1o1bb6y",
+          "n1okpdsz",
+          "n1p922u9",
+          "n1qpzs8r",
+          "n1rcyr0i",
+          "n1rduhor",
+          "n1sd4zew",
+          "n1syzw7e",
+          "n1t5ujwv",
+          "n1tfaxfw",
+          "n1uf10iq",
+          "n1voouvr",
+          "n1wafujo",
+          "n1ygaya0",
+          "n1yq9gzx",
+          "n23t6t8",
+          "n3g8lls",
+          "n5jzhvg",
+          "n8d6drg",
+          "n957pb4",
+          "nblz31h",
+          "nbmvwvp",
+          "ndmocqx",
+          "ndsqf5h",
+          "nenk4rg",
+          "newfgfo",
+          "nex2lvf",
+          "nf4papu",
+          "nfnxpuz",
+          "ng03s8i",
+          "ni38wue",
+          "nkzwh15",
+          "nminqmu",
+          "nn2xghy",
+          "nn7vr5h",
+          "nnizx5n",
+          "nodskax",
+          "npqvhe3",
+          "nsfycxy",
+          "nv4fizr",
+          "nvcnzc0",
+          "nvhyzj0",
+          "nvyfvtd",
+          "nx9nkph",
+          "nxboczv",
+          "nyjjkgs",
+          "r10xqvdv",
+          "r11h7in",
+          "r133i5uz",
+          "r17p3n2",
+          "r19425n8",
+          "r1a0xj5h",
+          "r1bfqrl9",
+          "r1d9r8gz",
+          "r1eak90l",
+          "r1ejxrcp",
+          "r1fvfa0i",
+          "r1idx5p7",
+          "r1ijruiu",
+          "r1jhoelf",
+          "r1kh3ik6",
+          "r1lg15on",
+          "r1m5ekmk",
+          "r1nu8tjz",
+          "r1p2ulh5",
+          "r1tdlv4b",
+          "r1vqa7qy",
+          "r1wy6uj2",
+          "r1xn25qv",
+          "r1yz1dqo",
+          "r3z3ql4",
+          "r715c93",
+          "r7fv02u",
+          "r99t7ve",
+          "r9eiup9",
+          "razhv4u",
+          "rbf0mq0",
+          "rfpl0aq",
+          "riztlbz",
+          "rj2gsog",
+          "rkcxvvz",
+          "rkhyonf",
+          "rl58xqz",
+          "rlsua6v",
+          "rolv5p9",
+          "rpohaa5",
+          "rr1h1qm",
+          "rrgvq7d",
+          "rsdss4u",
+          "rvv2kic",
+          "rvxyaqs",
+          "rwfqbxi",
+          "rxebyud"
+        ],
+        "svg": {
+          "viewBox": "0 0 2100 3783",
+          "elementsWithDataId": 1521
+        }
+      }
+    ],
+    "meiFriendLinks": [
+      "https://mei-friend.mdw.ac.at/?file=https://raw.githubusercontent.com/Signature-Sound-Vienna/Johann-Strauss-Sohn-Op437_Kaiser-Walzer_Breitkopf/main/Kaiser-Walzer_Breitkopf-expanded.mei&select=m1qc4r33,m60717a,d4vtw0t,n1voouvr,n5jzhvg,n1o1bb6y,n1lcddj6,r1a0xj5h,r1yz1dqo,rpohaa5,rvxyaqs,n1223q5a,nn2xghy,n1p922u9,n1nmcv55,r17p3n2,rl58xqz,r1xn25qv,rkcxvvz,nminqmu,nn7vr5h,n15hh4z9,n1mibc03,r1nu8tjz,r1eak90l,r9eiup9,r1bfqrl9,m19x55wl,mm0qpnx,n1erx88m,nblz31h,n1kze49e,n8d6drg,r11h7in,r1ijruiu,r3z3ql4,rbf0mq0,n108lksk,n1fe1f42,n17immuz,n3g8lls,r19425n8,r1lg15on,r1p2ulh5,r715c93,n1fuhg45,n1nw0pea,n19xowjg,nnizx5n,rrgvq7d,r99t7ve,razhv4u,rlsua6v,mg5l7al,mb9zq19,m123k0im,nkzwh15,n1okpdsz,rj2gsog,n1tfaxfw,n183pqgb,r1tdlv4b,n1yq9gzx,nbmvwvp,r133i5uz,n1ygaya0,n1t5ujwv,rfpl0aq,nfnxpuz,n1rcyr0i,r1wy6uj2,n15q7oy1,nx9nkph,r7fv02u,n1jzsny5,n1syzw7e,r1m5ekmk,ndsqf5h,n1333tks,rsdss4u,n1sd4zew,n1np2wq7,r1ejxrcp,npqvhe3,nodskax,rwfqbxi,n1wafujo,n1qpzs8r,rkhyonf,n16s5ojs,n144nwem,riztlbz,n1ayayas,newfgfo,r1jhoelf,n1kkl9kf,ndmocqx,r1idx5p7,nf4papu,n1kollug,r10xqvdv,n1rduhor,ng03s8i,rolv5p9,nvyfvtd,nvcnzc0,r1kh3ik6,nex2lvf,n1bx69jy,r1vqa7qy,n1nm0zi8,nv4fizr,rr1h1qm,n23t6t8,n18ipqqx,r1fvfa0i,nxboczv,nvhyzj0,r1d9r8gz,nyjjkgs,n957pb4,rvv2kic,ni38wue,nenk4rg,rxebyud,n1uf10iq,nsfycxy"
+    ],
+    "audio": [],
+    "metadata": {
+      "currentUri": "Current resource: <https://raw.githubusercontent.com/Signature-Sound-Vienna/data/hand/annot/mao/selection/ExampleD.jsonld>",
+      "createdBy": "Created by: <https://ssv.solidcommunity.net/profile/card#me>",
+      "createdByLinks": [
+        {
+          "text": "<https://ssv.solidcommunity.net/profile/card#me>",
+          "href": "https://ssv.solidcommunity.net/profile/card#me"
+        }
+      ],
+      "audioSelectionsHeading": null,
+      "audioSelections": []
+    },
+    "graph": {
+      "svg": true,
+      "nodes": 2,
+      "edges": 1
+    },
+    "mermaid": [
+      [
+        "class raw.githubusercontent.com/Signature-Sound-Vienna/data/hand/annot/mao/selection/ExampleD.jsonld current",
+        "click raw.githubusercontent.com/Signature-Sound-Vienna/data/hand/annot/mao/selection/ExampleD.jsonld \"http://primal.mdw.ac.at/?obj=https://raw.githubusercontent.com/Signature-Sound-Vienna/data/hand/annot/mao/selection/ExampleD.jsonld\" \"Tooltip: \"",
+        "click selection:ExampleD.jsonld \"http://primal.mdw.ac.at/?obj=selection:ExampleD.jsonld\" \"Tooltip: \"",
+        "end",
+        "graph TD",
+        "raw.githubusercontent.com/Signature-Sound-Vienna/data/hand/annot/mao/selection/ExampleD.jsonld -- frbr:part (127 fragments) --> Kaiser-Walzer_Breitkopf-expanded.mei",
+        "raw.githubusercontent.com/Signature-Sound-Vienna/data/hand/annot/mao/selection/ExampleD.jsonld",
+        "raw.githubusercontent.com/Signature-Sound-Vienna/data/hand/annot/mao/selection/ExampleD.jsonld(\"mao:Selection: <em>Example D</em>\")",
+        "subgraph Current resource"
+      ]
+    ],
+    "json": "{\n  \"@context\": {\n    \"@vocab\": \"http://www.w3.org/ns/oa#\",\n    \"oa\": \"http://www.w3.org/ns/oa#\",\n    \"mao\": \"https://domestic-beethoven.eu/ontology/1.0/music-annotation-ontology.ttl#\",\n    \"frbr\": \"http://purl.org/vocab/frbr/core#\",\n    \"dc\": \"http://purl.org/dc/terms/\",\n    \"rdfs\": \"http://www.w3.org/2000/01/rdf-schema#\",\n    \"rdf\": \"http://www.w3.org/1999/02/22-rdf-syntax-ns#\",\n    \"mo\": \"http://purl.org/ontology/mo/\",\n    \"tl\": \"http://purl.org/NET/c4dm/timeline.owl#\",\n    \"ssv\": \"https://w3id.org/ssv/vocab#\"\n  },\n  \"@id\": \"https://raw.githubusercontent.com/Signature-Sound-Vienna/data/hand/annot/mao/selection/ExampleD.jsonld\",\n  \"@type\": [\n    \"mao:Selection\",\n    \"https://schema.org/Dataset\"\n  ],\n  \"dc:created\": \"2024-05-27T13:55:58.231Z\",\n  \"dc:creator\": {\n    \"@id\": \"https://ssv.solidcommunity.net/profile/card#me\"\n  },\n  \"dc:provenance\": \"Generated using mei-friend v.1.0.14: https://mei-friend.mdw.ac.at\",\n  \"frbr:part\": [\n    {\n      \"@id\": \"https://raw.githubusercontent.com/Signature-Sound-Vienna/Johann-Strauss-Sohn-Op437_Kaiser-Walzer_Breitkopf/main/Kaiser-Walzer_Breitkopf-expanded.mei#m1qc4r33\"\n    },\n    {\n      \"@id\": \"https://raw.githubusercontent.com/Signature-Sound-Vienna/Johann-Strauss-Sohn-Op437_Kaiser-Walzer_Breitkopf/main/Kaiser-Walzer_Breitkopf-expanded.mei#m60717a\"\n    },\n    {\n      \"@id\": \"https://raw.githubusercontent.com/Signature-Sound-Vienna/Johann-Strauss-Sohn-Op437_Kaiser-Walzer_Breitkopf/main/Kaiser-Walzer_Breitkopf-expanded.mei#d4vtw0t\"\n    },\n    {\n      \"@id\": \"https://raw.githubusercontent.com/Signature-Sound-Vienna/Johann-Strauss-Sohn-Op437_Kaiser-Walzer_Breitkopf/main/Kaiser-Walzer_Breitkopf-expanded.mei#n1voouvr\"\n    },\n    {\n      \"@id\": \"https://raw.githubusercontent.com/Signature-Sound-Vienna/Johann-Strauss-Sohn-Op437_Kaiser-Walzer_Breitkopf/main/Kaiser-Walzer_Breitkopf-expanded.mei#n5jzhvg\"\n    },\n    {\n      \"@id\": \"https://raw.githubusercontent.com/Signature-Sound-Vienna/Johann-Strauss-Sohn-Op437_Kaiser-Walzer_Breitkopf/main/Kaiser-Walzer_Breitkopf-expanded.mei#n1o1bb6y\"\n    },\n    {\n      \"@id\": \"https://raw.githubusercontent.com/Signature-Sound-Vienna/Johann-Strauss-Sohn-Op437_Kaiser-Walzer_Breitkopf/main/Kaiser-Walzer_Breitkopf-expanded.mei#n1lcddj6\"\n    },\n    {\n      \"@id\": \"https://raw.githubusercontent.com/Signature-Sound-Vienna/Johann-Strauss-Sohn-Op437_Kaiser-Walzer_Breitkopf/main/Kaiser-Walzer_Breitkopf-expanded.mei#r1a0xj5h\"\n    },\n    {\n      \"@id\": \"https://raw.githubusercontent.com/Signature-Sound-Vienna/Johann-Strauss-Sohn-Op437_Kaiser-Walzer_Breitkopf/main/Kaiser-Walzer_Breitkopf-expanded.mei#r1yz1dqo\"\n    },\n    {\n      \"@id\": \"https://raw.githubusercontent.com/Signature-Sound-Vienna/Johann-Strauss-Sohn-Op437_Kaiser-Walzer_Breitkopf/main/Kaiser-Walzer_Breitkopf-expanded.mei#rpohaa5\"\n    },\n    {\n      \"@id\": \"https://raw.githubusercontent.com/Signature-Sound-Vienna/Johann-Strauss-Sohn-Op437_Kaiser-Walzer_Breitkopf/main/Kaiser-Walzer_Breitkopf-expanded.mei#rvxyaqs\"\n    },\n    {\n      \"@id\": \"https://raw.githubusercontent.com/Signature-Sound-Vienna/Johann-Strauss-Sohn-Op437_Kaiser-Walzer_Breitkopf/main/Kaiser-Walzer_Breitkopf-expanded.mei#n1223q5a\"\n    },\n    {\n      \"@id\": \"https://raw.githubusercontent.com/Signature-Sound-Vienna/Johann-Strauss-Sohn-Op437_Kaiser-Walzer_Breitkopf/main/Kaiser-Walzer_Breitkopf-expanded.mei#nn2xghy\"\n    },\n    {\n      \"@id\": \"https://raw.githubusercontent.com/Signature-Sound-Vienna/Johann-Strauss-Sohn-Op437_Kaiser-Walzer_Breitkopf/main/Kaiser-Walzer_Breitkopf-expanded.mei#n1p922u9\"\n    },\n    {\n      \"@id\": \"https://raw.githubusercontent.com/Signature-Sound-Vienna/Johann-Strauss-Sohn-Op437_Kaiser-Walzer_Breitkopf/main/Kaiser-Walzer_Breitkopf-expanded.mei#n1nmcv55\"\n    },\n    {\n      \"@id\": \"https://raw.githubusercontent.com/Signature-Sound-Vienna/Johann-Strauss-Sohn-Op437_Kaiser-Walzer_Breitkopf/main/Kaiser-Walzer_Breitkopf-expanded.mei#r17p3n2\"\n    },\n    {\n      \"@id\": \"https://raw.githubusercontent.com/Signature-Sound-Vienna/Johann-Strauss-Sohn-Op437_Kaiser-Walzer_Breitkopf/main/Kaiser-Walzer_Breitkopf-expanded.mei#rl58xqz\"\n    },\n    {\n      \"@id\": \"https://raw.githubusercontent.com/Signature-Sound-Vienna/Johann-Strauss-Sohn-Op437_Kaiser-Walzer_Breitkopf/main/Kaiser-Walzer_Breitkopf-expanded.mei#r1xn25qv\"\n    },\n    {\n      \"@id\": \"https://raw.githubusercontent.com/Signature-Sound-Vienna/Johann-Strauss-Sohn-Op437_Kaiser-Walzer_Breitkopf/main/Kaiser-Walzer_Breitkopf-expanded.mei#rkcxvvz\"\n    },\n    {\n      \"@id\": \"https://raw.githubusercontent.com/Signature-Sound-Vienna/Johann-Strauss-Sohn-Op437_Kaiser-Walzer_Breitkopf/main/Kaiser-Walzer_Breitkopf-expanded.mei#nminqmu\"\n    },\n    {\n      \"@id\": \"https://raw.githubusercontent.com/Signature-Sound-Vienna/Johann-Strauss-Sohn-Op437_Kaiser-Walzer_Breitkopf/main/Kaiser-Walzer_Breitkopf-expanded.mei#nn7vr5h\"\n    },\n    {\n      \"@id\": \"https://raw.githubusercontent.com/Signature-Sound-Vienna/Johann-Strauss-Sohn-Op437_Kaiser-Walzer_Breitkopf/main/Kaiser-Walzer_Breitkopf-expanded.mei#n15hh4z9\"\n    },\n    {\n      \"@id\": \"https://raw.githubusercontent.com/Signature-Sound-Vienna/Johann-Strauss-Sohn-Op437_Kaiser-Walzer_Breitkopf/main/Kaiser-Walzer_Breitkopf-expanded.mei#n1mibc03\"\n    },\n    {\n      \"@id\": \"https://raw.githubusercontent.com/Signature-Sound-Vienna/Johann-Strauss-Sohn-Op437_Kaiser-Walzer_Breitkopf/main/Kaiser-Walzer_Breitkopf-expanded.mei#r1nu8tjz\"\n    },\n    {\n      \"@id\": \"https://raw.githubusercontent.com/Signature-Sound-Vienna/Johann-Strauss-Sohn-Op437_Kaiser-Walzer_Breitkopf/main/Kaiser-Walzer_Breitkopf-expanded.mei#r1eak90l\"\n    },\n    {\n      \"@id\": \"https://raw.githubusercontent.com/Signature-Sound-Vienna/Johann-Strauss-Sohn-Op437_Kaiser-Walzer_Breitkopf/main/Kaiser-Walzer_Breitkopf-expanded.mei#r9eiup9\"\n    },\n    {\n      \"@id\": \"https://raw.githubusercontent.com/Signature-Sound-Vienna/Johann-Strauss-Sohn-Op437_Kaiser-Walzer_Breitkopf/main/Kaiser-Walzer_Breitkopf-expanded.mei#r1bfqrl9\"\n    },\n    {\n      \"@id\": \"https://raw.githubusercontent.com/Signature-Sound-Vienna/Johann-Strauss-Sohn-Op437_Kaiser-Walzer_Breitkopf/main/Kaiser-Walzer_Breitkopf-expanded.mei#m19x55wl\"\n    },\n    {\n      \"@id\": \"https://raw.githubusercontent.com/Signature-Sound-Vienna/Johann-Strauss-Sohn-Op437_Kaiser-Walzer_Breitkopf/main/Kaiser-Walzer_Breitkopf-expanded.mei#mm0qpnx\"\n    },\n    {\n      \"@id\": \"https://raw.githubusercontent.com/Signature-Sound-Vienna/Johann-Strauss-Sohn-Op437_Kaiser-Walzer_Breitkopf/main/Kaiser-Walzer_Breitkopf-expanded.mei#n1erx88m\"\n    },\n    {\n      \"@id\": \"https://raw.githubusercontent.com/Signature-Sound-Vienna/Johann-Strauss-Sohn-Op437_Kaiser-Walzer_Breitkopf/main/Kaiser-Walzer_Breitkopf-expanded.mei#nblz31h\"\n    },\n    {\n      \"@id\": \"https://raw.githubusercontent.com/Signature-Sound-Vienna/Johann-Strauss-Sohn-Op437_Kaiser-Walzer_Breitkopf/main/Kaiser-Walzer_Breitkopf-expanded.mei#n1kze49e\"\n    },\n    {\n      \"@id\": \"https://raw.githubusercontent.com/Signature-Sound-Vienna/Johann-Strauss-Sohn-Op437_Kaiser-Walzer_Breitkopf/main/Kaiser-Walzer_Breitkopf-expanded.mei#n8d6drg\"\n    },\n    {\n      \"@id\": \"https://raw.githubusercontent.com/Signature-Sound-Vienna/Johann-Strauss-Sohn-Op437_Kaiser-Walzer_Breitkopf/main/Kaiser-Walzer_Breitkopf-expanded.mei#r11h7in\"\n    },\n    {\n      \"@id\": \"https://raw.githubusercontent.com/Signature-Sound-Vienna/Johann-Strauss-Sohn-Op437_Kaiser-Walzer_Breitkopf/main/Kaiser-Walzer_Breitkopf-expanded.mei#r1ijruiu\"\n    },\n    {\n      \"@id\": \"https://raw.githubusercontent.com/Signature-Sound-Vienna/Johann-Strauss-Sohn-Op437_Kaiser-Walzer_Breitkopf/main/Kaiser-Walzer_Breitkopf-expanded.mei#r3z3ql4\"\n    },\n    {\n      \"@id\": \"https://raw.githubusercontent.com/Signature-Sound-Vienna/Johann-Strauss-Sohn-Op437_Kaiser-Walzer_Breitkopf/main/Kaiser-Walzer_Breitkopf-expanded.mei#rbf0mq0\"\n    },\n    {\n      \"@id\": \"https://raw.githubusercontent.com/Signature-Sound-Vienna/Johann-Strauss-Sohn-Op437_Kaiser-Walzer_Breitkopf/main/Kaiser-Walzer_Breitkopf-expanded.mei#n108lksk\"\n    },\n    {\n      \"@id\": \"https://raw.githubusercontent.com/Signature-Sound-Vienna/Johann-Strauss-Sohn-Op437_Kaiser-Walzer_Breitkopf/main/Kaiser-Walzer_Breitkopf-expanded.mei#n1fe1f42\"\n    },\n    {\n      \"@id\": \"https://raw.githubusercontent.com/Signature-Sound-Vienna/Johann-Strauss-Sohn-Op437_Kaiser-Walzer_Breitkopf/main/Kaiser-Walzer_Breitkopf-expanded.mei#n17immuz\"\n    },\n    {\n      \"@id\": \"https://raw.githubusercontent.com/Signature-Sound-Vienna/Johann-Strauss-Sohn-Op437_Kaiser-Walzer_Breitkopf/main/Kaiser-Walzer_Breitkopf-expanded.mei#n3g8lls\"\n    },\n    {\n      \"@id\": \"https://raw.githubusercontent.com/Signature-Sound-Vienna/Johann-Strauss-Sohn-Op437_Kaiser-Walzer_Breitkopf/main/Kaiser-Walzer_Breitkopf-expanded.mei#r19425n8\"\n    },\n    {\n      \"@id\": \"https://raw.githubusercontent.com/Signature-Sound-Vienna/Johann-Strauss-Sohn-Op437_Kaiser-Walzer_Breitkopf/main/Kaiser-Walzer_Breitkopf-expanded.mei#r1lg15on\"\n    },\n    {\n      \"@id\": \"https://raw.githubusercontent.com/Signature-Sound-Vienna/Johann-Strauss-Sohn-Op437_Kaiser-Walzer_Breitkopf/main/Kaiser-Walzer_Breitkopf-expanded.mei#r1p2ulh5\"\n    },\n    {\n      \"@id\": \"https://raw.githubusercontent.com/Signature-Sound-Vienna/Johann-Strauss-Sohn-Op437_Kaiser-Walzer_Breitkopf/main/Kaiser-Walzer_Breitkopf-expanded.mei#r715c93\"\n    },\n    {\n      \"@id\": \"https://raw.githubusercontent.com/Signature-Sound-Vienna/Johann-Strauss-Sohn-Op437_Kaiser-Walzer_Breitkopf/main/Kaiser-Walzer_Breitkopf-expanded.mei#n1fuhg45\"\n    },\n    {\n      \"@id\": \"https://raw.githubusercontent.com/Signature-Sound-Vienna/Johann-Strauss-Sohn-Op437_Kaiser-Walzer_Breitkopf/main/Kaiser-Walzer_Breitkopf-expanded.mei#n1nw0pea\"\n    },\n    {\n      \"@id\": \"https://raw.githubusercontent.com/Signature-Sound-Vienna/Johann-Strauss-Sohn-Op437_Kaiser-Walzer_Breitkopf/main/Kaiser-Walzer_Breitkopf-expanded.mei#n19xowjg\"\n    },\n    {\n      \"@id\": \"https://raw.githubusercontent.com/Signature-Sound-Vienna/Johann-Strauss-Sohn-Op437_Kaiser-Walzer_Breitkopf/main/Kaiser-Walzer_Breitkopf-expanded.mei#nnizx5n\"\n    },\n    {\n      \"@id\": \"https://raw.githubusercontent.com/Signature-Sound-Vienna/Johann-Strauss-Sohn-Op437_Kaiser-Walzer_Breitkopf/main/Kaiser-Walzer_Breitkopf-expanded.mei#rrgvq7d\"\n    },\n    {\n      \"@id\": \"https://raw.githubusercontent.com/Signature-Sound-Vienna/Johann-Strauss-Sohn-Op437_Kaiser-Walzer_Breitkopf/main/Kaiser-Walzer_Breitkopf-expanded.mei#r99t7ve\"\n    },\n    {\n      \"@id\": \"https://raw.githubusercontent.com/Signature-Sound-Vienna/Johann-Strauss-Sohn-Op437_Kaiser-Walzer_Breitkopf/main/Kaiser-Walzer_Breitkopf-expanded.mei#razhv4u\"\n    },\n    {\n      \"@id\": \"https://raw.githubusercontent.com/Signature-Sound-Vienna/Johann-Strauss-Sohn-Op437_Kaiser-Walzer_Breitkopf/main/Kaiser-Walzer_Breitkopf-expanded.mei#rlsua6v\"\n    },\n    {\n      \"@id\": \"https://raw.githubusercontent.com/Signature-Sound-Vienna/Johann-Strauss-Sohn-Op437_Kaiser-Walzer_Breitkopf/main/Kaiser-Walzer_Breitkopf-expanded.mei#mg5l7al\"\n    },\n    {\n      \"@id\": \"https://raw.githubusercontent.com/Signature-Sound-Vienna/Johann-Strauss-Sohn-Op437_Kaiser-Walzer_Breitkopf/main/Kaiser-Walzer_Breitkopf-expanded.mei#mb9zq19\"\n    },\n    {\n      \"@id\": \"https://raw.githubusercontent.com/Signature-Sound-Vienna/Johann-Strauss-Sohn-Op437_Kaiser-Walzer_Breitkopf/main/Kaiser-Walzer_Breitkopf-expanded.mei#m123k0im\"\n    },\n    {\n      \"@id\": \"https://raw.githubusercontent.com/Signature-Sound-Vienna/Johann-Strauss-Sohn-Op437_Kaiser-Walzer_Breitkopf/main/Kaiser-Walzer_Breitkopf-expanded.mei#nkzwh15\"\n    },\n    {\n      \"@id\": \"https://raw.githubusercontent.com/Signature-Sound-Vienna/Johann-Strauss-Sohn-Op437_Kaiser-Walzer_Breitkopf/main/Kaiser-Walzer_Breitkopf-expanded.mei#n1okpdsz\"\n    },\n    {\n      \"@id\": \"https://raw.githubusercontent.com/Signature-Sound-Vienna/Johann-Strauss-Sohn-Op437_Kaiser-Walzer_Breitkopf/main/Kaiser-Walzer_Breitkopf-expanded.mei#rj2gsog\"\n    },\n    {\n      \"@id\": \"https://raw.githubusercontent.com/Signature-Sound-Vienna/Johann-Strauss-Sohn-Op437_Kaiser-Walzer_Breitkopf/main/Kaiser-Walzer_Breitkopf-expanded.mei#n1tfaxfw\"\n    },\n    {\n      \"@id\": \"https://raw.githubusercontent.com/Signature-Sound-Vienna/Johann-Strauss-Sohn-Op437_Kaiser-Walzer_Breitkopf/main/Kaiser-Walzer_Breitkopf-expanded.mei#n183pqgb\"\n    },\n    {\n      \"@id\": \"https://raw.githubusercontent.com/Signature-Sound-Vienna/Johann-Strauss-Sohn-Op437_Kaiser-Walzer_Breitkopf/main/Kaiser-Walzer_Breitkopf-expanded.mei#r1tdlv4b\"\n    },\n    {\n      \"@id\": \"https://raw.githubusercontent.com/Signature-Sound-Vienna/Johann-Strauss-Sohn-Op437_Kaiser-Walzer_Breitkopf/main/Kaiser-Walzer_Breitkopf-expanded.mei#n1yq9gzx\"\n    },\n    {\n      \"@id\": \"https://raw.githubusercontent.com/Signature-Sound-Vienna/Johann-Strauss-Sohn-Op437_Kaiser-Walzer_Breitkopf/main/Kaiser-Walzer_Breitkopf-expanded.mei#nbmvwvp\"\n    },\n    {\n      \"@id\": \"https://raw.githubusercontent.com/Signature-Sound-Vienna/Johann-Strauss-Sohn-Op437_Kaiser-Walzer_Breitkopf/main/Kaiser-Walzer_Breitkopf-expanded.mei#r133i5uz\"\n    },\n    {\n      \"@id\": \"https://raw.githubusercontent.com/Signature-Sound-Vienna/Johann-Strauss-Sohn-Op437_Kaiser-Walzer_Breitkopf/main/Kaiser-Walzer_Breitkopf-expanded.mei#n1ygaya0\"\n    },\n    {\n      \"@id\": \"https://raw.githubusercontent.com/Signature-Sound-Vienna/Johann-Strauss-Sohn-Op437_Kaiser-Walzer_Breitkopf/main/Kaiser-Walzer_Breitkopf-expanded.mei#n1t5ujwv\"\n    },\n    {\n      \"@id\": \"https://raw.githubusercontent.com/Signature-Sound-Vienna/Johann-Strauss-Sohn-Op437_Kaiser-Walzer_Breitkopf/main/Kaiser-Walzer_Breitkopf-expanded.mei#rfpl0aq\"\n    },\n    {\n      \"@id\": \"https://raw.githubusercontent.com/Signature-Sound-Vienna/Johann-Strauss-Sohn-Op437_Kaiser-Walzer_Breitkopf/main/Kaiser-Walzer_Breitkopf-expanded.mei#nfnxpuz\"\n    },\n    {\n      \"@id\": \"https://raw.githubusercontent.com/Signature-Sound-Vienna/Johann-Strauss-Sohn-Op437_Kaiser-Walzer_Breitkopf/main/Kaiser-Walzer_Breitkopf-expanded.mei#n1rcyr0i\"\n    },\n    {\n      \"@id\": \"https://raw.githubusercontent.com/Signature-Sound-Vienna/Johann-Strauss-Sohn-Op437_Kaiser-Walzer_Breitkopf/main/Kaiser-Walzer_Breitkopf-expanded.mei#r1wy6uj2\"\n    },\n    {\n      \"@id\": \"https://raw.githubusercontent.com/Signature-Sound-Vienna/Johann-Strauss-Sohn-Op437_Kaiser-Walzer_Breitkopf/main/Kaiser-Walzer_Breitkopf-expanded.mei#n15q7oy1\"\n    },\n    {\n      \"@id\": \"https://raw.githubusercontent.com/Signature-Sound-Vienna/Johann-Strauss-Sohn-Op437_Kaiser-Walzer_Breitkopf/main/Kaiser-Walzer_Breitkopf-expanded.mei#nx9nkph\"\n    },\n    {\n      \"@id\": \"https://raw.githubusercontent.com/Signature-Sound-Vienna/Johann-Strauss-Sohn-Op437_Kaiser-Walzer_Breitkopf/main/Kaiser-Walzer_Breitkopf-expanded.mei#r7fv02u\"\n    },\n    {\n      \"@id\": \"https://raw.githubusercontent.com/Signature-Sound-Vienna/Johann-Strauss-Sohn-Op437_Kaiser-Walzer_Breitkopf/main/Kaiser-Walzer_Breitkopf-expanded.mei#n1jzsny5\"\n    },\n    {\n      \"@id\": \"https://raw.githubusercontent.com/Signature-Sound-Vienna/Johann-Strauss-Sohn-Op437_Kaiser-Walzer_Breitkopf/main/Kaiser-Walzer_Breitkopf-expanded.mei#n1syzw7e\"\n    },\n    {\n      \"@id\": \"https://raw.githubusercontent.com/Signature-Sound-Vienna/Johann-Strauss-Sohn-Op437_Kaiser-Walzer_Breitkopf/main/Kaiser-Walzer_Breitkopf-expanded.mei#r1m5ekmk\"\n    },\n    {\n      \"@id\": \"https://raw.githubusercontent.com/Signature-Sound-Vienna/Johann-Strauss-Sohn-Op437_Kaiser-Walzer_Breitkopf/main/Kaiser-Walzer_Breitkopf-expanded.mei#ndsqf5h\"\n    },\n    {\n      \"@id\": \"https://raw.githubusercontent.com/Signature-Sound-Vienna/Johann-Strauss-Sohn-Op437_Kaiser-Walzer_Breitkopf/main/Kaiser-Walzer_Breitkopf-expanded.mei#n1333tks\"\n    },\n    {\n      \"@id\": \"https://raw.githubusercontent.com/Signature-Sound-Vienna/Johann-Strauss-Sohn-Op437_Kaiser-Walzer_Breitkopf/main/Kaiser-Walzer_Breitkopf-expanded.mei#rsdss4u\"\n    },\n    {\n      \"@id\": \"https://raw.githubusercontent.com/Signature-Sound-Vienna/Johann-Strauss-Sohn-Op437_Kaiser-Walzer_Breitkopf/main/Kaiser-Walzer_Breitkopf-expanded.mei#n1sd4zew\"\n    },\n    {\n      \"@id\": \"https://raw.githubusercontent.com/Signature-Sound-Vienna/Johann-Strauss-Sohn-Op437_Kaiser-Walzer_Breitkopf/main/Kaiser-Walzer_Breitkopf-expanded.mei#n1np2wq7\"\n    },\n    {\n      \"@id\": \"https://raw.githubusercontent.com/Signature-Sound-Vienna/Johann-Strauss-Sohn-Op437_Kaiser-Walzer_Breitkopf/main/Kaiser-Walzer_Breitkopf-expanded.mei#r1ejxrcp\"\n    },\n    {\n      \"@id\": \"https://raw.githubusercontent.com/Signature-Sound-Vienna/Johann-Strauss-Sohn-Op437_Kaiser-Walzer_Breitkopf/main/Kaiser-Walzer_Breitkopf-expanded.mei#npqvhe3\"\n    },\n    {\n      \"@id\": \"https://raw.githubusercontent.com/Signature-Sound-Vienna/Johann-Strauss-Sohn-Op437_Kaiser-Walzer_Breitkopf/main/Kaiser-Walzer_Breitkopf-expanded.mei#nodskax\"\n    },\n    {\n      \"@id\": \"https://raw.githubusercontent.com/Signature-Sound-Vienna/Johann-Strauss-Sohn-Op437_Kaiser-Walzer_Breitkopf/main/Kaiser-Walzer_Breitkopf-expanded.mei#rwfqbxi\"\n    },\n    {\n      \"@id\": \"https://raw.githubusercontent.com/Signature-Sound-Vienna/Johann-Strauss-Sohn-Op437_Kaiser-Walzer_Breitkopf/main/Kaiser-Walzer_Breitkopf-expanded.mei#n1wafujo\"\n    },\n    {\n      \"@id\": \"https://raw.githubusercontent.com/Signature-Sound-Vienna/Johann-Strauss-Sohn-Op437_Kaiser-Walzer_Breitkopf/main/Kaiser-Walzer_Breitkopf-expanded.mei#n1qpzs8r\"\n    },\n    {\n      \"@id\": \"https://raw.githubusercontent.com/Signature-Sound-Vienna/Johann-Strauss-Sohn-Op437_Kaiser-Walzer_Breitkopf/main/Kaiser-Walzer_Breitkopf-expanded.mei#rkhyonf\"\n    },\n    {\n      \"@id\": \"https://raw.githubusercontent.com/Signature-Sound-Vienna/Johann-Strauss-Sohn-Op437_Kaiser-Walzer_Breitkopf/main/Kaiser-Walzer_Breitkopf-expanded.mei#n16s5ojs\"\n    },\n    {\n      \"@id\": \"https://raw.githubusercontent.com/Signature-Sound-Vienna/Johann-Strauss-Sohn-Op437_Kaiser-Walzer_Breitkopf/main/Kaiser-Walzer_Breitkopf-expanded.mei#n144nwem\"\n    },\n    {\n      \"@id\": \"https://raw.githubusercontent.com/Signature-Sound-Vienna/Johann-Strauss-Sohn-Op437_Kaiser-Walzer_Breitkopf/main/Kaiser-Walzer_Breitkopf-expanded.mei#riztlbz\"\n    },\n    {\n      \"@id\": \"https://raw.githubusercontent.com/Signature-Sound-Vienna/Johann-Strauss-Sohn-Op437_Kaiser-Walzer_Breitkopf/main/Kaiser-Walzer_Breitkopf-expanded.mei#n1ayayas\"\n    },\n    {\n      \"@id\": \"https://raw.githubusercontent.com/Signature-Sound-Vienna/Johann-Strauss-Sohn-Op437_Kaiser-Walzer_Breitkopf/main/Kaiser-Walzer_Breitkopf-expanded.mei#newfgfo\"\n    },\n    {\n      \"@id\": \"https://raw.githubusercontent.com/Signature-Sound-Vienna/Johann-Strauss-Sohn-Op437_Kaiser-Walzer_Breitkopf/main/Kaiser-Walzer_Breitkopf-expanded.mei#r1jhoelf\"\n    },\n    {\n      \"@id\": \"https://raw.githubusercontent.com/Signature-Sound-Vienna/Johann-Strauss-Sohn-Op437_Kaiser-Walzer_Breitkopf/main/Kaiser-Walzer_Breitkopf-expanded.mei#n1kkl9kf\"\n    },\n    {\n      \"@id\": \"https://raw.githubusercontent.com/Signature-Sound-Vienna/Johann-Strauss-Sohn-Op437_Kaiser-Walzer_Breitkopf/main/Kaiser-Walzer_Breitkopf-expanded.mei#ndmocqx\"\n    },\n    {\n      \"@id\": \"https://raw.githubusercontent.com/Signature-Sound-Vienna/Johann-Strauss-Sohn-Op437_Kaiser-Walzer_Breitkopf/main/Kaiser-Walzer_Breitkopf-expanded.mei#r1idx5p7\"\n    },\n    {\n      \"@id\": \"https://raw.githubusercontent.com/Signature-Sound-Vienna/Johann-Strauss-Sohn-Op437_Kaiser-Walzer_Breitkopf/main/Kaiser-Walzer_Breitkopf-expanded.mei#nf4papu\"\n    },\n    {\n      \"@id\": \"https://raw.githubusercontent.com/Signature-Sound-Vienna/Johann-Strauss-Sohn-Op437_Kaiser-Walzer_Breitkopf/main/Kaiser-Walzer_Breitkopf-expanded.mei#n1kollug\"\n    },\n    {\n      \"@id\": \"https://raw.githubusercontent.com/Signature-Sound-Vienna/Johann-Strauss-Sohn-Op437_Kaiser-Walzer_Breitkopf/main/Kaiser-Walzer_Breitkopf-expanded.mei#r10xqvdv\"\n    },\n    {\n      \"@id\": \"https://raw.githubusercontent.com/Signature-Sound-Vienna/Johann-Strauss-Sohn-Op437_Kaiser-Walzer_Breitkopf/main/Kaiser-Walzer_Breitkopf-expanded.mei#n1rduhor\"\n    },\n    {\n      \"@id\": \"https://raw.githubusercontent.com/Signature-Sound-Vienna/Johann-Strauss-Sohn-Op437_Kaiser-Walzer_Breitkopf/main/Kaiser-Walzer_Breitkopf-expanded.mei#ng03s8i\"\n    },\n    {\n      \"@id\": \"https://raw.githubusercontent.com/Signature-Sound-Vienna/Johann-Strauss-Sohn-Op437_Kaiser-Walzer_Breitkopf/main/Kaiser-Walzer_Breitkopf-expanded.mei#rolv5p9\"\n    },\n    {\n      \"@id\": \"https://raw.githubusercontent.com/Signature-Sound-Vienna/Johann-Strauss-Sohn-Op437_Kaiser-Walzer_Breitkopf/main/Kaiser-Walzer_Breitkopf-expanded.mei#nvyfvtd\"\n    },\n    {\n      \"@id\": \"https://raw.githubusercontent.com/Signature-Sound-Vienna/Johann-Strauss-Sohn-Op437_Kaiser-Walzer_Breitkopf/main/Kaiser-Walzer_Breitkopf-expanded.mei#nvcnzc0\"\n    },\n    {\n      \"@id\": \"https://raw.githubusercontent.com/Signature-Sound-Vienna/Johann-Strauss-Sohn-Op437_Kaiser-Walzer_Breitkopf/main/Kaiser-Walzer_Breitkopf-expanded.mei#r1kh3ik6\"\n    },\n    {\n      \"@id\": \"https://raw.githubusercontent.com/Signature-Sound-Vienna/Johann-Strauss-Sohn-Op437_Kaiser-Walzer_Breitkopf/main/Kaiser-Walzer_Breitkopf-expanded.mei#nex2lvf\"\n    },\n    {\n      \"@id\": \"https://raw.githubusercontent.com/Signature-Sound-Vienna/Johann-Strauss-Sohn-Op437_Kaiser-Walzer_Breitkopf/main/Kaiser-Walzer_Breitkopf-expanded.mei#n1bx69jy\"\n    },\n    {\n      \"@id\": \"https://raw.githubusercontent.com/Signature-Sound-Vienna/Johann-Strauss-Sohn-Op437_Kaiser-Walzer_Breitkopf/main/Kaiser-Walzer_Breitkopf-expanded.mei#r1vqa7qy\"\n    },\n    {\n      \"@id\": \"https://raw.githubusercontent.com/Signature-Sound-Vienna/Johann-Strauss-Sohn-Op437_Kaiser-Walzer_Breitkopf/main/Kaiser-Walzer_Breitkopf-expanded.mei#n1nm0zi8\"\n    },\n    {\n      \"@id\": \"https://raw.githubusercontent.com/Signature-Sound-Vienna/Johann-Strauss-Sohn-Op437_Kaiser-Walzer_Breitkopf/main/Kaiser-Walzer_Breitkopf-expanded.mei#nv4fizr\"\n    },\n    {\n      \"@id\": \"https://raw.githubusercontent.com/Signature-Sound-Vienna/Johann-Strauss-Sohn-Op437_Kaiser-Walzer_Breitkopf/main/Kaiser-Walzer_Breitkopf-expanded.mei#rr1h1qm\"\n    },\n    {\n      \"@id\": \"https://raw.githubusercontent.com/Signature-Sound-Vienna/Johann-Strauss-Sohn-Op437_Kaiser-Walzer_Breitkopf/main/Kaiser-Walzer_Breitkopf-expanded.mei#n23t6t8\"\n    },\n    {\n      \"@id\": \"https://raw.githubusercontent.com/Signature-Sound-Vienna/Johann-Strauss-Sohn-Op437_Kaiser-Walzer_Breitkopf/main/Kaiser-Walzer_Breitkopf-expanded.mei#n18ipqqx\"\n    },\n    {\n      \"@id\": \"https://raw.githubusercontent.com/Signature-Sound-Vienna/Johann-Strauss-Sohn-Op437_Kaiser-Walzer_Breitkopf/main/Kaiser-Walzer_Breitkopf-expanded.mei#r1fvfa0i\"\n    },\n    {\n      \"@id\": \"https://raw.githubusercontent.com/Signature-Sound-Vienna/Johann-Strauss-Sohn-Op437_Kaiser-Walzer_Breitkopf/main/Kaiser-Walzer_Breitkopf-expanded.mei#nxboczv\"\n    },\n    {\n      \"@id\": \"https://raw.githubusercontent.com/Signature-Sound-Vienna/Johann-Strauss-Sohn-Op437_Kaiser-Walzer_Breitkopf/main/Kaiser-Walzer_Breitkopf-expanded.mei#nvhyzj0\"\n    },\n    {\n      \"@id\": \"https://raw.githubusercontent.com/Signature-Sound-Vienna/Johann-Strauss-Sohn-Op437_Kaiser-Walzer_Breitkopf/main/Kaiser-Walzer_Breitkopf-expanded.mei#r1d9r8gz\"\n    },\n    {\n      \"@id\": \"https://raw.githubusercontent.com/Signature-Sound-Vienna/Johann-Strauss-Sohn-Op437_Kaiser-Walzer_Breitkopf/main/Kaiser-Walzer_Breitkopf-expanded.mei#nyjjkgs\"\n    },\n    {\n      \"@id\": \"https://raw.githubusercontent.com/Signature-Sound-Vienna/Johann-Strauss-Sohn-Op437_Kaiser-Walzer_Breitkopf/main/Kaiser-Walzer_Breitkopf-expanded.mei#n957pb4\"\n    },\n    {\n      \"@id\": \"https://raw.githubusercontent.com/Signature-Sound-Vienna/Johann-Strauss-Sohn-Op437_Kaiser-Walzer_Breitkopf/main/Kaiser-Walzer_Breitkopf-expanded.mei#rvv2kic\"\n    },\n    {\n      \"@id\": \"https://raw.githubusercontent.com/Signature-Sound-Vienna/Johann-Strauss-Sohn-Op437_Kaiser-Walzer_Breitkopf/main/Kaiser-Walzer_Breitkopf-expanded.mei#ni38wue\"\n    },\n    {\n      \"@id\": \"https://raw.githubusercontent.com/Signature-Sound-Vienna/Johann-Strauss-Sohn-Op437_Kaiser-Walzer_Breitkopf/main/Kaiser-Walzer_Breitkopf-expanded.mei#nenk4rg\"\n    },\n    {\n      \"@id\": \"https://raw.githubusercontent.com/Signature-Sound-Vienna/Johann-Strauss-Sohn-Op437_Kaiser-Walzer_Breitkopf/main/Kaiser-Walzer_Breitkopf-expanded.mei#rxebyud\"\n    },\n    {\n      \"@id\": \"https://raw.githubusercontent.com/Signature-Sound-Vienna/Johann-Strauss-Sohn-Op437_Kaiser-Walzer_Breitkopf/main/Kaiser-Walzer_Breitkopf-expanded.mei#n1uf10iq\"\n    },\n    {\n      \"@id\": \"https://raw.githubusercontent.com/Signature-Sound-Vienna/Johann-Strauss-Sohn-Op437_Kaiser-Walzer_Breitkopf/main/Kaiser-Walzer_Breitkopf-expanded.mei#nsfycxy\"\n    }\n  ],\n  \"rdfs:label\": \"Example D\",\n  \"https://schema.org/about\": {\n    \"@id\": \"https://raw.githubusercontent.com/Signature-Sound-Vienna/Johann-Strauss-Sohn-Op437_Kaiser-Walzer_Breitkopf/main/Kaiser-Walzer_Breitkopf-expanded.mei\"\n  }\n}",
+    "versions": {
+      "verovio": "6.4.0-33d1633",
+      "mermaid": "10.9.8"
+    },
+    "requests": {
+      "GET app:/?obj=https://raw.githubusercontent.com/Signature-Sound-Vienna/data/hand/annot/mao/selection/ExampleD.jsonld": 1,
+      "GET app:/css/prism.css": 1,
+      "GET app:/css/styles.css": 1,
+      "GET app:/deps/regions.js": 1,
+      "GET app:/deps/wavesurfer.js": 1,
+      "GET app:/img/logo.png": 1,
+      "GET app:/lib/LDObj.js": 1,
+      "GET app:/lib/defaults.js": 1,
+      "GET app:/lib/env.js": 1,
+      "GET app:/lib/errorBanner.js": 1,
+      "GET app:/lib/graph.js": 1,
+      "GET app:/lib/graphModal.js": 1,
+      "GET app:/lib/httpUtil.js": 1,
+      "GET app:/lib/main.js": 1,
+      "GET app:/lib/namespaceManager.js": 1,
+      "GET app:/lib/namespaceMap.js": 1,
+      "GET app:/lib/render.js": 1,
+      "GET app:/lib/sanitize.js": 1,
+      "GET app:/lib/traverser.js": 1,
+      "GET https://cdnjs.cloudflare.com/ajax/libs/jsonld/1.0.0/jsonld.min.js": 1,
+      "GET https://cdnjs.cloudflare.com/ajax/libs/prism/1.29.0/components/prism-json.min.js": 1,
+      "GET https://cdnjs.cloudflare.com/ajax/libs/prism/1.29.0/prism.min.js": 1,
+      "GET https://cdnjs.cloudflare.com/ajax/libs/prism/1.29.0/themes/prism.min.css": 1,
+      "GET https://raw.githubusercontent.com/Signature-Sound-Vienna/Johann-Strauss-Sohn-Op437_Kaiser-Walzer_Breitkopf/main/Kaiser-Walzer_Breitkopf-expanded.mei": 1,
+      "GET https://raw.githubusercontent.com/Signature-Sound-Vienna/data/hand/annot/mao/selection/ExampleD.jsonld": 1,
+      "GET https://unpkg.com/mermaid@10/dist/mermaid.min.js": 1,
+      "GET https://www.verovio.org/javascript/latest/verovio-toolkit-wasm.js": 1,
+      "HEAD https://raw.githubusercontent.com/Signature-Sound-Vienna/Johann-Strauss-Sohn-Op437_Kaiser-Walzer_Breitkopf/main/Kaiser-Walzer_Breitkopf-expanded.mei": 254
+    },
+    "consoleErrors": {},
+    "pageErrors": {}
+  },
+  "info": {
+    "timings": {
+      "traversalMs": 425,
+      "networkIdle": true,
+      "idleMs": 1941,
+      "stablePolls": 0,
+      "totalMs": 2711
+    },
+    "order": {
+      "textBodies": [],
+      "scores": [
+        "https://raw.githubusercontent.com/Signature-Sound-Vienna/Johann-Strauss-Sohn-Op437_Kaiser-Walzer_Breitkopf/main/Kaiser-Walzer_Breitkopf-expanded.mei"
+      ],
+      "audio": [],
+      "audioSelections": []
+    },
+    "mermaidSources": [
+      "graph TD; class raw.githubusercontent.com/Signature-Sound-Vienna/data/hand/annot/mao/selection/ExampleD.jsonld current;\nraw.githubusercontent.com/Signature-Sound-Vienna/data/hand/annot/mao/selection/ExampleD.jsonld(\"mao:Selection: <em>Example D</em>\");raw.githubusercontent.com/Signature-Sound-Vienna/data/hand/annot/mao/selection/ExampleD.jsonld -- frbr:part (127 fragments) --> Kaiser-Walzer_Breitkopf-expanded.mei;\n click raw.githubusercontent.com/Signature-Sound-Vienna/data/hand/annot/mao/selection/ExampleD.jsonld \"http://primal.mdw.ac.at/?obj=https://raw.githubusercontent.com/Signature-Sound-Vienna/data/hand/annot/mao/selection/ExampleD.jsonld\" \"Tooltip: \";\n click selection:ExampleD.jsonld \"http://primal.mdw.ac.at/?obj=selection:ExampleD.jsonld\" \"Tooltip: \";\n subgraph Current resource\nraw.githubusercontent.com/Signature-Sound-Vienna/data/hand/annot/mao/selection/ExampleD.jsonld\n end\n"
+    ],
+    "requestCount": 281,
+    "corsBlocked": []
+  }
+}

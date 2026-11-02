@@ -1,0 +1,231 @@
+{
+  "root": {
+    "set": "hand",
+    "folder": "oa",
+    "name": "ExampleC",
+    "obj": "https://raw.githubusercontent.com/Signature-Sound-Vienna/data/hand/annot/oa/ExampleC.jsonld",
+    "w3id": "https://w3id.org/ssv/hand/annot/oa/ExampleC",
+    "quick": true
+  },
+  "recordedAt": "2026-11-02T16:18:42.887Z",
+  "compare": {
+    "splash": false,
+    "traversalsComplete": true,
+    "sections": {
+      "h-text-content": {
+        "loaded": true,
+        "noContent": []
+      },
+      "h-music-scores": {
+        "loaded": true,
+        "noContent": []
+      },
+      "h-audio-examples": {
+        "loaded": true,
+        "noContent": []
+      },
+      "h-metadata": {
+        "loaded": true,
+        "noContent": []
+      },
+      "h-graph": {
+        "loaded": true,
+        "noContent": []
+      },
+      "h-json-display": {
+        "loaded": true,
+        "noContent": []
+      }
+    },
+    "banners": [],
+    "textBodies": [
+      [
+        "The most conspicuous departure from Strauss’s original scoring appears in André Rieu’s 2013 recording with his Dutch Johann Strauss Orchestra, Das große Neujahrskonzert. Throughout the performance, Rieu employs wooden concert flutes, notably doubling them with the clarinet line in the Introduction. This addition introduces a distinct timbral shift, softening the color and subtly reshaping the orchestral balance from the outset."
+      ]
+    ],
+    "scores": [
+      {
+        "id": "https://raw.githubusercontent.com/Signature-Sound-Vienna/Johann-Strauss-Sohn-Op437_Kaiser-Walzer_Breitkopf/main/Kaiser-Walzer_Breitkopf-expanded.mei",
+        "highlighted": [
+          "m18c2ney",
+          "mfjxsck",
+          "mscwwh1",
+          "msvibxw"
+        ],
+        "svg": {
+          "viewBox": "0 0 2100 3789",
+          "elementsWithDataId": 1090
+        }
+      }
+    ],
+    "meiFriendLinks": [
+      "https://mei-friend.mdw.ac.at/?file=https://raw.githubusercontent.com/Signature-Sound-Vienna/Johann-Strauss-Sohn-Op437_Kaiser-Walzer_Breitkopf/main/Kaiser-Walzer_Breitkopf-expanded.mei&select=mscwwh1,mfjxsck,msvibxw,m18c2ney"
+    ],
+    "audio": [
+      {
+        "id": "https://w3id.org/ssv/0.9/data/signal/Das_-20Grosse_-20Neujahrskonzert_-2C_-20mixed__CD1#3-container",
+        "hidden": false,
+        "label": "Example C: Rieu, Johann Strauss Orchester (2013) [playback restricted] (00:00.11–00:10.90)",
+        "waveform": true,
+        "regions": [
+          {
+            "left": "0.020774%",
+            "width": ""
+          }
+        ]
+      }
+    ],
+    "metadata": {
+      "currentUri": "Current resource: <https://raw.githubusercontent.com/Signature-Sound-Vienna/data/hand/annot/oa/ExampleC.jsonld>",
+      "createdBy": "Created by: Dr. Chanda VanderHart",
+      "createdByLinks": [
+        {
+          "text": "Dr. Chanda VanderHart",
+          "href": "https://orcid.org/0000-0002-2055-273X"
+        }
+      ],
+      "audioSelectionsHeading": "Audio Files",
+      "audioSelections": [
+        {
+          "text": "Example C: Rieu, Johann Strauss Orchester (2013)Signal: Das_-20Grosse_-20Neujahrskonzert_-2C_-20mixed__CD1#3Track: &quot;Kaiserwalzer (André Rieu, Johann Strauss Orchester)&quot;MusicBrainz: 5b426237-70bb-4bf9-b9e5-26918e1a3aef",
+          "links": [
+            {
+              "text": "Signal: Das_-20Grosse_-20Neujahrskonzert_-2C_-20mixed__CD1#3",
+              "href": "https://w3id.org/ssv/0.9/data/signal/Das_-20Grosse_-20Neujahrskonzert_-2C_-20mixed__CD1#3"
+            },
+            {
+              "text": "Track: &quot;Kaiserwalzer (André Rieu, Johann Strauss Orchester)&quot;",
+              "href": "https://w3id.org/ssv/0.9/data/track/Das_-20Grosse_-20Neujahrskonzert_-2C_-20mixed__CD1#3"
+            },
+            {
+              "text": "MusicBrainz: 5b426237-70bb-4bf9-b9e5-26918e1a3aef",
+              "href": "https://musicbrainz.org/track/5b426237-70bb-4bf9-b9e5-26918e1a3aef"
+            }
+          ]
+        }
+      ]
+    },
+    "graph": {
+      "svg": true,
+      "nodes": 8,
+      "edges": 7
+    },
+    "mermaid": [
+      [
+        "</em>\")",
+        "The most conspicuous departure from Strauss’s original scoring appears in André Rieu’s ...&quot",
+        "blank_0",
+        "class raw.githubusercontent.com/Signature-Sound-Vienna/data/hand/annot/oa/ExampleC.jsonld current",
+        "click anno:ExampleC.jsonld \"http://primal.mdw.ac.at/?obj=anno:ExampleC.jsonld\" \"Tooltip: \"",
+        "click blank_0 \"#a-text-content\" \"View textual body\"",
+        "click extract:ExampleC.jsonld \"http://primal.mdw.ac.at/?obj=extract:ExampleC.jsonld\" \"Tooltip: \"",
+        "click musMat:ExampleC.jsonld \"http://primal.mdw.ac.at/?obj=musMat:ExampleC.jsonld\" \"Tooltip: \"",
+        "click raw.githubusercontent.com/Signature-Sound-Vienna/data/hand/annot/mao/extract/ExampleC.jsonld \"http://primal.mdw.ac.at/?obj=https://raw.githubusercontent.com/Signature-Sound-Vienna/data/hand/annot/mao/extract/ExampleC.jsonld\" \"Tooltip: \"",
+        "click raw.githubusercontent.com/Signature-Sound-Vienna/data/hand/annot/mao/musicalMaterial/ExampleC.jsonld \"http://primal.mdw.ac.at/?obj=https://raw.githubusercontent.com/Signature-Sound-Vienna/data/hand/annot/mao/musicalMaterial/ExampleC.jsonld\" \"Tooltip: \"",
+        "click raw.githubusercontent.com/Signature-Sound-Vienna/data/hand/annot/mao/selection/ExampleC-audio1.jsonld \"http://primal.mdw.ac.at/?obj=https://raw.githubusercontent.com/Signature-Sound-Vienna/data/hand/annot/mao/selection/ExampleC-audio1.jsonld\" \"Tooltip: \"",
+        "click raw.githubusercontent.com/Signature-Sound-Vienna/data/hand/annot/mao/selection/ExampleC.jsonld \"http://primal.mdw.ac.at/?obj=https://raw.githubusercontent.com/Signature-Sound-Vienna/data/hand/annot/mao/selection/ExampleC.jsonld\" \"Tooltip: \"",
+        "click raw.githubusercontent.com/Signature-Sound-Vienna/data/hand/annot/oa/ExampleC.jsonld \"http://primal.mdw.ac.at/?obj=https://raw.githubusercontent.com/Signature-Sound-Vienna/data/hand/annot/oa/ExampleC.jsonld\" \"Tooltip: \"",
+        "click selection:ExampleC-audio1.jsonld \"http://primal.mdw.ac.at/?obj=selection:ExampleC-audio1.jsonld\" \"Tooltip: \"",
+        "click selection:ExampleC.jsonld \"http://primal.mdw.ac.at/?obj=selection:ExampleC.jsonld\" \"Tooltip: \"",
+        "end",
+        "graph TD",
+        "raw.githubusercontent.com/Signature-Sound-Vienna/data/hand/annot/mao/extract/ExampleC.jsonld -- frbr:embodiment --> raw.githubusercontent.com/Signature-Sound-Vienna/data/hand/annot/mao/selection/ExampleC-audio1.jsonld",
+        "raw.githubusercontent.com/Signature-Sound-Vienna/data/hand/annot/mao/extract/ExampleC.jsonld -- frbr:embodiment --> raw.githubusercontent.com/Signature-Sound-Vienna/data/hand/annot/mao/selection/ExampleC.jsonld",
+        "raw.githubusercontent.com/Signature-Sound-Vienna/data/hand/annot/mao/extract/ExampleC.jsonld(\"mao:Extract: <em>Example C</em>\")",
+        "raw.githubusercontent.com/Signature-Sound-Vienna/data/hand/annot/mao/musicalMaterial/ExampleC.jsonld -- mao:setting --> raw.githubusercontent.com/Signature-Sound-Vienna/data/hand/annot/mao/extract/ExampleC.jsonld",
+        "raw.githubusercontent.com/Signature-Sound-Vienna/data/hand/annot/mao/musicalMaterial/ExampleC.jsonld(\"mao:MusicalMaterial: <em>Example C</em>\")",
+        "raw.githubusercontent.com/Signature-Sound-Vienna/data/hand/annot/mao/selection/ExampleC-audio1.jsonld -- frbr:part (1 time interval) --> 03-Kaiserwalzer%20-%20Johann%20Strauss%20II%20%28Andr%C3%A9%20Rieu%2C%20Johann%20Strauss%20Orchester%29.wav",
+        "raw.githubusercontent.com/Signature-Sound-Vienna/data/hand/annot/mao/selection/ExampleC-audio1.jsonld(\"mao:Selection: <em>Example C: Rieu, Johann Strauss Orchester (2013)</em>\")",
+        "raw.githubusercontent.com/Signature-Sound-Vienna/data/hand/annot/mao/selection/ExampleC.jsonld -- frbr:part (4 fragments) --> Kaiser-Walzer_Breitkopf-expanded.mei",
+        "raw.githubusercontent.com/Signature-Sound-Vienna/data/hand/annot/mao/selection/ExampleC.jsonld(\"mao:Selection: <em>Example C</em>\")",
+        "raw.githubusercontent.com/Signature-Sound-Vienna/data/hand/annot/oa/ExampleC.jsonld -- oa:hasBody --> blank_0(\"<em>&quot",
+        "raw.githubusercontent.com/Signature-Sound-Vienna/data/hand/annot/oa/ExampleC.jsonld -- oa:hasTarget --> raw.githubusercontent.com/Signature-Sound-Vienna/data/hand/annot/mao/musicalMaterial/ExampleC.jsonld",
+        "raw.githubusercontent.com/Signature-Sound-Vienna/data/hand/annot/oa/ExampleC.jsonld",
+        "raw.githubusercontent.com/Signature-Sound-Vienna/data/hand/annot/oa/ExampleC.jsonld(\"oa:Annotation\")",
+        "subgraph Current resource"
+      ]
+    ],
+    "json": "{\n  \"@context\": {\n    \"@vocab\": \"http://www.w3.org/ns/oa#\",\n    \"oa\": \"http://www.w3.org/ns/oa#\",\n    \"mao\": \"https://domestic-beethoven.eu/ontology/1.0/music-annotation-ontology.ttl#\",\n    \"frbr\": \"http://purl.org/vocab/frbr/core#\",\n    \"dc\": \"http://purl.org/dc/terms/\",\n    \"rdfs\": \"http://www.w3.org/2000/01/rdf-schema#\",\n    \"rdf\": \"http://www.w3.org/1999/02/22-rdf-syntax-ns#\",\n    \"mo\": \"http://purl.org/ontology/mo/\",\n    \"tl\": \"http://purl.org/NET/c4dm/timeline.owl#\",\n    \"ssv\": \"https://w3id.org/ssv/vocab#\"\n  },\n  \"@id\": \"https://raw.githubusercontent.com/Signature-Sound-Vienna/data/hand/annot/oa/ExampleC.jsonld\",\n  \"@type\": \"Annotation\",\n  \"dc:creator\": {\n    \"@id\": \"https://orcid.org/0000-0002-2055-273X\",\n    \"rdfs:label\": \"Dr. Chanda VanderHart\"\n  },\n  \"hasBody\": {\n    \"@type\": \"TextualBody\",\n    \"rdf:value\": \"The most conspicuous departure from Strauss’s original scoring appears in André Rieu’s 2013 recording with his Dutch Johann Strauss Orchestra, Das große Neujahrskonzert. Throughout the performance, Rieu employs wooden concert flutes, notably doubling them with the clarinet line in the Introduction. This addition introduces a distinct timbral shift, softening the color and subtly reshaping the orchestral balance from the outset.\"\n  },\n  \"hasTarget\": {\n    \"@id\": \"https://raw.githubusercontent.com/Signature-Sound-Vienna/data/hand/annot/mao/musicalMaterial/ExampleC.jsonld\"\n  },\n  \"motivatedBy\": {\n    \"@id\": \"mao:commenting\"\n  }\n}",
+    "versions": {
+      "verovio": "6.4.0-33d1633",
+      "mermaid": "10.9.8"
+    },
+    "requests": {
+      "GET app:/?obj=https://raw.githubusercontent.com/Signature-Sound-Vienna/data/hand/annot/oa/ExampleC.jsonld": 1,
+      "GET app:/css/prism.css": 1,
+      "GET app:/css/styles.css": 1,
+      "GET app:/deps/regions.js": 1,
+      "GET app:/deps/wavesurfer.js": 1,
+      "GET app:/img/logo.png": 1,
+      "GET app:/lib/LDObj.js": 1,
+      "GET app:/lib/defaults.js": 1,
+      "GET app:/lib/env.js": 1,
+      "GET app:/lib/errorBanner.js": 1,
+      "GET app:/lib/graph.js": 1,
+      "GET app:/lib/graphModal.js": 1,
+      "GET app:/lib/httpUtil.js": 1,
+      "GET app:/lib/main.js": 1,
+      "GET app:/lib/namespaceManager.js": 1,
+      "GET app:/lib/namespaceMap.js": 1,
+      "GET app:/lib/render.js": 1,
+      "GET app:/lib/sanitize.js": 1,
+      "GET app:/lib/traverser.js": 1,
+      "GET https://cdnjs.cloudflare.com/ajax/libs/jsonld/1.0.0/jsonld.min.js": 1,
+      "GET https://cdnjs.cloudflare.com/ajax/libs/prism/1.29.0/components/prism-json.min.js": 1,
+      "GET https://cdnjs.cloudflare.com/ajax/libs/prism/1.29.0/prism.min.js": 1,
+      "GET https://cdnjs.cloudflare.com/ajax/libs/prism/1.29.0/themes/prism.min.css": 1,
+      "GET https://raw.githubusercontent.com/Signature-Sound-Vienna/Johann-Strauss-Sohn-Op437_Kaiser-Walzer_Breitkopf/main/Kaiser-Walzer_Breitkopf-expanded.mei": 1,
+      "GET https://raw.githubusercontent.com/Signature-Sound-Vienna/data/hand/annot/mao/extract/ExampleC.jsonld": 1,
+      "GET https://raw.githubusercontent.com/Signature-Sound-Vienna/data/hand/annot/mao/musicalMaterial/ExampleC.jsonld": 1,
+      "GET https://raw.githubusercontent.com/Signature-Sound-Vienna/data/hand/annot/mao/selection/ExampleC-audio1.jsonld": 1,
+      "GET https://raw.githubusercontent.com/Signature-Sound-Vienna/data/hand/annot/mao/selection/ExampleC.jsonld": 1,
+      "GET https://raw.githubusercontent.com/Signature-Sound-Vienna/data/hand/annot/oa/ExampleC.jsonld": 1,
+      "GET https://unpkg.com/mermaid@10/dist/mermaid.min.js": 1,
+      "GET https://w3id.org/ssv/0.9/data/peaks/Das_-20Grosse_-20Neujahrskonzert_-2C_-20mixed__CD1/3.peaks.json": 1,
+      "GET https://w3id.org/ssv/0.9/data/signal/Das_-20Grosse_-20Neujahrskonzert_-2C_-20mixed__CD1": 2,
+      "GET https://w3id.org/ssv/0.9/data/track/Das_-20Grosse_-20Neujahrskonzert_-2C_-20mixed__CD1": 1,
+      "GET https://www.verovio.org/javascript/latest/verovio-toolkit-wasm.js": 1,
+      "HEAD https://raw.githubusercontent.com/Signature-Sound-Vienna/Johann-Strauss-Sohn-Op437_Kaiser-Walzer_Breitkopf/main/Kaiser-Walzer_Breitkopf-expanded.mei": 8,
+      "HEAD https://raw.githubusercontent.com/Signature-Sound-Vienna/data/hand/annot/mao/extract/ExampleC.jsonld": 2,
+      "HEAD https://raw.githubusercontent.com/Signature-Sound-Vienna/data/hand/annot/mao/musicalMaterial/ExampleC.jsonld": 2,
+      "HEAD https://raw.githubusercontent.com/Signature-Sound-Vienna/data/hand/annot/mao/selection/ExampleC-audio1.jsonld": 2,
+      "HEAD https://raw.githubusercontent.com/Signature-Sound-Vienna/data/hand/annot/mao/selection/ExampleC.jsonld": 2,
+      "HEAD https://w3id.org/ssv/audio/Das_-20Grosse_-20Neujahrskonzert_-2C_-20mixed__CD1/03-Kaiserwalzer%20-%20Johann%20Strauss%20II%20%28Andr%C3%A9%20Rieu%2C%20Johann%20Strauss%20Orchester%29.wav": 2
+    },
+    "consoleErrors": {
+      "Error fetching content type: Error: Network response was not ok": 1,
+      "Failed to load resource: the server responded with a status of 403 (Forbidden)": 2,
+      "Failed to prepare LD object Error: Object must be an OA or MAO object": 2,
+      "URL not accessible: Forbidden": 1
+    },
+    "pageErrors": {}
+  },
+  "info": {
+    "timings": {
+      "traversalMs": 2142,
+      "networkIdle": true,
+      "idleMs": 5072,
+      "stablePolls": 0,
+      "totalMs": 5836
+    },
+    "order": {
+      "textBodies": [
+        "The most conspicuous departure from Stra"
+      ],
+      "scores": [
+        "https://raw.githubusercontent.com/Signature-Sound-Vienna/Johann-Strauss-Sohn-Op437_Kaiser-Walzer_Breitkopf/main/Kaiser-Walzer_Breitkopf-expanded.mei"
+      ],
+      "audio": [
+        "https://w3id.org/ssv/0.9/data/signal/Das_-20Grosse_-20Neujahrskonzert_-2C_-20mixed__CD1#3-container"
+      ],
+      "audioSelections": [
+        "Example C: Rieu, Johann Strauss Orchester (2013)Signal: Das_"
+      ]
+    },
+    "mermaidSources": [
+      "graph TD; class raw.githubusercontent.com/Signature-Sound-Vienna/data/hand/annot/oa/ExampleC.jsonld current;\nraw.githubusercontent.com/Signature-Sound-Vienna/data/hand/annot/oa/ExampleC.jsonld(\"oa:Annotation\");raw.githubusercontent.com/Signature-Sound-Vienna/data/hand/annot/oa/ExampleC.jsonld -- oa:hasTarget --> raw.githubusercontent.com/Signature-Sound-Vienna/data/hand/annot/mao/musicalMaterial/ExampleC.jsonld;raw.githubusercontent.com/Signature-Sound-Vienna/data/hand/annot/mao/musicalMaterial/ExampleC.jsonld(\"mao:MusicalMaterial: <em>Example C</em>\");raw.githubusercontent.com/Signature-Sound-Vienna/data/hand/annot/mao/musicalMaterial/ExampleC.jsonld -- mao:setting --> raw.githubusercontent.com/Signature-Sound-Vienna/data/hand/annot/mao/extract/ExampleC.jsonld;raw.githubusercontent.com/Signature-Sound-Vienna/data/hand/annot/mao/extract/ExampleC.jsonld(\"mao:Extract: <em>Example C</em>\");raw.githubusercontent.com/Signature-Sound-Vienna/data/hand/annot/mao/extract/ExampleC.jsonld -- frbr:embodiment --> raw.githubusercontent.com/Signature-Sound-Vienna/data/hand/annot/mao/selection/ExampleC.jsonld;raw.githubusercontent.com/Signature-Sound-Vienna/data/hand/annot/mao/selection/ExampleC.jsonld(\"mao:Selection: <em>Example C</em>\");raw.githubusercontent.com/Signature-Sound-Vienna/data/hand/annot/mao/selection/ExampleC.jsonld -- frbr:part (4 fragments) --> Kaiser-Walzer_Breitkopf-expanded.mei;raw.githubusercontent.com/Signature-Sound-Vienna/data/hand/annot/mao/extract/ExampleC.jsonld -- frbr:embodiment --> raw.githubusercontent.com/Signature-Sound-Vienna/data/hand/annot/mao/selection/ExampleC-audio1.jsonld;raw.githubusercontent.com/Signature-Sound-Vienna/data/hand/annot/mao/selection/ExampleC-audio1.jsonld(\"mao:Selection: <em>Example C: Rieu, Johann Strauss Orchester (2013)</em>\");raw.githubusercontent.com/Signature-Sound-Vienna/data/hand/annot/mao/selection/ExampleC-audio1.jsonld -- frbr:part (1 time interval) --> 03-Kaiserwalzer%20-%20Johann%20Strauss%20II%20%28Andr%C3%A9%20Rieu%2C%20Johann%20Strauss%20Orchester%29.wav;raw.githubusercontent.com/Signature-Sound-Vienna/data/hand/annot/oa/ExampleC.jsonld -- oa:hasBody --> blank_0(\"<em>&quot;The most conspicuous departure from Strauss’s original scoring appears in André Rieu’s ...&quot;</em>\");\n click blank_0 \"#a-text-content\" \"View textual body\";\n click raw.githubusercontent.com/Signature-Sound-Vienna/data/hand/annot/mao/selection/ExampleC.jsonld \"http://primal.mdw.ac.at/?obj=https://raw.githubusercontent.com/Signature-Sound-Vienna/data/hand/annot/mao/selection/ExampleC.jsonld\" \"Tooltip: \";\n click selection:ExampleC.jsonld \"http://primal.mdw.ac.at/?obj=selection:ExampleC.jsonld\" \"Tooltip: \";\n click raw.githubusercontent.com/Signature-Sound-Vienna/data/hand/annot/mao/selection/ExampleC-audio1.jsonld \"http://primal.mdw.ac.at/?obj=https://raw.githubusercontent.com/Signature-Sound-Vienna/data/hand/annot/mao/selection/ExampleC-audio1.jsonld\" \"Tooltip: \";\n click selection:ExampleC-audio1.jsonld \"http://primal.mdw.ac.at/?obj=selection:ExampleC-audio1.jsonld\" \"Tooltip: \";\n click raw.githubusercontent.com/Signature-Sound-Vienna/data/hand/annot/mao/extract/ExampleC.jsonld \"http://primal.mdw.ac.at/?obj=https://raw.githubusercontent.com/Signature-Sound-Vienna/data/hand/annot/mao/extract/ExampleC.jsonld\" \"Tooltip: \";\n click extract:ExampleC.jsonld \"http://primal.mdw.ac.at/?obj=extract:ExampleC.jsonld\" \"Tooltip: \";\n click raw.githubusercontent.com/Signature-Sound-Vienna/data/hand/annot/mao/musicalMaterial/ExampleC.jsonld \"http://primal.mdw.ac.at/?obj=https://raw.githubusercontent.com/Signature-Sound-Vienna/data/hand/annot/mao/musicalMaterial/ExampleC.jsonld\" \"Tooltip: \";\n click musMat:ExampleC.jsonld \"http://primal.mdw.ac.at/?obj=musMat:ExampleC.jsonld\" \"Tooltip: \";\n click raw.githubusercontent.com/Signature-Sound-Vienna/data/hand/annot/oa/ExampleC.jsonld \"http://primal.mdw.ac.at/?obj=https://raw.githubusercontent.com/Signature-Sound-Vienna/data/hand/annot/oa/ExampleC.jsonld\" \"Tooltip: \";\n click anno:ExampleC.jsonld \"http://primal.mdw.ac.at/?obj=anno:ExampleC.jsonld\" \"Tooltip: \";\n subgraph Current resource\nraw.githubusercontent.com/Signature-Sound-Vienna/data/hand/annot/oa/ExampleC.jsonld\nblank_0\n\n end\n"
+    ],
+    "requestCount": 53,
+    "corsBlocked": []
+  }
+}

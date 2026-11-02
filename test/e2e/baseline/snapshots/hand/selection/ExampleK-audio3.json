@@ -1,0 +1,175 @@
+{
+  "root": {
+    "set": "hand",
+    "folder": "selection",
+    "name": "ExampleK-audio3",
+    "obj": "https://raw.githubusercontent.com/Signature-Sound-Vienna/data/hand/annot/mao/selection/ExampleK-audio3.jsonld",
+    "w3id": "https://w3id.org/ssv/hand/annot/mao/selection/ExampleK-audio3",
+    "quick": false
+  },
+  "recordedAt": "2026-11-02T16:17:56.410Z",
+  "compare": {
+    "splash": false,
+    "traversalsComplete": true,
+    "sections": {
+      "h-text-content": {
+        "loaded": true,
+        "noContent": [
+          "No text content found in this annotation."
+        ]
+      },
+      "h-music-scores": {
+        "loaded": true,
+        "noContent": [
+          "No music scores found in this annotation."
+        ]
+      },
+      "h-audio-examples": {
+        "loaded": true,
+        "noContent": []
+      },
+      "h-metadata": {
+        "loaded": true,
+        "noContent": []
+      },
+      "h-graph": {
+        "loaded": true,
+        "noContent": []
+      },
+      "h-json-display": {
+        "loaded": true,
+        "noContent": []
+      }
+    },
+    "banners": [],
+    "textBodies": [],
+    "scores": [],
+    "meiFriendLinks": [],
+    "audio": [
+      {
+        "id": "https://w3id.org/ssv/0.9/data/ext/signal/dresden-1939-boehm#1-container",
+        "hidden": false,
+        "label": "Example K: Böhm, Sächsiche Staatskapelle Dresden (1939) [playback restricted] (04:07.54–04:10.68)",
+        "waveform": true,
+        "regions": [
+          {
+            "left": "89.5778%",
+            "width": ""
+          }
+        ]
+      }
+    ],
+    "metadata": {
+      "currentUri": "Current resource: <https://raw.githubusercontent.com/Signature-Sound-Vienna/data/hand/annot/mao/selection/ExampleK-audio3.jsonld>",
+      "createdBy": "Created by: <https://ssv.solidcommunity.net/profile/card#me>",
+      "createdByLinks": [
+        {
+          "text": "<https://ssv.solidcommunity.net/profile/card#me>",
+          "href": "https://ssv.solidcommunity.net/profile/card#me"
+        }
+      ],
+      "audioSelectionsHeading": "Audio Files",
+      "audioSelections": [
+        {
+          "text": "Example K: Böhm, Sächsiche Staatskapelle Dresden (1939)Signal: dresden-1939-boehm#1Track: &quot;Kaiser-Walzer",
+          "links": [
+            {
+              "text": "Signal: dresden-1939-boehm#1",
+              "href": "https://w3id.org/ssv/0.9/data/ext/signal/dresden-1939-boehm#1"
+            },
+            {
+              "text": "Track: &quot;Kaiser-Walzer",
+              "href": "https://w3id.org/ssv/0.9/data/ext/track/dresden-1939-boehm#1"
+            }
+          ]
+        }
+      ]
+    },
+    "graph": {
+      "svg": true,
+      "nodes": 2,
+      "edges": 1
+    },
+    "mermaid": [
+      [
+        "class raw.githubusercontent.com/Signature-Sound-Vienna/data/hand/annot/mao/selection/ExampleK-audio3.jsonld current",
+        "click raw.githubusercontent.com/Signature-Sound-Vienna/data/hand/annot/mao/selection/ExampleK-audio3.jsonld \"http://primal.mdw.ac.at/?obj=https://raw.githubusercontent.com/Signature-Sound-Vienna/data/hand/annot/mao/selection/ExampleK-audio3.jsonld\" \"Tooltip: \"",
+        "click selection:ExampleK-audio3.jsonld \"http://primal.mdw.ac.at/?obj=selection:ExampleK-audio3.jsonld\" \"Tooltip: \"",
+        "end",
+        "graph TD",
+        "raw.githubusercontent.com/Signature-Sound-Vienna/data/hand/annot/mao/selection/ExampleK-audio3.jsonld -- frbr:part (1 time interval) --> dresden-1939-boehm.wav",
+        "raw.githubusercontent.com/Signature-Sound-Vienna/data/hand/annot/mao/selection/ExampleK-audio3.jsonld",
+        "raw.githubusercontent.com/Signature-Sound-Vienna/data/hand/annot/mao/selection/ExampleK-audio3.jsonld(\"mao:Selection: <em>Example K: Böhm, Sächsiche Staatskapelle Dresden (1939)</em>\")",
+        "subgraph Current resource"
+      ]
+    ],
+    "json": "{\n  \"@context\": {\n    \"@vocab\": \"http://www.w3.org/ns/oa#\",\n    \"oa\": \"http://www.w3.org/ns/oa#\",\n    \"mao\": \"https://domestic-beethoven.eu/ontology/1.0/music-annotation-ontology.ttl#\",\n    \"frbr\": \"http://purl.org/vocab/frbr/core#\",\n    \"dc\": \"http://purl.org/dc/terms/\",\n    \"rdfs\": \"http://www.w3.org/2000/01/rdf-schema#\",\n    \"rdf\": \"http://www.w3.org/1999/02/22-rdf-syntax-ns#\",\n    \"mo\": \"http://purl.org/ontology/mo/\",\n    \"tl\": \"http://purl.org/NET/c4dm/timeline.owl#\",\n    \"ssv\": \"https://w3id.org/ssv/vocab#\"\n  },\n  \"@id\": \"https://raw.githubusercontent.com/Signature-Sound-Vienna/data/hand/annot/mao/selection/ExampleK-audio3.jsonld\",\n  \"@type\": [\n    \"mao:Selection\",\n    \"https://schema.org/Dataset\"\n  ],\n  \"dc:created\": \"2024-05-28T11:06:41.160Z\",\n  \"dc:creator\": {\n    \"@id\": \"https://ssv.solidcommunity.net/profile/card#me\"\n  },\n  \"dc:provenance\": \"Generated using mei-friend v.1.0.14: https://mei-friend.mdw.ac.at\",\n  \"frbr:part\": {\n    \"@id\": \"https://w3id.org/ssv/audio/dresden-1939-boehm.wav#t=247.54,250.68\",\n    \"@type\": \"tl:Interval\",\n    \"tl:onTimeLine\": {\n      \"@id\": \"https://w3id.org/ssv/0.9/data/ext/signal/dresden-1939-boehm#1\"\n    }\n  },\n  \"rdfs:label\": \"Example K: Böhm, Sächsiche Staatskapelle Dresden (1939)\",\n  \"https://schema.org/about\": {\n    \"@id\": \"https://raw.githubusercontent.com/Signature-Sound-Vienna/Johann-Strauss-Sohn-Op437_Kaiser-Walzer_Breitkopf/main/Kaiser-Walzer_Breitkopf-expanded.mei\"\n  }\n}",
+    "versions": {
+      "verovio": "6.4.0-33d1633",
+      "mermaid": "10.9.8"
+    },
+    "requests": {
+      "GET app:/?obj=https://raw.githubusercontent.com/Signature-Sound-Vienna/data/hand/annot/mao/selection/ExampleK-audio3.jsonld": 1,
+      "GET app:/css/prism.css": 1,
+      "GET app:/css/styles.css": 1,
+      "GET app:/deps/regions.js": 1,
+      "GET app:/deps/wavesurfer.js": 1,
+      "GET app:/img/logo.png": 1,
+      "GET app:/lib/LDObj.js": 1,
+      "GET app:/lib/defaults.js": 1,
+      "GET app:/lib/env.js": 1,
+      "GET app:/lib/errorBanner.js": 1,
+      "GET app:/lib/graph.js": 1,
+      "GET app:/lib/graphModal.js": 1,
+      "GET app:/lib/httpUtil.js": 1,
+      "GET app:/lib/main.js": 1,
+      "GET app:/lib/namespaceManager.js": 1,
+      "GET app:/lib/namespaceMap.js": 1,
+      "GET app:/lib/render.js": 1,
+      "GET app:/lib/sanitize.js": 1,
+      "GET app:/lib/traverser.js": 1,
+      "GET https://cdnjs.cloudflare.com/ajax/libs/jsonld/1.0.0/jsonld.min.js": 1,
+      "GET https://cdnjs.cloudflare.com/ajax/libs/prism/1.29.0/components/prism-json.min.js": 1,
+      "GET https://cdnjs.cloudflare.com/ajax/libs/prism/1.29.0/prism.min.js": 1,
+      "GET https://cdnjs.cloudflare.com/ajax/libs/prism/1.29.0/themes/prism.min.css": 1,
+      "GET https://raw.githubusercontent.com/Signature-Sound-Vienna/data/hand/annot/mao/selection/ExampleK-audio3.jsonld": 1,
+      "GET https://unpkg.com/mermaid@10/dist/mermaid.min.js": 1,
+      "GET https://w3id.org/ssv/0.9/data/ext/peaks/dresden-1939-boehm/1.peaks.json": 1,
+      "GET https://w3id.org/ssv/0.9/data/ext/signal/dresden-1939-boehm": 2,
+      "GET https://w3id.org/ssv/0.9/data/ext/track/dresden-1939-boehm": 1,
+      "GET https://www.verovio.org/javascript/latest/verovio-toolkit-wasm.js": 1,
+      "HEAD https://w3id.org/ssv/audio/dresden-1939-boehm.wav": 2
+    },
+    "consoleErrors": {
+      "Error fetching content type: Error: Network response was not ok": 1,
+      "Failed to load resource: the server responded with a status of 403 (Forbidden)": 2,
+      "Failed to prepare LD object Error: Object must be an OA or MAO object": 2,
+      "URL not accessible: Forbidden": 1
+    },
+    "pageErrors": {}
+  },
+  "info": {
+    "timings": {
+      "traversalMs": 821,
+      "networkIdle": true,
+      "idleMs": 3446,
+      "stablePolls": 0,
+      "totalMs": 4209
+    },
+    "order": {
+      "textBodies": [],
+      "scores": [],
+      "audio": [
+        "https://w3id.org/ssv/0.9/data/ext/signal/dresden-1939-boehm#1-container"
+      ],
+      "audioSelections": [
+        "Example K: Böhm, Sächsiche Staatskapelle Dresden (1939)Signa"
+      ]
+    },
+    "mermaidSources": [
+      "graph TD; class raw.githubusercontent.com/Signature-Sound-Vienna/data/hand/annot/mao/selection/ExampleK-audio3.jsonld current;\nraw.githubusercontent.com/Signature-Sound-Vienna/data/hand/annot/mao/selection/ExampleK-audio3.jsonld(\"mao:Selection: <em>Example K: Böhm, Sächsiche Staatskapelle Dresden (1939)</em>\");raw.githubusercontent.com/Signature-Sound-Vienna/data/hand/annot/mao/selection/ExampleK-audio3.jsonld -- frbr:part (1 time interval) --> dresden-1939-boehm.wav;\n click raw.githubusercontent.com/Signature-Sound-Vienna/data/hand/annot/mao/selection/ExampleK-audio3.jsonld \"http://primal.mdw.ac.at/?obj=https://raw.githubusercontent.com/Signature-Sound-Vienna/data/hand/annot/mao/selection/ExampleK-audio3.jsonld\" \"Tooltip: \";\n click selection:ExampleK-audio3.jsonld \"http://primal.mdw.ac.at/?obj=selection:ExampleK-audio3.jsonld\" \"Tooltip: \";\n subgraph Current resource\nraw.githubusercontent.com/Signature-Sound-Vienna/data/hand/annot/mao/selection/ExampleK-audio3.jsonld\n end\n"
+    ],
+    "requestCount": 32,
+    "corsBlocked": []
+  }
+}

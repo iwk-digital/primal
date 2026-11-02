@@ -1,0 +1,228 @@
+{
+  "root": {
+    "set": "TISMIR",
+    "folder": "oa",
+    "name": "ExVer2",
+    "obj": "https://raw.githubusercontent.com/Signature-Sound-Vienna/data/TISMIR/annot/oa/ExVer2.jsonld",
+    "w3id": "https://w3id.org/ssv/TISMIR/annot/oa/ExVer2",
+    "quick": true
+  },
+  "recordedAt": "2026-11-02T16:31:21.965Z",
+  "compare": {
+    "splash": false,
+    "traversalsComplete": true,
+    "sections": {
+      "h-text-content": {
+        "loaded": true,
+        "noContent": []
+      },
+      "h-music-scores": {
+        "loaded": true,
+        "noContent": []
+      },
+      "h-audio-examples": {
+        "loaded": true,
+        "noContent": []
+      },
+      "h-metadata": {
+        "loaded": true,
+        "noContent": []
+      },
+      "h-graph": {
+        "loaded": true,
+        "noContent": []
+      },
+      "h-json-display": {
+        "loaded": true,
+        "noContent": []
+      }
+    },
+    "banners": [],
+    "textBodies": [
+      [
+        "The Boskovsky-era New Years’ concerts were famous for their relative irreverence, the bulk of which was instigated by percussionist Franz Broschek. The Vergnügungszug recording dating from this era involves several unscored interventions, including Broschek 'tuning' the Kondukteurhorn at the openings, and adding an impromptu Kondukteurhorn blast at the very end of the piece as well. He also adds an unscored interruption at the end of first ending of the trio by blowing a whistle and holding up a small signal indicating a halt in the place in the score indicated here, at the end of bar 94. The Neujahrsrede follows, led by Boskovsky, with ensemble responding 'Prosit, Neujahr!' Thereafter the repeat in the score is taken and the piece continues. This exact dramaturgy was reenacted by conductor Andrea Colombini with the Lucca Philharmonic Orchestra for their New Year's Eve concert on 31 December 2011. They employ a wood-block train whistle, long and rectangular in shape instead of a horn of any kind, but 'tune' it before the piece begins (just like Broschek), and Colombini stops the orchestra with a whistle in exactly the same place, right before the trio, wishing the audience 'Buon Anno' and even sounding the whistle one more time after the piece has ended."
+      ]
+    ],
+    "scores": [
+      {
+        "id": "https://raw.githubusercontent.com/Signature-Sound-Vienna/Johann-Strauss-Sohn_Op281_Vergnuegungszug_Spina/main/Josef-Strauss_Vergnuegungszug_Spina.mei",
+        "highlighted": [
+          "mlblhn5"
+        ],
+        "svg": {
+          "viewBox": "0 0 2100 4422",
+          "elementsWithDataId": 2307
+        }
+      }
+    ],
+    "meiFriendLinks": [
+      "https://mei-friend.mdw.ac.at/?file=https://raw.githubusercontent.com/Signature-Sound-Vienna/Johann-Strauss-Sohn_Op281_Vergnuegungszug_Spina/main/Josef-Strauss_Vergnuegungszug_Spina.mei&select=mlblhn5"
+    ],
+    "audio": [
+      {
+        "id": "https://w3id.org/ssv/TISMIR/data/signal/1963-1979_-20_-28Neujahr_-20in_-20Wien_-29__1963-1979_-20_-28DVD_-201_-29#20-container",
+        "hidden": false,
+        "label": "TISMIR Example 5.2.5b: Vienna Philharmonic Orchestra (1970, Neujahr in Wien DVD 1) -- Vergnügungszug [playback restricted] (02:04.98–02:27.23)",
+        "waveform": true,
+        "regions": [
+          {
+            "left": "54.3516%",
+            "width": ""
+          }
+        ]
+      }
+    ],
+    "metadata": {
+      "currentUri": "Current resource: <https://raw.githubusercontent.com/Signature-Sound-Vienna/data/TISMIR/annot/oa/ExVer2.jsonld>",
+      "createdBy": "Created by: Dr. Chanda VanderHart",
+      "createdByLinks": [
+        {
+          "text": "Dr. Chanda VanderHart",
+          "href": "https://orcid.org/0000-0002-2055-273X"
+        }
+      ],
+      "audioSelectionsHeading": "Audio Files",
+      "audioSelections": [
+        {
+          "text": "TISMIR Example 5.2.5b: Vienna Philharmonic Orchestra (1970, Neujahr in Wien DVD 1) -- VergnügungszugSignal: 1963-1979_-20_-28Neujahr_-20in_-20Wien_-29__1963-1979_-20_-28DVD_-201_-29#20Track: &quot;Vergnügungszug, op. 281&quot;MusicBrainz: c50e81df-c90e-4df8-bc5f-b8c91d081f7f",
+          "links": [
+            {
+              "text": "Signal: 1963-1979_-20_-28Neujahr_-20in_-20Wien_-29__1963-1979_-20_-28DVD_-201_-29#20",
+              "href": "https://w3id.org/ssv/TISMIR/data/signal/1963-1979_-20_-28Neujahr_-20in_-20Wien_-29__1963-1979_-20_-28DVD_-201_-29#20"
+            },
+            {
+              "text": "Track: &quot;Vergnügungszug, op. 281&quot;",
+              "href": "https://w3id.org/ssv/TISMIR/data/track/1963-1979_-20_-28Neujahr_-20in_-20Wien_-29__1963-1979_-20_-28DVD_-201_-29#20"
+            },
+            {
+              "text": "MusicBrainz: c50e81df-c90e-4df8-bc5f-b8c91d081f7f",
+              "href": "https://musicbrainz.org/track/c50e81df-c90e-4df8-bc5f-b8c91d081f7f"
+            }
+          ]
+        }
+      ]
+    },
+    "graph": {
+      "svg": true,
+      "nodes": 8,
+      "edges": 7
+    },
+    "mermaid": [
+      [
+        "</em>\")",
+        "The Boskovsky-era New Years’ concerts were famous for their relative irreverence, ...&quot",
+        "blank_0",
+        "class raw.githubusercontent.com/Signature-Sound-Vienna/data/TISMIR/annot/oa/ExVer2.jsonld current",
+        "click anno:ExVer2.jsonld \"http://primal.mdw.ac.at/?obj=anno:ExVer2.jsonld\" \"Tooltip: \"",
+        "click blank_0 \"#a-text-content\" \"View textual body\"",
+        "click extract:ExVer2.jsonld \"http://primal.mdw.ac.at/?obj=extract:ExVer2.jsonld\" \"Tooltip: \"",
+        "click musMat:ExVer2.jsonld \"http://primal.mdw.ac.at/?obj=musMat:ExVer2.jsonld\" \"Tooltip: \"",
+        "click raw.githubusercontent.com/Signature-Sound-Vienna/data/TISMIR/annot/mao/extract/ExVer2.jsonld \"http://primal.mdw.ac.at/?obj=https://raw.githubusercontent.com/Signature-Sound-Vienna/data/TISMIR/annot/mao/extract/ExVer2.jsonld\" \"Tooltip: \"",
+        "click raw.githubusercontent.com/Signature-Sound-Vienna/data/TISMIR/annot/mao/musicalMaterial/ExVer2.jsonld \"http://primal.mdw.ac.at/?obj=https://raw.githubusercontent.com/Signature-Sound-Vienna/data/TISMIR/annot/mao/musicalMaterial/ExVer2.jsonld\" \"Tooltip: \"",
+        "click raw.githubusercontent.com/Signature-Sound-Vienna/data/TISMIR/annot/mao/selection/ExVer2-audio1.jsonld \"http://primal.mdw.ac.at/?obj=https://raw.githubusercontent.com/Signature-Sound-Vienna/data/TISMIR/annot/mao/selection/ExVer2-audio1.jsonld\" \"Tooltip: \"",
+        "click raw.githubusercontent.com/Signature-Sound-Vienna/data/TISMIR/annot/mao/selection/ExVer2.jsonld \"http://primal.mdw.ac.at/?obj=https://raw.githubusercontent.com/Signature-Sound-Vienna/data/TISMIR/annot/mao/selection/ExVer2.jsonld\" \"Tooltip: \"",
+        "click raw.githubusercontent.com/Signature-Sound-Vienna/data/TISMIR/annot/oa/ExVer2.jsonld \"http://primal.mdw.ac.at/?obj=https://raw.githubusercontent.com/Signature-Sound-Vienna/data/TISMIR/annot/oa/ExVer2.jsonld\" \"Tooltip: \"",
+        "click selection:ExVer2-audio1.jsonld \"http://primal.mdw.ac.at/?obj=selection:ExVer2-audio1.jsonld\" \"Tooltip: \"",
+        "click selection:ExVer2.jsonld \"http://primal.mdw.ac.at/?obj=selection:ExVer2.jsonld\" \"Tooltip: \"",
+        "end",
+        "graph TD",
+        "raw.githubusercontent.com/Signature-Sound-Vienna/data/TISMIR/annot/mao/extract/ExVer2.jsonld -- frbr:embodiment --> raw.githubusercontent.com/Signature-Sound-Vienna/data/TISMIR/annot/mao/selection/ExVer2-audio1.jsonld",
+        "raw.githubusercontent.com/Signature-Sound-Vienna/data/TISMIR/annot/mao/extract/ExVer2.jsonld -- frbr:embodiment --> raw.githubusercontent.com/Signature-Sound-Vienna/data/TISMIR/annot/mao/selection/ExVer2.jsonld",
+        "raw.githubusercontent.com/Signature-Sound-Vienna/data/TISMIR/annot/mao/extract/ExVer2.jsonld(\"mao:Extract: <em>TISMIR Example 5.2.5b (Vergnügungszug)</em>\")",
+        "raw.githubusercontent.com/Signature-Sound-Vienna/data/TISMIR/annot/mao/musicalMaterial/ExVer2.jsonld -- mao:setting --> raw.githubusercontent.com/Signature-Sound-Vienna/data/TISMIR/annot/mao/extract/ExVer2.jsonld",
+        "raw.githubusercontent.com/Signature-Sound-Vienna/data/TISMIR/annot/mao/musicalMaterial/ExVer2.jsonld(\"mao:MusicalMaterial: <em>TISMIR Example 5.2.5b (Vergnügungszug)</em>\")",
+        "raw.githubusercontent.com/Signature-Sound-Vienna/data/TISMIR/annot/mao/selection/ExVer2-audio1.jsonld -- frbr:part (1 time interval) --> 07%20-%20Vergn%C3%BCgungszug%2C%20op.%20281%20-%20Johann%20Strauss%20II.wav",
+        "raw.githubusercontent.com/Signature-Sound-Vienna/data/TISMIR/annot/mao/selection/ExVer2-audio1.jsonld(\"mao:Selection: <em>TISMIR Example 5.2.5b: Vienna Philharmonic Orchestra (1970, Neujahr in Wien DVD 1) -- Vergnügungszug</em>\")",
+        "raw.githubusercontent.com/Signature-Sound-Vienna/data/TISMIR/annot/mao/selection/ExVer2.jsonld -- frbr:part (1 fragment) --> Josef-Strauss_Vergnuegungszug_Spina.mei",
+        "raw.githubusercontent.com/Signature-Sound-Vienna/data/TISMIR/annot/mao/selection/ExVer2.jsonld(\"mao:Selection: <em>TISMIR Example 5.2.5b (Vergnügungszug)</em>\")",
+        "raw.githubusercontent.com/Signature-Sound-Vienna/data/TISMIR/annot/oa/ExVer2.jsonld -- oa:hasBody --> blank_0(\"<em>&quot",
+        "raw.githubusercontent.com/Signature-Sound-Vienna/data/TISMIR/annot/oa/ExVer2.jsonld -- oa:hasTarget --> raw.githubusercontent.com/Signature-Sound-Vienna/data/TISMIR/annot/mao/musicalMaterial/ExVer2.jsonld",
+        "raw.githubusercontent.com/Signature-Sound-Vienna/data/TISMIR/annot/oa/ExVer2.jsonld",
+        "raw.githubusercontent.com/Signature-Sound-Vienna/data/TISMIR/annot/oa/ExVer2.jsonld(\"oa:Annotation\")",
+        "subgraph Current resource"
+      ]
+    ],
+    "json": "{\n  \"@context\": {\n    \"@vocab\": \"http://www.w3.org/ns/oa#\",\n    \"oa\": \"http://www.w3.org/ns/oa#\",\n    \"mao\": \"https://domestic-beethoven.eu/ontology/1.0/music-annotation-ontology.ttl#\",\n    \"frbr\": \"http://purl.org/vocab/frbr/core#\",\n    \"dc\": \"http://purl.org/dc/terms/\",\n    \"rdfs\": \"http://www.w3.org/2000/01/rdf-schema#\",\n    \"rdf\": \"http://www.w3.org/1999/02/22-rdf-syntax-ns#\",\n    \"mo\": \"http://purl.org/ontology/mo/\",\n    \"tl\": \"http://purl.org/NET/c4dm/timeline.owl#\",\n    \"ssv\": \"https://w3id.org/ssv/vocab#\"\n  },\n  \"@id\": \"https://raw.githubusercontent.com/Signature-Sound-Vienna/data/TISMIR/annot/oa/ExVer2.jsonld\",\n  \"@type\": \"Annotation\",\n  \"dc:creator\": {\n    \"@id\": \"https://orcid.org/0000-0002-2055-273X\",\n    \"rdfs:label\": \"Dr. Chanda VanderHart\"\n  },\n  \"hasBody\": {\n    \"@type\": \"TextualBody\",\n    \"rdf:value\": \"The Boskovsky-era New Years’ concerts were famous for their relative irreverence, the bulk of which was instigated by percussionist Franz Broschek. The Vergnügungszug recording dating from this era involves several unscored interventions, including Broschek 'tuning' the Kondukteurhorn at the openings, and adding an impromptu Kondukteurhorn blast at the very end of the piece as well. He also adds an unscored interruption at the end of first ending of the trio by blowing a whistle and holding up a small signal indicating a halt in the place in the score indicated here, at the end of bar 94. The Neujahrsrede follows, led by Boskovsky, with ensemble responding 'Prosit, Neujahr!' Thereafter the repeat in the score is taken and the piece continues. This exact dramaturgy was reenacted by conductor Andrea Colombini with the Lucca Philharmonic Orchestra for their New Year's Eve concert on 31 December 2011. They employ a wood-block train whistle, long and rectangular in shape instead of a horn of any kind, but 'tune' it before the piece begins (just like Broschek), and Colombini stops the orchestra with a whistle in exactly the same place, right before the trio, wishing the audience 'Buon Anno' and even sounding the whistle one more time after the piece has ended.\"\n  },\n  \"hasTarget\": {\n    \"@id\": \"https://raw.githubusercontent.com/Signature-Sound-Vienna/data/TISMIR/annot/mao/musicalMaterial/ExVer2.jsonld\"\n  },\n  \"motivatedBy\": {\n    \"@id\": \"mao:commenting\"\n  }\n}",
+    "versions": {
+      "verovio": "6.4.0-33d1633",
+      "mermaid": "10.9.8"
+    },
+    "requests": {
+      "GET app:/?obj=https://raw.githubusercontent.com/Signature-Sound-Vienna/data/TISMIR/annot/oa/ExVer2.jsonld": 1,
+      "GET app:/css/prism.css": 1,
+      "GET app:/css/styles.css": 1,
+      "GET app:/deps/regions.js": 1,
+      "GET app:/deps/wavesurfer.js": 1,
+      "GET app:/img/logo.png": 1,
+      "GET app:/lib/LDObj.js": 1,
+      "GET app:/lib/defaults.js": 1,
+      "GET app:/lib/env.js": 1,
+      "GET app:/lib/errorBanner.js": 1,
+      "GET app:/lib/graph.js": 1,
+      "GET app:/lib/graphModal.js": 1,
+      "GET app:/lib/httpUtil.js": 1,
+      "GET app:/lib/main.js": 1,
+      "GET app:/lib/namespaceManager.js": 1,
+      "GET app:/lib/namespaceMap.js": 1,
+      "GET app:/lib/render.js": 1,
+      "GET app:/lib/sanitize.js": 1,
+      "GET app:/lib/traverser.js": 1,
+      "GET https://cdnjs.cloudflare.com/ajax/libs/jsonld/1.0.0/jsonld.min.js": 1,
+      "GET https://cdnjs.cloudflare.com/ajax/libs/prism/1.29.0/components/prism-json.min.js": 1,
+      "GET https://cdnjs.cloudflare.com/ajax/libs/prism/1.29.0/prism.min.js": 1,
+      "GET https://cdnjs.cloudflare.com/ajax/libs/prism/1.29.0/themes/prism.min.css": 1,
+      "GET https://raw.githubusercontent.com/Signature-Sound-Vienna/Johann-Strauss-Sohn_Op281_Vergnuegungszug_Spina/main/Josef-Strauss_Vergnuegungszug_Spina.mei": 1,
+      "GET https://raw.githubusercontent.com/Signature-Sound-Vienna/data/TISMIR/annot/mao/extract/ExVer2.jsonld": 1,
+      "GET https://raw.githubusercontent.com/Signature-Sound-Vienna/data/TISMIR/annot/mao/musicalMaterial/ExVer2.jsonld": 1,
+      "GET https://raw.githubusercontent.com/Signature-Sound-Vienna/data/TISMIR/annot/mao/selection/ExVer2-audio1.jsonld": 1,
+      "GET https://raw.githubusercontent.com/Signature-Sound-Vienna/data/TISMIR/annot/mao/selection/ExVer2.jsonld": 1,
+      "GET https://raw.githubusercontent.com/Signature-Sound-Vienna/data/TISMIR/annot/oa/ExVer2.jsonld": 1,
+      "GET https://unpkg.com/mermaid@10/dist/mermaid.min.js": 1,
+      "GET https://w3id.org/ssv/TISMIR/data/peaks/1963-1979_-20_-28Neujahr_-20in_-20Wien_-29__1963-1979_-20_-28DVD_-201_-29/20.peaks.json": 1,
+      "GET https://w3id.org/ssv/TISMIR/data/signal/1963-1979_-20_-28Neujahr_-20in_-20Wien_-29__1963-1979_-20_-28DVD_-201_-29": 2,
+      "GET https://w3id.org/ssv/TISMIR/data/track/1963-1979_-20_-28Neujahr_-20in_-20Wien_-29__1963-1979_-20_-28DVD_-201_-29": 1,
+      "GET https://www.verovio.org/javascript/latest/verovio-toolkit-wasm.js": 1,
+      "HEAD https://raw.githubusercontent.com/Signature-Sound-Vienna/Johann-Strauss-Sohn_Op281_Vergnuegungszug_Spina/main/Josef-Strauss_Vergnuegungszug_Spina.mei": 2,
+      "HEAD https://raw.githubusercontent.com/Signature-Sound-Vienna/data/TISMIR/annot/mao/extract/ExVer2.jsonld": 2,
+      "HEAD https://raw.githubusercontent.com/Signature-Sound-Vienna/data/TISMIR/annot/mao/musicalMaterial/ExVer2.jsonld": 2,
+      "HEAD https://raw.githubusercontent.com/Signature-Sound-Vienna/data/TISMIR/annot/mao/selection/ExVer2-audio1.jsonld": 2,
+      "HEAD https://raw.githubusercontent.com/Signature-Sound-Vienna/data/TISMIR/annot/mao/selection/ExVer2.jsonld": 2,
+      "HEAD https://w3id.org/ssv/audio/1963-1979_-20_-28Neujahr_-20in_-20Wien_-29__1963-1979_-20_-28DVD_-201_-29/07%20-%20Vergn%C3%BCgungszug%2C%20op.%20281%20-%20Johann%20Strauss%20II.wav": 2
+    },
+    "consoleErrors": {
+      "Error fetching content type: Error: Network response was not ok": 1,
+      "Failed to load resource: the server responded with a status of 403 (Forbidden)": 2,
+      "Failed to prepare LD object Error: Object must be an OA or MAO object": 2,
+      "URL not accessible: Forbidden": 1
+    },
+    "pageErrors": {}
+  },
+  "info": {
+    "timings": {
+      "traversalMs": 1361,
+      "networkIdle": true,
+      "idleMs": 3988,
+      "stablePolls": 0,
+      "totalMs": 4753
+    },
+    "order": {
+      "textBodies": [
+        "The Boskovsky-era New Years’ concerts we"
+      ],
+      "scores": [
+        "https://raw.githubusercontent.com/Signature-Sound-Vienna/Johann-Strauss-Sohn_Op281_Vergnuegungszug_Spina/main/Josef-Strauss_Vergnuegungszug_Spina.mei"
+      ],
+      "audio": [
+        "https://w3id.org/ssv/TISMIR/data/signal/1963-1979_-20_-28Neujahr_-20in_-20Wien_-29__1963-1979_-20_-28DVD_-201_-29#20-container"
+      ],
+      "audioSelections": [
+        "TISMIR Example 5.2.5b: Vienna Philharmonic Orchestra (1970, "
+      ]
+    },
+    "mermaidSources": [
+      "graph TD; class raw.githubusercontent.com/Signature-Sound-Vienna/data/TISMIR/annot/oa/ExVer2.jsonld current;\nraw.githubusercontent.com/Signature-Sound-Vienna/data/TISMIR/annot/oa/ExVer2.jsonld(\"oa:Annotation\");raw.githubusercontent.com/Signature-Sound-Vienna/data/TISMIR/annot/oa/ExVer2.jsonld -- oa:hasTarget --> raw.githubusercontent.com/Signature-Sound-Vienna/data/TISMIR/annot/mao/musicalMaterial/ExVer2.jsonld;raw.githubusercontent.com/Signature-Sound-Vienna/data/TISMIR/annot/mao/musicalMaterial/ExVer2.jsonld(\"mao:MusicalMaterial: <em>TISMIR Example 5.2.5b (Vergnügungszug)</em>\");raw.githubusercontent.com/Signature-Sound-Vienna/data/TISMIR/annot/mao/musicalMaterial/ExVer2.jsonld -- mao:setting --> raw.githubusercontent.com/Signature-Sound-Vienna/data/TISMIR/annot/mao/extract/ExVer2.jsonld;raw.githubusercontent.com/Signature-Sound-Vienna/data/TISMIR/annot/mao/extract/ExVer2.jsonld(\"mao:Extract: <em>TISMIR Example 5.2.5b (Vergnügungszug)</em>\");raw.githubusercontent.com/Signature-Sound-Vienna/data/TISMIR/annot/mao/extract/ExVer2.jsonld -- frbr:embodiment --> raw.githubusercontent.com/Signature-Sound-Vienna/data/TISMIR/annot/mao/selection/ExVer2.jsonld;raw.githubusercontent.com/Signature-Sound-Vienna/data/TISMIR/annot/mao/selection/ExVer2.jsonld(\"mao:Selection: <em>TISMIR Example 5.2.5b (Vergnügungszug)</em>\");raw.githubusercontent.com/Signature-Sound-Vienna/data/TISMIR/annot/mao/selection/ExVer2.jsonld -- frbr:part (1 fragment) --> Josef-Strauss_Vergnuegungszug_Spina.mei;raw.githubusercontent.com/Signature-Sound-Vienna/data/TISMIR/annot/mao/extract/ExVer2.jsonld -- frbr:embodiment --> raw.githubusercontent.com/Signature-Sound-Vienna/data/TISMIR/annot/mao/selection/ExVer2-audio1.jsonld;raw.githubusercontent.com/Signature-Sound-Vienna/data/TISMIR/annot/mao/selection/ExVer2-audio1.jsonld(\"mao:Selection: <em>TISMIR Example 5.2.5b: Vienna Philharmonic Orchestra (1970, Neujahr in Wien DVD 1) -- Vergnügungszug</em>\");raw.githubusercontent.com/Signature-Sound-Vienna/data/TISMIR/annot/mao/selection/ExVer2-audio1.jsonld -- frbr:part (1 time interval) --> 07%20-%20Vergn%C3%BCgungszug%2C%20op.%20281%20-%20Johann%20Strauss%20II.wav;raw.githubusercontent.com/Signature-Sound-Vienna/data/TISMIR/annot/oa/ExVer2.jsonld -- oa:hasBody --> blank_0(\"<em>&quot;The Boskovsky-era New Years’ concerts were famous for their relative irreverence, ...&quot;</em>\");\n click blank_0 \"#a-text-content\" \"View textual body\";\n click raw.githubusercontent.com/Signature-Sound-Vienna/data/TISMIR/annot/mao/selection/ExVer2.jsonld \"http://primal.mdw.ac.at/?obj=https://raw.githubusercontent.com/Signature-Sound-Vienna/data/TISMIR/annot/mao/selection/ExVer2.jsonld\" \"Tooltip: \";\n click selection:ExVer2.jsonld \"http://primal.mdw.ac.at/?obj=selection:ExVer2.jsonld\" \"Tooltip: \";\n click raw.githubusercontent.com/Signature-Sound-Vienna/data/TISMIR/annot/mao/selection/ExVer2-audio1.jsonld \"http://primal.mdw.ac.at/?obj=https://raw.githubusercontent.com/Signature-Sound-Vienna/data/TISMIR/annot/mao/selection/ExVer2-audio1.jsonld\" \"Tooltip: \";\n click selection:ExVer2-audio1.jsonld \"http://primal.mdw.ac.at/?obj=selection:ExVer2-audio1.jsonld\" \"Tooltip: \";\n click raw.githubusercontent.com/Signature-Sound-Vienna/data/TISMIR/annot/mao/extract/ExVer2.jsonld \"http://primal.mdw.ac.at/?obj=https://raw.githubusercontent.com/Signature-Sound-Vienna/data/TISMIR/annot/mao/extract/ExVer2.jsonld\" \"Tooltip: \";\n click extract:ExVer2.jsonld \"http://primal.mdw.ac.at/?obj=extract:ExVer2.jsonld\" \"Tooltip: \";\n click raw.githubusercontent.com/Signature-Sound-Vienna/data/TISMIR/annot/mao/musicalMaterial/ExVer2.jsonld \"http://primal.mdw.ac.at/?obj=https://raw.githubusercontent.com/Signature-Sound-Vienna/data/TISMIR/annot/mao/musicalMaterial/ExVer2.jsonld\" \"Tooltip: \";\n click musMat:ExVer2.jsonld \"http://primal.mdw.ac.at/?obj=musMat:ExVer2.jsonld\" \"Tooltip: \";\n click raw.githubusercontent.com/Signature-Sound-Vienna/data/TISMIR/annot/oa/ExVer2.jsonld \"http://primal.mdw.ac.at/?obj=https://raw.githubusercontent.com/Signature-Sound-Vienna/data/TISMIR/annot/oa/ExVer2.jsonld\" \"Tooltip: \";\n click anno:ExVer2.jsonld \"http://primal.mdw.ac.at/?obj=anno:ExVer2.jsonld\" \"Tooltip: \";\n subgraph Current resource\nraw.githubusercontent.com/Signature-Sound-Vienna/data/TISMIR/annot/oa/ExVer2.jsonld\nblank_0\n\n end\n"
+    ],
+    "requestCount": 47,
+    "corsBlocked": []
+  }
+}

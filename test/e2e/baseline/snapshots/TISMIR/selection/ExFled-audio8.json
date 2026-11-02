@@ -1,0 +1,179 @@
+{
+  "root": {
+    "set": "TISMIR",
+    "folder": "selection",
+    "name": "ExFled-audio8",
+    "obj": "https://raw.githubusercontent.com/Signature-Sound-Vienna/data/TISMIR/annot/mao/selection/ExFled-audio8.jsonld",
+    "w3id": "https://w3id.org/ssv/TISMIR/annot/mao/selection/ExFled-audio8",
+    "quick": false
+  },
+  "recordedAt": "2026-11-02T16:28:25.784Z",
+  "compare": {
+    "splash": false,
+    "traversalsComplete": true,
+    "sections": {
+      "h-text-content": {
+        "loaded": true,
+        "noContent": [
+          "No text content found in this annotation."
+        ]
+      },
+      "h-music-scores": {
+        "loaded": true,
+        "noContent": [
+          "No music scores found in this annotation."
+        ]
+      },
+      "h-audio-examples": {
+        "loaded": true,
+        "noContent": []
+      },
+      "h-metadata": {
+        "loaded": true,
+        "noContent": []
+      },
+      "h-graph": {
+        "loaded": true,
+        "noContent": []
+      },
+      "h-json-display": {
+        "loaded": true,
+        "noContent": []
+      }
+    },
+    "banners": [],
+    "textBodies": [],
+    "scores": [],
+    "meiFriendLinks": [],
+    "audio": [
+      {
+        "id": "https://w3id.org/ssv/TISMIR/data/signal/Johann-Strau_-C3_-9F-Orchester_-2C_-20Herbert_-20Siebert_-20_-282015_-29#1-container",
+        "hidden": false,
+        "label": "TISMIR Example 5.2.3: Johann-Strauß-Orchester, Herbert Siebert (2015) -- Fledermaus overture [playback restricted] (01:41.90–01:47.60)",
+        "waveform": true,
+        "regions": [
+          {
+            "left": "20.7473%",
+            "width": ""
+          }
+        ]
+      }
+    ],
+    "metadata": {
+      "currentUri": "Current resource: <https://raw.githubusercontent.com/Signature-Sound-Vienna/data/TISMIR/annot/mao/selection/ExFled-audio8.jsonld>",
+      "createdBy": "Created by: <https://ssv.solidcommunity.net/profile/card#me>",
+      "createdByLinks": [
+        {
+          "text": "<https://ssv.solidcommunity.net/profile/card#me>",
+          "href": "https://ssv.solidcommunity.net/profile/card#me"
+        }
+      ],
+      "audioSelectionsHeading": "Audio Files",
+      "audioSelections": [
+        {
+          "text": "TISMIR Example 5.2.3: Johann-Strauß-Orchester, Herbert Siebert (2015) -- Fledermaus overtureSignal: Johann-Strau_-C3_-9F-Orchester_-2C_-20Herbert_-20Siebert_-20_-282015_-29#1Track: &quot;Die Fledermaus (Ouvertüre)&quot;MusicBrainz: 8986a6ea-3e5c-4058-8ea6-41c77fd15703",
+          "links": [
+            {
+              "text": "Signal: Johann-Strau_-C3_-9F-Orchester_-2C_-20Herbert_-20Siebert_-20_-282015_-29#1",
+              "href": "https://w3id.org/ssv/TISMIR/data/signal/Johann-Strau_-C3_-9F-Orchester_-2C_-20Herbert_-20Siebert_-20_-282015_-29#1"
+            },
+            {
+              "text": "Track: &quot;Die Fledermaus (Ouvertüre)&quot;",
+              "href": "https://w3id.org/ssv/TISMIR/data/track/Johann-Strau_-C3_-9F-Orchester_-2C_-20Herbert_-20Siebert_-20_-282015_-29#1"
+            },
+            {
+              "text": "MusicBrainz: 8986a6ea-3e5c-4058-8ea6-41c77fd15703",
+              "href": "https://musicbrainz.org/track/8986a6ea-3e5c-4058-8ea6-41c77fd15703"
+            }
+          ]
+        }
+      ]
+    },
+    "graph": {
+      "svg": true,
+      "nodes": 2,
+      "edges": 1
+    },
+    "mermaid": [
+      [
+        "class raw.githubusercontent.com/Signature-Sound-Vienna/data/TISMIR/annot/mao/selection/ExFled-audio8.jsonld current",
+        "click raw.githubusercontent.com/Signature-Sound-Vienna/data/TISMIR/annot/mao/selection/ExFled-audio8.jsonld \"http://primal.mdw.ac.at/?obj=https://raw.githubusercontent.com/Signature-Sound-Vienna/data/TISMIR/annot/mao/selection/ExFled-audio8.jsonld\" \"Tooltip: \"",
+        "click selection:ExFled-audio8.jsonld \"http://primal.mdw.ac.at/?obj=selection:ExFled-audio8.jsonld\" \"Tooltip: \"",
+        "end",
+        "graph TD",
+        "raw.githubusercontent.com/Signature-Sound-Vienna/data/TISMIR/annot/mao/selection/ExFled-audio8.jsonld -- frbr:part (1 time interval) --> 01-Johann-Strau%C3%9F%20-%20Die%20Fledermaus.wav",
+        "raw.githubusercontent.com/Signature-Sound-Vienna/data/TISMIR/annot/mao/selection/ExFled-audio8.jsonld",
+        "raw.githubusercontent.com/Signature-Sound-Vienna/data/TISMIR/annot/mao/selection/ExFled-audio8.jsonld(\"mao:Selection: <em>TISMIR Example 5.2.3: Johann-Strauß-Orchester, Herbert Siebert (2015) -- Fledermaus overture</em>\")",
+        "subgraph Current resource"
+      ]
+    ],
+    "json": "{\n  \"@context\": {\n    \"@vocab\": \"http://www.w3.org/ns/oa#\",\n    \"oa\": \"http://www.w3.org/ns/oa#\",\n    \"mao\": \"https://domestic-beethoven.eu/ontology/1.0/music-annotation-ontology.ttl#\",\n    \"frbr\": \"http://purl.org/vocab/frbr/core#\",\n    \"dc\": \"http://purl.org/dc/terms/\",\n    \"rdfs\": \"http://www.w3.org/2000/01/rdf-schema#\",\n    \"rdf\": \"http://www.w3.org/1999/02/22-rdf-syntax-ns#\",\n    \"mo\": \"http://purl.org/ontology/mo/\",\n    \"tl\": \"http://purl.org/NET/c4dm/timeline.owl#\",\n    \"ssv\": \"https://w3id.org/ssv/vocab#\"\n  },\n  \"@id\": \"https://raw.githubusercontent.com/Signature-Sound-Vienna/data/TISMIR/annot/mao/selection/ExFled-audio8.jsonld\",\n  \"@type\": [\n    \"mao:Selection\",\n    \"https://schema.org/Dataset\"\n  ],\n  \"dc:created\": \"2026-07-10T12:00:00.000Z\",\n  \"dc:creator\": {\n    \"@id\": \"https://ssv.solidcommunity.net/profile/card#me\"\n  },\n  \"frbr:part\": {\n    \"@id\": \"https://w3id.org/ssv/audio/Johann-Strau_-C3_-9F-Orchester_-2C_-20Herbert_-20Siebert_-20_-282015_-29/01-Johann-Strau%C3%9F%20-%20Die%20Fledermaus.wav#t=101.9,107.6\",\n    \"@type\": \"tl:Interval\",\n    \"tl:onTimeLine\": {\n      \"@id\": \"https://w3id.org/ssv/TISMIR/data/signal/Johann-Strau_-C3_-9F-Orchester_-2C_-20Herbert_-20Siebert_-20_-282015_-29#1\"\n    }\n  },\n  \"rdfs:label\": \"TISMIR Example 5.2.3: Johann-Strauß-Orchester, Herbert Siebert (2015) -- Fledermaus overture\",\n  \"https://schema.org/about\": {\n    \"@id\": \"https://raw.githubusercontent.com/Signature-Sound-Vienna/Johann-Strauss-Sohn_Fledermaus-Ouverture_Eulenburg/main/Fledermaus-Ouverture-Eulenburg.mei\"\n  }\n}",
+    "versions": {
+      "verovio": "6.4.0-33d1633",
+      "mermaid": "10.9.8"
+    },
+    "requests": {
+      "GET app:/?obj=https://raw.githubusercontent.com/Signature-Sound-Vienna/data/TISMIR/annot/mao/selection/ExFled-audio8.jsonld": 1,
+      "GET app:/css/prism.css": 1,
+      "GET app:/css/styles.css": 1,
+      "GET app:/deps/regions.js": 1,
+      "GET app:/deps/wavesurfer.js": 1,
+      "GET app:/img/logo.png": 1,
+      "GET app:/lib/LDObj.js": 1,
+      "GET app:/lib/defaults.js": 1,
+      "GET app:/lib/env.js": 1,
+      "GET app:/lib/errorBanner.js": 1,
+      "GET app:/lib/graph.js": 1,
+      "GET app:/lib/graphModal.js": 1,
+      "GET app:/lib/httpUtil.js": 1,
+      "GET app:/lib/main.js": 1,
+      "GET app:/lib/namespaceManager.js": 1,
+      "GET app:/lib/namespaceMap.js": 1,
+      "GET app:/lib/render.js": 1,
+      "GET app:/lib/sanitize.js": 1,
+      "GET app:/lib/traverser.js": 1,
+      "GET https://cdnjs.cloudflare.com/ajax/libs/jsonld/1.0.0/jsonld.min.js": 1,
+      "GET https://cdnjs.cloudflare.com/ajax/libs/prism/1.29.0/components/prism-json.min.js": 1,
+      "GET https://cdnjs.cloudflare.com/ajax/libs/prism/1.29.0/prism.min.js": 1,
+      "GET https://cdnjs.cloudflare.com/ajax/libs/prism/1.29.0/themes/prism.min.css": 1,
+      "GET https://raw.githubusercontent.com/Signature-Sound-Vienna/data/TISMIR/annot/mao/selection/ExFled-audio8.jsonld": 1,
+      "GET https://unpkg.com/mermaid@10/dist/mermaid.min.js": 1,
+      "GET https://w3id.org/ssv/TISMIR/data/peaks/Johann-Strau_-C3_-9F-Orchester_-2C_-20Herbert_-20Siebert_-20_-282015_-29/1.peaks.json": 1,
+      "GET https://w3id.org/ssv/TISMIR/data/signal/Johann-Strau_-C3_-9F-Orchester_-2C_-20Herbert_-20Siebert_-20_-282015_-29": 2,
+      "GET https://w3id.org/ssv/TISMIR/data/track/Johann-Strau_-C3_-9F-Orchester_-2C_-20Herbert_-20Siebert_-20_-282015_-29": 1,
+      "GET https://www.verovio.org/javascript/latest/verovio-toolkit-wasm.js": 1,
+      "HEAD https://w3id.org/ssv/audio/Johann-Strau_-C3_-9F-Orchester_-2C_-20Herbert_-20Siebert_-20_-282015_-29/01-Johann-Strau%C3%9F%20-%20Die%20Fledermaus.wav": 2
+    },
+    "consoleErrors": {
+      "Error fetching content type: Error: Network response was not ok": 1,
+      "Failed to load resource: the server responded with a status of 403 (Forbidden)": 2,
+      "Failed to prepare LD object Error: Object must be an OA or MAO object": 2,
+      "URL not accessible: Forbidden": 1
+    },
+    "pageErrors": {}
+  },
+  "info": {
+    "timings": {
+      "traversalMs": 767,
+      "networkIdle": true,
+      "idleMs": 3492,
+      "stablePolls": 0,
+      "totalMs": 4253
+    },
+    "order": {
+      "textBodies": [],
+      "scores": [],
+      "audio": [
+        "https://w3id.org/ssv/TISMIR/data/signal/Johann-Strau_-C3_-9F-Orchester_-2C_-20Herbert_-20Siebert_-20_-282015_-29#1-container"
+      ],
+      "audioSelections": [
+        "TISMIR Example 5.2.3: Johann-Strauß-Orchester, Herbert Siebe"
+      ]
+    },
+    "mermaidSources": [
+      "graph TD; class raw.githubusercontent.com/Signature-Sound-Vienna/data/TISMIR/annot/mao/selection/ExFled-audio8.jsonld current;\nraw.githubusercontent.com/Signature-Sound-Vienna/data/TISMIR/annot/mao/selection/ExFled-audio8.jsonld(\"mao:Selection: <em>TISMIR Example 5.2.3: Johann-Strauß-Orchester, Herbert Siebert (2015) -- Fledermaus overture</em>\");raw.githubusercontent.com/Signature-Sound-Vienna/data/TISMIR/annot/mao/selection/ExFled-audio8.jsonld -- frbr:part (1 time interval) --> 01-Johann-Strau%C3%9F%20-%20Die%20Fledermaus.wav;\n click raw.githubusercontent.com/Signature-Sound-Vienna/data/TISMIR/annot/mao/selection/ExFled-audio8.jsonld \"http://primal.mdw.ac.at/?obj=https://raw.githubusercontent.com/Signature-Sound-Vienna/data/TISMIR/annot/mao/selection/ExFled-audio8.jsonld\" \"Tooltip: \";\n click selection:ExFled-audio8.jsonld \"http://primal.mdw.ac.at/?obj=selection:ExFled-audio8.jsonld\" \"Tooltip: \";\n subgraph Current resource\nraw.githubusercontent.com/Signature-Sound-Vienna/data/TISMIR/annot/mao/selection/ExFled-audio8.jsonld\n end\n"
+    ],
+    "requestCount": 32,
+    "corsBlocked": []
+  }
+}

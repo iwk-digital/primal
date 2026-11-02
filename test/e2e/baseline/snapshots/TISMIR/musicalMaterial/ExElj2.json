@@ -1,0 +1,241 @@
+{
+  "root": {
+    "set": "TISMIR",
+    "folder": "musicalMaterial",
+    "name": "ExElj2",
+    "obj": "https://raw.githubusercontent.com/Signature-Sound-Vienna/data/TISMIR/annot/mao/musicalMaterial/ExElj2.jsonld",
+    "w3id": "https://w3id.org/ssv/TISMIR/annot/mao/musicalMaterial/ExElj2",
+    "quick": false
+  },
+  "recordedAt": "2026-11-02T16:24:40.051Z",
+  "compare": {
+    "splash": false,
+    "traversalsComplete": true,
+    "sections": {
+      "h-text-content": {
+        "loaded": true,
+        "noContent": [
+          "No text content found in this annotation."
+        ]
+      },
+      "h-music-scores": {
+        "loaded": true,
+        "noContent": []
+      },
+      "h-audio-examples": {
+        "loaded": true,
+        "noContent": []
+      },
+      "h-metadata": {
+        "loaded": true,
+        "noContent": []
+      },
+      "h-graph": {
+        "loaded": true,
+        "noContent": []
+      },
+      "h-json-display": {
+        "loaded": true,
+        "noContent": []
+      }
+    },
+    "banners": [],
+    "textBodies": [],
+    "scores": [
+      {
+        "id": "https://raw.githubusercontent.com/Signature-Sound-Vienna/Johann-Strauss-Sohn_Op332_Eljen-a-Magyar_Cranz/main/Full_Version_Krauss1941.mei",
+        "highlighted": [
+          "m6gpg7"
+        ],
+        "svg": {
+          "viewBox": "0 0 2100 3579",
+          "elementsWithDataId": 1993
+        }
+      }
+    ],
+    "meiFriendLinks": [
+      "https://mei-friend.mdw.ac.at/?file=https://raw.githubusercontent.com/Signature-Sound-Vienna/Johann-Strauss-Sohn_Op332_Eljen-a-Magyar_Cranz/main/Full_Version_Krauss1941.mei&select=m6gpg7"
+    ],
+    "audio": [
+      {
+        "id": "https://w3id.org/ssv/TISMIR/data/signal/1963-1979_-20_-28Neujahr_-20in_-20Wien_-29__1963-1979_-20_-28DVD_-201_-29#27-container",
+        "hidden": false,
+        "label": "TISMIR Example 5.2.4b: Vienna Philharmonic Orchestra (1978, Neujahr in Wien DVD 1) -- Éljen a Magyar! [playback restricted]",
+        "waveform": true,
+        "regions": []
+      },
+      {
+        "id": "https://w3id.org/ssv/TISMIR/data/signal/1989#8-container",
+        "hidden": false,
+        "label": "TISMIR Example 5.2.4b: Vienna Philharmonic Orchestra (1989) -- Éljen a Magyar! [playback restricted]",
+        "waveform": true,
+        "regions": []
+      },
+      {
+        "id": "https://w3id.org/ssv/TISMIR/data/signal/2000#15-container",
+        "hidden": false,
+        "label": "TISMIR Example 5.2.4b: Vienna Philharmonic Orchestra (2000) -- Éljen a Magyar! [playback restricted]",
+        "waveform": true,
+        "regions": []
+      },
+      {
+        "id": "https://w3id.org/ssv/TISMIR/data/signal/Orchester_-20der_-20Wiener_-20Volksoper_-2C_-20Alfred_-20Scholz_-20_-281988_-29#4-container",
+        "hidden": false,
+        "label": "TISMIR Example 5.2.4b: Orchester der Wiener Volksoper, Alfred Scholz (1988) -- Éljen a Magyar! [playback restricted]",
+        "waveform": true,
+        "regions": []
+      }
+    ],
+    "metadata": {
+      "currentUri": "Current resource: <https://raw.githubusercontent.com/Signature-Sound-Vienna/data/TISMIR/annot/mao/musicalMaterial/ExElj2.jsonld>",
+      "createdBy": "Created by: <https://ssv.solidcommunity.net/profile/card#me>",
+      "createdByLinks": [
+        {
+          "text": "<https://ssv.solidcommunity.net/profile/card#me>",
+          "href": "https://ssv.solidcommunity.net/profile/card#me"
+        }
+      ],
+      "audioSelectionsHeading": null,
+      "audioSelections": []
+    },
+    "graph": {
+      "svg": true,
+      "nodes": 12,
+      "edges": 11
+    },
+    "mermaid": [
+      [
+        "class raw.githubusercontent.com/Signature-Sound-Vienna/data/TISMIR/annot/mao/musicalMaterial/ExElj2.jsonld current",
+        "click extract:ExElj2.jsonld \"http://primal.mdw.ac.at/?obj=extract:ExElj2.jsonld\" \"Tooltip: \"",
+        "click musMat:ExElj2.jsonld \"http://primal.mdw.ac.at/?obj=musMat:ExElj2.jsonld\" \"Tooltip: \"",
+        "click raw.githubusercontent.com/Signature-Sound-Vienna/data/TISMIR/annot/mao/extract/ExElj2.jsonld \"http://primal.mdw.ac.at/?obj=https://raw.githubusercontent.com/Signature-Sound-Vienna/data/TISMIR/annot/mao/extract/ExElj2.jsonld\" \"Tooltip: \"",
+        "click raw.githubusercontent.com/Signature-Sound-Vienna/data/TISMIR/annot/mao/musicalMaterial/ExElj2.jsonld \"http://primal.mdw.ac.at/?obj=https://raw.githubusercontent.com/Signature-Sound-Vienna/data/TISMIR/annot/mao/musicalMaterial/ExElj2.jsonld\" \"Tooltip: \"",
+        "click raw.githubusercontent.com/Signature-Sound-Vienna/data/TISMIR/annot/mao/selection/ExElj2-audio1.jsonld \"http://primal.mdw.ac.at/?obj=https://raw.githubusercontent.com/Signature-Sound-Vienna/data/TISMIR/annot/mao/selection/ExElj2-audio1.jsonld\" \"Tooltip: \"",
+        "click raw.githubusercontent.com/Signature-Sound-Vienna/data/TISMIR/annot/mao/selection/ExElj2-audio2.jsonld \"http://primal.mdw.ac.at/?obj=https://raw.githubusercontent.com/Signature-Sound-Vienna/data/TISMIR/annot/mao/selection/ExElj2-audio2.jsonld\" \"Tooltip: \"",
+        "click raw.githubusercontent.com/Signature-Sound-Vienna/data/TISMIR/annot/mao/selection/ExElj2-audio3.jsonld \"http://primal.mdw.ac.at/?obj=https://raw.githubusercontent.com/Signature-Sound-Vienna/data/TISMIR/annot/mao/selection/ExElj2-audio3.jsonld\" \"Tooltip: \"",
+        "click raw.githubusercontent.com/Signature-Sound-Vienna/data/TISMIR/annot/mao/selection/ExElj2-audio4.jsonld \"http://primal.mdw.ac.at/?obj=https://raw.githubusercontent.com/Signature-Sound-Vienna/data/TISMIR/annot/mao/selection/ExElj2-audio4.jsonld\" \"Tooltip: \"",
+        "click raw.githubusercontent.com/Signature-Sound-Vienna/data/TISMIR/annot/mao/selection/ExElj2.jsonld \"http://primal.mdw.ac.at/?obj=https://raw.githubusercontent.com/Signature-Sound-Vienna/data/TISMIR/annot/mao/selection/ExElj2.jsonld\" \"Tooltip: \"",
+        "click selection:ExElj2-audio1.jsonld \"http://primal.mdw.ac.at/?obj=selection:ExElj2-audio1.jsonld\" \"Tooltip: \"",
+        "click selection:ExElj2-audio2.jsonld \"http://primal.mdw.ac.at/?obj=selection:ExElj2-audio2.jsonld\" \"Tooltip: \"",
+        "click selection:ExElj2-audio3.jsonld \"http://primal.mdw.ac.at/?obj=selection:ExElj2-audio3.jsonld\" \"Tooltip: \"",
+        "click selection:ExElj2-audio4.jsonld \"http://primal.mdw.ac.at/?obj=selection:ExElj2-audio4.jsonld\" \"Tooltip: \"",
+        "click selection:ExElj2.jsonld \"http://primal.mdw.ac.at/?obj=selection:ExElj2.jsonld\" \"Tooltip: \"",
+        "end",
+        "graph TD",
+        "raw.githubusercontent.com/Signature-Sound-Vienna/data/TISMIR/annot/mao/extract/ExElj2.jsonld -- frbr:embodiment --> raw.githubusercontent.com/Signature-Sound-Vienna/data/TISMIR/annot/mao/selection/ExElj2-audio1.jsonld",
+        "raw.githubusercontent.com/Signature-Sound-Vienna/data/TISMIR/annot/mao/extract/ExElj2.jsonld -- frbr:embodiment --> raw.githubusercontent.com/Signature-Sound-Vienna/data/TISMIR/annot/mao/selection/ExElj2-audio2.jsonld",
+        "raw.githubusercontent.com/Signature-Sound-Vienna/data/TISMIR/annot/mao/extract/ExElj2.jsonld -- frbr:embodiment --> raw.githubusercontent.com/Signature-Sound-Vienna/data/TISMIR/annot/mao/selection/ExElj2-audio3.jsonld",
+        "raw.githubusercontent.com/Signature-Sound-Vienna/data/TISMIR/annot/mao/extract/ExElj2.jsonld -- frbr:embodiment --> raw.githubusercontent.com/Signature-Sound-Vienna/data/TISMIR/annot/mao/selection/ExElj2-audio4.jsonld",
+        "raw.githubusercontent.com/Signature-Sound-Vienna/data/TISMIR/annot/mao/extract/ExElj2.jsonld -- frbr:embodiment --> raw.githubusercontent.com/Signature-Sound-Vienna/data/TISMIR/annot/mao/selection/ExElj2.jsonld",
+        "raw.githubusercontent.com/Signature-Sound-Vienna/data/TISMIR/annot/mao/extract/ExElj2.jsonld(\"mao:Extract: <em>TISMIR Example 5.2.4b (Éljen a Magyar!)</em>\")",
+        "raw.githubusercontent.com/Signature-Sound-Vienna/data/TISMIR/annot/mao/musicalMaterial/ExElj2.jsonld -- mao:setting --> raw.githubusercontent.com/Signature-Sound-Vienna/data/TISMIR/annot/mao/extract/ExElj2.jsonld",
+        "raw.githubusercontent.com/Signature-Sound-Vienna/data/TISMIR/annot/mao/musicalMaterial/ExElj2.jsonld",
+        "raw.githubusercontent.com/Signature-Sound-Vienna/data/TISMIR/annot/mao/musicalMaterial/ExElj2.jsonld(\"mao:MusicalMaterial: <em>TISMIR Example 5.2.4b (Éljen a Magyar!)</em>\")",
+        "raw.githubusercontent.com/Signature-Sound-Vienna/data/TISMIR/annot/mao/selection/ExElj2-audio1.jsonld -- frbr:part (1 time interval) --> 14%20-%20Eljen%20a%20Magyar%2C%20op.%20332%20-%20Johann%20Strauss%20II.wav",
+        "raw.githubusercontent.com/Signature-Sound-Vienna/data/TISMIR/annot/mao/selection/ExElj2-audio1.jsonld(\"mao:Selection: <em>TISMIR Example 5.2.4b: Vienna Philharmonic Orchestra (1978, Neujahr in Wien DVD 1) -- Éljen a Magyar!</em>\")",
+        "raw.githubusercontent.com/Signature-Sound-Vienna/data/TISMIR/annot/mao/selection/ExElj2-audio2.jsonld -- frbr:part (1 time interval) --> 08%20-%20Eljen%20a%20Magyar%21%2C%20op.%20332%20-%20Johann%20Strauss%20II.wav",
+        "raw.githubusercontent.com/Signature-Sound-Vienna/data/TISMIR/annot/mao/selection/ExElj2-audio2.jsonld(\"mao:Selection: <em>TISMIR Example 5.2.4b: Vienna Philharmonic Orchestra (1989) -- Éljen a Magyar!</em>\")",
+        "raw.githubusercontent.com/Signature-Sound-Vienna/data/TISMIR/annot/mao/selection/ExElj2-audio3.jsonld -- frbr:part (1 time interval) --> 15%20-%20%C3%89ljen%20a%20Magyar%21%20%28Polka%20schnell%29%2C%20op.%20332%20-%20Johann%20Strauss%20II.wav",
+        "raw.githubusercontent.com/Signature-Sound-Vienna/data/TISMIR/annot/mao/selection/ExElj2-audio3.jsonld(\"mao:Selection: <em>TISMIR Example 5.2.4b: Vienna Philharmonic Orchestra (2000) -- Éljen a Magyar!</em>\")",
+        "raw.githubusercontent.com/Signature-Sound-Vienna/data/TISMIR/annot/mao/selection/ExElj2-audio4.jsonld -- frbr:part (1 time interval) --> 04-Eljen%20a%20Magyar%20op.%20332.wav",
+        "raw.githubusercontent.com/Signature-Sound-Vienna/data/TISMIR/annot/mao/selection/ExElj2-audio4.jsonld(\"mao:Selection: <em>TISMIR Example 5.2.4b: Orchester der Wiener Volksoper, Alfred Scholz (1988) -- Éljen a Magyar!</em>\")",
+        "raw.githubusercontent.com/Signature-Sound-Vienna/data/TISMIR/annot/mao/selection/ExElj2.jsonld -- frbr:part (1 fragment) --> Full_Version_Krauss1941.mei",
+        "raw.githubusercontent.com/Signature-Sound-Vienna/data/TISMIR/annot/mao/selection/ExElj2.jsonld(\"mao:Selection: <em>TISMIR Example 5.2.4b (Éljen a Magyar!)</em>\")",
+        "subgraph Current resource"
+      ]
+    ],
+    "json": "{\n  \"@context\": {\n    \"@vocab\": \"http://www.w3.org/ns/oa#\",\n    \"oa\": \"http://www.w3.org/ns/oa#\",\n    \"mao\": \"https://domestic-beethoven.eu/ontology/1.0/music-annotation-ontology.ttl#\",\n    \"frbr\": \"http://purl.org/vocab/frbr/core#\",\n    \"dc\": \"http://purl.org/dc/terms/\",\n    \"rdfs\": \"http://www.w3.org/2000/01/rdf-schema#\",\n    \"rdf\": \"http://www.w3.org/1999/02/22-rdf-syntax-ns#\",\n    \"mo\": \"http://purl.org/ontology/mo/\",\n    \"tl\": \"http://purl.org/NET/c4dm/timeline.owl#\",\n    \"ssv\": \"https://w3id.org/ssv/vocab#\"\n  },\n  \"@id\": \"https://raw.githubusercontent.com/Signature-Sound-Vienna/data/TISMIR/annot/mao/musicalMaterial/ExElj2.jsonld\",\n  \"@type\": [\n    \"mao:MusicalMaterial\",\n    \"https://schema.org/Dataset\"\n  ],\n  \"dc:created\": \"2024-05-28T11:41:00.768Z\",\n  \"dc:creator\": {\n    \"@id\": \"https://ssv.solidcommunity.net/profile/card#me\"\n  },\n  \"dc:provenance\": \"Generated using mei-friend v.1.0.14: https://mei-friend.mdw.ac.at\",\n  \"rdfs:label\": \"TISMIR Example 5.2.4b (Éljen a Magyar!)\",\n  \"mao:setting\": {\n    \"@id\": \"https://raw.githubusercontent.com/Signature-Sound-Vienna/data/TISMIR/annot/mao/extract/ExElj2.jsonld\"\n  },\n  \"https://schema.org/about\": {\n    \"@id\": \"https://raw.githubusercontent.com/Signature-Sound-Vienna/Johann-Strauss-Sohn_Op332_Eljen-a-Magyar_Cranz/main/Full_Version_Krauss1941.mei\"\n  }\n}",
+    "versions": {
+      "verovio": "6.4.0-33d1633",
+      "mermaid": "10.9.8"
+    },
+    "requests": {
+      "GET app:/?obj=https://raw.githubusercontent.com/Signature-Sound-Vienna/data/TISMIR/annot/mao/musicalMaterial/ExElj2.jsonld": 1,
+      "GET app:/css/prism.css": 1,
+      "GET app:/css/styles.css": 1,
+      "GET app:/deps/regions.js": 1,
+      "GET app:/deps/wavesurfer.js": 1,
+      "GET app:/img/logo.png": 1,
+      "GET app:/lib/LDObj.js": 1,
+      "GET app:/lib/defaults.js": 1,
+      "GET app:/lib/env.js": 1,
+      "GET app:/lib/errorBanner.js": 1,
+      "GET app:/lib/graph.js": 1,
+      "GET app:/lib/graphModal.js": 1,
+      "GET app:/lib/httpUtil.js": 1,
+      "GET app:/lib/main.js": 1,
+      "GET app:/lib/namespaceManager.js": 1,
+      "GET app:/lib/namespaceMap.js": 1,
+      "GET app:/lib/render.js": 1,
+      "GET app:/lib/sanitize.js": 1,
+      "GET app:/lib/traverser.js": 1,
+      "GET https://cdnjs.cloudflare.com/ajax/libs/jsonld/1.0.0/jsonld.min.js": 1,
+      "GET https://cdnjs.cloudflare.com/ajax/libs/prism/1.29.0/components/prism-json.min.js": 1,
+      "GET https://cdnjs.cloudflare.com/ajax/libs/prism/1.29.0/prism.min.js": 1,
+      "GET https://cdnjs.cloudflare.com/ajax/libs/prism/1.29.0/themes/prism.min.css": 1,
+      "GET https://raw.githubusercontent.com/Signature-Sound-Vienna/Johann-Strauss-Sohn_Op332_Eljen-a-Magyar_Cranz/main/Full_Version_Krauss1941.mei": 1,
+      "GET https://raw.githubusercontent.com/Signature-Sound-Vienna/data/TISMIR/annot/mao/extract/ExElj2.jsonld": 1,
+      "GET https://raw.githubusercontent.com/Signature-Sound-Vienna/data/TISMIR/annot/mao/musicalMaterial/ExElj2.jsonld": 1,
+      "GET https://raw.githubusercontent.com/Signature-Sound-Vienna/data/TISMIR/annot/mao/selection/ExElj2-audio1.jsonld": 1,
+      "GET https://raw.githubusercontent.com/Signature-Sound-Vienna/data/TISMIR/annot/mao/selection/ExElj2-audio2.jsonld": 1,
+      "GET https://raw.githubusercontent.com/Signature-Sound-Vienna/data/TISMIR/annot/mao/selection/ExElj2-audio3.jsonld": 1,
+      "GET https://raw.githubusercontent.com/Signature-Sound-Vienna/data/TISMIR/annot/mao/selection/ExElj2-audio4.jsonld": 1,
+      "GET https://raw.githubusercontent.com/Signature-Sound-Vienna/data/TISMIR/annot/mao/selection/ExElj2.jsonld": 1,
+      "GET https://unpkg.com/mermaid@10/dist/mermaid.min.js": 1,
+      "GET https://w3id.org/ssv/TISMIR/data/peaks/1963-1979_-20_-28Neujahr_-20in_-20Wien_-29__1963-1979_-20_-28DVD_-201_-29/27.peaks.json": 1,
+      "GET https://w3id.org/ssv/TISMIR/data/peaks/1989/8.peaks.json": 1,
+      "GET https://w3id.org/ssv/TISMIR/data/peaks/2000/15.peaks.json": 1,
+      "GET https://w3id.org/ssv/TISMIR/data/peaks/Orchester_-20der_-20Wiener_-20Volksoper_-2C_-20Alfred_-20Scholz_-20_-281988_-29/4.peaks.json": 1,
+      "GET https://w3id.org/ssv/TISMIR/data/signal/1963-1979_-20_-28Neujahr_-20in_-20Wien_-29__1963-1979_-20_-28DVD_-201_-29": 1,
+      "GET https://w3id.org/ssv/TISMIR/data/signal/1989": 1,
+      "GET https://w3id.org/ssv/TISMIR/data/signal/2000": 1,
+      "GET https://w3id.org/ssv/TISMIR/data/signal/Orchester_-20der_-20Wiener_-20Volksoper_-2C_-20Alfred_-20Scholz_-20_-281988_-29": 1,
+      "GET https://www.verovio.org/javascript/latest/verovio-toolkit-wasm.js": 1,
+      "HEAD https://raw.githubusercontent.com/Signature-Sound-Vienna/Johann-Strauss-Sohn_Op332_Eljen-a-Magyar_Cranz/main/Full_Version_Krauss1941.mei": 2,
+      "HEAD https://raw.githubusercontent.com/Signature-Sound-Vienna/data/TISMIR/annot/mao/extract/ExElj2.jsonld": 2,
+      "HEAD https://raw.githubusercontent.com/Signature-Sound-Vienna/data/TISMIR/annot/mao/selection/ExElj2-audio1.jsonld": 2,
+      "HEAD https://raw.githubusercontent.com/Signature-Sound-Vienna/data/TISMIR/annot/mao/selection/ExElj2-audio2.jsonld": 2,
+      "HEAD https://raw.githubusercontent.com/Signature-Sound-Vienna/data/TISMIR/annot/mao/selection/ExElj2-audio3.jsonld": 2,
+      "HEAD https://raw.githubusercontent.com/Signature-Sound-Vienna/data/TISMIR/annot/mao/selection/ExElj2-audio4.jsonld": 2,
+      "HEAD https://raw.githubusercontent.com/Signature-Sound-Vienna/data/TISMIR/annot/mao/selection/ExElj2.jsonld": 2,
+      "HEAD https://w3id.org/ssv/audio/1963-1979_-20_-28Neujahr_-20in_-20Wien_-29__1963-1979_-20_-28DVD_-201_-29/14%20-%20Eljen%20a%20Magyar%2C%20op.%20332%20-%20Johann%20Strauss%20II.wav": 2,
+      "HEAD https://w3id.org/ssv/audio/1989/08%20-%20Eljen%20a%20Magyar%21%2C%20op.%20332%20-%20Johann%20Strauss%20II.wav": 2,
+      "HEAD https://w3id.org/ssv/audio/2000/15%20-%20%C3%89ljen%20a%20Magyar%21%20%28Polka%20schnell%29%2C%20op.%20332%20-%20Johann%20Strauss%20II.wav": 2,
+      "HEAD https://w3id.org/ssv/audio/Orchester_-20der_-20Wiener_-20Volksoper_-2C_-20Alfred_-20Scholz_-20_-281988_-29/04-Eljen%20a%20Magyar%20op.%20332.wav": 2
+    },
+    "consoleErrors": {
+      "Error fetching content type: Error: Network response was not ok": 4,
+      "Failed to load resource: the server responded with a status of 403 (Forbidden)": 8,
+      "Invalid fragment:  ": 4,
+      "URL not accessible: Forbidden": 4
+    },
+    "pageErrors": {}
+  },
+  "info": {
+    "timings": {
+      "traversalMs": 2077,
+      "networkIdle": true,
+      "idleMs": 6723,
+      "stablePolls": 0,
+      "totalMs": 7487
+    },
+    "order": {
+      "textBodies": [],
+      "scores": [
+        "https://raw.githubusercontent.com/Signature-Sound-Vienna/Johann-Strauss-Sohn_Op332_Eljen-a-Magyar_Cranz/main/Full_Version_Krauss1941.mei"
+      ],
+      "audio": [
+        "https://w3id.org/ssv/TISMIR/data/signal/1963-1979_-20_-28Neujahr_-20in_-20Wien_-29__1963-1979_-20_-28DVD_-201_-29#27-container",
+        "https://w3id.org/ssv/TISMIR/data/signal/1989#8-container",
+        "https://w3id.org/ssv/TISMIR/data/signal/Orchester_-20der_-20Wiener_-20Volksoper_-2C_-20Alfred_-20Scholz_-20_-281988_-29#4-container",
+        "https://w3id.org/ssv/TISMIR/data/signal/2000#15-container"
+      ],
+      "audioSelections": []
+    },
+    "mermaidSources": [
+      "graph TD; class raw.githubusercontent.com/Signature-Sound-Vienna/data/TISMIR/annot/mao/musicalMaterial/ExElj2.jsonld current;\nraw.githubusercontent.com/Signature-Sound-Vienna/data/TISMIR/annot/mao/musicalMaterial/ExElj2.jsonld(\"mao:MusicalMaterial: <em>TISMIR Example 5.2.4b (Éljen a Magyar!)</em>\");raw.githubusercontent.com/Signature-Sound-Vienna/data/TISMIR/annot/mao/musicalMaterial/ExElj2.jsonld -- mao:setting --> raw.githubusercontent.com/Signature-Sound-Vienna/data/TISMIR/annot/mao/extract/ExElj2.jsonld;raw.githubusercontent.com/Signature-Sound-Vienna/data/TISMIR/annot/mao/extract/ExElj2.jsonld(\"mao:Extract: <em>TISMIR Example 5.2.4b (Éljen a Magyar!)</em>\");raw.githubusercontent.com/Signature-Sound-Vienna/data/TISMIR/annot/mao/extract/ExElj2.jsonld -- frbr:embodiment --> raw.githubusercontent.com/Signature-Sound-Vienna/data/TISMIR/annot/mao/selection/ExElj2.jsonld;raw.githubusercontent.com/Signature-Sound-Vienna/data/TISMIR/annot/mao/selection/ExElj2.jsonld(\"mao:Selection: <em>TISMIR Example 5.2.4b (Éljen a Magyar!)</em>\");raw.githubusercontent.com/Signature-Sound-Vienna/data/TISMIR/annot/mao/selection/ExElj2.jsonld -- frbr:part (1 fragment) --> Full_Version_Krauss1941.mei;raw.githubusercontent.com/Signature-Sound-Vienna/data/TISMIR/annot/mao/extract/ExElj2.jsonld -- frbr:embodiment --> raw.githubusercontent.com/Signature-Sound-Vienna/data/TISMIR/annot/mao/selection/ExElj2-audio1.jsonld;raw.githubusercontent.com/Signature-Sound-Vienna/data/TISMIR/annot/mao/selection/ExElj2-audio1.jsonld(\"mao:Selection: <em>TISMIR Example 5.2.4b: Vienna Philharmonic Orchestra (1978, Neujahr in Wien DVD 1) -- Éljen a Magyar!</em>\");raw.githubusercontent.com/Signature-Sound-Vienna/data/TISMIR/annot/mao/selection/ExElj2-audio1.jsonld -- frbr:part (1 time interval) --> 14%20-%20Eljen%20a%20Magyar%2C%20op.%20332%20-%20Johann%20Strauss%20II.wav;raw.githubusercontent.com/Signature-Sound-Vienna/data/TISMIR/annot/mao/extract/ExElj2.jsonld -- frbr:embodiment --> raw.githubusercontent.com/Signature-Sound-Vienna/data/TISMIR/annot/mao/selection/ExElj2-audio2.jsonld;raw.githubusercontent.com/Signature-Sound-Vienna/data/TISMIR/annot/mao/selection/ExElj2-audio2.jsonld(\"mao:Selection: <em>TISMIR Example 5.2.4b: Vienna Philharmonic Orchestra (1989) -- Éljen a Magyar!</em>\");raw.githubusercontent.com/Signature-Sound-Vienna/data/TISMIR/annot/mao/selection/ExElj2-audio2.jsonld -- frbr:part (1 time interval) --> 08%20-%20Eljen%20a%20Magyar%21%2C%20op.%20332%20-%20Johann%20Strauss%20II.wav;raw.githubusercontent.com/Signature-Sound-Vienna/data/TISMIR/annot/mao/extract/ExElj2.jsonld -- frbr:embodiment --> raw.githubusercontent.com/Signature-Sound-Vienna/data/TISMIR/annot/mao/selection/ExElj2-audio3.jsonld;raw.githubusercontent.com/Signature-Sound-Vienna/data/TISMIR/annot/mao/selection/ExElj2-audio3.jsonld(\"mao:Selection: <em>TISMIR Example 5.2.4b: Vienna Philharmonic Orchestra (2000) -- Éljen a Magyar!</em>\");raw.githubusercontent.com/Signature-Sound-Vienna/data/TISMIR/annot/mao/selection/ExElj2-audio3.jsonld -- frbr:part (1 time interval) --> 15%20-%20%C3%89ljen%20a%20Magyar%21%20%28Polka%20schnell%29%2C%20op.%20332%20-%20Johann%20Strauss%20II.wav;raw.githubusercontent.com/Signature-Sound-Vienna/data/TISMIR/annot/mao/extract/ExElj2.jsonld -- frbr:embodiment --> raw.githubusercontent.com/Signature-Sound-Vienna/data/TISMIR/annot/mao/selection/ExElj2-audio4.jsonld;raw.githubusercontent.com/Signature-Sound-Vienna/data/TISMIR/annot/mao/selection/ExElj2-audio4.jsonld(\"mao:Selection: <em>TISMIR Example 5.2.4b: Orchester der Wiener Volksoper, Alfred Scholz (1988) -- Éljen a Magyar!</em>\");raw.githubusercontent.com/Signature-Sound-Vienna/data/TISMIR/annot/mao/selection/ExElj2-audio4.jsonld -- frbr:part (1 time interval) --> 04-Eljen%20a%20Magyar%20op.%20332.wav;\n click raw.githubusercontent.com/Signature-Sound-Vienna/data/TISMIR/annot/mao/selection/ExElj2.jsonld \"http://primal.mdw.ac.at/?obj=https://raw.githubusercontent.com/Signature-Sound-Vienna/data/TISMIR/annot/mao/selection/ExElj2.jsonld\" \"Tooltip: \";\n click selection:ExElj2.jsonld \"http://primal.mdw.ac.at/?obj=selection:ExElj2.jsonld\" \"Tooltip: \";\n click raw.githubusercontent.com/Signature-Sound-Vienna/data/TISMIR/annot/mao/selection/ExElj2-audio1.jsonld \"http://primal.mdw.ac.at/?obj=https://raw.githubusercontent.com/Signature-Sound-Vienna/data/TISMIR/annot/mao/selection/ExElj2-audio1.jsonld\" \"Tooltip: \";\n click selection:ExElj2-audio1.jsonld \"http://primal.mdw.ac.at/?obj=selection:ExElj2-audio1.jsonld\" \"Tooltip: \";\n click raw.githubusercontent.com/Signature-Sound-Vienna/data/TISMIR/annot/mao/selection/ExElj2-audio2.jsonld \"http://primal.mdw.ac.at/?obj=https://raw.githubusercontent.com/Signature-Sound-Vienna/data/TISMIR/annot/mao/selection/ExElj2-audio2.jsonld\" \"Tooltip: \";\n click selection:ExElj2-audio2.jsonld \"http://primal.mdw.ac.at/?obj=selection:ExElj2-audio2.jsonld\" \"Tooltip: \";\n click raw.githubusercontent.com/Signature-Sound-Vienna/data/TISMIR/annot/mao/selection/ExElj2-audio4.jsonld \"http://primal.mdw.ac.at/?obj=https://raw.githubusercontent.com/Signature-Sound-Vienna/data/TISMIR/annot/mao/selection/ExElj2-audio4.jsonld\" \"Tooltip: \";\n click selection:ExElj2-audio4.jsonld \"http://primal.mdw.ac.at/?obj=selection:ExElj2-audio4.jsonld\" \"Tooltip: \";\n click raw.githubusercontent.com/Signature-Sound-Vienna/data/TISMIR/annot/mao/selection/ExElj2-audio3.jsonld \"http://primal.mdw.ac.at/?obj=https://raw.githubusercontent.com/Signature-Sound-Vienna/data/TISMIR/annot/mao/selection/ExElj2-audio3.jsonld\" \"Tooltip: \";\n click selection:ExElj2-audio3.jsonld \"http://primal.mdw.ac.at/?obj=selection:ExElj2-audio3.jsonld\" \"Tooltip: \";\n click raw.githubusercontent.com/Signature-Sound-Vienna/data/TISMIR/annot/mao/extract/ExElj2.jsonld \"http://primal.mdw.ac.at/?obj=https://raw.githubusercontent.com/Signature-Sound-Vienna/data/TISMIR/annot/mao/extract/ExElj2.jsonld\" \"Tooltip: \";\n click extract:ExElj2.jsonld \"http://primal.mdw.ac.at/?obj=extract:ExElj2.jsonld\" \"Tooltip: \";\n click raw.githubusercontent.com/Signature-Sound-Vienna/data/TISMIR/annot/mao/musicalMaterial/ExElj2.jsonld \"http://primal.mdw.ac.at/?obj=https://raw.githubusercontent.com/Signature-Sound-Vienna/data/TISMIR/annot/mao/musicalMaterial/ExElj2.jsonld\" \"Tooltip: \";\n click musMat:ExElj2.jsonld \"http://primal.mdw.ac.at/?obj=musMat:ExElj2.jsonld\" \"Tooltip: \";\n subgraph Current resource\nraw.githubusercontent.com/Signature-Sound-Vienna/data/TISMIR/annot/mao/musicalMaterial/ExElj2.jsonld\n end\n"
+    ],
+    "requestCount": 63,
+    "corsBlocked": []
+  }
+}

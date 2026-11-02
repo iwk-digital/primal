@@ -1,0 +1,574 @@
+{
+  "root": {
+    "set": "TISMIR",
+    "folder": "musicalMaterial",
+    "name": "ExFled",
+    "obj": "https://raw.githubusercontent.com/Signature-Sound-Vienna/data/TISMIR/annot/mao/musicalMaterial/ExFled.jsonld",
+    "w3id": "https://w3id.org/ssv/TISMIR/annot/mao/musicalMaterial/ExFled",
+    "quick": false
+  },
+  "recordedAt": "2026-11-02T16:25:49.811Z",
+  "compare": {
+    "splash": false,
+    "traversalsComplete": true,
+    "sections": {
+      "h-text-content": {
+        "loaded": true,
+        "noContent": [
+          "No text content found in this annotation."
+        ]
+      },
+      "h-music-scores": {
+        "loaded": true,
+        "noContent": []
+      },
+      "h-audio-examples": {
+        "loaded": true,
+        "noContent": []
+      },
+      "h-metadata": {
+        "loaded": true,
+        "noContent": []
+      },
+      "h-graph": {
+        "loaded": true,
+        "noContent": []
+      },
+      "h-json-display": {
+        "loaded": true,
+        "noContent": []
+      }
+    },
+    "banners": [],
+    "textBodies": [],
+    "scores": [
+      {
+        "id": "https://raw.githubusercontent.com/Signature-Sound-Vienna/Johann-Strauss-Sohn_Fledermaus-Ouverture_Eulenburg/main/Fledermaus-Ouverture-Eulenburg.mei",
+        "highlighted": [
+          "n1ow9hs",
+          "n27wm41",
+          "n2evd9f",
+          "n2xuhq3",
+          "n37av55",
+          "n39evw3",
+          "n3kuqlw",
+          "n42bd3j",
+          "n4n4dpt",
+          "n4z5myf",
+          "n5h471d",
+          "n5lrx6e",
+          "n60cxbn",
+          "n691z2s",
+          "n6ayi5m",
+          "n78n2rn",
+          "n7affzd",
+          "n7w6hs9",
+          "n8395y9",
+          "n87oh8g",
+          "n8bblqg",
+          "n8uymog",
+          "na2cueb",
+          "na6q7ax",
+          "na9bcls",
+          "nab2zkf",
+          "nbk7pi0",
+          "ndcsoqn",
+          "nfqgaus",
+          "nge9ezh",
+          "ngqc4n2",
+          "ngssgmk",
+          "ngv807t",
+          "nhdggl4",
+          "nj9ysql",
+          "njbmxct",
+          "nke1z6f",
+          "nm40kkt",
+          "nndfn8m",
+          "npr8p2z",
+          "nr111w5",
+          "nrj2re",
+          "ns11ksx",
+          "nse9je",
+          "nswaot0",
+          "nurlrd7",
+          "nwwth4f",
+          "nz5ee50",
+          "r11jcmq",
+          "r9d81ig",
+          "r9om0wr",
+          "rb7emke",
+          "rbcopbq",
+          "rcda79x",
+          "rh4io4f",
+          "ri1kzn7",
+          "rk2h1d6",
+          "rmjcq05",
+          "rofguf1",
+          "rshzgzd",
+          "ru5p4lg",
+          "s9sjg44",
+          "sa9y8ju",
+          "saprphs",
+          "sksubho",
+          "skv7j8y",
+          "snyylia",
+          "spl472w"
+        ],
+        "svg": {
+          "viewBox": "0 0 2100 3742",
+          "elementsWithDataId": 1495
+        }
+      }
+    ],
+    "meiFriendLinks": [
+      "https://mei-friend.mdw.ac.at/?file=https://raw.githubusercontent.com/Signature-Sound-Vienna/Johann-Strauss-Sohn_Fledermaus-Ouverture_Eulenburg/main/Fledermaus-Ouverture-Eulenburg.mei&select=ngssgmk,n8bblqg,n7affzd,nm40kkt,nrj2re,ns11ksx,ri1kzn7,rbcopbq,n27wm41,n78n2rn,nswaot0,nndfn8m,nwwth4f,nz5ee50,rh4io4f,rcda79x,n4z5myf,n1ow9hs,n8395y9,n7w6hs9,njbmxct,na9bcls,r9d81ig,rofguf1,n60cxbn,n8uymog,n6ayi5m,n3kuqlw,nr111w5,sa9y8ju,rshzgzd,n5lrx6e,na6q7ax,ndcsoqn,rb7emke,nse9je,snyylia,n691z2s,nbk7pi0,n5h471d,saprphs,r9om0wr,nke1z6f,n39evw3,ngqc4n2,rk2h1d6,n4n4dpt,skv7j8y,nj9ysql,nge9ezh,n2xuhq3,s9sjg44,ru5p4lg,nab2zkf,n87oh8g,n37av55,rmjcq05,nfqgaus,spl472w,nurlrd7,npr8p2z,n42bd3j,sksubho,r11jcmq,nhdggl4,ngv807t,n2evd9f,na2cueb"
+    ],
+    "audio": [
+      {
+        "id": "https://w3id.org/ssv/TISMIR/data/signal/1980#1-container",
+        "hidden": false,
+        "label": "TISMIR Example 5.2.3: Vienna Philharmonic Orchestra (1980) -- Fledermaus overture [playback restricted] (01:48.86–01:54.70)",
+        "waveform": true,
+        "regions": [
+          {
+            "left": "21.3849%",
+            "width": ""
+          }
+        ]
+      },
+      {
+        "id": "https://w3id.org/ssv/TISMIR/data/signal/2002#8-container",
+        "hidden": false,
+        "label": "TISMIR Example 5.2.3: Vienna Philharmonic Orchestra (2002) -- Fledermaus overture [playback restricted] (01:47.61–01:53.10)",
+        "waveform": true,
+        "regions": [
+          {
+            "left": "18.991%",
+            "width": ""
+          }
+        ]
+      },
+      {
+        "id": "https://w3id.org/ssv/TISMIR/data/signal/2022#7-container",
+        "hidden": false,
+        "label": "TISMIR Example 5.2.3: Vienna Philharmonic Orchestra (2022) -- Fledermaus overture [playback restricted] (01:54.86–02:00.64)",
+        "waveform": true,
+        "regions": [
+          {
+            "left": "19.6559%",
+            "width": ""
+          }
+        ]
+      },
+      {
+        "id": "https://w3id.org/ssv/TISMIR/data/signal/Johann-Strau_-C3_-9F-Orchester_-2C_-20Herbert_-20Siebert_-20_-282015_-29#1-container",
+        "hidden": false,
+        "label": "TISMIR Example 5.2.3: Johann-Strauß-Orchester, Herbert Siebert (2015) -- Fledermaus overture [playback restricted] (01:41.90–01:47.60)",
+        "waveform": true,
+        "regions": [
+          {
+            "left": "20.7473%",
+            "width": ""
+          }
+        ]
+      },
+      {
+        "id": "https://w3id.org/ssv/TISMIR/data/signal/K_-26K_-20Philharmoniker_-2C_-20Kendlinger_-20_-282010_-29#2-container",
+        "hidden": false,
+        "label": "TISMIR Example 5.2.3: K&K Philharmoniker (2010) -- Fledermaus overture [playback restricted] (01:40.57–01:46.26)",
+        "waveform": true,
+        "regions": [
+          {
+            "left": "20.1619%",
+            "width": ""
+          }
+        ]
+      },
+      {
+        "id": "https://w3id.org/ssv/TISMIR/data/signal/London_-20Symphony_-20Orchestra_-20_-26_-20London_-20Proms_-20Symphony_-20Orchestra_-2C_-20Sir_-20Charles_-20Mackerras_-20_-28mixed_-29#2-container",
+        "hidden": false,
+        "label": "TISMIR Example 5.2.3: London Symphony Orchestra, Sir Charles Mackerras (1965) -- Fledermaus overture [playback restricted] (01:52.36–01:58.01)",
+        "waveform": true,
+        "regions": [
+          {
+            "left": "22.2767%",
+            "width": ""
+          }
+        ]
+      },
+      {
+        "id": "https://w3id.org/ssv/TISMIR/data/signal/Philharmonie_-20Lugansk_-2C_-20Kurt_-20Schmid#1-container",
+        "hidden": false,
+        "label": "TISMIR Example 5.2.3: Philharmonie Lugansk, Kurt Schmid -- Fledermaus overture [playback restricted] (01:45.01–01:51.40)",
+        "waveform": true,
+        "regions": [
+          {
+            "left": "20.4024%",
+            "width": ""
+          }
+        ]
+      },
+      {
+        "id": "https://w3id.org/ssv/TISMIR/data/signal/Wiener_-20Volksopernorchester_-2C_-20Franz_-20Bauer-Theussl_-20_-281985_-29#1-container",
+        "hidden": false,
+        "label": "TISMIR Example 5.2.3: Wiener Volksopernorchester, Franz Bauer-Theussl (1985) -- Fledermaus overture [playback restricted] (01:47.47–01:52.76)",
+        "waveform": true,
+        "regions": [
+          {
+            "left": "20.9902%",
+            "width": ""
+          }
+        ]
+      }
+    ],
+    "metadata": {
+      "currentUri": "Current resource: <https://raw.githubusercontent.com/Signature-Sound-Vienna/data/TISMIR/annot/mao/musicalMaterial/ExFled.jsonld>",
+      "createdBy": "Created by: <https://ssv.solidcommunity.net/profile/card#me>",
+      "createdByLinks": [
+        {
+          "text": "<https://ssv.solidcommunity.net/profile/card#me>",
+          "href": "https://ssv.solidcommunity.net/profile/card#me"
+        }
+      ],
+      "audioSelectionsHeading": "Audio Files",
+      "audioSelections": [
+        {
+          "text": "TISMIR Example 5.2.3: Johann-Strauß-Orchester, Herbert Siebert (2015) -- Fledermaus overtureSignal: Johann-Strau_-C3_-9F-Orchester_-2C_-20Herbert_-20Siebert_-20_-282015_-29#1Track: &quot;Die Fledermaus (Ouvertüre)&quot;MusicBrainz: 8986a6ea-3e5c-4058-8ea6-41c77fd15703",
+          "links": [
+            {
+              "text": "Signal: Johann-Strau_-C3_-9F-Orchester_-2C_-20Herbert_-20Siebert_-20_-282015_-29#1",
+              "href": "https://w3id.org/ssv/TISMIR/data/signal/Johann-Strau_-C3_-9F-Orchester_-2C_-20Herbert_-20Siebert_-20_-282015_-29#1"
+            },
+            {
+              "text": "Track: &quot;Die Fledermaus (Ouvertüre)&quot;",
+              "href": "https://w3id.org/ssv/TISMIR/data/track/Johann-Strau_-C3_-9F-Orchester_-2C_-20Herbert_-20Siebert_-20_-282015_-29#1"
+            },
+            {
+              "text": "MusicBrainz: 8986a6ea-3e5c-4058-8ea6-41c77fd15703",
+              "href": "https://musicbrainz.org/track/8986a6ea-3e5c-4058-8ea6-41c77fd15703"
+            }
+          ]
+        },
+        {
+          "text": "TISMIR Example 5.2.3: K&amp;K Philharmoniker (2010) -- Fledermaus overtureSignal: K_-26K_-20Philharmoniker_-2C_-20Kendlinger_-20_-282010_-29#2Track: &quot;Ouvertüre zur Operette &#39;Die Fledermaus&#39;&quot;MusicBrainz: c37b1efb-0fe8-4dac-9dd9-3267c3a3fa5a",
+          "links": [
+            {
+              "text": "Signal: K_-26K_-20Philharmoniker_-2C_-20Kendlinger_-20_-282010_-29#2",
+              "href": "https://w3id.org/ssv/TISMIR/data/signal/K_-26K_-20Philharmoniker_-2C_-20Kendlinger_-20_-282010_-29#2"
+            },
+            {
+              "text": "Track: &quot;Ouvertüre zur Operette &#39;Die Fledermaus&#39;&quot;",
+              "href": "https://w3id.org/ssv/TISMIR/data/track/K_-26K_-20Philharmoniker_-2C_-20Kendlinger_-20_-282010_-29#2"
+            },
+            {
+              "text": "MusicBrainz: c37b1efb-0fe8-4dac-9dd9-3267c3a3fa5a",
+              "href": "https://musicbrainz.org/track/c37b1efb-0fe8-4dac-9dd9-3267c3a3fa5a"
+            }
+          ]
+        },
+        {
+          "text": "TISMIR Example 5.2.3: London Symphony Orchestra, Sir Charles Mackerras (1965) -- Fledermaus overtureSignal: London_-20Symphony_-20Orchestra_-20_-26_-20London_-20Proms_-20Symphony_-20Orchestra_-2C_-20Sir_-20Charles_-20Mackerras_-20_-28mixed_-29#2Track: &quot;Overtüre aus &#39;Die Fledermaus&#39;&quot;MusicBrainz: 8d91e4bd-b87c-4a8f-9307-a2d15d892dc7",
+          "links": [
+            {
+              "text": "Signal: London_-20Symphony_-20Orchestra_-20_-26_-20London_-20Proms_-20Symphony_-20Orchestra_-2C_-20Sir_-20Charles_-20Mackerras_-20_-28mixed_-29#2",
+              "href": "https://w3id.org/ssv/TISMIR/data/signal/London_-20Symphony_-20Orchestra_-20_-26_-20London_-20Proms_-20Symphony_-20Orchestra_-2C_-20Sir_-20Charles_-20Mackerras_-20_-28mixed_-29#2"
+            },
+            {
+              "text": "Track: &quot;Overtüre aus &#39;Die Fledermaus&#39;&quot;",
+              "href": "https://w3id.org/ssv/TISMIR/data/track/London_-20Symphony_-20Orchestra_-20_-26_-20London_-20Proms_-20Symphony_-20Orchestra_-2C_-20Sir_-20Charles_-20Mackerras_-20_-28mixed_-29#2"
+            },
+            {
+              "text": "MusicBrainz: 8d91e4bd-b87c-4a8f-9307-a2d15d892dc7",
+              "href": "https://musicbrainz.org/track/8d91e4bd-b87c-4a8f-9307-a2d15d892dc7"
+            }
+          ]
+        },
+        {
+          "text": "TISMIR Example 5.2.3: Philharmonie Lugansk, Kurt Schmid -- Fledermaus overtureSignal: Philharmonie_-20Lugansk_-2C_-20Kurt_-20Schmid#1Track: &quot;Ouvertüre zu &#39;Fledermaus&#39;&quot;MusicBrainz: f490918f-fa57-4e89-966d-20c4b3929c95",
+          "links": [
+            {
+              "text": "Signal: Philharmonie_-20Lugansk_-2C_-20Kurt_-20Schmid#1",
+              "href": "https://w3id.org/ssv/TISMIR/data/signal/Philharmonie_-20Lugansk_-2C_-20Kurt_-20Schmid#1"
+            },
+            {
+              "text": "Track: &quot;Ouvertüre zu &#39;Fledermaus&#39;&quot;",
+              "href": "https://w3id.org/ssv/TISMIR/data/track/Philharmonie_-20Lugansk_-2C_-20Kurt_-20Schmid#1"
+            },
+            {
+              "text": "MusicBrainz: f490918f-fa57-4e89-966d-20c4b3929c95",
+              "href": "https://musicbrainz.org/track/f490918f-fa57-4e89-966d-20c4b3929c95"
+            }
+          ]
+        },
+        {
+          "text": "TISMIR Example 5.2.3: Vienna Philharmonic Orchestra (1980) -- Fledermaus overtureSignal: 1980#1Track: &quot;&#39;Die Fledermaus&#39; Overture&quot;MusicBrainz: 6033e7ae-b414-45ab-a8e3-59d77225d55f",
+          "links": [
+            {
+              "text": "Signal: 1980#1",
+              "href": "https://w3id.org/ssv/TISMIR/data/signal/1980#1"
+            },
+            {
+              "text": "Track: &quot;&#39;Die Fledermaus&#39; Overture&quot;",
+              "href": "https://w3id.org/ssv/TISMIR/data/track/1980#1"
+            },
+            {
+              "text": "MusicBrainz: 6033e7ae-b414-45ab-a8e3-59d77225d55f",
+              "href": "https://musicbrainz.org/track/6033e7ae-b414-45ab-a8e3-59d77225d55f"
+            }
+          ]
+        },
+        {
+          "text": "TISMIR Example 5.2.3: Vienna Philharmonic Orchestra (2002) -- Fledermaus overtureSignal: 2002#8Track: &quot;Ouvertüre zu &#39;Die Fledermaus&#39;&quot;MusicBrainz: dbebe9a9-201a-46b3-aae7-113c6e170376",
+          "links": [
+            {
+              "text": "Signal: 2002#8",
+              "href": "https://w3id.org/ssv/TISMIR/data/signal/2002#8"
+            },
+            {
+              "text": "Track: &quot;Ouvertüre zu &#39;Die Fledermaus&#39;&quot;",
+              "href": "https://w3id.org/ssv/TISMIR/data/track/2002#8"
+            },
+            {
+              "text": "MusicBrainz: dbebe9a9-201a-46b3-aae7-113c6e170376",
+              "href": "https://musicbrainz.org/track/dbebe9a9-201a-46b3-aae7-113c6e170376"
+            }
+          ]
+        },
+        {
+          "text": "TISMIR Example 5.2.3: Vienna Philharmonic Orchestra (2022) -- Fledermaus overtureSignal: 2022#7Track: &quot;Ouvertüre zu &#39;Die Fledermaus&#39;&quot;MusicBrainz: e4c76583-91dc-4791-afd9-4130c40f0ce4",
+          "links": [
+            {
+              "text": "Signal: 2022#7",
+              "href": "https://w3id.org/ssv/TISMIR/data/signal/2022#7"
+            },
+            {
+              "text": "Track: &quot;Ouvertüre zu &#39;Die Fledermaus&#39;&quot;",
+              "href": "https://w3id.org/ssv/TISMIR/data/track/2022#7"
+            },
+            {
+              "text": "MusicBrainz: e4c76583-91dc-4791-afd9-4130c40f0ce4",
+              "href": "https://musicbrainz.org/track/e4c76583-91dc-4791-afd9-4130c40f0ce4"
+            }
+          ]
+        },
+        {
+          "text": "TISMIR Example 5.2.3: Wiener Volksopernorchester, Franz Bauer-Theussl (1985) -- Fledermaus overtureSignal: Wiener_-20Volksopernorchester_-2C_-20Franz_-20Bauer-Theussl_-20_-281985_-29#1Track: &quot;Die Fledermaus - Ouverture&quot;MusicBrainz: d878d678-1543-46d1-be7f-f818b6566202",
+          "links": [
+            {
+              "text": "Signal: Wiener_-20Volksopernorchester_-2C_-20Franz_-20Bauer-Theussl_-20_-281985_-29#1",
+              "href": "https://w3id.org/ssv/TISMIR/data/signal/Wiener_-20Volksopernorchester_-2C_-20Franz_-20Bauer-Theussl_-20_-281985_-29#1"
+            },
+            {
+              "text": "Track: &quot;Die Fledermaus - Ouverture&quot;",
+              "href": "https://w3id.org/ssv/TISMIR/data/track/Wiener_-20Volksopernorchester_-2C_-20Franz_-20Bauer-Theussl_-20_-281985_-29#1"
+            },
+            {
+              "text": "MusicBrainz: d878d678-1543-46d1-be7f-f818b6566202",
+              "href": "https://musicbrainz.org/track/d878d678-1543-46d1-be7f-f818b6566202"
+            }
+          ]
+        }
+      ]
+    },
+    "graph": {
+      "svg": true,
+      "nodes": 20,
+      "edges": 19
+    },
+    "mermaid": [
+      [
+        "class raw.githubusercontent.com/Signature-Sound-Vienna/data/TISMIR/annot/mao/musicalMaterial/ExFled.jsonld current",
+        "click extract:ExFled.jsonld \"http://primal.mdw.ac.at/?obj=extract:ExFled.jsonld\" \"Tooltip: \"",
+        "click musMat:ExFled.jsonld \"http://primal.mdw.ac.at/?obj=musMat:ExFled.jsonld\" \"Tooltip: \"",
+        "click raw.githubusercontent.com/Signature-Sound-Vienna/data/TISMIR/annot/mao/extract/ExFled.jsonld \"http://primal.mdw.ac.at/?obj=https://raw.githubusercontent.com/Signature-Sound-Vienna/data/TISMIR/annot/mao/extract/ExFled.jsonld\" \"Tooltip: \"",
+        "click raw.githubusercontent.com/Signature-Sound-Vienna/data/TISMIR/annot/mao/musicalMaterial/ExFled.jsonld \"http://primal.mdw.ac.at/?obj=https://raw.githubusercontent.com/Signature-Sound-Vienna/data/TISMIR/annot/mao/musicalMaterial/ExFled.jsonld\" \"Tooltip: \"",
+        "click raw.githubusercontent.com/Signature-Sound-Vienna/data/TISMIR/annot/mao/selection/ExFled-audio1.jsonld \"http://primal.mdw.ac.at/?obj=https://raw.githubusercontent.com/Signature-Sound-Vienna/data/TISMIR/annot/mao/selection/ExFled-audio1.jsonld\" \"Tooltip: \"",
+        "click raw.githubusercontent.com/Signature-Sound-Vienna/data/TISMIR/annot/mao/selection/ExFled-audio2.jsonld \"http://primal.mdw.ac.at/?obj=https://raw.githubusercontent.com/Signature-Sound-Vienna/data/TISMIR/annot/mao/selection/ExFled-audio2.jsonld\" \"Tooltip: \"",
+        "click raw.githubusercontent.com/Signature-Sound-Vienna/data/TISMIR/annot/mao/selection/ExFled-audio3.jsonld \"http://primal.mdw.ac.at/?obj=https://raw.githubusercontent.com/Signature-Sound-Vienna/data/TISMIR/annot/mao/selection/ExFled-audio3.jsonld\" \"Tooltip: \"",
+        "click raw.githubusercontent.com/Signature-Sound-Vienna/data/TISMIR/annot/mao/selection/ExFled-audio4.jsonld \"http://primal.mdw.ac.at/?obj=https://raw.githubusercontent.com/Signature-Sound-Vienna/data/TISMIR/annot/mao/selection/ExFled-audio4.jsonld\" \"Tooltip: \"",
+        "click raw.githubusercontent.com/Signature-Sound-Vienna/data/TISMIR/annot/mao/selection/ExFled-audio5.jsonld \"http://primal.mdw.ac.at/?obj=https://raw.githubusercontent.com/Signature-Sound-Vienna/data/TISMIR/annot/mao/selection/ExFled-audio5.jsonld\" \"Tooltip: \"",
+        "click raw.githubusercontent.com/Signature-Sound-Vienna/data/TISMIR/annot/mao/selection/ExFled-audio6.jsonld \"http://primal.mdw.ac.at/?obj=https://raw.githubusercontent.com/Signature-Sound-Vienna/data/TISMIR/annot/mao/selection/ExFled-audio6.jsonld\" \"Tooltip: \"",
+        "click raw.githubusercontent.com/Signature-Sound-Vienna/data/TISMIR/annot/mao/selection/ExFled-audio7.jsonld \"http://primal.mdw.ac.at/?obj=https://raw.githubusercontent.com/Signature-Sound-Vienna/data/TISMIR/annot/mao/selection/ExFled-audio7.jsonld\" \"Tooltip: \"",
+        "click raw.githubusercontent.com/Signature-Sound-Vienna/data/TISMIR/annot/mao/selection/ExFled-audio8.jsonld \"http://primal.mdw.ac.at/?obj=https://raw.githubusercontent.com/Signature-Sound-Vienna/data/TISMIR/annot/mao/selection/ExFled-audio8.jsonld\" \"Tooltip: \"",
+        "click raw.githubusercontent.com/Signature-Sound-Vienna/data/TISMIR/annot/mao/selection/ExFled.jsonld \"http://primal.mdw.ac.at/?obj=https://raw.githubusercontent.com/Signature-Sound-Vienna/data/TISMIR/annot/mao/selection/ExFled.jsonld\" \"Tooltip: \"",
+        "click selection:ExFled-audio1.jsonld \"http://primal.mdw.ac.at/?obj=selection:ExFled-audio1.jsonld\" \"Tooltip: \"",
+        "click selection:ExFled-audio2.jsonld \"http://primal.mdw.ac.at/?obj=selection:ExFled-audio2.jsonld\" \"Tooltip: \"",
+        "click selection:ExFled-audio3.jsonld \"http://primal.mdw.ac.at/?obj=selection:ExFled-audio3.jsonld\" \"Tooltip: \"",
+        "click selection:ExFled-audio4.jsonld \"http://primal.mdw.ac.at/?obj=selection:ExFled-audio4.jsonld\" \"Tooltip: \"",
+        "click selection:ExFled-audio5.jsonld \"http://primal.mdw.ac.at/?obj=selection:ExFled-audio5.jsonld\" \"Tooltip: \"",
+        "click selection:ExFled-audio6.jsonld \"http://primal.mdw.ac.at/?obj=selection:ExFled-audio6.jsonld\" \"Tooltip: \"",
+        "click selection:ExFled-audio7.jsonld \"http://primal.mdw.ac.at/?obj=selection:ExFled-audio7.jsonld\" \"Tooltip: \"",
+        "click selection:ExFled-audio8.jsonld \"http://primal.mdw.ac.at/?obj=selection:ExFled-audio8.jsonld\" \"Tooltip: \"",
+        "click selection:ExFled.jsonld \"http://primal.mdw.ac.at/?obj=selection:ExFled.jsonld\" \"Tooltip: \"",
+        "end",
+        "graph TD",
+        "raw.githubusercontent.com/Signature-Sound-Vienna/data/TISMIR/annot/mao/extract/ExFled.jsonld -- frbr:embodiment --> raw.githubusercontent.com/Signature-Sound-Vienna/data/TISMIR/annot/mao/selection/ExFled-audio1.jsonld",
+        "raw.githubusercontent.com/Signature-Sound-Vienna/data/TISMIR/annot/mao/extract/ExFled.jsonld -- frbr:embodiment --> raw.githubusercontent.com/Signature-Sound-Vienna/data/TISMIR/annot/mao/selection/ExFled-audio2.jsonld",
+        "raw.githubusercontent.com/Signature-Sound-Vienna/data/TISMIR/annot/mao/extract/ExFled.jsonld -- frbr:embodiment --> raw.githubusercontent.com/Signature-Sound-Vienna/data/TISMIR/annot/mao/selection/ExFled-audio3.jsonld",
+        "raw.githubusercontent.com/Signature-Sound-Vienna/data/TISMIR/annot/mao/extract/ExFled.jsonld -- frbr:embodiment --> raw.githubusercontent.com/Signature-Sound-Vienna/data/TISMIR/annot/mao/selection/ExFled-audio4.jsonld",
+        "raw.githubusercontent.com/Signature-Sound-Vienna/data/TISMIR/annot/mao/extract/ExFled.jsonld -- frbr:embodiment --> raw.githubusercontent.com/Signature-Sound-Vienna/data/TISMIR/annot/mao/selection/ExFled-audio5.jsonld",
+        "raw.githubusercontent.com/Signature-Sound-Vienna/data/TISMIR/annot/mao/extract/ExFled.jsonld -- frbr:embodiment --> raw.githubusercontent.com/Signature-Sound-Vienna/data/TISMIR/annot/mao/selection/ExFled-audio6.jsonld",
+        "raw.githubusercontent.com/Signature-Sound-Vienna/data/TISMIR/annot/mao/extract/ExFled.jsonld -- frbr:embodiment --> raw.githubusercontent.com/Signature-Sound-Vienna/data/TISMIR/annot/mao/selection/ExFled-audio7.jsonld",
+        "raw.githubusercontent.com/Signature-Sound-Vienna/data/TISMIR/annot/mao/extract/ExFled.jsonld -- frbr:embodiment --> raw.githubusercontent.com/Signature-Sound-Vienna/data/TISMIR/annot/mao/selection/ExFled-audio8.jsonld",
+        "raw.githubusercontent.com/Signature-Sound-Vienna/data/TISMIR/annot/mao/extract/ExFled.jsonld -- frbr:embodiment --> raw.githubusercontent.com/Signature-Sound-Vienna/data/TISMIR/annot/mao/selection/ExFled.jsonld",
+        "raw.githubusercontent.com/Signature-Sound-Vienna/data/TISMIR/annot/mao/extract/ExFled.jsonld(\"mao:Extract: <em>TISMIR Example 5.2.3 (Fledermaus overture)</em>\")",
+        "raw.githubusercontent.com/Signature-Sound-Vienna/data/TISMIR/annot/mao/musicalMaterial/ExFled.jsonld -- mao:setting --> raw.githubusercontent.com/Signature-Sound-Vienna/data/TISMIR/annot/mao/extract/ExFled.jsonld",
+        "raw.githubusercontent.com/Signature-Sound-Vienna/data/TISMIR/annot/mao/musicalMaterial/ExFled.jsonld",
+        "raw.githubusercontent.com/Signature-Sound-Vienna/data/TISMIR/annot/mao/musicalMaterial/ExFled.jsonld(\"mao:MusicalMaterial: <em>TISMIR Example 5.2.3 (Fledermaus overture)</em>\")",
+        "raw.githubusercontent.com/Signature-Sound-Vienna/data/TISMIR/annot/mao/selection/ExFled-audio1.jsonld -- frbr:part (1 time interval) --> 01-Die%20Fledermaus_%20Overture%20-%20Johann%20Strauss%2C%20Sohn.wav",
+        "raw.githubusercontent.com/Signature-Sound-Vienna/data/TISMIR/annot/mao/selection/ExFled-audio1.jsonld(\"mao:Selection: <em>TISMIR Example 5.2.3: Vienna Philharmonic Orchestra (1980) -- Fledermaus overture</em>\")",
+        "raw.githubusercontent.com/Signature-Sound-Vienna/data/TISMIR/annot/mao/selection/ExFled-audio2.jsonld -- frbr:part (1 time interval) --> 01-Die%20Fledermaus%20-%20Ouverture%20-%20Johann%20Strauss%20%28son%29.wav",
+        "raw.githubusercontent.com/Signature-Sound-Vienna/data/TISMIR/annot/mao/selection/ExFled-audio2.jsonld(\"mao:Selection: <em>TISMIR Example 5.2.3: Wiener Volksopernorchester, Franz Bauer-Theussl (1985) -- Fledermaus overture</em>\")",
+        "raw.githubusercontent.com/Signature-Sound-Vienna/data/TISMIR/annot/mao/selection/ExFled-audio3.jsonld -- frbr:part (1 time interval) --> 08%20-%20Ouvert%C3%BCre%20zu%20%27Die%20Fledermaus%27%20-%20Johann%20Strauss%20II.wav",
+        "raw.githubusercontent.com/Signature-Sound-Vienna/data/TISMIR/annot/mao/selection/ExFled-audio3.jsonld(\"mao:Selection: <em>TISMIR Example 5.2.3: Vienna Philharmonic Orchestra (2002) -- Fledermaus overture</em>\")",
+        "raw.githubusercontent.com/Signature-Sound-Vienna/data/TISMIR/annot/mao/selection/ExFled-audio4.jsonld -- frbr:part (1 time interval) --> 07%20-%20Ouvert%C3%BCre%20zu%20%27Die%20Fledermaus%27%20-%20Johann%20Strauss%20II.wav",
+        "raw.githubusercontent.com/Signature-Sound-Vienna/data/TISMIR/annot/mao/selection/ExFled-audio4.jsonld(\"mao:Selection: <em>TISMIR Example 5.2.3: Vienna Philharmonic Orchestra (2022) -- Fledermaus overture</em>\")",
+        "raw.githubusercontent.com/Signature-Sound-Vienna/data/TISMIR/annot/mao/selection/ExFled-audio5.jsonld -- frbr:part (1 time interval) --> 02-Ouvert%C3%BCre%20zur%20Operatte%20_Die%20Fledermaus_%2C%20Johann%20Strau%C3%9F.wav",
+        "raw.githubusercontent.com/Signature-Sound-Vienna/data/TISMIR/annot/mao/selection/ExFled-audio5.jsonld(\"mao:Selection: <em>TISMIR Example 5.2.3: K&K Philharmoniker (2010) -- Fledermaus overture</em>\")",
+        "raw.githubusercontent.com/Signature-Sound-Vienna/data/TISMIR/annot/mao/selection/ExFled-audio6.jsonld -- frbr:part (1 time interval) --> 02-Overt%C3%BCre%20aus%20%27Die%20Fledermaus%27%20-%20Johann%20Strauss%20II%20%281965%29.wav",
+        "raw.githubusercontent.com/Signature-Sound-Vienna/data/TISMIR/annot/mao/selection/ExFled-audio6.jsonld(\"mao:Selection: <em>TISMIR Example 5.2.3: London Symphony Orchestra, Sir Charles Mackerras (1965) -- Fledermaus overture</em>\")",
+        "raw.githubusercontent.com/Signature-Sound-Vienna/data/TISMIR/annot/mao/selection/ExFled-audio7.jsonld -- frbr:part (1 time interval) --> 01-Ouvert%C3%BCre%20zu%20_Fledermaus_%20-%20Johann%20Strauss%20II.wav",
+        "raw.githubusercontent.com/Signature-Sound-Vienna/data/TISMIR/annot/mao/selection/ExFled-audio7.jsonld(\"mao:Selection: <em>TISMIR Example 5.2.3: Philharmonie Lugansk, Kurt Schmid -- Fledermaus overture</em>\")",
+        "raw.githubusercontent.com/Signature-Sound-Vienna/data/TISMIR/annot/mao/selection/ExFled-audio8.jsonld -- frbr:part (1 time interval) --> 01-Johann-Strau%C3%9F%20-%20Die%20Fledermaus.wav",
+        "raw.githubusercontent.com/Signature-Sound-Vienna/data/TISMIR/annot/mao/selection/ExFled-audio8.jsonld(\"mao:Selection: <em>TISMIR Example 5.2.3: Johann-Strauß-Orchester, Herbert Siebert (2015) -- Fledermaus overture</em>\")",
+        "raw.githubusercontent.com/Signature-Sound-Vienna/data/TISMIR/annot/mao/selection/ExFled.jsonld -- frbr:part (68 fragments) --> Fledermaus-Ouverture-Eulenburg.mei",
+        "raw.githubusercontent.com/Signature-Sound-Vienna/data/TISMIR/annot/mao/selection/ExFled.jsonld(\"mao:Selection: <em>TISMIR Example 5.2.3 (Fledermaus overture)</em>\")",
+        "subgraph Current resource"
+      ]
+    ],
+    "json": "{\n  \"@context\": {\n    \"@vocab\": \"http://www.w3.org/ns/oa#\",\n    \"oa\": \"http://www.w3.org/ns/oa#\",\n    \"mao\": \"https://domestic-beethoven.eu/ontology/1.0/music-annotation-ontology.ttl#\",\n    \"frbr\": \"http://purl.org/vocab/frbr/core#\",\n    \"dc\": \"http://purl.org/dc/terms/\",\n    \"rdfs\": \"http://www.w3.org/2000/01/rdf-schema#\",\n    \"rdf\": \"http://www.w3.org/1999/02/22-rdf-syntax-ns#\",\n    \"mo\": \"http://purl.org/ontology/mo/\",\n    \"tl\": \"http://purl.org/NET/c4dm/timeline.owl#\",\n    \"ssv\": \"https://w3id.org/ssv/vocab#\"\n  },\n  \"@id\": \"https://raw.githubusercontent.com/Signature-Sound-Vienna/data/TISMIR/annot/mao/musicalMaterial/ExFled.jsonld\",\n  \"@type\": [\n    \"mao:MusicalMaterial\",\n    \"https://schema.org/Dataset\"\n  ],\n  \"dc:created\": \"2024-05-28T11:41:00.768Z\",\n  \"dc:creator\": {\n    \"@id\": \"https://ssv.solidcommunity.net/profile/card#me\"\n  },\n  \"dc:provenance\": \"Generated using mei-friend v.1.0.14: https://mei-friend.mdw.ac.at\",\n  \"rdfs:label\": \"TISMIR Example 5.2.3 (Fledermaus overture)\",\n  \"mao:setting\": {\n    \"@id\": \"https://raw.githubusercontent.com/Signature-Sound-Vienna/data/TISMIR/annot/mao/extract/ExFled.jsonld\"\n  },\n  \"https://schema.org/about\": {\n    \"@id\": \"https://raw.githubusercontent.com/Signature-Sound-Vienna/Johann-Strauss-Sohn_Fledermaus-Ouverture_Eulenburg/main/Fledermaus-Ouverture-Eulenburg.mei\"\n  }\n}",
+    "versions": {
+      "verovio": "6.4.0-33d1633",
+      "mermaid": "10.9.8"
+    },
+    "requests": {
+      "GET app:/?obj=https://raw.githubusercontent.com/Signature-Sound-Vienna/data/TISMIR/annot/mao/musicalMaterial/ExFled.jsonld": 1,
+      "GET app:/css/prism.css": 1,
+      "GET app:/css/styles.css": 1,
+      "GET app:/deps/regions.js": 1,
+      "GET app:/deps/wavesurfer.js": 1,
+      "GET app:/img/logo.png": 1,
+      "GET app:/lib/LDObj.js": 1,
+      "GET app:/lib/defaults.js": 1,
+      "GET app:/lib/env.js": 1,
+      "GET app:/lib/errorBanner.js": 1,
+      "GET app:/lib/graph.js": 1,
+      "GET app:/lib/graphModal.js": 1,
+      "GET app:/lib/httpUtil.js": 1,
+      "GET app:/lib/main.js": 1,
+      "GET app:/lib/namespaceManager.js": 1,
+      "GET app:/lib/namespaceMap.js": 1,
+      "GET app:/lib/render.js": 1,
+      "GET app:/lib/sanitize.js": 1,
+      "GET app:/lib/traverser.js": 1,
+      "GET https://cdnjs.cloudflare.com/ajax/libs/jsonld/1.0.0/jsonld.min.js": 1,
+      "GET https://cdnjs.cloudflare.com/ajax/libs/prism/1.29.0/components/prism-json.min.js": 1,
+      "GET https://cdnjs.cloudflare.com/ajax/libs/prism/1.29.0/prism.min.js": 1,
+      "GET https://cdnjs.cloudflare.com/ajax/libs/prism/1.29.0/themes/prism.min.css": 1,
+      "GET https://raw.githubusercontent.com/Signature-Sound-Vienna/Johann-Strauss-Sohn_Fledermaus-Ouverture_Eulenburg/main/Fledermaus-Ouverture-Eulenburg.mei": 1,
+      "GET https://raw.githubusercontent.com/Signature-Sound-Vienna/data/TISMIR/annot/mao/extract/ExFled.jsonld": 1,
+      "GET https://raw.githubusercontent.com/Signature-Sound-Vienna/data/TISMIR/annot/mao/musicalMaterial/ExFled.jsonld": 1,
+      "GET https://raw.githubusercontent.com/Signature-Sound-Vienna/data/TISMIR/annot/mao/selection/ExFled-audio1.jsonld": 1,
+      "GET https://raw.githubusercontent.com/Signature-Sound-Vienna/data/TISMIR/annot/mao/selection/ExFled-audio2.jsonld": 1,
+      "GET https://raw.githubusercontent.com/Signature-Sound-Vienna/data/TISMIR/annot/mao/selection/ExFled-audio3.jsonld": 1,
+      "GET https://raw.githubusercontent.com/Signature-Sound-Vienna/data/TISMIR/annot/mao/selection/ExFled-audio4.jsonld": 1,
+      "GET https://raw.githubusercontent.com/Signature-Sound-Vienna/data/TISMIR/annot/mao/selection/ExFled-audio5.jsonld": 1,
+      "GET https://raw.githubusercontent.com/Signature-Sound-Vienna/data/TISMIR/annot/mao/selection/ExFled-audio6.jsonld": 1,
+      "GET https://raw.githubusercontent.com/Signature-Sound-Vienna/data/TISMIR/annot/mao/selection/ExFled-audio7.jsonld": 1,
+      "GET https://raw.githubusercontent.com/Signature-Sound-Vienna/data/TISMIR/annot/mao/selection/ExFled-audio8.jsonld": 1,
+      "GET https://raw.githubusercontent.com/Signature-Sound-Vienna/data/TISMIR/annot/mao/selection/ExFled.jsonld": 1,
+      "GET https://unpkg.com/mermaid@10/dist/mermaid.min.js": 1,
+      "GET https://w3id.org/ssv/TISMIR/data/peaks/1980/1.peaks.json": 1,
+      "GET https://w3id.org/ssv/TISMIR/data/peaks/2002/8.peaks.json": 1,
+      "GET https://w3id.org/ssv/TISMIR/data/peaks/2022/7.peaks.json": 1,
+      "GET https://w3id.org/ssv/TISMIR/data/peaks/Johann-Strau_-C3_-9F-Orchester_-2C_-20Herbert_-20Siebert_-20_-282015_-29/1.peaks.json": 1,
+      "GET https://w3id.org/ssv/TISMIR/data/peaks/K_-26K_-20Philharmoniker_-2C_-20Kendlinger_-20_-282010_-29/2.peaks.json": 1,
+      "GET https://w3id.org/ssv/TISMIR/data/peaks/London_-20Symphony_-20Orchestra_-20_-26_-20London_-20Proms_-20Symphony_-20Orchestra_-2C_-20Sir_-20Charles_-20Mackerras_-20_-28mixed_-29/2.peaks.json": 1,
+      "GET https://w3id.org/ssv/TISMIR/data/peaks/Philharmonie_-20Lugansk_-2C_-20Kurt_-20Schmid/1.peaks.json": 1,
+      "GET https://w3id.org/ssv/TISMIR/data/peaks/Wiener_-20Volksopernorchester_-2C_-20Franz_-20Bauer-Theussl_-20_-281985_-29/1.peaks.json": 1,
+      "GET https://w3id.org/ssv/TISMIR/data/signal/1980": 2,
+      "GET https://w3id.org/ssv/TISMIR/data/signal/2002": 2,
+      "GET https://w3id.org/ssv/TISMIR/data/signal/2022": 2,
+      "GET https://w3id.org/ssv/TISMIR/data/signal/Johann-Strau_-C3_-9F-Orchester_-2C_-20Herbert_-20Siebert_-20_-282015_-29": 2,
+      "GET https://w3id.org/ssv/TISMIR/data/signal/K_-26K_-20Philharmoniker_-2C_-20Kendlinger_-20_-282010_-29": 2,
+      "GET https://w3id.org/ssv/TISMIR/data/signal/London_-20Symphony_-20Orchestra_-20_-26_-20London_-20Proms_-20Symphony_-20Orchestra_-2C_-20Sir_-20Charles_-20Mackerras_-20_-28mixed_-29": 2,
+      "GET https://w3id.org/ssv/TISMIR/data/signal/Philharmonie_-20Lugansk_-2C_-20Kurt_-20Schmid": 2,
+      "GET https://w3id.org/ssv/TISMIR/data/signal/Wiener_-20Volksopernorchester_-2C_-20Franz_-20Bauer-Theussl_-20_-281985_-29": 2,
+      "GET https://w3id.org/ssv/TISMIR/data/track/1980": 1,
+      "GET https://w3id.org/ssv/TISMIR/data/track/2002": 1,
+      "GET https://w3id.org/ssv/TISMIR/data/track/2022": 1,
+      "GET https://w3id.org/ssv/TISMIR/data/track/Johann-Strau_-C3_-9F-Orchester_-2C_-20Herbert_-20Siebert_-20_-282015_-29": 1,
+      "GET https://w3id.org/ssv/TISMIR/data/track/K_-26K_-20Philharmoniker_-2C_-20Kendlinger_-20_-282010_-29": 1,
+      "GET https://w3id.org/ssv/TISMIR/data/track/London_-20Symphony_-20Orchestra_-20_-26_-20London_-20Proms_-20Symphony_-20Orchestra_-2C_-20Sir_-20Charles_-20Mackerras_-20_-28mixed_-29": 1,
+      "GET https://w3id.org/ssv/TISMIR/data/track/Philharmonie_-20Lugansk_-2C_-20Kurt_-20Schmid": 1,
+      "GET https://w3id.org/ssv/TISMIR/data/track/Wiener_-20Volksopernorchester_-2C_-20Franz_-20Bauer-Theussl_-20_-281985_-29": 1,
+      "GET https://www.verovio.org/javascript/latest/verovio-toolkit-wasm.js": 1,
+      "HEAD https://raw.githubusercontent.com/Signature-Sound-Vienna/Johann-Strauss-Sohn_Fledermaus-Ouverture_Eulenburg/main/Fledermaus-Ouverture-Eulenburg.mei": 136,
+      "HEAD https://raw.githubusercontent.com/Signature-Sound-Vienna/data/TISMIR/annot/mao/extract/ExFled.jsonld": 2,
+      "HEAD https://raw.githubusercontent.com/Signature-Sound-Vienna/data/TISMIR/annot/mao/selection/ExFled-audio1.jsonld": 2,
+      "HEAD https://raw.githubusercontent.com/Signature-Sound-Vienna/data/TISMIR/annot/mao/selection/ExFled-audio2.jsonld": 2,
+      "HEAD https://raw.githubusercontent.com/Signature-Sound-Vienna/data/TISMIR/annot/mao/selection/ExFled-audio3.jsonld": 2,
+      "HEAD https://raw.githubusercontent.com/Signature-Sound-Vienna/data/TISMIR/annot/mao/selection/ExFled-audio4.jsonld": 2,
+      "HEAD https://raw.githubusercontent.com/Signature-Sound-Vienna/data/TISMIR/annot/mao/selection/ExFled-audio5.jsonld": 2,
+      "HEAD https://raw.githubusercontent.com/Signature-Sound-Vienna/data/TISMIR/annot/mao/selection/ExFled-audio6.jsonld": 2,
+      "HEAD https://raw.githubusercontent.com/Signature-Sound-Vienna/data/TISMIR/annot/mao/selection/ExFled-audio7.jsonld": 2,
+      "HEAD https://raw.githubusercontent.com/Signature-Sound-Vienna/data/TISMIR/annot/mao/selection/ExFled-audio8.jsonld": 2,
+      "HEAD https://raw.githubusercontent.com/Signature-Sound-Vienna/data/TISMIR/annot/mao/selection/ExFled.jsonld": 2,
+      "HEAD https://w3id.org/ssv/audio/1980/01-Die%20Fledermaus_%20Overture%20-%20Johann%20Strauss%2C%20Sohn.wav": 2,
+      "HEAD https://w3id.org/ssv/audio/2002/08%20-%20Ouvert%C3%BCre%20zu%20%27Die%20Fledermaus%27%20-%20Johann%20Strauss%20II.wav": 2,
+      "HEAD https://w3id.org/ssv/audio/2022/07%20-%20Ouvert%C3%BCre%20zu%20%27Die%20Fledermaus%27%20-%20Johann%20Strauss%20II.wav": 2,
+      "HEAD https://w3id.org/ssv/audio/Johann-Strau_-C3_-9F-Orchester_-2C_-20Herbert_-20Siebert_-20_-282015_-29/01-Johann-Strau%C3%9F%20-%20Die%20Fledermaus.wav": 2,
+      "HEAD https://w3id.org/ssv/audio/K_-26K_-20Philharmoniker_-2C_-20Kendlinger_-20_-282010_-29/02-Ouvert%C3%BCre%20zur%20Operatte%20_Die%20Fledermaus_%2C%20Johann%20Strau%C3%9F.wav": 2,
+      "HEAD https://w3id.org/ssv/audio/London_-20Symphony_-20Orchestra_-20_-26_-20London_-20Proms_-20Symphony_-20Orchestra_-2C_-20Sir_-20Charles_-20Mackerras_-20_-28mixed_-29/02-Overt%C3%BCre%20aus%20%27Die%20Fledermaus%27%20-%20Johann%20Strauss%20II%20%281965%29.wav": 2,
+      "HEAD https://w3id.org/ssv/audio/Philharmonie_-20Lugansk_-2C_-20Kurt_-20Schmid/01-Ouvert%C3%BCre%20zu%20_Fledermaus_%20-%20Johann%20Strauss%20II.wav": 2,
+      "HEAD https://w3id.org/ssv/audio/Wiener_-20Volksopernorchester_-2C_-20Franz_-20Bauer-Theussl_-20_-281985_-29/01-Die%20Fledermaus%20-%20Ouverture%20-%20Johann%20Strauss%20%28son%29.wav": 2
+    },
+    "consoleErrors": {
+      "Error fetching content type: Error: Network response was not ok": 8,
+      "Failed to load resource: the server responded with a status of 403 (Forbidden)": 16,
+      "Failed to prepare LD object Error: Object must be an OA or MAO object": 16,
+      "URL not accessible: Forbidden": 8
+    },
+    "pageErrors": {}
+  },
+  "info": {
+    "timings": {
+      "traversalMs": 3172,
+      "networkIdle": false,
+      "idleMs": 63250,
+      "stablePolls": 0,
+      "totalMs": 64014
+    },
+    "order": {
+      "textBodies": [],
+      "scores": [
+        "https://raw.githubusercontent.com/Signature-Sound-Vienna/Johann-Strauss-Sohn_Fledermaus-Ouverture_Eulenburg/main/Fledermaus-Ouverture-Eulenburg.mei"
+      ],
+      "audio": [
+        "https://w3id.org/ssv/TISMIR/data/signal/1980#1-container",
+        "https://w3id.org/ssv/TISMIR/data/signal/2002#8-container",
+        "https://w3id.org/ssv/TISMIR/data/signal/2022#7-container",
+        "https://w3id.org/ssv/TISMIR/data/signal/London_-20Symphony_-20Orchestra_-20_-26_-20London_-20Proms_-20Symphony_-20Orchestra_-2C_-20Sir_-20Charles_-20Mackerras_-20_-28mixed_-29#2-container",
+        "https://w3id.org/ssv/TISMIR/data/signal/K_-26K_-20Philharmoniker_-2C_-20Kendlinger_-20_-282010_-29#2-container",
+        "https://w3id.org/ssv/TISMIR/data/signal/Philharmonie_-20Lugansk_-2C_-20Kurt_-20Schmid#1-container",
+        "https://w3id.org/ssv/TISMIR/data/signal/Johann-Strau_-C3_-9F-Orchester_-2C_-20Herbert_-20Siebert_-20_-282015_-29#1-container",
+        "https://w3id.org/ssv/TISMIR/data/signal/Wiener_-20Volksopernorchester_-2C_-20Franz_-20Bauer-Theussl_-20_-281985_-29#1-container"
+      ],
+      "audioSelections": [
+        "TISMIR Example 5.2.3: Vienna Philharmonic Orchestra (1980) -",
+        "TISMIR Example 5.2.3: Vienna Philharmonic Orchestra (2002) -",
+        "TISMIR Example 5.2.3: Vienna Philharmonic Orchestra (2022) -",
+        "TISMIR Example 5.2.3: London Symphony Orchestra, Sir Charles",
+        "TISMIR Example 5.2.3: K&amp;K Philharmoniker (2010) -- Flede",
+        "TISMIR Example 5.2.3: Philharmonie Lugansk, Kurt Schmid -- F",
+        "TISMIR Example 5.2.3: Johann-Strauß-Orchester, Herbert Siebe",
+        "TISMIR Example 5.2.3: Wiener Volksopernorchester, Franz Baue"
+      ]
+    },
+    "mermaidSources": [
+      "graph TD; class raw.githubusercontent.com/Signature-Sound-Vienna/data/TISMIR/annot/mao/musicalMaterial/ExFled.jsonld current;\nraw.githubusercontent.com/Signature-Sound-Vienna/data/TISMIR/annot/mao/musicalMaterial/ExFled.jsonld(\"mao:MusicalMaterial: <em>TISMIR Example 5.2.3 (Fledermaus overture)</em>\");raw.githubusercontent.com/Signature-Sound-Vienna/data/TISMIR/annot/mao/musicalMaterial/ExFled.jsonld -- mao:setting --> raw.githubusercontent.com/Signature-Sound-Vienna/data/TISMIR/annot/mao/extract/ExFled.jsonld;raw.githubusercontent.com/Signature-Sound-Vienna/data/TISMIR/annot/mao/extract/ExFled.jsonld(\"mao:Extract: <em>TISMIR Example 5.2.3 (Fledermaus overture)</em>\");raw.githubusercontent.com/Signature-Sound-Vienna/data/TISMIR/annot/mao/extract/ExFled.jsonld -- frbr:embodiment --> raw.githubusercontent.com/Signature-Sound-Vienna/data/TISMIR/annot/mao/selection/ExFled.jsonld;raw.githubusercontent.com/Signature-Sound-Vienna/data/TISMIR/annot/mao/selection/ExFled.jsonld(\"mao:Selection: <em>TISMIR Example 5.2.3 (Fledermaus overture)</em>\");raw.githubusercontent.com/Signature-Sound-Vienna/data/TISMIR/annot/mao/selection/ExFled.jsonld -- frbr:part (68 fragments) --> Fledermaus-Ouverture-Eulenburg.mei;raw.githubusercontent.com/Signature-Sound-Vienna/data/TISMIR/annot/mao/extract/ExFled.jsonld -- frbr:embodiment --> raw.githubusercontent.com/Signature-Sound-Vienna/data/TISMIR/annot/mao/selection/ExFled-audio1.jsonld;raw.githubusercontent.com/Signature-Sound-Vienna/data/TISMIR/annot/mao/selection/ExFled-audio1.jsonld(\"mao:Selection: <em>TISMIR Example 5.2.3: Vienna Philharmonic Orchestra (1980) -- Fledermaus overture</em>\");raw.githubusercontent.com/Signature-Sound-Vienna/data/TISMIR/annot/mao/selection/ExFled-audio1.jsonld -- frbr:part (1 time interval) --> 01-Die%20Fledermaus_%20Overture%20-%20Johann%20Strauss%2C%20Sohn.wav;raw.githubusercontent.com/Signature-Sound-Vienna/data/TISMIR/annot/mao/extract/ExFled.jsonld -- frbr:embodiment --> raw.githubusercontent.com/Signature-Sound-Vienna/data/TISMIR/annot/mao/selection/ExFled-audio2.jsonld;raw.githubusercontent.com/Signature-Sound-Vienna/data/TISMIR/annot/mao/selection/ExFled-audio2.jsonld(\"mao:Selection: <em>TISMIR Example 5.2.3: Wiener Volksopernorchester, Franz Bauer-Theussl (1985) -- Fledermaus overture</em>\");raw.githubusercontent.com/Signature-Sound-Vienna/data/TISMIR/annot/mao/selection/ExFled-audio2.jsonld -- frbr:part (1 time interval) --> 01-Die%20Fledermaus%20-%20Ouverture%20-%20Johann%20Strauss%20%28son%29.wav;raw.githubusercontent.com/Signature-Sound-Vienna/data/TISMIR/annot/mao/extract/ExFled.jsonld -- frbr:embodiment --> raw.githubusercontent.com/Signature-Sound-Vienna/data/TISMIR/annot/mao/selection/ExFled-audio3.jsonld;raw.githubusercontent.com/Signature-Sound-Vienna/data/TISMIR/annot/mao/selection/ExFled-audio3.jsonld(\"mao:Selection: <em>TISMIR Example 5.2.3: Vienna Philharmonic Orchestra (2002) -- Fledermaus overture</em>\");raw.githubusercontent.com/Signature-Sound-Vienna/data/TISMIR/annot/mao/selection/ExFled-audio3.jsonld -- frbr:part (1 time interval) --> 08%20-%20Ouvert%C3%BCre%20zu%20%27Die%20Fledermaus%27%20-%20Johann%20Strauss%20II.wav;raw.githubusercontent.com/Signature-Sound-Vienna/data/TISMIR/annot/mao/extract/ExFled.jsonld -- frbr:embodiment --> raw.githubusercontent.com/Signature-Sound-Vienna/data/TISMIR/annot/mao/selection/ExFled-audio4.jsonld;raw.githubusercontent.com/Signature-Sound-Vienna/data/TISMIR/annot/mao/selection/ExFled-audio4.jsonld(\"mao:Selection: <em>TISMIR Example 5.2.3: Vienna Philharmonic Orchestra (2022) -- Fledermaus overture</em>\");raw.githubusercontent.com/Signature-Sound-Vienna/data/TISMIR/annot/mao/selection/ExFled-audio4.jsonld -- frbr:part (1 time interval) --> 07%20-%20Ouvert%C3%BCre%20zu%20%27Die%20Fledermaus%27%20-%20Johann%20Strauss%20II.wav;raw.githubusercontent.com/Signature-Sound-Vienna/data/TISMIR/annot/mao/extract/ExFled.jsonld -- frbr:embodiment --> raw.githubusercontent.com/Signature-Sound-Vienna/data/TISMIR/annot/mao/selection/ExFled-audio5.jsonld;raw.githubusercontent.com/Signature-Sound-Vienna/data/TISMIR/annot/mao/selection/ExFled-audio5.jsonld(\"mao:Selection: <em>TISMIR Example 5.2.3: K&K Philharmoniker (2010) -- Fledermaus overture</em>\");raw.githubusercontent.com/Signature-Sound-Vienna/data/TISMIR/annot/mao/selection/ExFled-audio5.jsonld -- frbr:part (1 time interval) --> 02-Ouvert%C3%BCre%20zur%20Operatte%20_Die%20Fledermaus_%2C%20Johann%20Strau%C3%9F.wav;raw.githubusercontent.com/Signature-Sound-Vienna/data/TISMIR/annot/mao/extract/ExFled.jsonld -- frbr:embodiment --> raw.githubusercontent.com/Signature-Sound-Vienna/data/TISMIR/annot/mao/selection/ExFled-audio6.jsonld;raw.githubusercontent.com/Signature-Sound-Vienna/data/TISMIR/annot/mao/selection/ExFled-audio6.jsonld(\"mao:Selection: <em>TISMIR Example 5.2.3: London Symphony Orchestra, Sir Charles Mackerras (1965) -- Fledermaus overture</em>\");raw.githubusercontent.com/Signature-Sound-Vienna/data/TISMIR/annot/mao/selection/ExFled-audio6.jsonld -- frbr:part (1 time interval) --> 02-Overt%C3%BCre%20aus%20%27Die%20Fledermaus%27%20-%20Johann%20Strauss%20II%20%281965%29.wav;raw.githubusercontent.com/Signature-Sound-Vienna/data/TISMIR/annot/mao/extract/ExFled.jsonld -- frbr:embodiment --> raw.githubusercontent.com/Signature-Sound-Vienna/data/TISMIR/annot/mao/selection/ExFled-audio7.jsonld;raw.githubusercontent.com/Signature-Sound-Vienna/data/TISMIR/annot/mao/selection/ExFled-audio7.jsonld(\"mao:Selection: <em>TISMIR Example 5.2.3: Philharmonie Lugansk, Kurt Schmid -- Fledermaus overture</em>\");raw.githubusercontent.com/Signature-Sound-Vienna/data/TISMIR/annot/mao/selection/ExFled-audio7.jsonld -- frbr:part (1 time interval) --> 01-Ouvert%C3%BCre%20zu%20_Fledermaus_%20-%20Johann%20Strauss%20II.wav;raw.githubusercontent.com/Signature-Sound-Vienna/data/TISMIR/annot/mao/extract/ExFled.jsonld -- frbr:embodiment --> raw.githubusercontent.com/Signature-Sound-Vienna/data/TISMIR/annot/mao/selection/ExFled-audio8.jsonld;raw.githubusercontent.com/Signature-Sound-Vienna/data/TISMIR/annot/mao/selection/ExFled-audio8.jsonld(\"mao:Selection: <em>TISMIR Example 5.2.3: Johann-Strauß-Orchester, Herbert Siebert (2015) -- Fledermaus overture</em>\");raw.githubusercontent.com/Signature-Sound-Vienna/data/TISMIR/annot/mao/selection/ExFled-audio8.jsonld -- frbr:part (1 time interval) --> 01-Johann-Strau%C3%9F%20-%20Die%20Fledermaus.wav;\n click raw.githubusercontent.com/Signature-Sound-Vienna/data/TISMIR/annot/mao/selection/ExFled.jsonld \"http://primal.mdw.ac.at/?obj=https://raw.githubusercontent.com/Signature-Sound-Vienna/data/TISMIR/annot/mao/selection/ExFled.jsonld\" \"Tooltip: \";\n click selection:ExFled.jsonld \"http://primal.mdw.ac.at/?obj=selection:ExFled.jsonld\" \"Tooltip: \";\n click raw.githubusercontent.com/Signature-Sound-Vienna/data/TISMIR/annot/mao/selection/ExFled-audio1.jsonld \"http://primal.mdw.ac.at/?obj=https://raw.githubusercontent.com/Signature-Sound-Vienna/data/TISMIR/annot/mao/selection/ExFled-audio1.jsonld\" \"Tooltip: \";\n click selection:ExFled-audio1.jsonld \"http://primal.mdw.ac.at/?obj=selection:ExFled-audio1.jsonld\" \"Tooltip: \";\n click raw.githubusercontent.com/Signature-Sound-Vienna/data/TISMIR/annot/mao/selection/ExFled-audio3.jsonld \"http://primal.mdw.ac.at/?obj=https://raw.githubusercontent.com/Signature-Sound-Vienna/data/TISMIR/annot/mao/selection/ExFled-audio3.jsonld\" \"Tooltip: \";\n click selection:ExFled-audio3.jsonld \"http://primal.mdw.ac.at/?obj=selection:ExFled-audio3.jsonld\" \"Tooltip: \";\n click raw.githubusercontent.com/Signature-Sound-Vienna/data/TISMIR/annot/mao/selection/ExFled-audio4.jsonld \"http://primal.mdw.ac.at/?obj=https://raw.githubusercontent.com/Signature-Sound-Vienna/data/TISMIR/annot/mao/selection/ExFled-audio4.jsonld\" \"Tooltip: \";\n click selection:ExFled-audio4.jsonld \"http://primal.mdw.ac.at/?obj=selection:ExFled-audio4.jsonld\" \"Tooltip: \";\n click raw.githubusercontent.com/Signature-Sound-Vienna/data/TISMIR/annot/mao/selection/ExFled-audio6.jsonld \"http://primal.mdw.ac.at/?obj=https://raw.githubusercontent.com/Signature-Sound-Vienna/data/TISMIR/annot/mao/selection/ExFled-audio6.jsonld\" \"Tooltip: \";\n click selection:ExFled-audio6.jsonld \"http://primal.mdw.ac.at/?obj=selection:ExFled-audio6.jsonld\" \"Tooltip: \";\n click raw.githubusercontent.com/Signature-Sound-Vienna/data/TISMIR/annot/mao/selection/ExFled-audio5.jsonld \"http://primal.mdw.ac.at/?obj=https://raw.githubusercontent.com/Signature-Sound-Vienna/data/TISMIR/annot/mao/selection/ExFled-audio5.jsonld\" \"Tooltip: \";\n click selection:ExFled-audio5.jsonld \"http://primal.mdw.ac.at/?obj=selection:ExFled-audio5.jsonld\" \"Tooltip: \";\n click raw.githubusercontent.com/Signature-Sound-Vienna/data/TISMIR/annot/mao/selection/ExFled-audio7.jsonld \"http://primal.mdw.ac.at/?obj=https://raw.githubusercontent.com/Signature-Sound-Vienna/data/TISMIR/annot/mao/selection/ExFled-audio7.jsonld\" \"Tooltip: \";\n click selection:ExFled-audio7.jsonld \"http://primal.mdw.ac.at/?obj=selection:ExFled-audio7.jsonld\" \"Tooltip: \";\n click raw.githubusercontent.com/Signature-Sound-Vienna/data/TISMIR/annot/mao/selection/ExFled-audio8.jsonld \"http://primal.mdw.ac.at/?obj=https://raw.githubusercontent.com/Signature-Sound-Vienna/data/TISMIR/annot/mao/selection/ExFled-audio8.jsonld\" \"Tooltip: \";\n click selection:ExFled-audio8.jsonld \"http://primal.mdw.ac.at/?obj=selection:ExFled-audio8.jsonld\" \"Tooltip: \";\n click raw.githubusercontent.com/Signature-Sound-Vienna/data/TISMIR/annot/mao/selection/ExFled-audio2.jsonld \"http://primal.mdw.ac.at/?obj=https://raw.githubusercontent.com/Signature-Sound-Vienna/data/TISMIR/annot/mao/selection/ExFled-audio2.jsonld\" \"Tooltip: \";\n click selection:ExFled-audio2.jsonld \"http://primal.mdw.ac.at/?obj=selection:ExFled-audio2.jsonld\" \"Tooltip: \";\n click raw.githubusercontent.com/Signature-Sound-Vienna/data/TISMIR/annot/mao/extract/ExFled.jsonld \"http://primal.mdw.ac.at/?obj=https://raw.githubusercontent.com/Signature-Sound-Vienna/data/TISMIR/annot/mao/extract/ExFled.jsonld\" \"Tooltip: \";\n click extract:ExFled.jsonld \"http://primal.mdw.ac.at/?obj=extract:ExFled.jsonld\" \"Tooltip: \";\n click raw.githubusercontent.com/Signature-Sound-Vienna/data/TISMIR/annot/mao/musicalMaterial/ExFled.jsonld \"http://primal.mdw.ac.at/?obj=https://raw.githubusercontent.com/Signature-Sound-Vienna/data/TISMIR/annot/mao/musicalMaterial/ExFled.jsonld\" \"Tooltip: \";\n click musMat:ExFled.jsonld \"http://primal.mdw.ac.at/?obj=musMat:ExFled.jsonld\" \"Tooltip: \";\n subgraph Current resource\nraw.githubusercontent.com/Signature-Sound-Vienna/data/TISMIR/annot/mao/musicalMaterial/ExFled.jsonld\n end\n"
+    ],
+    "requestCount": 241,
+    "corsBlocked": []
+  }
+}

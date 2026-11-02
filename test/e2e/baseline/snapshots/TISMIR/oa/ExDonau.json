@@ -1,0 +1,399 @@
+{
+  "root": {
+    "set": "TISMIR",
+    "folder": "oa",
+    "name": "ExDonau",
+    "obj": "https://raw.githubusercontent.com/Signature-Sound-Vienna/data/TISMIR/annot/oa/ExDonau.jsonld",
+    "w3id": "https://w3id.org/ssv/TISMIR/annot/oa/ExDonau",
+    "quick": true
+  },
+  "recordedAt": "2026-11-02T16:30:03.889Z",
+  "compare": {
+    "splash": false,
+    "traversalsComplete": true,
+    "sections": {
+      "h-text-content": {
+        "loaded": true,
+        "noContent": []
+      },
+      "h-music-scores": {
+        "loaded": true,
+        "noContent": []
+      },
+      "h-audio-examples": {
+        "loaded": true,
+        "noContent": []
+      },
+      "h-metadata": {
+        "loaded": true,
+        "noContent": []
+      },
+      "h-graph": {
+        "loaded": true,
+        "noContent": []
+      },
+      "h-json-display": {
+        "loaded": true,
+        "noContent": []
+      }
+    },
+    "banners": [],
+    "textBodies": [
+      [
+        "In all critical scores of the Donauwalzer the first flute ascends from an E above the staff at the end of measure 4 to the F-sharp above it on the downbeat of measure 5. This flies in the face of traditional performance practice, where this is so rarely done that following the score has become an outlier descision. In fact, there are no recordings with Viennese orchestras in our corpus where this happens. Instead, the flutes descend to the D one full step below the E. The sole commercial recordings in our collection where the flutes ascend as written are three recordings of the K&K Philharmonie of Tyrol native Matthias Georg Kendlinger, and a recording with the New York Philharmonic Orchestra under Leonard Bernstein from 1982 (presented for comparison alongside the Vienna Philharmonic Orchestra's 2017 New Year's rendition)."
+      ]
+    ],
+    "scores": [
+      {
+        "id": "https://raw.githubusercontent.com/Signature-Sound-Vienna/Johann-Strauss-Sohn_Op314_Donauwalzer_Breitkopf/main/Longest_Version_Krauss.mei",
+        "highlighted": [
+          "n50u1e8",
+          "n5lsl13",
+          "nhufb3o",
+          "nm70h1m"
+        ],
+        "svg": {
+          "viewBox": "0 0 2100 3725",
+          "elementsWithDataId": 1286
+        }
+      }
+    ],
+    "meiFriendLinks": [
+      "https://mei-friend.mdw.ac.at/?file=https://raw.githubusercontent.com/Signature-Sound-Vienna/Johann-Strauss-Sohn_Op314_Donauwalzer_Breitkopf/main/Longest_Version_Krauss.mei&select=nhufb3o,n5lsl13,nm70h1m,n50u1e8"
+    ],
+    "audio": [
+      {
+        "id": "https://w3id.org/ssv/TISMIR/data/signal/2011_-20_-28Kendlinger_-29#15-container",
+        "hidden": false,
+        "label": "TISMIR Example 5.2.2: K&K Philharmoniker (2011) -- An der schönen blauen Donau [playback restricted] (00:11.70–00:18.00)",
+        "waveform": true,
+        "regions": [
+          {
+            "left": "1.58831%",
+            "width": ""
+          }
+        ]
+      },
+      {
+        "id": "https://w3id.org/ssv/TISMIR/data/signal/2017#20-container",
+        "hidden": false,
+        "label": "TISMIR Example 5.2.2: Vienna Philharmonic Orchestra (2017) -- An der schönen blauen Donau [playback restricted] (00:14.05–00:21.49)",
+        "waveform": true,
+        "regions": [
+          {
+            "left": "2.07654%",
+            "width": ""
+          }
+        ]
+      },
+      {
+        "id": "https://w3id.org/ssv/TISMIR/data/signal/K_-26K_-20Philharmoniker_-2C_-20Kendlinger_-20_-282009_-29#10-container",
+        "hidden": false,
+        "label": "TISMIR Example 5.2.2: K&K Philharmoniker (2009) -- An der schönen blauen Donau [playback restricted] (00:09.77–00:17.10)",
+        "waveform": true,
+        "regions": [
+          {
+            "left": "1.59535%",
+            "width": ""
+          }
+        ]
+      },
+      {
+        "id": "https://w3id.org/ssv/TISMIR/data/signal/K_-26K_-20Philharmoniker_-2C_-20Kendlinger_-20_-282010_-29#10-container",
+        "hidden": false,
+        "label": "TISMIR Example 5.2.2: K&K Philharmoniker (2010) -- An der schönen blauen Donau [playback restricted] (00:44.26–00:51.20)",
+        "waveform": true,
+        "regions": [
+          {
+            "left": "6.78189%",
+            "width": ""
+          }
+        ]
+      },
+      {
+        "id": "https://w3id.org/ssv/TISMIR/data/signal/New_-20York_-20Philharmonic_-2C_-20Leonard_-20Bernstein_-20_-281982_-29#1-container",
+        "hidden": false,
+        "label": "TISMIR Example 5.2.2: NY Philharmonic Orchestra (1982) -- An der schönen blauen Donau [playback restricted] (00:09.10–00:16.54)",
+        "waveform": true,
+        "regions": [
+          {
+            "left": "1.46298%",
+            "width": ""
+          }
+        ]
+      }
+    ],
+    "metadata": {
+      "currentUri": "Current resource: <https://raw.githubusercontent.com/Signature-Sound-Vienna/data/TISMIR/annot/oa/ExDonau.jsonld>",
+      "createdBy": "Created by: Dr. Chanda VanderHart",
+      "createdByLinks": [
+        {
+          "text": "Dr. Chanda VanderHart",
+          "href": "https://orcid.org/0000-0002-2055-273X"
+        }
+      ],
+      "audioSelectionsHeading": "Audio Files",
+      "audioSelections": [
+        {
+          "text": "TISMIR Example 5.2.2: K&amp;K Philharmoniker (2009) -- An der schönen blauen DonauSignal: K_-26K_-20Philharmoniker_-2C_-20Kendlinger_-20_-282009_-29#10Track: &quot;An der schönen, blauen Donau op. 314, Walzer&quot;MusicBrainz: 486d587d-7686-49bd-b6dd-b8e413da4c5f",
+          "links": [
+            {
+              "text": "Signal: K_-26K_-20Philharmoniker_-2C_-20Kendlinger_-20_-282009_-29#10",
+              "href": "https://w3id.org/ssv/TISMIR/data/signal/K_-26K_-20Philharmoniker_-2C_-20Kendlinger_-20_-282009_-29#10"
+            },
+            {
+              "text": "Track: &quot;An der schönen, blauen Donau op. 314, Walzer&quot;",
+              "href": "https://w3id.org/ssv/TISMIR/data/track/K_-26K_-20Philharmoniker_-2C_-20Kendlinger_-20_-282009_-29#10"
+            },
+            {
+              "text": "MusicBrainz: 486d587d-7686-49bd-b6dd-b8e413da4c5f",
+              "href": "https://musicbrainz.org/track/486d587d-7686-49bd-b6dd-b8e413da4c5f"
+            }
+          ]
+        },
+        {
+          "text": "TISMIR Example 5.2.2: K&amp;K Philharmoniker (2010) -- An der schönen blauen DonauSignal: K_-26K_-20Philharmoniker_-2C_-20Kendlinger_-20_-282010_-29#10Track: &quot;An der schönen, blauen Donau op. 314, Walzer&quot;MusicBrainz: 804e38d3-0636-40db-be15-4f13b166b049",
+          "links": [
+            {
+              "text": "Signal: K_-26K_-20Philharmoniker_-2C_-20Kendlinger_-20_-282010_-29#10",
+              "href": "https://w3id.org/ssv/TISMIR/data/signal/K_-26K_-20Philharmoniker_-2C_-20Kendlinger_-20_-282010_-29#10"
+            },
+            {
+              "text": "Track: &quot;An der schönen, blauen Donau op. 314, Walzer&quot;",
+              "href": "https://w3id.org/ssv/TISMIR/data/track/K_-26K_-20Philharmoniker_-2C_-20Kendlinger_-20_-282010_-29#10"
+            },
+            {
+              "text": "MusicBrainz: 804e38d3-0636-40db-be15-4f13b166b049",
+              "href": "https://musicbrainz.org/track/804e38d3-0636-40db-be15-4f13b166b049"
+            }
+          ]
+        },
+        {
+          "text": "TISMIR Example 5.2.2: K&amp;K Philharmoniker (2011) -- An der schönen blauen DonauSignal: 2011_-20_-28Kendlinger_-29#15Track: &quot;An der schönen, blauen Donau&quot;MusicBrainz: 86bcbd54-1127-451b-a957-41c72a551b64",
+          "links": [
+            {
+              "text": "Signal: 2011_-20_-28Kendlinger_-29#15",
+              "href": "https://w3id.org/ssv/TISMIR/data/signal/2011_-20_-28Kendlinger_-29#15"
+            },
+            {
+              "text": "Track: &quot;An der schönen, blauen Donau&quot;",
+              "href": "https://w3id.org/ssv/TISMIR/data/track/2011_-20_-28Kendlinger_-29#15"
+            },
+            {
+              "text": "MusicBrainz: 86bcbd54-1127-451b-a957-41c72a551b64",
+              "href": "https://musicbrainz.org/track/86bcbd54-1127-451b-a957-41c72a551b64"
+            }
+          ]
+        },
+        {
+          "text": "TISMIR Example 5.2.2: NY Philharmonic Orchestra (1982) -- An der schönen blauen DonauSignal: New_-20York_-20Philharmonic_-2C_-20Leonard_-20Bernstein_-20_-281982_-29#1Track: &quot;The Blue Danube Waltz, op. 314&quot;MusicBrainz: 2b689f58-8fbe-4fd6-8fa4-b5a9884f4528",
+          "links": [
+            {
+              "text": "Signal: New_-20York_-20Philharmonic_-2C_-20Leonard_-20Bernstein_-20_-281982_-29#1",
+              "href": "https://w3id.org/ssv/TISMIR/data/signal/New_-20York_-20Philharmonic_-2C_-20Leonard_-20Bernstein_-20_-281982_-29#1"
+            },
+            {
+              "text": "Track: &quot;The Blue Danube Waltz, op. 314&quot;",
+              "href": "https://w3id.org/ssv/TISMIR/data/track/New_-20York_-20Philharmonic_-2C_-20Leonard_-20Bernstein_-20_-281982_-29#1"
+            },
+            {
+              "text": "MusicBrainz: 2b689f58-8fbe-4fd6-8fa4-b5a9884f4528",
+              "href": "https://musicbrainz.org/track/2b689f58-8fbe-4fd6-8fa4-b5a9884f4528"
+            }
+          ]
+        },
+        {
+          "text": "TISMIR Example 5.2.2: Vienna Philharmonic Orchestra (2017) -- An der schönen blauen DonauSignal: 2017#20Track: &quot;An der schönen blauen Donau, op. 314&quot;MusicBrainz: daea0c8d-a479-406b-b8df-acb8a1fab29e",
+          "links": [
+            {
+              "text": "Signal: 2017#20",
+              "href": "https://w3id.org/ssv/TISMIR/data/signal/2017#20"
+            },
+            {
+              "text": "Track: &quot;An der schönen blauen Donau, op. 314&quot;",
+              "href": "https://w3id.org/ssv/TISMIR/data/track/2017#20"
+            },
+            {
+              "text": "MusicBrainz: daea0c8d-a479-406b-b8df-acb8a1fab29e",
+              "href": "https://musicbrainz.org/track/daea0c8d-a479-406b-b8df-acb8a1fab29e"
+            }
+          ]
+        }
+      ]
+    },
+    "graph": {
+      "svg": true,
+      "nodes": 16,
+      "edges": 15
+    },
+    "mermaid": [
+      [
+        "</em>\")",
+        "In all critical scores of the Donauwalzer the first flute ascends from an E above ...&quot",
+        "blank_0",
+        "class raw.githubusercontent.com/Signature-Sound-Vienna/data/TISMIR/annot/oa/ExDonau.jsonld current",
+        "click anno:ExDonau.jsonld \"http://primal.mdw.ac.at/?obj=anno:ExDonau.jsonld\" \"Tooltip: \"",
+        "click blank_0 \"#a-text-content\" \"View textual body\"",
+        "click extract:ExDonau.jsonld \"http://primal.mdw.ac.at/?obj=extract:ExDonau.jsonld\" \"Tooltip: \"",
+        "click musMat:ExDonau.jsonld \"http://primal.mdw.ac.at/?obj=musMat:ExDonau.jsonld\" \"Tooltip: \"",
+        "click raw.githubusercontent.com/Signature-Sound-Vienna/data/TISMIR/annot/mao/extract/ExDonau.jsonld \"http://primal.mdw.ac.at/?obj=https://raw.githubusercontent.com/Signature-Sound-Vienna/data/TISMIR/annot/mao/extract/ExDonau.jsonld\" \"Tooltip: \"",
+        "click raw.githubusercontent.com/Signature-Sound-Vienna/data/TISMIR/annot/mao/musicalMaterial/ExDonau.jsonld \"http://primal.mdw.ac.at/?obj=https://raw.githubusercontent.com/Signature-Sound-Vienna/data/TISMIR/annot/mao/musicalMaterial/ExDonau.jsonld\" \"Tooltip: \"",
+        "click raw.githubusercontent.com/Signature-Sound-Vienna/data/TISMIR/annot/mao/selection/ExDonau-audio1.jsonld \"http://primal.mdw.ac.at/?obj=https://raw.githubusercontent.com/Signature-Sound-Vienna/data/TISMIR/annot/mao/selection/ExDonau-audio1.jsonld\" \"Tooltip: \"",
+        "click raw.githubusercontent.com/Signature-Sound-Vienna/data/TISMIR/annot/mao/selection/ExDonau-audio2.jsonld \"http://primal.mdw.ac.at/?obj=https://raw.githubusercontent.com/Signature-Sound-Vienna/data/TISMIR/annot/mao/selection/ExDonau-audio2.jsonld\" \"Tooltip: \"",
+        "click raw.githubusercontent.com/Signature-Sound-Vienna/data/TISMIR/annot/mao/selection/ExDonau-audio3.jsonld \"http://primal.mdw.ac.at/?obj=https://raw.githubusercontent.com/Signature-Sound-Vienna/data/TISMIR/annot/mao/selection/ExDonau-audio3.jsonld\" \"Tooltip: \"",
+        "click raw.githubusercontent.com/Signature-Sound-Vienna/data/TISMIR/annot/mao/selection/ExDonau-audio4.jsonld \"http://primal.mdw.ac.at/?obj=https://raw.githubusercontent.com/Signature-Sound-Vienna/data/TISMIR/annot/mao/selection/ExDonau-audio4.jsonld\" \"Tooltip: \"",
+        "click raw.githubusercontent.com/Signature-Sound-Vienna/data/TISMIR/annot/mao/selection/ExDonau-audio5.jsonld \"http://primal.mdw.ac.at/?obj=https://raw.githubusercontent.com/Signature-Sound-Vienna/data/TISMIR/annot/mao/selection/ExDonau-audio5.jsonld\" \"Tooltip: \"",
+        "click raw.githubusercontent.com/Signature-Sound-Vienna/data/TISMIR/annot/mao/selection/ExDonau.jsonld \"http://primal.mdw.ac.at/?obj=https://raw.githubusercontent.com/Signature-Sound-Vienna/data/TISMIR/annot/mao/selection/ExDonau.jsonld\" \"Tooltip: \"",
+        "click raw.githubusercontent.com/Signature-Sound-Vienna/data/TISMIR/annot/oa/ExDonau.jsonld \"http://primal.mdw.ac.at/?obj=https://raw.githubusercontent.com/Signature-Sound-Vienna/data/TISMIR/annot/oa/ExDonau.jsonld\" \"Tooltip: \"",
+        "click selection:ExDonau-audio1.jsonld \"http://primal.mdw.ac.at/?obj=selection:ExDonau-audio1.jsonld\" \"Tooltip: \"",
+        "click selection:ExDonau-audio2.jsonld \"http://primal.mdw.ac.at/?obj=selection:ExDonau-audio2.jsonld\" \"Tooltip: \"",
+        "click selection:ExDonau-audio3.jsonld \"http://primal.mdw.ac.at/?obj=selection:ExDonau-audio3.jsonld\" \"Tooltip: \"",
+        "click selection:ExDonau-audio4.jsonld \"http://primal.mdw.ac.at/?obj=selection:ExDonau-audio4.jsonld\" \"Tooltip: \"",
+        "click selection:ExDonau-audio5.jsonld \"http://primal.mdw.ac.at/?obj=selection:ExDonau-audio5.jsonld\" \"Tooltip: \"",
+        "click selection:ExDonau.jsonld \"http://primal.mdw.ac.at/?obj=selection:ExDonau.jsonld\" \"Tooltip: \"",
+        "end",
+        "graph TD",
+        "raw.githubusercontent.com/Signature-Sound-Vienna/data/TISMIR/annot/mao/extract/ExDonau.jsonld -- frbr:embodiment --> raw.githubusercontent.com/Signature-Sound-Vienna/data/TISMIR/annot/mao/selection/ExDonau-audio1.jsonld",
+        "raw.githubusercontent.com/Signature-Sound-Vienna/data/TISMIR/annot/mao/extract/ExDonau.jsonld -- frbr:embodiment --> raw.githubusercontent.com/Signature-Sound-Vienna/data/TISMIR/annot/mao/selection/ExDonau-audio2.jsonld",
+        "raw.githubusercontent.com/Signature-Sound-Vienna/data/TISMIR/annot/mao/extract/ExDonau.jsonld -- frbr:embodiment --> raw.githubusercontent.com/Signature-Sound-Vienna/data/TISMIR/annot/mao/selection/ExDonau-audio3.jsonld",
+        "raw.githubusercontent.com/Signature-Sound-Vienna/data/TISMIR/annot/mao/extract/ExDonau.jsonld -- frbr:embodiment --> raw.githubusercontent.com/Signature-Sound-Vienna/data/TISMIR/annot/mao/selection/ExDonau-audio4.jsonld",
+        "raw.githubusercontent.com/Signature-Sound-Vienna/data/TISMIR/annot/mao/extract/ExDonau.jsonld -- frbr:embodiment --> raw.githubusercontent.com/Signature-Sound-Vienna/data/TISMIR/annot/mao/selection/ExDonau-audio5.jsonld",
+        "raw.githubusercontent.com/Signature-Sound-Vienna/data/TISMIR/annot/mao/extract/ExDonau.jsonld -- frbr:embodiment --> raw.githubusercontent.com/Signature-Sound-Vienna/data/TISMIR/annot/mao/selection/ExDonau.jsonld",
+        "raw.githubusercontent.com/Signature-Sound-Vienna/data/TISMIR/annot/mao/extract/ExDonau.jsonld(\"mao:Extract: <em>TISMIR Example 5.2.2 (An der schönen blauen Donau)</em>\")",
+        "raw.githubusercontent.com/Signature-Sound-Vienna/data/TISMIR/annot/mao/musicalMaterial/ExDonau.jsonld -- mao:setting --> raw.githubusercontent.com/Signature-Sound-Vienna/data/TISMIR/annot/mao/extract/ExDonau.jsonld",
+        "raw.githubusercontent.com/Signature-Sound-Vienna/data/TISMIR/annot/mao/musicalMaterial/ExDonau.jsonld(\"mao:MusicalMaterial: <em>TISMIR Example 5.2.2 (An der schönen blauen Donau)</em>\")",
+        "raw.githubusercontent.com/Signature-Sound-Vienna/data/TISMIR/annot/mao/selection/ExDonau-audio1.jsonld -- frbr:part (1 time interval) --> 10-An%20der%20sch%C3%B6nen%2C%20blauen%20Donau%20-%20Johann%20Strauss%20II%202009.wav",
+        "raw.githubusercontent.com/Signature-Sound-Vienna/data/TISMIR/annot/mao/selection/ExDonau-audio1.jsonld(\"mao:Selection: <em>TISMIR Example 5.2.2: K&K Philharmoniker (2009) -- An der schönen blauen Donau</em>\")",
+        "raw.githubusercontent.com/Signature-Sound-Vienna/data/TISMIR/annot/mao/selection/ExDonau-audio2.jsonld -- frbr:part (1 time interval) --> 10-An%20der%20sch%C3%B6nen%2C%20blauen%20Donau%20-%20Johann%20Strauss%20II%202010.wav",
+        "raw.githubusercontent.com/Signature-Sound-Vienna/data/TISMIR/annot/mao/selection/ExDonau-audio2.jsonld(\"mao:Selection: <em>TISMIR Example 5.2.2: K&K Philharmoniker (2010) -- An der schönen blauen Donau</em>\")",
+        "raw.githubusercontent.com/Signature-Sound-Vienna/data/TISMIR/annot/mao/selection/ExDonau-audio3.jsonld -- frbr:part (1 time interval) --> 15%20-%20An%20der%20sch%C3%B6nen%2C%20blauen%20Donau%20-%20Johann%20Strauss%20II.wav",
+        "raw.githubusercontent.com/Signature-Sound-Vienna/data/TISMIR/annot/mao/selection/ExDonau-audio3.jsonld(\"mao:Selection: <em>TISMIR Example 5.2.2: K&K Philharmoniker (2011) -- An der schönen blauen Donau</em>\")",
+        "raw.githubusercontent.com/Signature-Sound-Vienna/data/TISMIR/annot/mao/selection/ExDonau-audio4.jsonld -- frbr:part (1 time interval) --> 1%20-%20The%20Blue%20Danube%20Waltz.wav",
+        "raw.githubusercontent.com/Signature-Sound-Vienna/data/TISMIR/annot/mao/selection/ExDonau-audio4.jsonld(\"mao:Selection: <em>TISMIR Example 5.2.2: NY Philharmonic Orchestra (1982) -- An der schönen blauen Donau</em>\")",
+        "raw.githubusercontent.com/Signature-Sound-Vienna/data/TISMIR/annot/mao/selection/ExDonau-audio5.jsonld -- frbr:part (1 time interval) --> 19%20-%20An%20der%20sch%C3%B6nen%20blauen%20Donau%2C%20op.%20314%20-%20Johann%20Strauss%20II.wav",
+        "raw.githubusercontent.com/Signature-Sound-Vienna/data/TISMIR/annot/mao/selection/ExDonau-audio5.jsonld(\"mao:Selection: <em>TISMIR Example 5.2.2: Vienna Philharmonic Orchestra (2017) -- An der schönen blauen Donau</em>\")",
+        "raw.githubusercontent.com/Signature-Sound-Vienna/data/TISMIR/annot/mao/selection/ExDonau.jsonld -- frbr:part (4 fragments) --> Longest_Version_Krauss.mei",
+        "raw.githubusercontent.com/Signature-Sound-Vienna/data/TISMIR/annot/mao/selection/ExDonau.jsonld(\"mao:Selection: <em>TISMIR Example 5.2.2 (An der schönen blauen Donau)</em>\")",
+        "raw.githubusercontent.com/Signature-Sound-Vienna/data/TISMIR/annot/oa/ExDonau.jsonld -- oa:hasBody --> blank_0(\"<em>&quot",
+        "raw.githubusercontent.com/Signature-Sound-Vienna/data/TISMIR/annot/oa/ExDonau.jsonld -- oa:hasTarget --> raw.githubusercontent.com/Signature-Sound-Vienna/data/TISMIR/annot/mao/musicalMaterial/ExDonau.jsonld",
+        "raw.githubusercontent.com/Signature-Sound-Vienna/data/TISMIR/annot/oa/ExDonau.jsonld",
+        "raw.githubusercontent.com/Signature-Sound-Vienna/data/TISMIR/annot/oa/ExDonau.jsonld(\"oa:Annotation\")",
+        "subgraph Current resource"
+      ]
+    ],
+    "json": "{\n  \"@context\": {\n    \"@vocab\": \"http://www.w3.org/ns/oa#\",\n    \"oa\": \"http://www.w3.org/ns/oa#\",\n    \"mao\": \"https://domestic-beethoven.eu/ontology/1.0/music-annotation-ontology.ttl#\",\n    \"frbr\": \"http://purl.org/vocab/frbr/core#\",\n    \"dc\": \"http://purl.org/dc/terms/\",\n    \"rdfs\": \"http://www.w3.org/2000/01/rdf-schema#\",\n    \"rdf\": \"http://www.w3.org/1999/02/22-rdf-syntax-ns#\",\n    \"mo\": \"http://purl.org/ontology/mo/\",\n    \"tl\": \"http://purl.org/NET/c4dm/timeline.owl#\",\n    \"ssv\": \"https://w3id.org/ssv/vocab#\"\n  },\n  \"@id\": \"https://raw.githubusercontent.com/Signature-Sound-Vienna/data/TISMIR/annot/oa/ExDonau.jsonld\",\n  \"@type\": \"Annotation\",\n  \"dc:creator\": {\n    \"@id\": \"https://orcid.org/0000-0002-2055-273X\",\n    \"rdfs:label\": \"Dr. Chanda VanderHart\"\n  },\n  \"hasBody\": {\n    \"@type\": \"TextualBody\",\n    \"rdf:value\": \"In all critical scores of the Donauwalzer the first flute ascends from an E above the staff at the end of measure 4 to the F-sharp above it on the downbeat of measure 5. This flies in the face of traditional performance practice, where this is so rarely done that following the score has become an outlier descision. In fact, there are no recordings with Viennese orchestras in our corpus where this happens. Instead, the flutes descend to the D one full step below the E. The sole commercial recordings in our collection where the flutes ascend as written are three recordings of the K&K Philharmonie of Tyrol native Matthias Georg Kendlinger, and a recording with the New York Philharmonic Orchestra under Leonard Bernstein from 1982 (presented for comparison alongside the Vienna Philharmonic Orchestra's 2017 New Year's rendition).\"\n  },\n  \"hasTarget\": {\n    \"@id\": \"https://raw.githubusercontent.com/Signature-Sound-Vienna/data/TISMIR/annot/mao/musicalMaterial/ExDonau.jsonld\"\n  },\n  \"motivatedBy\": {\n    \"@id\": \"mao:commenting\"\n  }\n}",
+    "versions": {
+      "verovio": "6.4.0-33d1633",
+      "mermaid": "10.9.8"
+    },
+    "requests": {
+      "GET app:/?obj=https://raw.githubusercontent.com/Signature-Sound-Vienna/data/TISMIR/annot/oa/ExDonau.jsonld": 1,
+      "GET app:/css/prism.css": 1,
+      "GET app:/css/styles.css": 1,
+      "GET app:/deps/regions.js": 1,
+      "GET app:/deps/wavesurfer.js": 1,
+      "GET app:/img/logo.png": 1,
+      "GET app:/lib/LDObj.js": 1,
+      "GET app:/lib/defaults.js": 1,
+      "GET app:/lib/env.js": 1,
+      "GET app:/lib/errorBanner.js": 1,
+      "GET app:/lib/graph.js": 1,
+      "GET app:/lib/graphModal.js": 1,
+      "GET app:/lib/httpUtil.js": 1,
+      "GET app:/lib/main.js": 1,
+      "GET app:/lib/namespaceManager.js": 1,
+      "GET app:/lib/namespaceMap.js": 1,
+      "GET app:/lib/render.js": 1,
+      "GET app:/lib/sanitize.js": 1,
+      "GET app:/lib/traverser.js": 1,
+      "GET https://cdnjs.cloudflare.com/ajax/libs/jsonld/1.0.0/jsonld.min.js": 1,
+      "GET https://cdnjs.cloudflare.com/ajax/libs/prism/1.29.0/components/prism-json.min.js": 1,
+      "GET https://cdnjs.cloudflare.com/ajax/libs/prism/1.29.0/prism.min.js": 1,
+      "GET https://cdnjs.cloudflare.com/ajax/libs/prism/1.29.0/themes/prism.min.css": 1,
+      "GET https://raw.githubusercontent.com/Signature-Sound-Vienna/Johann-Strauss-Sohn_Op314_Donauwalzer_Breitkopf/main/Longest_Version_Krauss.mei": 1,
+      "GET https://raw.githubusercontent.com/Signature-Sound-Vienna/data/TISMIR/annot/mao/extract/ExDonau.jsonld": 1,
+      "GET https://raw.githubusercontent.com/Signature-Sound-Vienna/data/TISMIR/annot/mao/musicalMaterial/ExDonau.jsonld": 1,
+      "GET https://raw.githubusercontent.com/Signature-Sound-Vienna/data/TISMIR/annot/mao/selection/ExDonau-audio1.jsonld": 1,
+      "GET https://raw.githubusercontent.com/Signature-Sound-Vienna/data/TISMIR/annot/mao/selection/ExDonau-audio2.jsonld": 1,
+      "GET https://raw.githubusercontent.com/Signature-Sound-Vienna/data/TISMIR/annot/mao/selection/ExDonau-audio3.jsonld": 1,
+      "GET https://raw.githubusercontent.com/Signature-Sound-Vienna/data/TISMIR/annot/mao/selection/ExDonau-audio4.jsonld": 1,
+      "GET https://raw.githubusercontent.com/Signature-Sound-Vienna/data/TISMIR/annot/mao/selection/ExDonau-audio5.jsonld": 1,
+      "GET https://raw.githubusercontent.com/Signature-Sound-Vienna/data/TISMIR/annot/mao/selection/ExDonau.jsonld": 1,
+      "GET https://raw.githubusercontent.com/Signature-Sound-Vienna/data/TISMIR/annot/oa/ExDonau.jsonld": 1,
+      "GET https://unpkg.com/mermaid@10/dist/mermaid.min.js": 1,
+      "GET https://w3id.org/ssv/TISMIR/data/peaks/2011_-20_-28Kendlinger_-29/15.peaks.json": 1,
+      "GET https://w3id.org/ssv/TISMIR/data/peaks/2017/20.peaks.json": 1,
+      "GET https://w3id.org/ssv/TISMIR/data/peaks/K_-26K_-20Philharmoniker_-2C_-20Kendlinger_-20_-282009_-29/10.peaks.json": 1,
+      "GET https://w3id.org/ssv/TISMIR/data/peaks/K_-26K_-20Philharmoniker_-2C_-20Kendlinger_-20_-282010_-29/10.peaks.json": 1,
+      "GET https://w3id.org/ssv/TISMIR/data/peaks/New_-20York_-20Philharmonic_-2C_-20Leonard_-20Bernstein_-20_-281982_-29/1.peaks.json": 1,
+      "GET https://w3id.org/ssv/TISMIR/data/signal/2011_-20_-28Kendlinger_-29": 2,
+      "GET https://w3id.org/ssv/TISMIR/data/signal/2017": 2,
+      "GET https://w3id.org/ssv/TISMIR/data/signal/K_-26K_-20Philharmoniker_-2C_-20Kendlinger_-20_-282009_-29": 2,
+      "GET https://w3id.org/ssv/TISMIR/data/signal/K_-26K_-20Philharmoniker_-2C_-20Kendlinger_-20_-282010_-29": 2,
+      "GET https://w3id.org/ssv/TISMIR/data/signal/New_-20York_-20Philharmonic_-2C_-20Leonard_-20Bernstein_-20_-281982_-29": 2,
+      "GET https://w3id.org/ssv/TISMIR/data/track/2011_-20_-28Kendlinger_-29": 1,
+      "GET https://w3id.org/ssv/TISMIR/data/track/2017": 1,
+      "GET https://w3id.org/ssv/TISMIR/data/track/K_-26K_-20Philharmoniker_-2C_-20Kendlinger_-20_-282009_-29": 1,
+      "GET https://w3id.org/ssv/TISMIR/data/track/K_-26K_-20Philharmoniker_-2C_-20Kendlinger_-20_-282010_-29": 1,
+      "GET https://w3id.org/ssv/TISMIR/data/track/New_-20York_-20Philharmonic_-2C_-20Leonard_-20Bernstein_-20_-281982_-29": 1,
+      "GET https://www.verovio.org/javascript/latest/verovio-toolkit-wasm.js": 1,
+      "HEAD https://raw.githubusercontent.com/Signature-Sound-Vienna/Johann-Strauss-Sohn_Op314_Donauwalzer_Breitkopf/main/Longest_Version_Krauss.mei": 8,
+      "HEAD https://raw.githubusercontent.com/Signature-Sound-Vienna/data/TISMIR/annot/mao/extract/ExDonau.jsonld": 2,
+      "HEAD https://raw.githubusercontent.com/Signature-Sound-Vienna/data/TISMIR/annot/mao/musicalMaterial/ExDonau.jsonld": 2,
+      "HEAD https://raw.githubusercontent.com/Signature-Sound-Vienna/data/TISMIR/annot/mao/selection/ExDonau-audio1.jsonld": 2,
+      "HEAD https://raw.githubusercontent.com/Signature-Sound-Vienna/data/TISMIR/annot/mao/selection/ExDonau-audio2.jsonld": 2,
+      "HEAD https://raw.githubusercontent.com/Signature-Sound-Vienna/data/TISMIR/annot/mao/selection/ExDonau-audio3.jsonld": 2,
+      "HEAD https://raw.githubusercontent.com/Signature-Sound-Vienna/data/TISMIR/annot/mao/selection/ExDonau-audio4.jsonld": 2,
+      "HEAD https://raw.githubusercontent.com/Signature-Sound-Vienna/data/TISMIR/annot/mao/selection/ExDonau-audio5.jsonld": 2,
+      "HEAD https://raw.githubusercontent.com/Signature-Sound-Vienna/data/TISMIR/annot/mao/selection/ExDonau.jsonld": 2,
+      "HEAD https://w3id.org/ssv/audio/2011_-20_-28Kendlinger_-29/15%20-%20An%20der%20sch%C3%B6nen%2C%20blauen%20Donau%20-%20Johann%20Strauss%20II.wav": 2,
+      "HEAD https://w3id.org/ssv/audio/2017/19%20-%20An%20der%20sch%C3%B6nen%20blauen%20Donau%2C%20op.%20314%20-%20Johann%20Strauss%20II.wav": 2,
+      "HEAD https://w3id.org/ssv/audio/K_-26K_-20Philharmoniker_-2C_-20Kendlinger_-20_-282009_-29/10-An%20der%20sch%C3%B6nen%2C%20blauen%20Donau%20-%20Johann%20Strauss%20II%202009.wav": 2,
+      "HEAD https://w3id.org/ssv/audio/K_-26K_-20Philharmoniker_-2C_-20Kendlinger_-20_-282010_-29/10-An%20der%20sch%C3%B6nen%2C%20blauen%20Donau%20-%20Johann%20Strauss%20II%202010.wav": 2,
+      "HEAD https://w3id.org/ssv/audio/New_-20York_-20Philharmonic_-2C_-20Leonard_-20Bernstein/1%20-%20The%20Blue%20Danube%20Waltz.wav": 2
+    },
+    "consoleErrors": {
+      "Error fetching content type: Error: Network response was not ok": 5,
+      "Failed to load resource: the server responded with a status of 403 (Forbidden)": 10,
+      "Failed to prepare LD object Error: Object must be an OA or MAO object": 10,
+      "URL not accessible: Forbidden": 5
+    },
+    "pageErrors": {}
+  },
+  "info": {
+    "timings": {
+      "traversalMs": 2081,
+      "networkIdle": true,
+      "idleMs": 10262,
+      "stablePolls": 0,
+      "totalMs": 11027
+    },
+    "order": {
+      "textBodies": [
+        "In all critical scores of the Donauwalze"
+      ],
+      "scores": [
+        "https://raw.githubusercontent.com/Signature-Sound-Vienna/Johann-Strauss-Sohn_Op314_Donauwalzer_Breitkopf/main/Longest_Version_Krauss.mei"
+      ],
+      "audio": [
+        "https://w3id.org/ssv/TISMIR/data/signal/K_-26K_-20Philharmoniker_-2C_-20Kendlinger_-20_-282009_-29#10-container",
+        "https://w3id.org/ssv/TISMIR/data/signal/K_-26K_-20Philharmoniker_-2C_-20Kendlinger_-20_-282010_-29#10-container",
+        "https://w3id.org/ssv/TISMIR/data/signal/2011_-20_-28Kendlinger_-29#15-container",
+        "https://w3id.org/ssv/TISMIR/data/signal/New_-20York_-20Philharmonic_-2C_-20Leonard_-20Bernstein_-20_-281982_-29#1-container",
+        "https://w3id.org/ssv/TISMIR/data/signal/2017#20-container"
+      ],
+      "audioSelections": [
+        "TISMIR Example 5.2.2: K&amp;K Philharmoniker (2009) -- An de",
+        "TISMIR Example 5.2.2: K&amp;K Philharmoniker (2010) -- An de",
+        "TISMIR Example 5.2.2: K&amp;K Philharmoniker (2011) -- An de",
+        "TISMIR Example 5.2.2: NY Philharmonic Orchestra (1982) -- An",
+        "TISMIR Example 5.2.2: Vienna Philharmonic Orchestra (2017) -"
+      ]
+    },
+    "mermaidSources": [
+      "graph TD; class raw.githubusercontent.com/Signature-Sound-Vienna/data/TISMIR/annot/oa/ExDonau.jsonld current;\nraw.githubusercontent.com/Signature-Sound-Vienna/data/TISMIR/annot/oa/ExDonau.jsonld(\"oa:Annotation\");raw.githubusercontent.com/Signature-Sound-Vienna/data/TISMIR/annot/oa/ExDonau.jsonld -- oa:hasTarget --> raw.githubusercontent.com/Signature-Sound-Vienna/data/TISMIR/annot/mao/musicalMaterial/ExDonau.jsonld;raw.githubusercontent.com/Signature-Sound-Vienna/data/TISMIR/annot/mao/musicalMaterial/ExDonau.jsonld(\"mao:MusicalMaterial: <em>TISMIR Example 5.2.2 (An der schönen blauen Donau)</em>\");raw.githubusercontent.com/Signature-Sound-Vienna/data/TISMIR/annot/mao/musicalMaterial/ExDonau.jsonld -- mao:setting --> raw.githubusercontent.com/Signature-Sound-Vienna/data/TISMIR/annot/mao/extract/ExDonau.jsonld;raw.githubusercontent.com/Signature-Sound-Vienna/data/TISMIR/annot/mao/extract/ExDonau.jsonld(\"mao:Extract: <em>TISMIR Example 5.2.2 (An der schönen blauen Donau)</em>\");raw.githubusercontent.com/Signature-Sound-Vienna/data/TISMIR/annot/mao/extract/ExDonau.jsonld -- frbr:embodiment --> raw.githubusercontent.com/Signature-Sound-Vienna/data/TISMIR/annot/mao/selection/ExDonau.jsonld;raw.githubusercontent.com/Signature-Sound-Vienna/data/TISMIR/annot/mao/selection/ExDonau.jsonld(\"mao:Selection: <em>TISMIR Example 5.2.2 (An der schönen blauen Donau)</em>\");raw.githubusercontent.com/Signature-Sound-Vienna/data/TISMIR/annot/mao/selection/ExDonau.jsonld -- frbr:part (4 fragments) --> Longest_Version_Krauss.mei;raw.githubusercontent.com/Signature-Sound-Vienna/data/TISMIR/annot/mao/extract/ExDonau.jsonld -- frbr:embodiment --> raw.githubusercontent.com/Signature-Sound-Vienna/data/TISMIR/annot/mao/selection/ExDonau-audio1.jsonld;raw.githubusercontent.com/Signature-Sound-Vienna/data/TISMIR/annot/mao/selection/ExDonau-audio1.jsonld(\"mao:Selection: <em>TISMIR Example 5.2.2: K&K Philharmoniker (2009) -- An der schönen blauen Donau</em>\");raw.githubusercontent.com/Signature-Sound-Vienna/data/TISMIR/annot/mao/selection/ExDonau-audio1.jsonld -- frbr:part (1 time interval) --> 10-An%20der%20sch%C3%B6nen%2C%20blauen%20Donau%20-%20Johann%20Strauss%20II%202009.wav;raw.githubusercontent.com/Signature-Sound-Vienna/data/TISMIR/annot/mao/extract/ExDonau.jsonld -- frbr:embodiment --> raw.githubusercontent.com/Signature-Sound-Vienna/data/TISMIR/annot/mao/selection/ExDonau-audio2.jsonld;raw.githubusercontent.com/Signature-Sound-Vienna/data/TISMIR/annot/mao/selection/ExDonau-audio2.jsonld(\"mao:Selection: <em>TISMIR Example 5.2.2: K&K Philharmoniker (2010) -- An der schönen blauen Donau</em>\");raw.githubusercontent.com/Signature-Sound-Vienna/data/TISMIR/annot/mao/selection/ExDonau-audio2.jsonld -- frbr:part (1 time interval) --> 10-An%20der%20sch%C3%B6nen%2C%20blauen%20Donau%20-%20Johann%20Strauss%20II%202010.wav;raw.githubusercontent.com/Signature-Sound-Vienna/data/TISMIR/annot/mao/extract/ExDonau.jsonld -- frbr:embodiment --> raw.githubusercontent.com/Signature-Sound-Vienna/data/TISMIR/annot/mao/selection/ExDonau-audio3.jsonld;raw.githubusercontent.com/Signature-Sound-Vienna/data/TISMIR/annot/mao/selection/ExDonau-audio3.jsonld(\"mao:Selection: <em>TISMIR Example 5.2.2: K&K Philharmoniker (2011) -- An der schönen blauen Donau</em>\");raw.githubusercontent.com/Signature-Sound-Vienna/data/TISMIR/annot/mao/selection/ExDonau-audio3.jsonld -- frbr:part (1 time interval) --> 15%20-%20An%20der%20sch%C3%B6nen%2C%20blauen%20Donau%20-%20Johann%20Strauss%20II.wav;raw.githubusercontent.com/Signature-Sound-Vienna/data/TISMIR/annot/mao/extract/ExDonau.jsonld -- frbr:embodiment --> raw.githubusercontent.com/Signature-Sound-Vienna/data/TISMIR/annot/mao/selection/ExDonau-audio4.jsonld;raw.githubusercontent.com/Signature-Sound-Vienna/data/TISMIR/annot/mao/selection/ExDonau-audio4.jsonld(\"mao:Selection: <em>TISMIR Example 5.2.2: NY Philharmonic Orchestra (1982) -- An der schönen blauen Donau</em>\");raw.githubusercontent.com/Signature-Sound-Vienna/data/TISMIR/annot/mao/selection/ExDonau-audio4.jsonld -- frbr:part (1 time interval) --> 1%20-%20The%20Blue%20Danube%20Waltz.wav;raw.githubusercontent.com/Signature-Sound-Vienna/data/TISMIR/annot/mao/extract/ExDonau.jsonld -- frbr:embodiment --> raw.githubusercontent.com/Signature-Sound-Vienna/data/TISMIR/annot/mao/selection/ExDonau-audio5.jsonld;raw.githubusercontent.com/Signature-Sound-Vienna/data/TISMIR/annot/mao/selection/ExDonau-audio5.jsonld(\"mao:Selection: <em>TISMIR Example 5.2.2: Vienna Philharmonic Orchestra (2017) -- An der schönen blauen Donau</em>\");raw.githubusercontent.com/Signature-Sound-Vienna/data/TISMIR/annot/mao/selection/ExDonau-audio5.jsonld -- frbr:part (1 time interval) --> 19%20-%20An%20der%20sch%C3%B6nen%20blauen%20Donau%2C%20op.%20314%20-%20Johann%20Strauss%20II.wav;raw.githubusercontent.com/Signature-Sound-Vienna/data/TISMIR/annot/oa/ExDonau.jsonld -- oa:hasBody --> blank_0(\"<em>&quot;In all critical scores of the Donauwalzer the first flute ascends from an E above ...&quot;</em>\");\n click blank_0 \"#a-text-content\" \"View textual body\";\n click raw.githubusercontent.com/Signature-Sound-Vienna/data/TISMIR/annot/mao/selection/ExDonau.jsonld \"http://primal.mdw.ac.at/?obj=https://raw.githubusercontent.com/Signature-Sound-Vienna/data/TISMIR/annot/mao/selection/ExDonau.jsonld\" \"Tooltip: \";\n click selection:ExDonau.jsonld \"http://primal.mdw.ac.at/?obj=selection:ExDonau.jsonld\" \"Tooltip: \";\n click raw.githubusercontent.com/Signature-Sound-Vienna/data/TISMIR/annot/mao/selection/ExDonau-audio1.jsonld \"http://primal.mdw.ac.at/?obj=https://raw.githubusercontent.com/Signature-Sound-Vienna/data/TISMIR/annot/mao/selection/ExDonau-audio1.jsonld\" \"Tooltip: \";\n click selection:ExDonau-audio1.jsonld \"http://primal.mdw.ac.at/?obj=selection:ExDonau-audio1.jsonld\" \"Tooltip: \";\n click raw.githubusercontent.com/Signature-Sound-Vienna/data/TISMIR/annot/mao/selection/ExDonau-audio2.jsonld \"http://primal.mdw.ac.at/?obj=https://raw.githubusercontent.com/Signature-Sound-Vienna/data/TISMIR/annot/mao/selection/ExDonau-audio2.jsonld\" \"Tooltip: \";\n click selection:ExDonau-audio2.jsonld \"http://primal.mdw.ac.at/?obj=selection:ExDonau-audio2.jsonld\" \"Tooltip: \";\n click raw.githubusercontent.com/Signature-Sound-Vienna/data/TISMIR/annot/mao/selection/ExDonau-audio3.jsonld \"http://primal.mdw.ac.at/?obj=https://raw.githubusercontent.com/Signature-Sound-Vienna/data/TISMIR/annot/mao/selection/ExDonau-audio3.jsonld\" \"Tooltip: \";\n click selection:ExDonau-audio3.jsonld \"http://primal.mdw.ac.at/?obj=selection:ExDonau-audio3.jsonld\" \"Tooltip: \";\n click raw.githubusercontent.com/Signature-Sound-Vienna/data/TISMIR/annot/mao/selection/ExDonau-audio4.jsonld \"http://primal.mdw.ac.at/?obj=https://raw.githubusercontent.com/Signature-Sound-Vienna/data/TISMIR/annot/mao/selection/ExDonau-audio4.jsonld\" \"Tooltip: \";\n click selection:ExDonau-audio4.jsonld \"http://primal.mdw.ac.at/?obj=selection:ExDonau-audio4.jsonld\" \"Tooltip: \";\n click raw.githubusercontent.com/Signature-Sound-Vienna/data/TISMIR/annot/mao/selection/ExDonau-audio5.jsonld \"http://primal.mdw.ac.at/?obj=https://raw.githubusercontent.com/Signature-Sound-Vienna/data/TISMIR/annot/mao/selection/ExDonau-audio5.jsonld\" \"Tooltip: \";\n click selection:ExDonau-audio5.jsonld \"http://primal.mdw.ac.at/?obj=selection:ExDonau-audio5.jsonld\" \"Tooltip: \";\n click raw.githubusercontent.com/Signature-Sound-Vienna/data/TISMIR/annot/mao/extract/ExDonau.jsonld \"http://primal.mdw.ac.at/?obj=https://raw.githubusercontent.com/Signature-Sound-Vienna/data/TISMIR/annot/mao/extract/ExDonau.jsonld\" \"Tooltip: \";\n click extract:ExDonau.jsonld \"http://primal.mdw.ac.at/?obj=extract:ExDonau.jsonld\" \"Tooltip: \";\n click raw.githubusercontent.com/Signature-Sound-Vienna/data/TISMIR/annot/mao/musicalMaterial/ExDonau.jsonld \"http://primal.mdw.ac.at/?obj=https://raw.githubusercontent.com/Signature-Sound-Vienna/data/TISMIR/annot/mao/musicalMaterial/ExDonau.jsonld\" \"Tooltip: \";\n click musMat:ExDonau.jsonld \"http://primal.mdw.ac.at/?obj=musMat:ExDonau.jsonld\" \"Tooltip: \";\n click raw.githubusercontent.com/Signature-Sound-Vienna/data/TISMIR/annot/oa/ExDonau.jsonld \"http://primal.mdw.ac.at/?obj=https://raw.githubusercontent.com/Signature-Sound-Vienna/data/TISMIR/annot/oa/ExDonau.jsonld\" \"Tooltip: \";\n click anno:ExDonau.jsonld \"http://primal.mdw.ac.at/?obj=anno:ExDonau.jsonld\" \"Tooltip: \";\n subgraph Current resource\nraw.githubusercontent.com/Signature-Sound-Vienna/data/TISMIR/annot/oa/ExDonau.jsonld\nblank_0\n\n end\n"
+    ],
+    "requestCount": 89,
+    "corsBlocked": []
+  }
+}
