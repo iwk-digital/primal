@@ -3,7 +3,7 @@
 Development only: Primal has no build step, and nothing here is loaded by the app.
 
 The first job of these tests is a **characterisation baseline**: annotations published with the
-LLC and TISMIR articles must keep rendering exactly as they do now. Every change to Primal is
+'Hand in Hand' (DSH) and TISMIR articles must keep rendering exactly as they do now. Every change to Primal is
 checked against what Primal rendered and requested for each of them.
 
 ## What is compared
@@ -51,18 +51,16 @@ cannot run: record them first (below), or use the live check.
     node test/e2e/support/check-recording.js <dir>
 
 `check-recording.js` flags snapshots that may record the network rather than Primal (unfinished
-traversal, timeout banner, aborted fetches, loads over Primal's 15 s timeout). Re-record on a
-good connection before trusting a flagged root. To re-record only some roots, name them:
+traversal, banners, aborted fetches, Primal's 15 s loading timeout having fired). Re-record on a
+good connection before trusting a flagged root.
+
+The timeout is detected by its symptom, an empty "Current resource" line (Primal clears it and
+never restores it), not by load time: Primal starts its timer only once its scripts have loaded,
+so on a slow connection a root can take 19 s from navigation and still finish within it. To re-record only some roots, name them:
 
     PRIMAL_RECORD=1 PRIMAL_ROOTS=hand/extract/ExampleA,TISMIR/extract/ExFled npx playwright test --project=record
 
 Their responses replace the same requests' entries in their sets' archives; the rest is kept.
-
-**Known failure (2026-11-02): `TISMIR/extract/ExFled`.** Its 238 requests traverse in 0.5 s
-offline but took 19-24 s live on a mobile connection (~0.55 s per round trip), past Primal's 15 s
-loading timeout. When that happens Primal never restores the "Current resource" line, so the
-recorded snapshot lacks it and the fast replay fails on `metadata.currentUri`. Re-record this root
-alone on a low-latency connection.
 
 Recording keeps two quirks of live loads out of the archive, so that replay behaves as the browser
 did: transfer headers (`content-encoding`, `content-length`) describing the compressed bytes are

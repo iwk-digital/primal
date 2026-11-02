@@ -1,11 +1,10 @@
 // Flag snapshots in a freshly recorded baseline that may reflect the network rather than
-// Primal: an unfinished traversal, a timeout banner, aborted fetches, slow loads.
+// Primal: an unfinished traversal, a banner, aborted fetches, Primal's loading timeout firing.
 // Usage: node test/e2e/support/check-recording.js [baselineDir]
 import fs from "node:fs";
 import path from "node:path";
 
 const dir = path.resolve(process.argv[2] || "test/e2e/baseline", "snapshots");
-const PRIMAL_LOADING_TIMEOUT_MS = 15_000; // main.js shows its timeout banner after this
 
 function* snapshots(d) {
   for (const entry of fs.readdirSync(d, { withFileTypes: true })) {
@@ -30,9 +29,12 @@ for (const file of snapshots(dir)) {
   }
   if (Object.keys(compare.pageErrors).length) flags.push(`page errors: ${Object.keys(compare.pageErrors).join(" | ")}`);
   // past the loading timeout, main.js clears every section; completion re-renders all but the
-  // "Current resource" line, so such a recording is not what a reader normally sees
-  if (info.timings.traversalMs === null || info.timings.traversalMs > PRIMAL_LOADING_TIMEOUT_MS) {
-    flags.push(`traversal crossed Primal's 15 s loading timeout (${info.timings.traversalMs} ms): RE-RECORD`);
+  // "Current resource" line, so such a recording is not what a reader normally sees. The timer
+  // starts only once Primal's scripts have loaded, so the time from navigation is no measure of
+  // it (19.5 s has stayed inside it, 15.6 s has not): look for the empty line instead.
+  if (info.timings.traversalMs === null) flags.push("traversal time unknown");
+  if (!compare.metadata.currentUri) {
+    flags.push(`"Current resource" line empty: Primal's 15 s loading timeout fired (traversal ${info.timings.traversalMs} ms): RE-RECORD`);
   }
   if (!info.timings.networkIdle) flags.push("network never idle");
   if (flags.length) {
