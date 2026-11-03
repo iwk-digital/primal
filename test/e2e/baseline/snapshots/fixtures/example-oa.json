@@ -1,0 +1,230 @@
+{
+  "root": {
+    "set": "fixtures",
+    "folder": null,
+    "name": "example-oa",
+    "obj": "http://localhost:8000/test/example-oa.jsonld"
+  },
+  "recordedAt": "2026-11-02T16:32:24.805Z",
+  "compare": {
+    "splash": false,
+    "traversalsComplete": true,
+    "sections": {
+      "h-text-content": {
+        "loaded": true,
+        "noContent": []
+      },
+      "h-music-scores": {
+        "loaded": true,
+        "noContent": []
+      },
+      "h-audio-examples": {
+        "loaded": true,
+        "noContent": []
+      },
+      "h-metadata": {
+        "loaded": true,
+        "noContent": []
+      },
+      "h-graph": {
+        "loaded": true,
+        "noContent": []
+      },
+      "h-json-display": {
+        "loaded": true,
+        "noContent": []
+      }
+    },
+    "banners": [],
+    "textBodies": [
+      [
+        "A textual description of a MAO Musical Material"
+      ]
+    ],
+    "scores": [
+      {
+        "id": "http://localhost:8000/test/example.mei",
+        "highlighted": [
+          "n172sakw",
+          "n1tqvgeb"
+        ],
+        "svg": {
+          "viewBox": "0 0 2100 3950",
+          "elementsWithDataId": 1892
+        }
+      }
+    ],
+    "meiFriendLinks": [
+      "https://mei-friend.mdw.ac.at/?file=http://localhost:8000/test/example.mei&select=n1tqvgeb,n172sakw"
+    ],
+    "audio": [
+      {
+        "id": "https://w3id.org/ssv/0.9/data/signal/2021#13-container",
+        "hidden": false,
+        "label": "example-audio2.mp3 [playback restricted] (00:40.30–01:17.80)",
+        "waveform": true,
+        "regions": [
+          {
+            "left": "13.9909%",
+            "width": ""
+          }
+        ]
+      }
+    ],
+    "metadata": {
+      "currentUri": "Current resource: <http://localhost:8000/test/example-oa.jsonld>",
+      "createdBy": "",
+      "createdByLinks": [],
+      "audioSelectionsHeading": "Audio Files",
+      "audioSelections": [
+        {
+          "text": "example-mao-selection_audio2.jsonldSignal: 2021#13Track: &quot;Neue Melodien‐Quadrille, op. 254&quot;MusicBrainz: 5febcec4-502e-4f77-9a39-62ed56c396ac",
+          "links": [
+            {
+              "text": "Signal: 2021#13",
+              "href": "https://w3id.org/ssv/0.9/data/signal/2021#13"
+            },
+            {
+              "text": "Track: &quot;Neue Melodien‐Quadrille, op. 254&quot;",
+              "href": "https://w3id.org/ssv/0.9/data/track/2021#13"
+            },
+            {
+              "text": "MusicBrainz: 5febcec4-502e-4f77-9a39-62ed56c396ac",
+              "href": "https://musicbrainz.org/track/5febcec4-502e-4f77-9a39-62ed56c396ac"
+            }
+          ]
+        }
+      ]
+    },
+    "graph": {
+      "svg": true,
+      "nodes": 10,
+      "edges": 9
+    },
+    "mermaid": [
+      [
+        "</em>\")",
+        "A textual description of a MAO Musical Material&quot",
+        "blank_0",
+        "class localhost:8000/test/example-oa.jsonld current",
+        "click blank_0 \"#a-text-content\" \"View textual body\"",
+        "click localhost:8000/test/example-mao-extract.jsonld \"http://primal.mdw.ac.at/?obj=http://localhost:8000/test/example-mao-extract.jsonld\" \"Tooltip: \"",
+        "click localhost:8000/test/example-mao-musmat.jsonld \"http://primal.mdw.ac.at/?obj=http://localhost:8000/test/example-mao-musmat.jsonld\" \"Tooltip: \"",
+        "click localhost:8000/test/example-mao-selection.jsonld \"http://primal.mdw.ac.at/?obj=http://localhost:8000/test/example-mao-selection.jsonld\" \"Tooltip: \"",
+        "click localhost:8000/test/example-mao-selection_audio1.jsonld \"http://primal.mdw.ac.at/?obj=http://localhost:8000/test/example-mao-selection_audio1.jsonld\" \"Tooltip: \"",
+        "click localhost:8000/test/example-mao-selection_audio2.jsonld \"http://primal.mdw.ac.at/?obj=http://localhost:8000/test/example-mao-selection_audio2.jsonld\" \"Tooltip: \"",
+        "click localhost:8000/test/example-oa.jsonld \"http://primal.mdw.ac.at/?obj=http://localhost:8000/test/example-oa.jsonld\" \"Tooltip: \"",
+        "end",
+        "graph TD",
+        "localhost:8000/test/example-mao-extract.jsonld -- frbr:embodiment --> localhost:8000/test/example-mao-selection.jsonld",
+        "localhost:8000/test/example-mao-extract.jsonld -- frbr:embodiment --> localhost:8000/test/example-mao-selection_audio1.jsonld",
+        "localhost:8000/test/example-mao-extract.jsonld -- frbr:embodiment --> localhost:8000/test/example-mao-selection_audio2.jsonld",
+        "localhost:8000/test/example-mao-extract.jsonld(\"mao:Extract\")",
+        "localhost:8000/test/example-mao-musmat.jsonld -- mao:setting --> localhost:8000/test/example-mao-extract.jsonld",
+        "localhost:8000/test/example-mao-musmat.jsonld(\"mao:MusicalMaterial\")",
+        "localhost:8000/test/example-mao-selection.jsonld -- frbr:part (2 fragments) --> example.mei",
+        "localhost:8000/test/example-mao-selection.jsonld(\"mao:Selection\")",
+        "localhost:8000/test/example-mao-selection_audio1.jsonld -- frbr:part (1 time interval) --> example-audio.ogg",
+        "localhost:8000/test/example-mao-selection_audio1.jsonld(\"mao:Selection\")",
+        "localhost:8000/test/example-mao-selection_audio2.jsonld -- frbr:part (1 time interval) --> example-audio2.mp3",
+        "localhost:8000/test/example-mao-selection_audio2.jsonld(\"mao:Selection\")",
+        "localhost:8000/test/example-oa.jsonld -- oa:hasBody --> blank_0(\"<em>&quot",
+        "localhost:8000/test/example-oa.jsonld -- oa:hasTarget --> localhost:8000/test/example-mao-musmat.jsonld",
+        "localhost:8000/test/example-oa.jsonld",
+        "localhost:8000/test/example-oa.jsonld(\"oa:Annotation\")",
+        "subgraph Current resource"
+      ]
+    ],
+    "json": "{\n  \"@context\": {\n    \"@vocab\": \"http://www.w3.org/ns/oa#\",\n    \"oa\": \"http://www.w3.org/ns/oa#\",\n    \"mao\": \"https://domestic-beethoven.eu/ontology/1.0/music-annotation-ontology.ttl#\",\n    \"frbr\": \"http://purl.org/vocab/frbr/core#\",\n    \"dc\": \"http://purl.org/dc/terms/\",\n    \"rdfs\": \"http://www.w3.org/2000/01/rdf-schema#\",\n    \"rdf\": \"http://www.w3.org/1999/02/22-rdf-syntax-ns#\",\n    \"mo\": \"http://purl.org/ontology/mo/\",\n    \"tl\": \"http://purl.org/NET/c4dm/timeline.owl#\",\n    \"ssv\": \"https://w3id.org/ssv/vocab#\"\n  },\n  \"@id\": \"http://localhost:8000/test/example-oa.jsonld\",\n  \"@type\": \"Annotation\",\n  \"hasBody\": {\n    \"@type\": \"TextualBody\",\n    \"rdf:value\": \"A textual description of a MAO Musical Material\"\n  },\n  \"hasTarget\": {\n    \"@id\": \"http://localhost:8000/test/example-mao-musmat.jsonld\"\n  },\n  \"motivatedBy\": \"mao:describing\"\n}",
+    "versions": {
+      "verovio": "6.4.0-33d1633",
+      "mermaid": "10.9.8"
+    },
+    "requests": {
+      "GET app:/?obj=http://localhost:8000/test/example-oa.jsonld": 1,
+      "GET app:/css/prism.css": 1,
+      "GET app:/css/styles.css": 1,
+      "GET app:/deps/regions.js": 1,
+      "GET app:/deps/wavesurfer.js": 1,
+      "GET app:/img/logo.png": 1,
+      "GET app:/lib/LDObj.js": 1,
+      "GET app:/lib/defaults.js": 1,
+      "GET app:/lib/env.js": 1,
+      "GET app:/lib/errorBanner.js": 1,
+      "GET app:/lib/graph.js": 1,
+      "GET app:/lib/graphModal.js": 1,
+      "GET app:/lib/httpUtil.js": 1,
+      "GET app:/lib/main.js": 1,
+      "GET app:/lib/namespaceManager.js": 1,
+      "GET app:/lib/namespaceMap.js": 1,
+      "GET app:/lib/render.js": 1,
+      "GET app:/lib/sanitize.js": 1,
+      "GET app:/lib/traverser.js": 1,
+      "GET http://localhost:8000/test/example-mao-extract.jsonld": 1,
+      "GET http://localhost:8000/test/example-mao-musmat.jsonld": 1,
+      "GET http://localhost:8000/test/example-mao-selection.jsonld": 1,
+      "GET http://localhost:8000/test/example-mao-selection_audio1.jsonld": 1,
+      "GET http://localhost:8000/test/example-mao-selection_audio2.jsonld": 1,
+      "GET http://localhost:8000/test/example-oa.jsonld": 1,
+      "GET http://localhost:8000/test/example.mei": 1,
+      "GET https://cdnjs.cloudflare.com/ajax/libs/jsonld/1.0.0/jsonld.min.js": 1,
+      "GET https://cdnjs.cloudflare.com/ajax/libs/prism/1.29.0/components/prism-json.min.js": 1,
+      "GET https://cdnjs.cloudflare.com/ajax/libs/prism/1.29.0/prism.min.js": 1,
+      "GET https://cdnjs.cloudflare.com/ajax/libs/prism/1.29.0/themes/prism.min.css": 1,
+      "GET https://unpkg.com/mermaid@10/dist/mermaid.min.js": 1,
+      "GET https://w3id.org/ssv/0.9/data/peaks/2021/13.peaks.json": 1,
+      "GET https://w3id.org/ssv/0.9/data/signal/2021": 2,
+      "GET https://w3id.org/ssv/0.9/data/track/2021": 1,
+      "GET https://www.verovio.org/javascript/latest/verovio-toolkit-wasm.js": 1,
+      "HEAD http://localhost:8000/test/example-mao-extract.jsonld": 2,
+      "HEAD http://localhost:8000/test/example-mao-musmat.jsonld": 2,
+      "HEAD http://localhost:8000/test/example-mao-selection.jsonld": 2,
+      "HEAD http://localhost:8000/test/example-mao-selection_audio1.jsonld": 2,
+      "HEAD http://localhost:8000/test/example-mao-selection_audio2.jsonld": 2,
+      "HEAD http://localhost:8000/test/example.mei": 4,
+      "HEAD https://primal.mdw.ac.at/test/example-audio.ogg": 2,
+      "HEAD https://w3id.org/ssv/audio/example-audio2.mp3": 2
+    },
+    "consoleErrors": {
+      "Error checking URL: TypeError: Failed to fetch": 1,
+      "Error fetching content type: Error: Network response was not ok": 1,
+      "Error fetching content type: TypeError: Failed to fetch": 1,
+      "Failed to load resource: net::ERR_FAILED": 2,
+      "Failed to load resource: the server responded with a status of 403 (Forbidden)": 2,
+      "Failed to prepare LD object Error: Object must be an OA or MAO object": 2,
+      "URL not accessible: Forbidden": 1
+    },
+    "pageErrors": {}
+  },
+  "info": {
+    "timings": {
+      "traversalMs": 4122,
+      "networkIdle": true,
+      "idleMs": 7962,
+      "stablePolls": 0,
+      "totalMs": 8726
+    },
+    "order": {
+      "textBodies": [
+        "A textual description of a MAO Musical M"
+      ],
+      "scores": [
+        "http://localhost:8000/test/example.mei"
+      ],
+      "audio": [
+        "https://w3id.org/ssv/0.9/data/signal/2021#13-container"
+      ],
+      "audioSelections": [
+        "example-mao-selection_audio2.jsonldSignal: 2021#13Track: &qu"
+      ]
+    },
+    "mermaidSources": [
+      "graph TD; class localhost:8000/test/example-oa.jsonld current;\nlocalhost:8000/test/example-oa.jsonld(\"oa:Annotation\");localhost:8000/test/example-oa.jsonld -- oa:hasTarget --> localhost:8000/test/example-mao-musmat.jsonld;localhost:8000/test/example-mao-musmat.jsonld(\"mao:MusicalMaterial\");localhost:8000/test/example-mao-musmat.jsonld -- mao:setting --> localhost:8000/test/example-mao-extract.jsonld;localhost:8000/test/example-mao-extract.jsonld(\"mao:Extract\");localhost:8000/test/example-mao-extract.jsonld -- frbr:embodiment --> localhost:8000/test/example-mao-selection.jsonld;localhost:8000/test/example-mao-selection.jsonld(\"mao:Selection\");localhost:8000/test/example-mao-selection.jsonld -- frbr:part (2 fragments) --> example.mei;localhost:8000/test/example-mao-extract.jsonld -- frbr:embodiment --> localhost:8000/test/example-mao-selection_audio1.jsonld;localhost:8000/test/example-mao-selection_audio1.jsonld(\"mao:Selection\");localhost:8000/test/example-mao-selection_audio1.jsonld -- frbr:part (1 time interval) --> example-audio.ogg;localhost:8000/test/example-mao-extract.jsonld -- frbr:embodiment --> localhost:8000/test/example-mao-selection_audio2.jsonld;localhost:8000/test/example-mao-selection_audio2.jsonld(\"mao:Selection\");localhost:8000/test/example-mao-selection_audio2.jsonld -- frbr:part (1 time interval) --> example-audio2.mp3;localhost:8000/test/example-oa.jsonld -- oa:hasBody --> blank_0(\"<em>&quot;A textual description of a MAO Musical Material&quot;</em>\");\n click blank_0 \"#a-text-content\" \"View textual body\";\n click localhost:8000/test/example-mao-selection.jsonld \"http://primal.mdw.ac.at/?obj=http://localhost:8000/test/example-mao-selection.jsonld\" \"Tooltip: \";\n click localhost:8000/test/example-mao-selection_audio1.jsonld \"http://primal.mdw.ac.at/?obj=http://localhost:8000/test/example-mao-selection_audio1.jsonld\" \"Tooltip: \";\n click localhost:8000/test/example-mao-selection_audio2.jsonld \"http://primal.mdw.ac.at/?obj=http://localhost:8000/test/example-mao-selection_audio2.jsonld\" \"Tooltip: \";\n click localhost:8000/test/example-mao-extract.jsonld \"http://primal.mdw.ac.at/?obj=http://localhost:8000/test/example-mao-extract.jsonld\" \"Tooltip: \";\n click localhost:8000/test/example-mao-musmat.jsonld \"http://primal.mdw.ac.at/?obj=http://localhost:8000/test/example-mao-musmat.jsonld\" \"Tooltip: \";\n click localhost:8000/test/example-oa.jsonld \"http://primal.mdw.ac.at/?obj=http://localhost:8000/test/example-oa.jsonld\" \"Tooltip: \";\n subgraph Current resource\nlocalhost:8000/test/example-oa.jsonld\nblank_0\n\n end\n"
+    ],
+    "requestCount": 54,
+    "corsBlocked": [
+      "Access to fetch at 'https://primal.mdw.ac.at/test/example-audio.ogg' from origin 'app:' has been blocked by CORS policy: No 'Access-Control-Allow-Origin' header is present on the requested resource.",
+      "Access to fetch at 'https://primal.mdw.ac.at/test/example-audio.ogg' from origin 'app:' has been blocked by CORS policy: No 'Access-Control-Allow-Origin' header is present on the requested resource."
+    ]
+  }
+}

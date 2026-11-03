@@ -2,3 +2,10 @@ venv
 pyenv.cfg
 app/__pycache__
 .DS_Store
+
+# browser tests (development only)
+node_modules/
+test-results/
+playwright-report/
+test/e2e/reference/
+test/e2e/baseline/har/

@@ -407,6 +407,51 @@ body.modal-open {
     line-height: 1.6;
 }
 
+/* MAO v2 notes: where each note comes from */
+#text-content .note-heading {
+    font-size: 1rem;
+    font-weight: 600;
+    color: #163c7a;
+}
+
+#text-content .v2-note + .v2-note {
+    margin-top: 0.6em;
+}
+
+/* MAO v2 SpecificResource labels have several lines; #graph's line-height (.5) is kept
+   for every other label */
+.nodeLabel:has(.v2-lines) {
+    line-height: normal;
+}
+
+/* MAO v2 scope chips in the graph (lib/main.js) */
+.scope-chip {
+    display: inline-block;
+    margin-top: 1px;
+    padding: 0 6px;
+    border-radius: 8px;
+    background: #e8eef8;
+    color: #163c7a;
+    cursor: pointer;
+}
+
+.scope-chip.scope-hover,
+.scope-chip.scope-pinned {
+    background: #ffe08a;
+}
+
+g.node.scope-hover .label-container,
+g.node.scope-pinned .label-container {
+    stroke: #d9a400 !important;
+    stroke-width: 3px !important;
+}
+
+/* the nodes referring to a scope are dashed; the scope itself stays solid */
+g.node.scope-hover:has(.scope-chip) .label-container,
+g.node.scope-pinned:has(.scope-chip) .label-container {
+    stroke-dasharray: 6 4;
+}
+
 /* Prevent long metadata labels from forcing horizontal scroll */
 #h-metadata {
     word-break: break-word;
@@ -569,6 +614,31 @@ footer {
 }
 
 /* Error banner styles */
+/* MAO v2: part of an annotation could not be loaded (lib/errorBanner.js showNoticeBanner) */
+.notice-banner {
+    position: relative;
+    margin: 0 0 20px 0;
+    padding: 15px 44px 15px 15px;
+    border: 1px solid #e6c860;
+    border-left: 5px solid #d9a400;
+    border-radius: 8px;
+    background: #fff8e1;
+    color: #5c4a00;
+}
+
+.notice-banner details {
+    margin-top: 6px;
+    font-size: 0.9em;
+}
+
+.notice-banner code {
+    word-break: break-all;
+}
+
+.notice-banner .error-banner-close {
+    color: #8a6d00;
+}
+
 .error-banner {
     background-color: #fee;
     border: 1px solid #fcc;

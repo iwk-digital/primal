@@ -1,0 +1,15 @@
+{
+  "name": "primal-tests",
+  "private": true,
+  "description": "Browser tests for Primal. Development only: Primal itself has no build step and no runtime dependencies from npm.",
+  "type": "module",
+  "scripts": {
+    "test": "playwright test --project=golden-quick --project=fixtures --project=v2",
+    "test:golden": "playwright test --project=golden --project=fixtures --project=v2",
+    "test:live": "PRIMAL_LIVE=1 playwright test --project=live",
+    "record": "PRIMAL_RECORD=1 playwright test --project=record"
+  },
+  "devDependencies": {
+    "@playwright/test": "1.59.1"
+  }
+}

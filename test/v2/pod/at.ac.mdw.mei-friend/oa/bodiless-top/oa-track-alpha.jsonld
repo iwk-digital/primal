@@ -1,0 +1,34 @@
+{
+  "@id": "https://listenhere.pod.test/at.ac.mdw.mei-friend/oa/bodiless-top/oa-track-alpha",
+  "@type": [
+    "http://www.w3.org/ns/oa#Annotation",
+    "https://schema.org/Dataset"
+  ],
+  "http://www.w3.org/ns/oa#motivatedBy": [
+    {
+      "@id": "https://w3id.org/sda#observing"
+    }
+  ],
+  "http://www.w3.org/ns/oa#hasBody": [
+    {
+      "@type": [
+        "http://www.w3.org/ns/oa#TextualBody"
+      ],
+      "http://www.w3.org/1999/02/22-rdf-syntax-ns#value": [
+        {
+          "@value": "Alpha takes the phrase slowly."
+        }
+      ]
+    }
+  ],
+  "http://www.w3.org/ns/oa#hasTarget": [
+    {
+      "@id": "https://listenhere.pod.test/at.ac.mdw.mei-friend/mao/selection/bodiless-top/sel-alpha"
+    }
+  ],
+  "http://purl.org/dc/terms/creator": {
+    "@id": "https://listenhere.pod.test/profile/card#me"
+  },
+  "http://purl.org/dc/terms/created": "2026-11-02T12:00:00.000Z",
+  "http://purl.org/dc/terms/provenance": "Generated using Listen Here (Primal test fixture, from mao-adapter.js)"
+}

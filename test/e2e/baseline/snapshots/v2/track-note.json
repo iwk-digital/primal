@@ -1,0 +1,170 @@
+{
+  "root": {
+    "set": "v2",
+    "folder": null,
+    "name": "track-note",
+    "obj": "https://listenhere.pod.test/at.ac.mdw.mei-friend/oa/track-note/oa-track-alpha",
+    "note": "no description: as posted today, there is no oa/top; the root is one per-recording note"
+  },
+  "recordedAt": "2026-11-02T23:03:20.954Z",
+  "compare": {
+    "splash": false,
+    "traversalsComplete": true,
+    "sections": {
+      "h-text-content": {
+        "loaded": true,
+        "noContent": []
+      },
+      "h-music-scores": {
+        "loaded": true,
+        "noContent": [
+          "No music scores found in this annotation."
+        ]
+      },
+      "h-audio-examples": {
+        "loaded": true,
+        "noContent": []
+      },
+      "h-metadata": {
+        "loaded": true,
+        "noContent": []
+      },
+      "h-graph": {
+        "loaded": true,
+        "noContent": []
+      },
+      "h-json-display": {
+        "loaded": true,
+        "noContent": []
+      }
+    },
+    "banners": [],
+    "textBodies": [
+      [
+        "Recording: alpha.wav",
+        "Alpha takes the phrase slowly."
+      ]
+    ],
+    "scores": [],
+    "meiFriendLinks": [],
+    "audio": [
+      {
+        "id": "https://listenhere.pod.test/audio/alpha.wav-container",
+        "hidden": false,
+        "label": "Opening phrase — alpha.wav [playback restricted] (00:02.00–00:06.00, 00:14.00–00:21.00)",
+        "waveform": true,
+        "regions": [
+          {
+            "left": "6.66667%",
+            "width": ""
+          },
+          {
+            "left": "46.6667%",
+            "width": ""
+          }
+        ]
+      }
+    ],
+    "metadata": {
+      "currentUri": "Current resource: <https://listenhere.pod.test/at.ac.mdw.mei-friend/oa/track-note/oa-track-alpha>",
+      "createdBy": "Created by: <https://listenhere.pod.test/profile/card#me>",
+      "createdByLinks": [
+        {
+          "text": "<https://listenhere.pod.test/profile/card#me>",
+          "href": "https://listenhere.pod.test/profile/card#me"
+        }
+      ],
+      "audioSelectionsHeading": null,
+      "audioSelections": []
+    },
+    "graph": {
+      "svg": true,
+      "nodes": 4,
+      "edges": 3
+    },
+    "mermaid": [
+      [
+        "</em>\")",
+        "Alpha takes the phrase slowly.&quot",
+        "blank_0",
+        "class listenhere.pod.test/at.ac.mdw.mei-friend/oa/track-note/oa-track-alpha current",
+        "click blank_0 \"#a-text-content\" \"View textual body\"",
+        "click listenhere.pod.test/at.ac.mdw.mei-friend/mao/selection/track-note/sel-alpha \"http://primal.mdw.ac.at/?obj=https://listenhere.pod.test/at.ac.mdw.mei-friend/mao/selection/track-note/sel-alpha\" \"Tooltip: \"",
+        "click listenhere.pod.test/at.ac.mdw.mei-friend/oa/track-note/oa-track-alpha \"http://primal.mdw.ac.at/?obj=https://listenhere.pod.test/at.ac.mdw.mei-friend/oa/track-note/oa-track-alpha\" \"Tooltip: \"",
+        "end",
+        "graph TD",
+        "listenhere.pod.test/at.ac.mdw.mei-friend/mao/selection/track-note/sel-alpha -- frbr:part (2 time intervals) --> alpha.wav",
+        "listenhere.pod.test/at.ac.mdw.mei-friend/mao/selection/track-note/sel-alpha(\"mao:Selection: <em>Opening phrase — alpha.wav</em>\")",
+        "listenhere.pod.test/at.ac.mdw.mei-friend/oa/track-note/oa-track-alpha -- oa:hasBody --> blank_0(\"<em>&quot",
+        "listenhere.pod.test/at.ac.mdw.mei-friend/oa/track-note/oa-track-alpha -- oa:hasTarget --> listenhere.pod.test/at.ac.mdw.mei-friend/mao/selection/track-note/sel-alpha",
+        "listenhere.pod.test/at.ac.mdw.mei-friend/oa/track-note/oa-track-alpha",
+        "listenhere.pod.test/at.ac.mdw.mei-friend/oa/track-note/oa-track-alpha(\"oa:Annotation\")",
+        "subgraph Current resource"
+      ]
+    ],
+    "json": "{\n  \"@context\": {\n    \"@vocab\": \"http://www.w3.org/ns/oa#\",\n    \"oa\": \"http://www.w3.org/ns/oa#\",\n    \"mao\": \"https://domestic-beethoven.eu/ontology/1.0/music-annotation-ontology.ttl#\",\n    \"frbr\": \"http://purl.org/vocab/frbr/core#\",\n    \"dc\": \"http://purl.org/dc/terms/\",\n    \"rdfs\": \"http://www.w3.org/2000/01/rdf-schema#\",\n    \"rdf\": \"http://www.w3.org/1999/02/22-rdf-syntax-ns#\",\n    \"mo\": \"http://purl.org/ontology/mo/\",\n    \"tl\": \"http://purl.org/NET/c4dm/timeline.owl#\",\n    \"ssv\": \"https://w3id.org/ssv/vocab#\"\n  },\n  \"@id\": \"https://listenhere.pod.test/at.ac.mdw.mei-friend/oa/track-note/oa-track-alpha\",\n  \"@type\": [\n    \"Annotation\",\n    \"https://schema.org/Dataset\"\n  ],\n  \"dc:created\": \"2026-11-02T12:00:00.000Z\",\n  \"dc:creator\": {\n    \"@id\": \"https://listenhere.pod.test/profile/card#me\"\n  },\n  \"dc:provenance\": \"Generated using Listen Here (Primal test fixture, from mao-adapter.js)\",\n  \"hasBody\": {\n    \"@type\": \"TextualBody\",\n    \"rdf:value\": \"Alpha takes the phrase slowly.\"\n  },\n  \"hasTarget\": {\n    \"@id\": \"https://listenhere.pod.test/at.ac.mdw.mei-friend/mao/selection/track-note/sel-alpha\"\n  },\n  \"motivatedBy\": {\n    \"@id\": \"https://w3id.org/sda#observing\"\n  }\n}",
+    "versions": {
+      "verovio": "6.4.0-33d1633",
+      "mermaid": "10.9.8"
+    },
+    "requests": {
+      "GET app:/?obj=https://listenhere.pod.test/at.ac.mdw.mei-friend/oa/track-note/oa-track-alpha": 1,
+      "GET app:/css/prism.css": 1,
+      "GET app:/css/styles.css": 1,
+      "GET app:/deps/regions.js": 1,
+      "GET app:/deps/wavesurfer.js": 1,
+      "GET app:/img/logo.png": 1,
+      "GET app:/lib/LDObj.js": 1,
+      "GET app:/lib/defaults.js": 1,
+      "GET app:/lib/env.js": 1,
+      "GET app:/lib/errorBanner.js": 1,
+      "GET app:/lib/graph.js": 1,
+      "GET app:/lib/graphModal.js": 1,
+      "GET app:/lib/httpUtil.js": 1,
+      "GET app:/lib/main.js": 1,
+      "GET app:/lib/namespaceManager.js": 1,
+      "GET app:/lib/namespaceMap.js": 1,
+      "GET app:/lib/render.js": 1,
+      "GET app:/lib/sanitize.js": 1,
+      "GET app:/lib/traverser.js": 1,
+      "GET https://cdnjs.cloudflare.com/ajax/libs/jsonld/1.0.0/jsonld.min.js": 1,
+      "GET https://cdnjs.cloudflare.com/ajax/libs/prism/1.29.0/components/prism-json.min.js": 1,
+      "GET https://cdnjs.cloudflare.com/ajax/libs/prism/1.29.0/prism.min.js": 1,
+      "GET https://cdnjs.cloudflare.com/ajax/libs/prism/1.29.0/themes/prism.min.css": 1,
+      "GET https://listenhere.pod.test/at.ac.mdw.mei-friend/mao/selection/track-note/sel-alpha": 1,
+      "GET https://listenhere.pod.test/at.ac.mdw.mei-friend/oa/track-note/oa-track-alpha": 1,
+      "GET https://unpkg.com/mermaid@10/dist/mermaid.min.js": 1,
+      "GET https://www.verovio.org/javascript/latest/verovio-toolkit-wasm.js": 1,
+      "HEAD https://listenhere.pod.test/audio/alpha.wav": 1
+    },
+    "consoleErrors": {
+      "Failed to load resource: the server responded with a status of 403 (Forbidden)": 1,
+      "URL not accessible: Forbidden": 1
+    },
+    "pageErrors": {}
+  },
+  "info": {
+    "timings": {
+      "traversalMs": 394,
+      "networkIdle": true,
+      "idleMs": 1906,
+      "stablePolls": 0,
+      "totalMs": 2667
+    },
+    "order": {
+      "textBodies": [
+        "Recording: alpha.wav"
+      ],
+      "scores": [],
+      "audio": [
+        "https://listenhere.pod.test/audio/alpha.wav-container"
+      ],
+      "audioSelections": []
+    },
+    "mermaidSources": [
+      "graph TD; class listenhere.pod.test/at.ac.mdw.mei-friend/oa/track-note/oa-track-alpha current;\nlistenhere.pod.test/at.ac.mdw.mei-friend/oa/track-note/oa-track-alpha(\"oa:Annotation\");listenhere.pod.test/at.ac.mdw.mei-friend/oa/track-note/oa-track-alpha -- oa:hasTarget --> listenhere.pod.test/at.ac.mdw.mei-friend/mao/selection/track-note/sel-alpha;listenhere.pod.test/at.ac.mdw.mei-friend/mao/selection/track-note/sel-alpha(\"mao:Selection: <em>Opening phrase — alpha.wav</em>\");listenhere.pod.test/at.ac.mdw.mei-friend/mao/selection/track-note/sel-alpha -- frbr:part (2 time intervals) --> alpha.wav;listenhere.pod.test/at.ac.mdw.mei-friend/oa/track-note/oa-track-alpha -- oa:hasBody --> blank_0(\"<em>&quot;Alpha takes the phrase slowly.&quot;</em>\");\n click blank_0 \"#a-text-content\" \"View textual body\";\n click listenhere.pod.test/at.ac.mdw.mei-friend/mao/selection/track-note/sel-alpha \"http://primal.mdw.ac.at/?obj=https://listenhere.pod.test/at.ac.mdw.mei-friend/mao/selection/track-note/sel-alpha\" \"Tooltip: \";\n click listenhere.pod.test/at.ac.mdw.mei-friend/oa/track-note/oa-track-alpha \"http://primal.mdw.ac.at/?obj=https://listenhere.pod.test/at.ac.mdw.mei-friend/oa/track-note/oa-track-alpha\" \"Tooltip: \";\n subgraph Current resource\nlistenhere.pod.test/at.ac.mdw.mei-friend/oa/track-note/oa-track-alpha\nblank_0\n\n end\n"
+    ],
+    "requestCount": 28,
+    "corsBlocked": []
+  }
+}

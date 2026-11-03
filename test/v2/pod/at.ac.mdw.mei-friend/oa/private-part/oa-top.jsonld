@@ -1,0 +1,58 @@
+{
+  "@id": "https://listenhere.pod.test/at.ac.mdw.mei-friend/oa/private-part/oa-top",
+  "@type": [
+    "http://www.w3.org/ns/oa#Annotation",
+    "https://schema.org/Dataset"
+  ],
+  "http://www.w3.org/ns/oa#motivatedBy": [
+    {
+      "@id": "https://w3id.org/sda#commenting"
+    }
+  ],
+  "http://www.w3.org/ns/oa#hasBody": [
+    {
+      "@type": [
+        "http://www.w3.org/ns/oa#TextualBody"
+      ],
+      "http://www.w3.org/1999/02/22-rdf-syntax-ns#value": [
+        {
+          "@value": "The opening phrase, compared across sections."
+        }
+      ]
+    }
+  ],
+  "http://www.w3.org/ns/oa#hasTarget": [
+    {
+      "@type": [
+        "http://www.w3.org/ns/oa#CompositeTarget"
+      ],
+      "http://www.w3.org/ns/oa#items": [
+        {
+          "@type": [
+            "http://www.w3.org/ns/oa#SpecificResource"
+          ],
+          "http://www.w3.org/ns/oa#hasSource": [
+            {
+              "@id": "https://listenhere.pod.test/at.ac.mdw.mei-friend/oa/private-part/oa-cmp-c1"
+            }
+          ],
+          "http://www.w3.org/ns/oa#hasPurpose": [
+            {
+              "@id": "https://w3id.org/sda#evidencing"
+            }
+          ],
+          "http://www.w3.org/ns/oa#hasScope": [
+            {
+              "@id": "https://listenhere.pod.test/at.ac.mdw.mei-friend/mao/extract/private-part/extract"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "http://purl.org/dc/terms/creator": {
+    "@id": "https://listenhere.pod.test/profile/card#me"
+  },
+  "http://purl.org/dc/terms/created": "2026-11-02T12:00:00.000Z",
+  "http://purl.org/dc/terms/provenance": "Generated using Listen Here (Primal test fixture, from mao-adapter.js)"
+}

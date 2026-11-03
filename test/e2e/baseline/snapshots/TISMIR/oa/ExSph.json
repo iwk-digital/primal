@@ -1,0 +1,317 @@
+{
+  "root": {
+    "set": "TISMIR",
+    "folder": "oa",
+    "name": "ExSph",
+    "obj": "https://raw.githubusercontent.com/Signature-Sound-Vienna/data/TISMIR/annot/oa/ExSph.jsonld",
+    "w3id": "https://w3id.org/ssv/TISMIR/annot/oa/ExSph",
+    "quick": true
+  },
+  "recordedAt": "2026-11-02T16:30:52.188Z",
+  "compare": {
+    "splash": false,
+    "traversalsComplete": true,
+    "sections": {
+      "h-text-content": {
+        "loaded": true,
+        "noContent": []
+      },
+      "h-music-scores": {
+        "loaded": true,
+        "noContent": []
+      },
+      "h-audio-examples": {
+        "loaded": true,
+        "noContent": []
+      },
+      "h-metadata": {
+        "loaded": true,
+        "noContent": []
+      },
+      "h-graph": {
+        "loaded": true,
+        "noContent": []
+      },
+      "h-json-display": {
+        "loaded": true,
+        "noContent": []
+      }
+    },
+    "banners": [],
+    "textBodies": [
+      [
+        "In the coda of the waltz there is a surprising piano marking following an upwards swell leading up to bar 255 which is completely ignored by the VPO in early recordings where they do not reduce the dynamic level at all, and simply march through, more or less in tempo. The reason for this is unknown -- perhaps the dynamic was seen as illogical -- it is certainly unusual from a musical perspective -- perhaps it was not written in the scores the ensemble accessed at the time, or perhaps it was simply overlooked. First with the 1987 performance under Herbert von Karajan is this dynamic shift taken seriously; Karajan builds in a ritardando starting in the prior bar  to lead into the dynamic shift organically, then calls for a much sweeter, less martial feeling, making the section emulate a melancholy reminiscence instead of a triumph. This seems to have set the tone, as all VPO recordings following in 1987 utilize the same approach. There is a strong argument to be made that this interpretation was something Karajan brought to the VPO; in his recording with the Berlin Philharmonic of Sphärenklänge back in 1971 he takes the same tack."
+      ]
+    ],
+    "scores": [
+      {
+        "id": "https://raw.githubusercontent.com/Signature-Sound-Vienna/Josef-Strauss_Op235_Sphaerenklaenge_Spina/main/Longest-Version_Krauss1951.mei",
+        "highlighted": [
+          "m10z0e03",
+          "m1if5ldc",
+          "m1j0k1vw",
+          "m1mmdfmh",
+          "m1oue9q7",
+          "mrsfexs"
+        ],
+        "svg": {
+          "viewBox": "0 0 2100 5331",
+          "elementsWithDataId": 1895
+        }
+      }
+    ],
+    "meiFriendLinks": [
+      "https://mei-friend.mdw.ac.at/?file=https://raw.githubusercontent.com/Signature-Sound-Vienna/Josef-Strauss_Op235_Sphaerenklaenge_Spina/main/Longest-Version_Krauss1951.mei&select=m1if5ldc,mrsfexs,m1mmdfmh,m10z0e03,m1oue9q7,m1j0k1vw"
+    ],
+    "audio": [
+      {
+        "id": "https://w3id.org/ssv/TISMIR/data/signal/1963-1979_-20_-28Neujahr_-20in_-20Wien_-29__1963-1979_-20_-28DVD_-201_-29#21-container",
+        "hidden": false,
+        "label": "TISMIR Example 5.2.1: Vienna Philharmonic Orchestra (1964, Neujahr in Wien DVD 1) -- Sphärenklänge [playback restricted] (07:41.00–07:48.55)",
+        "waveform": true,
+        "regions": [
+          {
+            "left": "76.949%",
+            "width": ""
+          }
+        ]
+      },
+      {
+        "id": "https://w3id.org/ssv/TISMIR/data/signal/1987#2-container",
+        "hidden": false,
+        "label": "TISMIR Example 5.2.1: Vienna Philharmonic Orchestra (1987) -- Sphärenklänge [playback restricted] (07:43.00–07:51.90)",
+        "waveform": true,
+        "regions": [
+          {
+            "left": "74.7731%",
+            "width": ""
+          }
+        ]
+      },
+      {
+        "id": "https://w3id.org/ssv/TISMIR/data/signal/Berliner_-20Philharmoniker_-2C_-20Herbert_-20von_-20Karajan_-20_-281971_-29#10-container",
+        "hidden": false,
+        "label": "TISMIR Example 5.2.1: Berliner Philharmoniker, Herbert von Karajan (1971) -- Sphärenklänge [playback restricted] (07:14.20–07:22.90)",
+        "waveform": true,
+        "regions": [
+          {
+            "left": "80.7054%",
+            "width": ""
+          }
+        ]
+      }
+    ],
+    "metadata": {
+      "currentUri": "Current resource: <https://raw.githubusercontent.com/Signature-Sound-Vienna/data/TISMIR/annot/oa/ExSph.jsonld>",
+      "createdBy": "Created by: Dr. Chanda VanderHart",
+      "createdByLinks": [
+        {
+          "text": "Dr. Chanda VanderHart",
+          "href": "https://orcid.org/0000-0002-2055-273X"
+        }
+      ],
+      "audioSelectionsHeading": "Audio Files",
+      "audioSelections": [
+        {
+          "text": "TISMIR Example 5.2.1: Berliner Philharmoniker, Herbert von Karajan (1971) -- SphärenklängeSignal: Berliner_-20Philharmoniker_-2C_-20Herbert_-20von_-20Karajan_-20_-281971_-29#10Track: &quot;Sphärenklänge, op. 235&quot;MusicBrainz: 161a9c91-52cc-40c1-ad39-fd979333d769",
+          "links": [
+            {
+              "text": "Signal: Berliner_-20Philharmoniker_-2C_-20Herbert_-20von_-20Karajan_-20_-281971_-29#10",
+              "href": "https://w3id.org/ssv/TISMIR/data/signal/Berliner_-20Philharmoniker_-2C_-20Herbert_-20von_-20Karajan_-20_-281971_-29#10"
+            },
+            {
+              "text": "Track: &quot;Sphärenklänge, op. 235&quot;",
+              "href": "https://w3id.org/ssv/TISMIR/data/track/Berliner_-20Philharmoniker_-2C_-20Herbert_-20von_-20Karajan_-20_-281971_-29#10"
+            },
+            {
+              "text": "MusicBrainz: 161a9c91-52cc-40c1-ad39-fd979333d769",
+              "href": "https://musicbrainz.org/track/161a9c91-52cc-40c1-ad39-fd979333d769"
+            }
+          ]
+        },
+        {
+          "text": "TISMIR Example 5.2.1: Vienna Philharmonic Orchestra (1964, Neujahr in Wien DVD 1) -- SphärenklängeSignal: 1963-1979_-20_-28Neujahr_-20in_-20Wien_-29__1963-1979_-20_-28DVD_-201_-29#21Track: &quot;Sphärenklänge, op. 235&quot;MusicBrainz: bf8a0bd2-16bd-4c6a-88f0-66fabf2366b4",
+          "links": [
+            {
+              "text": "Signal: 1963-1979_-20_-28Neujahr_-20in_-20Wien_-29__1963-1979_-20_-28DVD_-201_-29#21",
+              "href": "https://w3id.org/ssv/TISMIR/data/signal/1963-1979_-20_-28Neujahr_-20in_-20Wien_-29__1963-1979_-20_-28DVD_-201_-29#21"
+            },
+            {
+              "text": "Track: &quot;Sphärenklänge, op. 235&quot;",
+              "href": "https://w3id.org/ssv/TISMIR/data/track/1963-1979_-20_-28Neujahr_-20in_-20Wien_-29__1963-1979_-20_-28DVD_-201_-29#21"
+            },
+            {
+              "text": "MusicBrainz: bf8a0bd2-16bd-4c6a-88f0-66fabf2366b4",
+              "href": "https://musicbrainz.org/track/bf8a0bd2-16bd-4c6a-88f0-66fabf2366b4"
+            }
+          ]
+        },
+        {
+          "text": "TISMIR Example 5.2.1: Vienna Philharmonic Orchestra (1987) -- SphärenklängeSignal: 1987#2Track: &quot;Sphärenklänge, op. 235&quot;MusicBrainz: 02727be1-58c7-4e49-b0fe-16df25e50237",
+          "links": [
+            {
+              "text": "Signal: 1987#2",
+              "href": "https://w3id.org/ssv/TISMIR/data/signal/1987#2"
+            },
+            {
+              "text": "Track: &quot;Sphärenklänge, op. 235&quot;",
+              "href": "https://w3id.org/ssv/TISMIR/data/track/1987#2"
+            },
+            {
+              "text": "MusicBrainz: 02727be1-58c7-4e49-b0fe-16df25e50237",
+              "href": "https://musicbrainz.org/track/02727be1-58c7-4e49-b0fe-16df25e50237"
+            }
+          ]
+        }
+      ]
+    },
+    "graph": {
+      "svg": true,
+      "nodes": 12,
+      "edges": 11
+    },
+    "mermaid": [
+      [
+        "</em>\")",
+        "In the coda of the waltz there is a surprising piano marking following an upwards ...&quot",
+        "blank_0",
+        "class raw.githubusercontent.com/Signature-Sound-Vienna/data/TISMIR/annot/oa/ExSph.jsonld current",
+        "click anno:ExSph.jsonld \"http://primal.mdw.ac.at/?obj=anno:ExSph.jsonld\" \"Tooltip: \"",
+        "click blank_0 \"#a-text-content\" \"View textual body\"",
+        "click extract:ExSph.jsonld \"http://primal.mdw.ac.at/?obj=extract:ExSph.jsonld\" \"Tooltip: \"",
+        "click musMat:ExSph.jsonld \"http://primal.mdw.ac.at/?obj=musMat:ExSph.jsonld\" \"Tooltip: \"",
+        "click raw.githubusercontent.com/Signature-Sound-Vienna/data/TISMIR/annot/mao/extract/ExSph.jsonld \"http://primal.mdw.ac.at/?obj=https://raw.githubusercontent.com/Signature-Sound-Vienna/data/TISMIR/annot/mao/extract/ExSph.jsonld\" \"Tooltip: \"",
+        "click raw.githubusercontent.com/Signature-Sound-Vienna/data/TISMIR/annot/mao/musicalMaterial/ExSph.jsonld \"http://primal.mdw.ac.at/?obj=https://raw.githubusercontent.com/Signature-Sound-Vienna/data/TISMIR/annot/mao/musicalMaterial/ExSph.jsonld\" \"Tooltip: \"",
+        "click raw.githubusercontent.com/Signature-Sound-Vienna/data/TISMIR/annot/mao/selection/ExSph-audio1.jsonld \"http://primal.mdw.ac.at/?obj=https://raw.githubusercontent.com/Signature-Sound-Vienna/data/TISMIR/annot/mao/selection/ExSph-audio1.jsonld\" \"Tooltip: \"",
+        "click raw.githubusercontent.com/Signature-Sound-Vienna/data/TISMIR/annot/mao/selection/ExSph-audio2.jsonld \"http://primal.mdw.ac.at/?obj=https://raw.githubusercontent.com/Signature-Sound-Vienna/data/TISMIR/annot/mao/selection/ExSph-audio2.jsonld\" \"Tooltip: \"",
+        "click raw.githubusercontent.com/Signature-Sound-Vienna/data/TISMIR/annot/mao/selection/ExSph-audio3.jsonld \"http://primal.mdw.ac.at/?obj=https://raw.githubusercontent.com/Signature-Sound-Vienna/data/TISMIR/annot/mao/selection/ExSph-audio3.jsonld\" \"Tooltip: \"",
+        "click raw.githubusercontent.com/Signature-Sound-Vienna/data/TISMIR/annot/mao/selection/ExSph.jsonld \"http://primal.mdw.ac.at/?obj=https://raw.githubusercontent.com/Signature-Sound-Vienna/data/TISMIR/annot/mao/selection/ExSph.jsonld\" \"Tooltip: \"",
+        "click raw.githubusercontent.com/Signature-Sound-Vienna/data/TISMIR/annot/oa/ExSph.jsonld \"http://primal.mdw.ac.at/?obj=https://raw.githubusercontent.com/Signature-Sound-Vienna/data/TISMIR/annot/oa/ExSph.jsonld\" \"Tooltip: \"",
+        "click selection:ExSph-audio1.jsonld \"http://primal.mdw.ac.at/?obj=selection:ExSph-audio1.jsonld\" \"Tooltip: \"",
+        "click selection:ExSph-audio2.jsonld \"http://primal.mdw.ac.at/?obj=selection:ExSph-audio2.jsonld\" \"Tooltip: \"",
+        "click selection:ExSph-audio3.jsonld \"http://primal.mdw.ac.at/?obj=selection:ExSph-audio3.jsonld\" \"Tooltip: \"",
+        "click selection:ExSph.jsonld \"http://primal.mdw.ac.at/?obj=selection:ExSph.jsonld\" \"Tooltip: \"",
+        "end",
+        "graph TD",
+        "raw.githubusercontent.com/Signature-Sound-Vienna/data/TISMIR/annot/mao/extract/ExSph.jsonld -- frbr:embodiment --> raw.githubusercontent.com/Signature-Sound-Vienna/data/TISMIR/annot/mao/selection/ExSph-audio1.jsonld",
+        "raw.githubusercontent.com/Signature-Sound-Vienna/data/TISMIR/annot/mao/extract/ExSph.jsonld -- frbr:embodiment --> raw.githubusercontent.com/Signature-Sound-Vienna/data/TISMIR/annot/mao/selection/ExSph-audio2.jsonld",
+        "raw.githubusercontent.com/Signature-Sound-Vienna/data/TISMIR/annot/mao/extract/ExSph.jsonld -- frbr:embodiment --> raw.githubusercontent.com/Signature-Sound-Vienna/data/TISMIR/annot/mao/selection/ExSph-audio3.jsonld",
+        "raw.githubusercontent.com/Signature-Sound-Vienna/data/TISMIR/annot/mao/extract/ExSph.jsonld -- frbr:embodiment --> raw.githubusercontent.com/Signature-Sound-Vienna/data/TISMIR/annot/mao/selection/ExSph.jsonld",
+        "raw.githubusercontent.com/Signature-Sound-Vienna/data/TISMIR/annot/mao/extract/ExSph.jsonld(\"mao:Extract: <em>TISMIR Example 5.2.1 (Sphärenklänge)</em>\")",
+        "raw.githubusercontent.com/Signature-Sound-Vienna/data/TISMIR/annot/mao/musicalMaterial/ExSph.jsonld -- mao:setting --> raw.githubusercontent.com/Signature-Sound-Vienna/data/TISMIR/annot/mao/extract/ExSph.jsonld",
+        "raw.githubusercontent.com/Signature-Sound-Vienna/data/TISMIR/annot/mao/musicalMaterial/ExSph.jsonld(\"mao:MusicalMaterial: <em>TISMIR Example 5.2.1 (Sphärenklänge)</em>\")",
+        "raw.githubusercontent.com/Signature-Sound-Vienna/data/TISMIR/annot/mao/selection/ExSph-audio1.jsonld -- frbr:part (1 time interval) --> 08%20-%20Sph%C3%A4renkl%C3%A4nge%2C%20op.%20235%20-%20Josef%20Strauss.wav",
+        "raw.githubusercontent.com/Signature-Sound-Vienna/data/TISMIR/annot/mao/selection/ExSph-audio1.jsonld(\"mao:Selection: <em>TISMIR Example 5.2.1: Vienna Philharmonic Orchestra (1964, Neujahr in Wien DVD 1) -- Sphärenklänge</em>\")",
+        "raw.githubusercontent.com/Signature-Sound-Vienna/data/TISMIR/annot/mao/selection/ExSph-audio2.jsonld -- frbr:part (1 time interval) --> 02%20-%20Sph%C3%A4renkl%C3%A4nge%2C%20op.%20235%20-%20Josef%20Strauss.wav",
+        "raw.githubusercontent.com/Signature-Sound-Vienna/data/TISMIR/annot/mao/selection/ExSph-audio2.jsonld(\"mao:Selection: <em>TISMIR Example 5.2.1: Vienna Philharmonic Orchestra (1987) -- Sphärenklänge</em>\")",
+        "raw.githubusercontent.com/Signature-Sound-Vienna/data/TISMIR/annot/mao/selection/ExSph-audio3.jsonld -- frbr:part (1 time interval) --> 10-Sph%C3%A4renkl%C3%A4nge%2C%20op.%20235.wav",
+        "raw.githubusercontent.com/Signature-Sound-Vienna/data/TISMIR/annot/mao/selection/ExSph-audio3.jsonld(\"mao:Selection: <em>TISMIR Example 5.2.1: Berliner Philharmoniker, Herbert von Karajan (1971) -- Sphärenklänge</em>\")",
+        "raw.githubusercontent.com/Signature-Sound-Vienna/data/TISMIR/annot/mao/selection/ExSph.jsonld -- frbr:part (6 fragments) --> Longest-Version_Krauss1951.mei",
+        "raw.githubusercontent.com/Signature-Sound-Vienna/data/TISMIR/annot/mao/selection/ExSph.jsonld(\"mao:Selection: <em>TISMIR Example 5.2.1 (Sphärenklänge)</em>\")",
+        "raw.githubusercontent.com/Signature-Sound-Vienna/data/TISMIR/annot/oa/ExSph.jsonld -- oa:hasBody --> blank_0(\"<em>&quot",
+        "raw.githubusercontent.com/Signature-Sound-Vienna/data/TISMIR/annot/oa/ExSph.jsonld -- oa:hasTarget --> raw.githubusercontent.com/Signature-Sound-Vienna/data/TISMIR/annot/mao/musicalMaterial/ExSph.jsonld",
+        "raw.githubusercontent.com/Signature-Sound-Vienna/data/TISMIR/annot/oa/ExSph.jsonld",
+        "raw.githubusercontent.com/Signature-Sound-Vienna/data/TISMIR/annot/oa/ExSph.jsonld(\"oa:Annotation\")",
+        "subgraph Current resource"
+      ]
+    ],
+    "json": "{\n  \"@context\": {\n    \"@vocab\": \"http://www.w3.org/ns/oa#\",\n    \"oa\": \"http://www.w3.org/ns/oa#\",\n    \"mao\": \"https://domestic-beethoven.eu/ontology/1.0/music-annotation-ontology.ttl#\",\n    \"frbr\": \"http://purl.org/vocab/frbr/core#\",\n    \"dc\": \"http://purl.org/dc/terms/\",\n    \"rdfs\": \"http://www.w3.org/2000/01/rdf-schema#\",\n    \"rdf\": \"http://www.w3.org/1999/02/22-rdf-syntax-ns#\",\n    \"mo\": \"http://purl.org/ontology/mo/\",\n    \"tl\": \"http://purl.org/NET/c4dm/timeline.owl#\",\n    \"ssv\": \"https://w3id.org/ssv/vocab#\"\n  },\n  \"@id\": \"https://raw.githubusercontent.com/Signature-Sound-Vienna/data/TISMIR/annot/oa/ExSph.jsonld\",\n  \"@type\": \"Annotation\",\n  \"dc:creator\": {\n    \"@id\": \"https://orcid.org/0000-0002-2055-273X\",\n    \"rdfs:label\": \"Dr. Chanda VanderHart\"\n  },\n  \"hasBody\": {\n    \"@type\": \"TextualBody\",\n    \"rdf:value\": \"In the coda of the waltz there is a surprising piano marking following an upwards swell leading up to bar 255 which is completely ignored by the VPO in early recordings where they do not reduce the dynamic level at all, and simply march through, more or less in tempo. The reason for this is unknown -- perhaps the dynamic was seen as illogical -- it is certainly unusual from a musical perspective -- perhaps it was not written in the scores the ensemble accessed at the time, or perhaps it was simply overlooked. First with the 1987 performance under Herbert von Karajan is this dynamic shift taken seriously; Karajan builds in a ritardando starting in the prior bar  to lead into the dynamic shift organically, then calls for a much sweeter, less martial feeling, making the section emulate a melancholy reminiscence instead of a triumph. This seems to have set the tone, as all VPO recordings following in 1987 utilize the same approach. There is a strong argument to be made that this interpretation was something Karajan brought to the VPO; in his recording with the Berlin Philharmonic of Sphärenklänge back in 1971 he takes the same tack.\"\n  },\n  \"hasTarget\": {\n    \"@id\": \"https://raw.githubusercontent.com/Signature-Sound-Vienna/data/TISMIR/annot/mao/musicalMaterial/ExSph.jsonld\"\n  },\n  \"motivatedBy\": {\n    \"@id\": \"mao:commenting\"\n  }\n}",
+    "versions": {
+      "verovio": "6.4.0-33d1633",
+      "mermaid": "10.9.8"
+    },
+    "requests": {
+      "GET app:/?obj=https://raw.githubusercontent.com/Signature-Sound-Vienna/data/TISMIR/annot/oa/ExSph.jsonld": 1,
+      "GET app:/css/prism.css": 1,
+      "GET app:/css/styles.css": 1,
+      "GET app:/deps/regions.js": 1,
+      "GET app:/deps/wavesurfer.js": 1,
+      "GET app:/img/logo.png": 1,
+      "GET app:/lib/LDObj.js": 1,
+      "GET app:/lib/defaults.js": 1,
+      "GET app:/lib/env.js": 1,
+      "GET app:/lib/errorBanner.js": 1,
+      "GET app:/lib/graph.js": 1,
+      "GET app:/lib/graphModal.js": 1,
+      "GET app:/lib/httpUtil.js": 1,
+      "GET app:/lib/main.js": 1,
+      "GET app:/lib/namespaceManager.js": 1,
+      "GET app:/lib/namespaceMap.js": 1,
+      "GET app:/lib/render.js": 1,
+      "GET app:/lib/sanitize.js": 1,
+      "GET app:/lib/traverser.js": 1,
+      "GET https://cdnjs.cloudflare.com/ajax/libs/jsonld/1.0.0/jsonld.min.js": 1,
+      "GET https://cdnjs.cloudflare.com/ajax/libs/prism/1.29.0/components/prism-json.min.js": 1,
+      "GET https://cdnjs.cloudflare.com/ajax/libs/prism/1.29.0/prism.min.js": 1,
+      "GET https://cdnjs.cloudflare.com/ajax/libs/prism/1.29.0/themes/prism.min.css": 1,
+      "GET https://raw.githubusercontent.com/Signature-Sound-Vienna/Josef-Strauss_Op235_Sphaerenklaenge_Spina/main/Longest-Version_Krauss1951.mei": 1,
+      "GET https://raw.githubusercontent.com/Signature-Sound-Vienna/data/TISMIR/annot/mao/extract/ExSph.jsonld": 1,
+      "GET https://raw.githubusercontent.com/Signature-Sound-Vienna/data/TISMIR/annot/mao/musicalMaterial/ExSph.jsonld": 1,
+      "GET https://raw.githubusercontent.com/Signature-Sound-Vienna/data/TISMIR/annot/mao/selection/ExSph-audio1.jsonld": 1,
+      "GET https://raw.githubusercontent.com/Signature-Sound-Vienna/data/TISMIR/annot/mao/selection/ExSph-audio2.jsonld": 1,
+      "GET https://raw.githubusercontent.com/Signature-Sound-Vienna/data/TISMIR/annot/mao/selection/ExSph-audio3.jsonld": 1,
+      "GET https://raw.githubusercontent.com/Signature-Sound-Vienna/data/TISMIR/annot/mao/selection/ExSph.jsonld": 1,
+      "GET https://raw.githubusercontent.com/Signature-Sound-Vienna/data/TISMIR/annot/oa/ExSph.jsonld": 1,
+      "GET https://unpkg.com/mermaid@10/dist/mermaid.min.js": 1,
+      "GET https://w3id.org/ssv/TISMIR/data/peaks/1963-1979_-20_-28Neujahr_-20in_-20Wien_-29__1963-1979_-20_-28DVD_-201_-29/21.peaks.json": 1,
+      "GET https://w3id.org/ssv/TISMIR/data/peaks/1987/2.peaks.json": 1,
+      "GET https://w3id.org/ssv/TISMIR/data/peaks/Berliner_-20Philharmoniker_-2C_-20Herbert_-20von_-20Karajan_-20_-281971_-29/10.peaks.json": 1,
+      "GET https://w3id.org/ssv/TISMIR/data/signal/1963-1979_-20_-28Neujahr_-20in_-20Wien_-29__1963-1979_-20_-28DVD_-201_-29": 2,
+      "GET https://w3id.org/ssv/TISMIR/data/signal/1987": 2,
+      "GET https://w3id.org/ssv/TISMIR/data/signal/Berliner_-20Philharmoniker_-2C_-20Herbert_-20von_-20Karajan_-20_-281971_-29": 2,
+      "GET https://w3id.org/ssv/TISMIR/data/track/1963-1979_-20_-28Neujahr_-20in_-20Wien_-29__1963-1979_-20_-28DVD_-201_-29": 1,
+      "GET https://w3id.org/ssv/TISMIR/data/track/1987": 1,
+      "GET https://w3id.org/ssv/TISMIR/data/track/Berliner_-20Philharmoniker_-2C_-20Herbert_-20von_-20Karajan_-20_-281971_-29": 1,
+      "GET https://www.verovio.org/javascript/latest/verovio-toolkit-wasm.js": 1,
+      "HEAD https://raw.githubusercontent.com/Signature-Sound-Vienna/Josef-Strauss_Op235_Sphaerenklaenge_Spina/main/Longest-Version_Krauss1951.mei": 12,
+      "HEAD https://raw.githubusercontent.com/Signature-Sound-Vienna/data/TISMIR/annot/mao/extract/ExSph.jsonld": 2,
+      "HEAD https://raw.githubusercontent.com/Signature-Sound-Vienna/data/TISMIR/annot/mao/musicalMaterial/ExSph.jsonld": 2,
+      "HEAD https://raw.githubusercontent.com/Signature-Sound-Vienna/data/TISMIR/annot/mao/selection/ExSph-audio1.jsonld": 2,
+      "HEAD https://raw.githubusercontent.com/Signature-Sound-Vienna/data/TISMIR/annot/mao/selection/ExSph-audio2.jsonld": 2,
+      "HEAD https://raw.githubusercontent.com/Signature-Sound-Vienna/data/TISMIR/annot/mao/selection/ExSph-audio3.jsonld": 2,
+      "HEAD https://raw.githubusercontent.com/Signature-Sound-Vienna/data/TISMIR/annot/mao/selection/ExSph.jsonld": 2,
+      "HEAD https://w3id.org/ssv/audio/1963-1979_-20_-28Neujahr_-20in_-20Wien_-29__1963-1979_-20_-28DVD_-201_-29/08%20-%20Sph%C3%A4renkl%C3%A4nge%2C%20op.%20235%20-%20Josef%20Strauss.wav": 2,
+      "HEAD https://w3id.org/ssv/audio/1987/02%20-%20Sph%C3%A4renkl%C3%A4nge%2C%20op.%20235%20-%20Josef%20Strauss.wav": 2,
+      "HEAD https://w3id.org/ssv/audio/Berliner_-20Philharmoniker_-2C_-20Herbert_-20von_-20Karajan_-20_-281971_-29/10-Sph%C3%A4renkl%C3%A4nge%2C%20op.%20235.wav": 2
+    },
+    "consoleErrors": {
+      "Error fetching content type: Error: Network response was not ok": 3,
+      "Failed to load resource: the server responded with a status of 403 (Forbidden)": 6,
+      "Failed to prepare LD object Error: Object must be an OA or MAO object": 6,
+      "URL not accessible: Forbidden": 3
+    },
+    "pageErrors": {}
+  },
+  "info": {
+    "timings": {
+      "traversalMs": 3976,
+      "networkIdle": true,
+      "idleMs": 9529,
+      "stablePolls": 0,
+      "totalMs": 10286
+    },
+    "order": {
+      "textBodies": [
+        "In the coda of the waltz there is a surp"
+      ],
+      "scores": [
+        "https://raw.githubusercontent.com/Signature-Sound-Vienna/Josef-Strauss_Op235_Sphaerenklaenge_Spina/main/Longest-Version_Krauss1951.mei"
+      ],
+      "audio": [
+        "https://w3id.org/ssv/TISMIR/data/signal/1963-1979_-20_-28Neujahr_-20in_-20Wien_-29__1963-1979_-20_-28DVD_-201_-29#21-container",
+        "https://w3id.org/ssv/TISMIR/data/signal/1987#2-container",
+        "https://w3id.org/ssv/TISMIR/data/signal/Berliner_-20Philharmoniker_-2C_-20Herbert_-20von_-20Karajan_-20_-281971_-29#10-container"
+      ],
+      "audioSelections": [
+        "TISMIR Example 5.2.1: Vienna Philharmonic Orchestra (1964, N",
+        "TISMIR Example 5.2.1: Vienna Philharmonic Orchestra (1987) -",
+        "TISMIR Example 5.2.1: Berliner Philharmoniker, Herbert von K"
+      ]
+    },
+    "mermaidSources": [
+      "graph TD; class raw.githubusercontent.com/Signature-Sound-Vienna/data/TISMIR/annot/oa/ExSph.jsonld current;\nraw.githubusercontent.com/Signature-Sound-Vienna/data/TISMIR/annot/oa/ExSph.jsonld(\"oa:Annotation\");raw.githubusercontent.com/Signature-Sound-Vienna/data/TISMIR/annot/oa/ExSph.jsonld -- oa:hasTarget --> raw.githubusercontent.com/Signature-Sound-Vienna/data/TISMIR/annot/mao/musicalMaterial/ExSph.jsonld;raw.githubusercontent.com/Signature-Sound-Vienna/data/TISMIR/annot/mao/musicalMaterial/ExSph.jsonld(\"mao:MusicalMaterial: <em>TISMIR Example 5.2.1 (Sphärenklänge)</em>\");raw.githubusercontent.com/Signature-Sound-Vienna/data/TISMIR/annot/mao/musicalMaterial/ExSph.jsonld -- mao:setting --> raw.githubusercontent.com/Signature-Sound-Vienna/data/TISMIR/annot/mao/extract/ExSph.jsonld;raw.githubusercontent.com/Signature-Sound-Vienna/data/TISMIR/annot/mao/extract/ExSph.jsonld(\"mao:Extract: <em>TISMIR Example 5.2.1 (Sphärenklänge)</em>\");raw.githubusercontent.com/Signature-Sound-Vienna/data/TISMIR/annot/mao/extract/ExSph.jsonld -- frbr:embodiment --> raw.githubusercontent.com/Signature-Sound-Vienna/data/TISMIR/annot/mao/selection/ExSph.jsonld;raw.githubusercontent.com/Signature-Sound-Vienna/data/TISMIR/annot/mao/selection/ExSph.jsonld(\"mao:Selection: <em>TISMIR Example 5.2.1 (Sphärenklänge)</em>\");raw.githubusercontent.com/Signature-Sound-Vienna/data/TISMIR/annot/mao/selection/ExSph.jsonld -- frbr:part (6 fragments) --> Longest-Version_Krauss1951.mei;raw.githubusercontent.com/Signature-Sound-Vienna/data/TISMIR/annot/mao/extract/ExSph.jsonld -- frbr:embodiment --> raw.githubusercontent.com/Signature-Sound-Vienna/data/TISMIR/annot/mao/selection/ExSph-audio1.jsonld;raw.githubusercontent.com/Signature-Sound-Vienna/data/TISMIR/annot/mao/selection/ExSph-audio1.jsonld(\"mao:Selection: <em>TISMIR Example 5.2.1: Vienna Philharmonic Orchestra (1964, Neujahr in Wien DVD 1) -- Sphärenklänge</em>\");raw.githubusercontent.com/Signature-Sound-Vienna/data/TISMIR/annot/mao/selection/ExSph-audio1.jsonld -- frbr:part (1 time interval) --> 08%20-%20Sph%C3%A4renkl%C3%A4nge%2C%20op.%20235%20-%20Josef%20Strauss.wav;raw.githubusercontent.com/Signature-Sound-Vienna/data/TISMIR/annot/mao/extract/ExSph.jsonld -- frbr:embodiment --> raw.githubusercontent.com/Signature-Sound-Vienna/data/TISMIR/annot/mao/selection/ExSph-audio2.jsonld;raw.githubusercontent.com/Signature-Sound-Vienna/data/TISMIR/annot/mao/selection/ExSph-audio2.jsonld(\"mao:Selection: <em>TISMIR Example 5.2.1: Vienna Philharmonic Orchestra (1987) -- Sphärenklänge</em>\");raw.githubusercontent.com/Signature-Sound-Vienna/data/TISMIR/annot/mao/selection/ExSph-audio2.jsonld -- frbr:part (1 time interval) --> 02%20-%20Sph%C3%A4renkl%C3%A4nge%2C%20op.%20235%20-%20Josef%20Strauss.wav;raw.githubusercontent.com/Signature-Sound-Vienna/data/TISMIR/annot/mao/extract/ExSph.jsonld -- frbr:embodiment --> raw.githubusercontent.com/Signature-Sound-Vienna/data/TISMIR/annot/mao/selection/ExSph-audio3.jsonld;raw.githubusercontent.com/Signature-Sound-Vienna/data/TISMIR/annot/mao/selection/ExSph-audio3.jsonld(\"mao:Selection: <em>TISMIR Example 5.2.1: Berliner Philharmoniker, Herbert von Karajan (1971) -- Sphärenklänge</em>\");raw.githubusercontent.com/Signature-Sound-Vienna/data/TISMIR/annot/mao/selection/ExSph-audio3.jsonld -- frbr:part (1 time interval) --> 10-Sph%C3%A4renkl%C3%A4nge%2C%20op.%20235.wav;raw.githubusercontent.com/Signature-Sound-Vienna/data/TISMIR/annot/oa/ExSph.jsonld -- oa:hasBody --> blank_0(\"<em>&quot;In the coda of the waltz there is a surprising piano marking following an upwards ...&quot;</em>\");\n click blank_0 \"#a-text-content\" \"View textual body\";\n click raw.githubusercontent.com/Signature-Sound-Vienna/data/TISMIR/annot/mao/selection/ExSph.jsonld \"http://primal.mdw.ac.at/?obj=https://raw.githubusercontent.com/Signature-Sound-Vienna/data/TISMIR/annot/mao/selection/ExSph.jsonld\" \"Tooltip: \";\n click selection:ExSph.jsonld \"http://primal.mdw.ac.at/?obj=selection:ExSph.jsonld\" \"Tooltip: \";\n click raw.githubusercontent.com/Signature-Sound-Vienna/data/TISMIR/annot/mao/selection/ExSph-audio1.jsonld \"http://primal.mdw.ac.at/?obj=https://raw.githubusercontent.com/Signature-Sound-Vienna/data/TISMIR/annot/mao/selection/ExSph-audio1.jsonld\" \"Tooltip: \";\n click selection:ExSph-audio1.jsonld \"http://primal.mdw.ac.at/?obj=selection:ExSph-audio1.jsonld\" \"Tooltip: \";\n click raw.githubusercontent.com/Signature-Sound-Vienna/data/TISMIR/annot/mao/selection/ExSph-audio2.jsonld \"http://primal.mdw.ac.at/?obj=https://raw.githubusercontent.com/Signature-Sound-Vienna/data/TISMIR/annot/mao/selection/ExSph-audio2.jsonld\" \"Tooltip: \";\n click selection:ExSph-audio2.jsonld \"http://primal.mdw.ac.at/?obj=selection:ExSph-audio2.jsonld\" \"Tooltip: \";\n click raw.githubusercontent.com/Signature-Sound-Vienna/data/TISMIR/annot/mao/selection/ExSph-audio3.jsonld \"http://primal.mdw.ac.at/?obj=https://raw.githubusercontent.com/Signature-Sound-Vienna/data/TISMIR/annot/mao/selection/ExSph-audio3.jsonld\" \"Tooltip: \";\n click selection:ExSph-audio3.jsonld \"http://primal.mdw.ac.at/?obj=selection:ExSph-audio3.jsonld\" \"Tooltip: \";\n click raw.githubusercontent.com/Signature-Sound-Vienna/data/TISMIR/annot/mao/extract/ExSph.jsonld \"http://primal.mdw.ac.at/?obj=https://raw.githubusercontent.com/Signature-Sound-Vienna/data/TISMIR/annot/mao/extract/ExSph.jsonld\" \"Tooltip: \";\n click extract:ExSph.jsonld \"http://primal.mdw.ac.at/?obj=extract:ExSph.jsonld\" \"Tooltip: \";\n click raw.githubusercontent.com/Signature-Sound-Vienna/data/TISMIR/annot/mao/musicalMaterial/ExSph.jsonld \"http://primal.mdw.ac.at/?obj=https://raw.githubusercontent.com/Signature-Sound-Vienna/data/TISMIR/annot/mao/musicalMaterial/ExSph.jsonld\" \"Tooltip: \";\n click musMat:ExSph.jsonld \"http://primal.mdw.ac.at/?obj=musMat:ExSph.jsonld\" \"Tooltip: \";\n click raw.githubusercontent.com/Signature-Sound-Vienna/data/TISMIR/annot/oa/ExSph.jsonld \"http://primal.mdw.ac.at/?obj=https://raw.githubusercontent.com/Signature-Sound-Vienna/data/TISMIR/annot/oa/ExSph.jsonld\" \"Tooltip: \";\n click anno:ExSph.jsonld \"http://primal.mdw.ac.at/?obj=anno:ExSph.jsonld\" \"Tooltip: \";\n subgraph Current resource\nraw.githubusercontent.com/Signature-Sound-Vienna/data/TISMIR/annot/oa/ExSph.jsonld\nblank_0\n\n end\n"
+    ],
+    "requestCount": 75,
+    "corsBlocked": []
+  }
+}

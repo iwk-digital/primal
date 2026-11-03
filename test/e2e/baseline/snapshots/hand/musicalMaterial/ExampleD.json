@@ -1,0 +1,339 @@
+{
+  "root": {
+    "set": "hand",
+    "folder": "musicalMaterial",
+    "name": "ExampleD",
+    "obj": "https://raw.githubusercontent.com/Signature-Sound-Vienna/data/hand/annot/mao/musicalMaterial/ExampleD.jsonld",
+    "w3id": "https://w3id.org/ssv/hand/annot/mao/musicalMaterial/ExampleD",
+    "quick": false
+  },
+  "recordedAt": "2026-11-02T16:14:37.397Z",
+  "compare": {
+    "splash": false,
+    "traversalsComplete": true,
+    "sections": {
+      "h-text-content": {
+        "loaded": true,
+        "noContent": [
+          "No text content found in this annotation."
+        ]
+      },
+      "h-music-scores": {
+        "loaded": true,
+        "noContent": []
+      },
+      "h-audio-examples": {
+        "loaded": true,
+        "noContent": []
+      },
+      "h-metadata": {
+        "loaded": true,
+        "noContent": []
+      },
+      "h-graph": {
+        "loaded": true,
+        "noContent": []
+      },
+      "h-json-display": {
+        "loaded": true,
+        "noContent": []
+      }
+    },
+    "banners": [],
+    "textBodies": [],
+    "scores": [
+      {
+        "id": "https://raw.githubusercontent.com/Signature-Sound-Vienna/Johann-Strauss-Sohn-Op437_Kaiser-Walzer_Breitkopf/main/Kaiser-Walzer_Breitkopf-expanded.mei",
+        "highlighted": [
+          "d4vtw0t",
+          "m123k0im",
+          "m19x55wl",
+          "m1qc4r33",
+          "m60717a",
+          "mb9zq19",
+          "mg5l7al",
+          "mm0qpnx",
+          "n108lksk",
+          "n1223q5a",
+          "n1333tks",
+          "n144nwem",
+          "n15hh4z9",
+          "n15q7oy1",
+          "n16s5ojs",
+          "n17immuz",
+          "n183pqgb",
+          "n18ipqqx",
+          "n19xowjg",
+          "n1ayayas",
+          "n1bx69jy",
+          "n1erx88m",
+          "n1fe1f42",
+          "n1fuhg45",
+          "n1jzsny5",
+          "n1kkl9kf",
+          "n1kollug",
+          "n1kze49e",
+          "n1lcddj6",
+          "n1mibc03",
+          "n1nm0zi8",
+          "n1nmcv55",
+          "n1np2wq7",
+          "n1nw0pea",
+          "n1o1bb6y",
+          "n1okpdsz",
+          "n1p922u9",
+          "n1qpzs8r",
+          "n1rcyr0i",
+          "n1rduhor",
+          "n1sd4zew",
+          "n1syzw7e",
+          "n1t5ujwv",
+          "n1tfaxfw",
+          "n1uf10iq",
+          "n1voouvr",
+          "n1wafujo",
+          "n1ygaya0",
+          "n1yq9gzx",
+          "n23t6t8",
+          "n3g8lls",
+          "n5jzhvg",
+          "n8d6drg",
+          "n957pb4",
+          "nblz31h",
+          "nbmvwvp",
+          "ndmocqx",
+          "ndsqf5h",
+          "nenk4rg",
+          "newfgfo",
+          "nex2lvf",
+          "nf4papu",
+          "nfnxpuz",
+          "ng03s8i",
+          "ni38wue",
+          "nkzwh15",
+          "nminqmu",
+          "nn2xghy",
+          "nn7vr5h",
+          "nnizx5n",
+          "nodskax",
+          "npqvhe3",
+          "nsfycxy",
+          "nv4fizr",
+          "nvcnzc0",
+          "nvhyzj0",
+          "nvyfvtd",
+          "nx9nkph",
+          "nxboczv",
+          "nyjjkgs",
+          "r10xqvdv",
+          "r11h7in",
+          "r133i5uz",
+          "r17p3n2",
+          "r19425n8",
+          "r1a0xj5h",
+          "r1bfqrl9",
+          "r1d9r8gz",
+          "r1eak90l",
+          "r1ejxrcp",
+          "r1fvfa0i",
+          "r1idx5p7",
+          "r1ijruiu",
+          "r1jhoelf",
+          "r1kh3ik6",
+          "r1lg15on",
+          "r1m5ekmk",
+          "r1nu8tjz",
+          "r1p2ulh5",
+          "r1tdlv4b",
+          "r1vqa7qy",
+          "r1wy6uj2",
+          "r1xn25qv",
+          "r1yz1dqo",
+          "r3z3ql4",
+          "r715c93",
+          "r7fv02u",
+          "r99t7ve",
+          "r9eiup9",
+          "razhv4u",
+          "rbf0mq0",
+          "rfpl0aq",
+          "riztlbz",
+          "rj2gsog",
+          "rkcxvvz",
+          "rkhyonf",
+          "rl58xqz",
+          "rlsua6v",
+          "rolv5p9",
+          "rpohaa5",
+          "rr1h1qm",
+          "rrgvq7d",
+          "rsdss4u",
+          "rvv2kic",
+          "rvxyaqs",
+          "rwfqbxi",
+          "rxebyud"
+        ],
+        "svg": {
+          "viewBox": "0 0 2100 3783",
+          "elementsWithDataId": 1521
+        }
+      }
+    ],
+    "meiFriendLinks": [
+      "https://mei-friend.mdw.ac.at/?file=https://raw.githubusercontent.com/Signature-Sound-Vienna/Johann-Strauss-Sohn-Op437_Kaiser-Walzer_Breitkopf/main/Kaiser-Walzer_Breitkopf-expanded.mei&select=m1qc4r33,m60717a,d4vtw0t,n1voouvr,n5jzhvg,n1o1bb6y,n1lcddj6,r1a0xj5h,r1yz1dqo,rpohaa5,rvxyaqs,n1223q5a,nn2xghy,n1p922u9,n1nmcv55,r17p3n2,rl58xqz,r1xn25qv,rkcxvvz,nminqmu,nn7vr5h,n15hh4z9,n1mibc03,r1nu8tjz,r1eak90l,r9eiup9,r1bfqrl9,m19x55wl,mm0qpnx,n1erx88m,nblz31h,n1kze49e,n8d6drg,r11h7in,r1ijruiu,r3z3ql4,rbf0mq0,n108lksk,n1fe1f42,n17immuz,n3g8lls,r19425n8,r1lg15on,r1p2ulh5,r715c93,n1fuhg45,n1nw0pea,n19xowjg,nnizx5n,rrgvq7d,r99t7ve,razhv4u,rlsua6v,mg5l7al,mb9zq19,m123k0im,nkzwh15,n1okpdsz,rj2gsog,n1tfaxfw,n183pqgb,r1tdlv4b,n1yq9gzx,nbmvwvp,r133i5uz,n1ygaya0,n1t5ujwv,rfpl0aq,nfnxpuz,n1rcyr0i,r1wy6uj2,n15q7oy1,nx9nkph,r7fv02u,n1jzsny5,n1syzw7e,r1m5ekmk,ndsqf5h,n1333tks,rsdss4u,n1sd4zew,n1np2wq7,r1ejxrcp,npqvhe3,nodskax,rwfqbxi,n1wafujo,n1qpzs8r,rkhyonf,n16s5ojs,n144nwem,riztlbz,n1ayayas,newfgfo,r1jhoelf,n1kkl9kf,ndmocqx,r1idx5p7,nf4papu,n1kollug,r10xqvdv,n1rduhor,ng03s8i,rolv5p9,nvyfvtd,nvcnzc0,r1kh3ik6,nex2lvf,n1bx69jy,r1vqa7qy,n1nm0zi8,nv4fizr,rr1h1qm,n23t6t8,n18ipqqx,r1fvfa0i,nxboczv,nvhyzj0,r1d9r8gz,nyjjkgs,n957pb4,rvv2kic,ni38wue,nenk4rg,rxebyud,n1uf10iq,nsfycxy"
+    ],
+    "audio": [
+      {
+        "id": "https://w3id.org/ssv/0.9/data/signal/Das_-20Grosse_-20Neujahrskonzert_-2C_-20mixed__CD1#3-container",
+        "hidden": false,
+        "label": "Example D: Rieu, Johann Strauss Orchester (2013) [playback restricted] (01:32.30–01:47.02)",
+        "waveform": true,
+        "regions": [
+          {
+            "left": "17.4313%",
+            "width": ""
+          }
+        ]
+      }
+    ],
+    "metadata": {
+      "currentUri": "Current resource: <https://raw.githubusercontent.com/Signature-Sound-Vienna/data/hand/annot/mao/musicalMaterial/ExampleD.jsonld>",
+      "createdBy": "Created by: <https://ssv.solidcommunity.net/profile/card#me>",
+      "createdByLinks": [
+        {
+          "text": "<https://ssv.solidcommunity.net/profile/card#me>",
+          "href": "https://ssv.solidcommunity.net/profile/card#me"
+        }
+      ],
+      "audioSelectionsHeading": "Audio Files",
+      "audioSelections": [
+        {
+          "text": "Example D: Rieu, Johann Strauss Orchester (2013)Signal: Das_-20Grosse_-20Neujahrskonzert_-2C_-20mixed__CD1#3Track: &quot;Kaiserwalzer (André Rieu, Johann Strauss Orchester)&quot;MusicBrainz: 5b426237-70bb-4bf9-b9e5-26918e1a3aef",
+          "links": [
+            {
+              "text": "Signal: Das_-20Grosse_-20Neujahrskonzert_-2C_-20mixed__CD1#3",
+              "href": "https://w3id.org/ssv/0.9/data/signal/Das_-20Grosse_-20Neujahrskonzert_-2C_-20mixed__CD1#3"
+            },
+            {
+              "text": "Track: &quot;Kaiserwalzer (André Rieu, Johann Strauss Orchester)&quot;",
+              "href": "https://w3id.org/ssv/0.9/data/track/Das_-20Grosse_-20Neujahrskonzert_-2C_-20mixed__CD1#3"
+            },
+            {
+              "text": "MusicBrainz: 5b426237-70bb-4bf9-b9e5-26918e1a3aef",
+              "href": "https://musicbrainz.org/track/5b426237-70bb-4bf9-b9e5-26918e1a3aef"
+            }
+          ]
+        }
+      ]
+    },
+    "graph": {
+      "svg": true,
+      "nodes": 6,
+      "edges": 5
+    },
+    "mermaid": [
+      [
+        "class raw.githubusercontent.com/Signature-Sound-Vienna/data/hand/annot/mao/musicalMaterial/ExampleD.jsonld current",
+        "click extract:ExampleD.jsonld \"http://primal.mdw.ac.at/?obj=extract:ExampleD.jsonld\" \"Tooltip: \"",
+        "click musMat:ExampleD.jsonld \"http://primal.mdw.ac.at/?obj=musMat:ExampleD.jsonld\" \"Tooltip: \"",
+        "click raw.githubusercontent.com/Signature-Sound-Vienna/data/hand/annot/mao/extract/ExampleD.jsonld \"http://primal.mdw.ac.at/?obj=https://raw.githubusercontent.com/Signature-Sound-Vienna/data/hand/annot/mao/extract/ExampleD.jsonld\" \"Tooltip: \"",
+        "click raw.githubusercontent.com/Signature-Sound-Vienna/data/hand/annot/mao/musicalMaterial/ExampleD.jsonld \"http://primal.mdw.ac.at/?obj=https://raw.githubusercontent.com/Signature-Sound-Vienna/data/hand/annot/mao/musicalMaterial/ExampleD.jsonld\" \"Tooltip: \"",
+        "click raw.githubusercontent.com/Signature-Sound-Vienna/data/hand/annot/mao/selection/ExampleD-audio1.jsonld \"http://primal.mdw.ac.at/?obj=https://raw.githubusercontent.com/Signature-Sound-Vienna/data/hand/annot/mao/selection/ExampleD-audio1.jsonld\" \"Tooltip: \"",
+        "click raw.githubusercontent.com/Signature-Sound-Vienna/data/hand/annot/mao/selection/ExampleD.jsonld \"http://primal.mdw.ac.at/?obj=https://raw.githubusercontent.com/Signature-Sound-Vienna/data/hand/annot/mao/selection/ExampleD.jsonld\" \"Tooltip: \"",
+        "click selection:ExampleD-audio1.jsonld \"http://primal.mdw.ac.at/?obj=selection:ExampleD-audio1.jsonld\" \"Tooltip: \"",
+        "click selection:ExampleD.jsonld \"http://primal.mdw.ac.at/?obj=selection:ExampleD.jsonld\" \"Tooltip: \"",
+        "end",
+        "graph TD",
+        "raw.githubusercontent.com/Signature-Sound-Vienna/data/hand/annot/mao/extract/ExampleD.jsonld -- frbr:embodiment --> raw.githubusercontent.com/Signature-Sound-Vienna/data/hand/annot/mao/selection/ExampleD-audio1.jsonld",
+        "raw.githubusercontent.com/Signature-Sound-Vienna/data/hand/annot/mao/extract/ExampleD.jsonld -- frbr:embodiment --> raw.githubusercontent.com/Signature-Sound-Vienna/data/hand/annot/mao/selection/ExampleD.jsonld",
+        "raw.githubusercontent.com/Signature-Sound-Vienna/data/hand/annot/mao/extract/ExampleD.jsonld(\"mao:Extract: <em>Example D</em>\")",
+        "raw.githubusercontent.com/Signature-Sound-Vienna/data/hand/annot/mao/musicalMaterial/ExampleD.jsonld -- mao:setting --> raw.githubusercontent.com/Signature-Sound-Vienna/data/hand/annot/mao/extract/ExampleD.jsonld",
+        "raw.githubusercontent.com/Signature-Sound-Vienna/data/hand/annot/mao/musicalMaterial/ExampleD.jsonld",
+        "raw.githubusercontent.com/Signature-Sound-Vienna/data/hand/annot/mao/musicalMaterial/ExampleD.jsonld(\"mao:MusicalMaterial: <em>Example D</em>\")",
+        "raw.githubusercontent.com/Signature-Sound-Vienna/data/hand/annot/mao/selection/ExampleD-audio1.jsonld -- frbr:part (1 time interval) --> 03-Kaiserwalzer%20-%20Johann%20Strauss%20II%20%28Andr%C3%A9%20Rieu%2C%20Johann%20Strauss%20Orchester%29.wav",
+        "raw.githubusercontent.com/Signature-Sound-Vienna/data/hand/annot/mao/selection/ExampleD-audio1.jsonld(\"mao:Selection: <em>Example D: Rieu, Johann Strauss Orchester (2013)</em>\")",
+        "raw.githubusercontent.com/Signature-Sound-Vienna/data/hand/annot/mao/selection/ExampleD.jsonld -- frbr:part (127 fragments) --> Kaiser-Walzer_Breitkopf-expanded.mei",
+        "raw.githubusercontent.com/Signature-Sound-Vienna/data/hand/annot/mao/selection/ExampleD.jsonld(\"mao:Selection: <em>Example D</em>\")",
+        "subgraph Current resource"
+      ]
+    ],
+    "json": "{\n  \"@context\": {\n    \"@vocab\": \"http://www.w3.org/ns/oa#\",\n    \"oa\": \"http://www.w3.org/ns/oa#\",\n    \"mao\": \"https://domestic-beethoven.eu/ontology/1.0/music-annotation-ontology.ttl#\",\n    \"frbr\": \"http://purl.org/vocab/frbr/core#\",\n    \"dc\": \"http://purl.org/dc/terms/\",\n    \"rdfs\": \"http://www.w3.org/2000/01/rdf-schema#\",\n    \"rdf\": \"http://www.w3.org/1999/02/22-rdf-syntax-ns#\",\n    \"mo\": \"http://purl.org/ontology/mo/\",\n    \"tl\": \"http://purl.org/NET/c4dm/timeline.owl#\",\n    \"ssv\": \"https://w3id.org/ssv/vocab#\"\n  },\n  \"@id\": \"https://raw.githubusercontent.com/Signature-Sound-Vienna/data/hand/annot/mao/musicalMaterial/ExampleD.jsonld\",\n  \"@type\": [\n    \"mao:MusicalMaterial\",\n    \"https://schema.org/Dataset\"\n  ],\n  \"dc:created\": \"2024-05-27T13:56:00.114Z\",\n  \"dc:creator\": {\n    \"@id\": \"https://ssv.solidcommunity.net/profile/card#me\"\n  },\n  \"dc:provenance\": \"Generated using mei-friend v.1.0.14: https://mei-friend.mdw.ac.at\",\n  \"rdfs:label\": \"Example D\",\n  \"mao:setting\": {\n    \"@id\": \"https://raw.githubusercontent.com/Signature-Sound-Vienna/data/hand/annot/mao/extract/ExampleD.jsonld\"\n  },\n  \"https://schema.org/about\": {\n    \"@id\": \"https://raw.githubusercontent.com/Signature-Sound-Vienna/Johann-Strauss-Sohn-Op437_Kaiser-Walzer_Breitkopf/main/Kaiser-Walzer_Breitkopf-expanded.mei\"\n  }\n}",
+    "versions": {
+      "verovio": "6.4.0-33d1633",
+      "mermaid": "10.9.8"
+    },
+    "requests": {
+      "GET app:/?obj=https://raw.githubusercontent.com/Signature-Sound-Vienna/data/hand/annot/mao/musicalMaterial/ExampleD.jsonld": 1,
+      "GET app:/css/prism.css": 1,
+      "GET app:/css/styles.css": 1,
+      "GET app:/deps/regions.js": 1,
+      "GET app:/deps/wavesurfer.js": 1,
+      "GET app:/img/logo.png": 1,
+      "GET app:/lib/LDObj.js": 1,
+      "GET app:/lib/defaults.js": 1,
+      "GET app:/lib/env.js": 1,
+      "GET app:/lib/errorBanner.js": 1,
+      "GET app:/lib/graph.js": 1,
+      "GET app:/lib/graphModal.js": 1,
+      "GET app:/lib/httpUtil.js": 1,
+      "GET app:/lib/main.js": 1,
+      "GET app:/lib/namespaceManager.js": 1,
+      "GET app:/lib/namespaceMap.js": 1,
+      "GET app:/lib/render.js": 1,
+      "GET app:/lib/sanitize.js": 1,
+      "GET app:/lib/traverser.js": 1,
+      "GET https://cdnjs.cloudflare.com/ajax/libs/jsonld/1.0.0/jsonld.min.js": 1,
+      "GET https://cdnjs.cloudflare.com/ajax/libs/prism/1.29.0/components/prism-json.min.js": 1,
+      "GET https://cdnjs.cloudflare.com/ajax/libs/prism/1.29.0/prism.min.js": 1,
+      "GET https://cdnjs.cloudflare.com/ajax/libs/prism/1.29.0/themes/prism.min.css": 1,
+      "GET https://raw.githubusercontent.com/Signature-Sound-Vienna/Johann-Strauss-Sohn-Op437_Kaiser-Walzer_Breitkopf/main/Kaiser-Walzer_Breitkopf-expanded.mei": 1,
+      "GET https://raw.githubusercontent.com/Signature-Sound-Vienna/data/hand/annot/mao/extract/ExampleD.jsonld": 1,
+      "GET https://raw.githubusercontent.com/Signature-Sound-Vienna/data/hand/annot/mao/musicalMaterial/ExampleD.jsonld": 1,
+      "GET https://raw.githubusercontent.com/Signature-Sound-Vienna/data/hand/annot/mao/selection/ExampleD-audio1.jsonld": 1,
+      "GET https://raw.githubusercontent.com/Signature-Sound-Vienna/data/hand/annot/mao/selection/ExampleD.jsonld": 1,
+      "GET https://unpkg.com/mermaid@10/dist/mermaid.min.js": 1,
+      "GET https://w3id.org/ssv/0.9/data/peaks/Das_-20Grosse_-20Neujahrskonzert_-2C_-20mixed__CD1/3.peaks.json": 1,
+      "GET https://w3id.org/ssv/0.9/data/signal/Das_-20Grosse_-20Neujahrskonzert_-2C_-20mixed__CD1": 2,
+      "GET https://w3id.org/ssv/0.9/data/track/Das_-20Grosse_-20Neujahrskonzert_-2C_-20mixed__CD1": 1,
+      "GET https://www.verovio.org/javascript/latest/verovio-toolkit-wasm.js": 1,
+      "HEAD https://raw.githubusercontent.com/Signature-Sound-Vienna/Johann-Strauss-Sohn-Op437_Kaiser-Walzer_Breitkopf/main/Kaiser-Walzer_Breitkopf-expanded.mei": 254,
+      "HEAD https://raw.githubusercontent.com/Signature-Sound-Vienna/data/hand/annot/mao/extract/ExampleD.jsonld": 2,
+      "HEAD https://raw.githubusercontent.com/Signature-Sound-Vienna/data/hand/annot/mao/selection/ExampleD-audio1.jsonld": 2,
+      "HEAD https://raw.githubusercontent.com/Signature-Sound-Vienna/data/hand/annot/mao/selection/ExampleD.jsonld": 2,
+      "HEAD https://w3id.org/ssv/audio/Das_-20Grosse_-20Neujahrskonzert_-2C_-20mixed__CD1/03-Kaiserwalzer%20-%20Johann%20Strauss%20II%20%28Andr%C3%A9%20Rieu%2C%20Johann%20Strauss%20Orchester%29.wav": 2
+    },
+    "consoleErrors": {
+      "Error fetching content type: Error: Network response was not ok": 1,
+      "Failed to load resource: the server responded with a status of 403 (Forbidden)": 2,
+      "Failed to prepare LD object Error: Object must be an OA or MAO object": 2,
+      "URL not accessible: Forbidden": 1
+    },
+    "pageErrors": {}
+  },
+  "info": {
+    "timings": {
+      "traversalMs": 1264,
+      "networkIdle": true,
+      "idleMs": 4191,
+      "stablePolls": 0,
+      "totalMs": 4959
+    },
+    "order": {
+      "textBodies": [],
+      "scores": [
+        "https://raw.githubusercontent.com/Signature-Sound-Vienna/Johann-Strauss-Sohn-Op437_Kaiser-Walzer_Breitkopf/main/Kaiser-Walzer_Breitkopf-expanded.mei"
+      ],
+      "audio": [
+        "https://w3id.org/ssv/0.9/data/signal/Das_-20Grosse_-20Neujahrskonzert_-2C_-20mixed__CD1#3-container"
+      ],
+      "audioSelections": [
+        "Example D: Rieu, Johann Strauss Orchester (2013)Signal: Das_"
+      ]
+    },
+    "mermaidSources": [
+      "graph TD; class raw.githubusercontent.com/Signature-Sound-Vienna/data/hand/annot/mao/musicalMaterial/ExampleD.jsonld current;\nraw.githubusercontent.com/Signature-Sound-Vienna/data/hand/annot/mao/musicalMaterial/ExampleD.jsonld(\"mao:MusicalMaterial: <em>Example D</em>\");raw.githubusercontent.com/Signature-Sound-Vienna/data/hand/annot/mao/musicalMaterial/ExampleD.jsonld -- mao:setting --> raw.githubusercontent.com/Signature-Sound-Vienna/data/hand/annot/mao/extract/ExampleD.jsonld;raw.githubusercontent.com/Signature-Sound-Vienna/data/hand/annot/mao/extract/ExampleD.jsonld(\"mao:Extract: <em>Example D</em>\");raw.githubusercontent.com/Signature-Sound-Vienna/data/hand/annot/mao/extract/ExampleD.jsonld -- frbr:embodiment --> raw.githubusercontent.com/Signature-Sound-Vienna/data/hand/annot/mao/selection/ExampleD.jsonld;raw.githubusercontent.com/Signature-Sound-Vienna/data/hand/annot/mao/selection/ExampleD.jsonld(\"mao:Selection: <em>Example D</em>\");raw.githubusercontent.com/Signature-Sound-Vienna/data/hand/annot/mao/selection/ExampleD.jsonld -- frbr:part (127 fragments) --> Kaiser-Walzer_Breitkopf-expanded.mei;raw.githubusercontent.com/Signature-Sound-Vienna/data/hand/annot/mao/extract/ExampleD.jsonld -- frbr:embodiment --> raw.githubusercontent.com/Signature-Sound-Vienna/data/hand/annot/mao/selection/ExampleD-audio1.jsonld;raw.githubusercontent.com/Signature-Sound-Vienna/data/hand/annot/mao/selection/ExampleD-audio1.jsonld(\"mao:Selection: <em>Example D: Rieu, Johann Strauss Orchester (2013)</em>\");raw.githubusercontent.com/Signature-Sound-Vienna/data/hand/annot/mao/selection/ExampleD-audio1.jsonld -- frbr:part (1 time interval) --> 03-Kaiserwalzer%20-%20Johann%20Strauss%20II%20%28Andr%C3%A9%20Rieu%2C%20Johann%20Strauss%20Orchester%29.wav;\n click raw.githubusercontent.com/Signature-Sound-Vienna/data/hand/annot/mao/selection/ExampleD.jsonld \"http://primal.mdw.ac.at/?obj=https://raw.githubusercontent.com/Signature-Sound-Vienna/data/hand/annot/mao/selection/ExampleD.jsonld\" \"Tooltip: \";\n click selection:ExampleD.jsonld \"http://primal.mdw.ac.at/?obj=selection:ExampleD.jsonld\" \"Tooltip: \";\n click raw.githubusercontent.com/Signature-Sound-Vienna/data/hand/annot/mao/selection/ExampleD-audio1.jsonld \"http://primal.mdw.ac.at/?obj=https://raw.githubusercontent.com/Signature-Sound-Vienna/data/hand/annot/mao/selection/ExampleD-audio1.jsonld\" \"Tooltip: \";\n click selection:ExampleD-audio1.jsonld \"http://primal.mdw.ac.at/?obj=selection:ExampleD-audio1.jsonld\" \"Tooltip: \";\n click raw.githubusercontent.com/Signature-Sound-Vienna/data/hand/annot/mao/extract/ExampleD.jsonld \"http://primal.mdw.ac.at/?obj=https://raw.githubusercontent.com/Signature-Sound-Vienna/data/hand/annot/mao/extract/ExampleD.jsonld\" \"Tooltip: \";\n click extract:ExampleD.jsonld \"http://primal.mdw.ac.at/?obj=extract:ExampleD.jsonld\" \"Tooltip: \";\n click raw.githubusercontent.com/Signature-Sound-Vienna/data/hand/annot/mao/musicalMaterial/ExampleD.jsonld \"http://primal.mdw.ac.at/?obj=https://raw.githubusercontent.com/Signature-Sound-Vienna/data/hand/annot/mao/musicalMaterial/ExampleD.jsonld\" \"Tooltip: \";\n click musMat:ExampleD.jsonld \"http://primal.mdw.ac.at/?obj=musMat:ExampleD.jsonld\" \"Tooltip: \";\n subgraph Current resource\nraw.githubusercontent.com/Signature-Sound-Vienna/data/hand/annot/mao/musicalMaterial/ExampleD.jsonld\n end\n"
+    ],
+    "requestCount": 296,
+    "corsBlocked": []
+  }
+}

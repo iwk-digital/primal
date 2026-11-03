@@ -1,0 +1,1157 @@
+{
+  "source": "Signature-Sound-Vienna/data, branches hand (LLC, doi:10.1093/llc/fqaf093) and TISMIR (doi:10.5334/tismir.315); Example*/Ex* files only",
+  "roots": [
+    {
+      "set": "hand",
+      "folder": "extract",
+      "name": "ExampleA",
+      "obj": "https://raw.githubusercontent.com/Signature-Sound-Vienna/data/hand/annot/mao/extract/ExampleA.jsonld",
+      "w3id": "https://w3id.org/ssv/hand/annot/mao/extract/ExampleA",
+      "quick": false
+    },
+    {
+      "set": "hand",
+      "folder": "extract",
+      "name": "ExampleB",
+      "obj": "https://raw.githubusercontent.com/Signature-Sound-Vienna/data/hand/annot/mao/extract/ExampleB.jsonld",
+      "w3id": "https://w3id.org/ssv/hand/annot/mao/extract/ExampleB",
+      "quick": false
+    },
+    {
+      "set": "hand",
+      "folder": "extract",
+      "name": "ExampleC",
+      "obj": "https://raw.githubusercontent.com/Signature-Sound-Vienna/data/hand/annot/mao/extract/ExampleC.jsonld",
+      "w3id": "https://w3id.org/ssv/hand/annot/mao/extract/ExampleC",
+      "quick": false
+    },
+    {
+      "set": "hand",
+      "folder": "extract",
+      "name": "ExampleD",
+      "obj": "https://raw.githubusercontent.com/Signature-Sound-Vienna/data/hand/annot/mao/extract/ExampleD.jsonld",
+      "w3id": "https://w3id.org/ssv/hand/annot/mao/extract/ExampleD",
+      "quick": false
+    },
+    {
+      "set": "hand",
+      "folder": "extract",
+      "name": "ExampleE",
+      "obj": "https://raw.githubusercontent.com/Signature-Sound-Vienna/data/hand/annot/mao/extract/ExampleE.jsonld",
+      "w3id": "https://w3id.org/ssv/hand/annot/mao/extract/ExampleE",
+      "quick": false
+    },
+    {
+      "set": "hand",
+      "folder": "extract",
+      "name": "ExampleF",
+      "obj": "https://raw.githubusercontent.com/Signature-Sound-Vienna/data/hand/annot/mao/extract/ExampleF.jsonld",
+      "w3id": "https://w3id.org/ssv/hand/annot/mao/extract/ExampleF",
+      "quick": false
+    },
+    {
+      "set": "hand",
+      "folder": "extract",
+      "name": "ExampleG",
+      "obj": "https://raw.githubusercontent.com/Signature-Sound-Vienna/data/hand/annot/mao/extract/ExampleG.jsonld",
+      "w3id": "https://w3id.org/ssv/hand/annot/mao/extract/ExampleG",
+      "quick": false
+    },
+    {
+      "set": "hand",
+      "folder": "extract",
+      "name": "ExampleH",
+      "obj": "https://raw.githubusercontent.com/Signature-Sound-Vienna/data/hand/annot/mao/extract/ExampleH.jsonld",
+      "w3id": "https://w3id.org/ssv/hand/annot/mao/extract/ExampleH",
+      "quick": false
+    },
+    {
+      "set": "hand",
+      "folder": "extract",
+      "name": "ExampleI",
+      "obj": "https://raw.githubusercontent.com/Signature-Sound-Vienna/data/hand/annot/mao/extract/ExampleI.jsonld",
+      "w3id": "https://w3id.org/ssv/hand/annot/mao/extract/ExampleI",
+      "quick": false
+    },
+    {
+      "set": "hand",
+      "folder": "extract",
+      "name": "ExampleIDresden",
+      "obj": "https://raw.githubusercontent.com/Signature-Sound-Vienna/data/hand/annot/mao/extract/ExampleIDresden.jsonld",
+      "w3id": "https://w3id.org/ssv/hand/annot/mao/extract/ExampleIDresden",
+      "quick": false
+    },
+    {
+      "set": "hand",
+      "folder": "extract",
+      "name": "ExampleJ",
+      "obj": "https://raw.githubusercontent.com/Signature-Sound-Vienna/data/hand/annot/mao/extract/ExampleJ.jsonld",
+      "w3id": "https://w3id.org/ssv/hand/annot/mao/extract/ExampleJ",
+      "quick": false
+    },
+    {
+      "set": "hand",
+      "folder": "extract",
+      "name": "ExampleK",
+      "obj": "https://raw.githubusercontent.com/Signature-Sound-Vienna/data/hand/annot/mao/extract/ExampleK.jsonld",
+      "w3id": "https://w3id.org/ssv/hand/annot/mao/extract/ExampleK",
+      "quick": false
+    },
+    {
+      "set": "hand",
+      "folder": "extract",
+      "name": "ExampleL",
+      "obj": "https://raw.githubusercontent.com/Signature-Sound-Vienna/data/hand/annot/mao/extract/ExampleL.jsonld",
+      "w3id": "https://w3id.org/ssv/hand/annot/mao/extract/ExampleL",
+      "quick": false
+    },
+    {
+      "set": "hand",
+      "folder": "musicalMaterial",
+      "name": "ExampleA",
+      "obj": "https://raw.githubusercontent.com/Signature-Sound-Vienna/data/hand/annot/mao/musicalMaterial/ExampleA.jsonld",
+      "w3id": "https://w3id.org/ssv/hand/annot/mao/musicalMaterial/ExampleA",
+      "quick": false
+    },
+    {
+      "set": "hand",
+      "folder": "musicalMaterial",
+      "name": "ExampleB",
+      "obj": "https://raw.githubusercontent.com/Signature-Sound-Vienna/data/hand/annot/mao/musicalMaterial/ExampleB.jsonld",
+      "w3id": "https://w3id.org/ssv/hand/annot/mao/musicalMaterial/ExampleB",
+      "quick": false
+    },
+    {
+      "set": "hand",
+      "folder": "musicalMaterial",
+      "name": "ExampleC",
+      "obj": "https://raw.githubusercontent.com/Signature-Sound-Vienna/data/hand/annot/mao/musicalMaterial/ExampleC.jsonld",
+      "w3id": "https://w3id.org/ssv/hand/annot/mao/musicalMaterial/ExampleC",
+      "quick": false
+    },
+    {
+      "set": "hand",
+      "folder": "musicalMaterial",
+      "name": "ExampleD",
+      "obj": "https://raw.githubusercontent.com/Signature-Sound-Vienna/data/hand/annot/mao/musicalMaterial/ExampleD.jsonld",
+      "w3id": "https://w3id.org/ssv/hand/annot/mao/musicalMaterial/ExampleD",
+      "quick": false
+    },
+    {
+      "set": "hand",
+      "folder": "musicalMaterial",
+      "name": "ExampleE",
+      "obj": "https://raw.githubusercontent.com/Signature-Sound-Vienna/data/hand/annot/mao/musicalMaterial/ExampleE.jsonld",
+      "w3id": "https://w3id.org/ssv/hand/annot/mao/musicalMaterial/ExampleE",
+      "quick": false
+    },
+    {
+      "set": "hand",
+      "folder": "musicalMaterial",
+      "name": "ExampleF",
+      "obj": "https://raw.githubusercontent.com/Signature-Sound-Vienna/data/hand/annot/mao/musicalMaterial/ExampleF.jsonld",
+      "w3id": "https://w3id.org/ssv/hand/annot/mao/musicalMaterial/ExampleF",
+      "quick": false
+    },
+    {
+      "set": "hand",
+      "folder": "musicalMaterial",
+      "name": "ExampleG",
+      "obj": "https://raw.githubusercontent.com/Signature-Sound-Vienna/data/hand/annot/mao/musicalMaterial/ExampleG.jsonld",
+      "w3id": "https://w3id.org/ssv/hand/annot/mao/musicalMaterial/ExampleG",
+      "quick": false
+    },
+    {
+      "set": "hand",
+      "folder": "musicalMaterial",
+      "name": "ExampleH",
+      "obj": "https://raw.githubusercontent.com/Signature-Sound-Vienna/data/hand/annot/mao/musicalMaterial/ExampleH.jsonld",
+      "w3id": "https://w3id.org/ssv/hand/annot/mao/musicalMaterial/ExampleH",
+      "quick": false
+    },
+    {
+      "set": "hand",
+      "folder": "musicalMaterial",
+      "name": "ExampleI",
+      "obj": "https://raw.githubusercontent.com/Signature-Sound-Vienna/data/hand/annot/mao/musicalMaterial/ExampleI.jsonld",
+      "w3id": "https://w3id.org/ssv/hand/annot/mao/musicalMaterial/ExampleI",
+      "quick": false
+    },
+    {
+      "set": "hand",
+      "folder": "musicalMaterial",
+      "name": "ExampleIDresden",
+      "obj": "https://raw.githubusercontent.com/Signature-Sound-Vienna/data/hand/annot/mao/musicalMaterial/ExampleIDresden.jsonld",
+      "w3id": "https://w3id.org/ssv/hand/annot/mao/musicalMaterial/ExampleIDresden",
+      "quick": true
+    },
+    {
+      "set": "hand",
+      "folder": "musicalMaterial",
+      "name": "ExampleJ",
+      "obj": "https://raw.githubusercontent.com/Signature-Sound-Vienna/data/hand/annot/mao/musicalMaterial/ExampleJ.jsonld",
+      "w3id": "https://w3id.org/ssv/hand/annot/mao/musicalMaterial/ExampleJ",
+      "quick": false
+    },
+    {
+      "set": "hand",
+      "folder": "musicalMaterial",
+      "name": "ExampleK",
+      "obj": "https://raw.githubusercontent.com/Signature-Sound-Vienna/data/hand/annot/mao/musicalMaterial/ExampleK.jsonld",
+      "w3id": "https://w3id.org/ssv/hand/annot/mao/musicalMaterial/ExampleK",
+      "quick": false
+    },
+    {
+      "set": "hand",
+      "folder": "musicalMaterial",
+      "name": "ExampleL",
+      "obj": "https://raw.githubusercontent.com/Signature-Sound-Vienna/data/hand/annot/mao/musicalMaterial/ExampleL.jsonld",
+      "w3id": "https://w3id.org/ssv/hand/annot/mao/musicalMaterial/ExampleL",
+      "quick": false
+    },
+    {
+      "set": "hand",
+      "folder": "selection",
+      "name": "ExampleA-audio1",
+      "obj": "https://raw.githubusercontent.com/Signature-Sound-Vienna/data/hand/annot/mao/selection/ExampleA-audio1.jsonld",
+      "w3id": "https://w3id.org/ssv/hand/annot/mao/selection/ExampleA-audio1",
+      "quick": false
+    },
+    {
+      "set": "hand",
+      "folder": "selection",
+      "name": "ExampleA-audio2",
+      "obj": "https://raw.githubusercontent.com/Signature-Sound-Vienna/data/hand/annot/mao/selection/ExampleA-audio2.jsonld",
+      "w3id": "https://w3id.org/ssv/hand/annot/mao/selection/ExampleA-audio2",
+      "quick": false
+    },
+    {
+      "set": "hand",
+      "folder": "selection",
+      "name": "ExampleA-audio3",
+      "obj": "https://raw.githubusercontent.com/Signature-Sound-Vienna/data/hand/annot/mao/selection/ExampleA-audio3.jsonld",
+      "w3id": "https://w3id.org/ssv/hand/annot/mao/selection/ExampleA-audio3",
+      "quick": false
+    },
+    {
+      "set": "hand",
+      "folder": "selection",
+      "name": "ExampleA-audio4",
+      "obj": "https://raw.githubusercontent.com/Signature-Sound-Vienna/data/hand/annot/mao/selection/ExampleA-audio4.jsonld",
+      "w3id": "https://w3id.org/ssv/hand/annot/mao/selection/ExampleA-audio4",
+      "quick": false
+    },
+    {
+      "set": "hand",
+      "folder": "selection",
+      "name": "ExampleA",
+      "obj": "https://raw.githubusercontent.com/Signature-Sound-Vienna/data/hand/annot/mao/selection/ExampleA.jsonld",
+      "w3id": "https://w3id.org/ssv/hand/annot/mao/selection/ExampleA",
+      "quick": false
+    },
+    {
+      "set": "hand",
+      "folder": "selection",
+      "name": "ExampleB-audio1",
+      "obj": "https://raw.githubusercontent.com/Signature-Sound-Vienna/data/hand/annot/mao/selection/ExampleB-audio1.jsonld",
+      "w3id": "https://w3id.org/ssv/hand/annot/mao/selection/ExampleB-audio1",
+      "quick": false
+    },
+    {
+      "set": "hand",
+      "folder": "selection",
+      "name": "ExampleB-audio2",
+      "obj": "https://raw.githubusercontent.com/Signature-Sound-Vienna/data/hand/annot/mao/selection/ExampleB-audio2.jsonld",
+      "w3id": "https://w3id.org/ssv/hand/annot/mao/selection/ExampleB-audio2",
+      "quick": false
+    },
+    {
+      "set": "hand",
+      "folder": "selection",
+      "name": "ExampleB",
+      "obj": "https://raw.githubusercontent.com/Signature-Sound-Vienna/data/hand/annot/mao/selection/ExampleB.jsonld",
+      "w3id": "https://w3id.org/ssv/hand/annot/mao/selection/ExampleB",
+      "quick": false
+    },
+    {
+      "set": "hand",
+      "folder": "selection",
+      "name": "ExampleC-audio1",
+      "obj": "https://raw.githubusercontent.com/Signature-Sound-Vienna/data/hand/annot/mao/selection/ExampleC-audio1.jsonld",
+      "w3id": "https://w3id.org/ssv/hand/annot/mao/selection/ExampleC-audio1",
+      "quick": false
+    },
+    {
+      "set": "hand",
+      "folder": "selection",
+      "name": "ExampleC",
+      "obj": "https://raw.githubusercontent.com/Signature-Sound-Vienna/data/hand/annot/mao/selection/ExampleC.jsonld",
+      "w3id": "https://w3id.org/ssv/hand/annot/mao/selection/ExampleC",
+      "quick": false
+    },
+    {
+      "set": "hand",
+      "folder": "selection",
+      "name": "ExampleD-audio1",
+      "obj": "https://raw.githubusercontent.com/Signature-Sound-Vienna/data/hand/annot/mao/selection/ExampleD-audio1.jsonld",
+      "w3id": "https://w3id.org/ssv/hand/annot/mao/selection/ExampleD-audio1",
+      "quick": false
+    },
+    {
+      "set": "hand",
+      "folder": "selection",
+      "name": "ExampleD",
+      "obj": "https://raw.githubusercontent.com/Signature-Sound-Vienna/data/hand/annot/mao/selection/ExampleD.jsonld",
+      "w3id": "https://w3id.org/ssv/hand/annot/mao/selection/ExampleD",
+      "quick": false
+    },
+    {
+      "set": "hand",
+      "folder": "selection",
+      "name": "ExampleE-audio1",
+      "obj": "https://raw.githubusercontent.com/Signature-Sound-Vienna/data/hand/annot/mao/selection/ExampleE-audio1.jsonld",
+      "w3id": "https://w3id.org/ssv/hand/annot/mao/selection/ExampleE-audio1",
+      "quick": false
+    },
+    {
+      "set": "hand",
+      "folder": "selection",
+      "name": "ExampleE",
+      "obj": "https://raw.githubusercontent.com/Signature-Sound-Vienna/data/hand/annot/mao/selection/ExampleE.jsonld",
+      "w3id": "https://w3id.org/ssv/hand/annot/mao/selection/ExampleE",
+      "quick": false
+    },
+    {
+      "set": "hand",
+      "folder": "selection",
+      "name": "ExampleF-audio1",
+      "obj": "https://raw.githubusercontent.com/Signature-Sound-Vienna/data/hand/annot/mao/selection/ExampleF-audio1.jsonld",
+      "w3id": "https://w3id.org/ssv/hand/annot/mao/selection/ExampleF-audio1",
+      "quick": false
+    },
+    {
+      "set": "hand",
+      "folder": "selection",
+      "name": "ExampleF",
+      "obj": "https://raw.githubusercontent.com/Signature-Sound-Vienna/data/hand/annot/mao/selection/ExampleF.jsonld",
+      "w3id": "https://w3id.org/ssv/hand/annot/mao/selection/ExampleF",
+      "quick": false
+    },
+    {
+      "set": "hand",
+      "folder": "selection",
+      "name": "ExampleG-audio1",
+      "obj": "https://raw.githubusercontent.com/Signature-Sound-Vienna/data/hand/annot/mao/selection/ExampleG-audio1.jsonld",
+      "w3id": "https://w3id.org/ssv/hand/annot/mao/selection/ExampleG-audio1",
+      "quick": false
+    },
+    {
+      "set": "hand",
+      "folder": "selection",
+      "name": "ExampleG-audio2",
+      "obj": "https://raw.githubusercontent.com/Signature-Sound-Vienna/data/hand/annot/mao/selection/ExampleG-audio2.jsonld",
+      "w3id": "https://w3id.org/ssv/hand/annot/mao/selection/ExampleG-audio2",
+      "quick": false
+    },
+    {
+      "set": "hand",
+      "folder": "selection",
+      "name": "ExampleG-audio3",
+      "obj": "https://raw.githubusercontent.com/Signature-Sound-Vienna/data/hand/annot/mao/selection/ExampleG-audio3.jsonld",
+      "w3id": "https://w3id.org/ssv/hand/annot/mao/selection/ExampleG-audio3",
+      "quick": false
+    },
+    {
+      "set": "hand",
+      "folder": "selection",
+      "name": "ExampleG",
+      "obj": "https://raw.githubusercontent.com/Signature-Sound-Vienna/data/hand/annot/mao/selection/ExampleG.jsonld",
+      "w3id": "https://w3id.org/ssv/hand/annot/mao/selection/ExampleG",
+      "quick": false
+    },
+    {
+      "set": "hand",
+      "folder": "selection",
+      "name": "ExampleH-audio1",
+      "obj": "https://raw.githubusercontent.com/Signature-Sound-Vienna/data/hand/annot/mao/selection/ExampleH-audio1.jsonld",
+      "w3id": "https://w3id.org/ssv/hand/annot/mao/selection/ExampleH-audio1",
+      "quick": false
+    },
+    {
+      "set": "hand",
+      "folder": "selection",
+      "name": "ExampleH-audio2",
+      "obj": "https://raw.githubusercontent.com/Signature-Sound-Vienna/data/hand/annot/mao/selection/ExampleH-audio2.jsonld",
+      "w3id": "https://w3id.org/ssv/hand/annot/mao/selection/ExampleH-audio2",
+      "quick": false
+    },
+    {
+      "set": "hand",
+      "folder": "selection",
+      "name": "ExampleH-audio3",
+      "obj": "https://raw.githubusercontent.com/Signature-Sound-Vienna/data/hand/annot/mao/selection/ExampleH-audio3.jsonld",
+      "w3id": "https://w3id.org/ssv/hand/annot/mao/selection/ExampleH-audio3",
+      "quick": false
+    },
+    {
+      "set": "hand",
+      "folder": "selection",
+      "name": "ExampleH-audio4",
+      "obj": "https://raw.githubusercontent.com/Signature-Sound-Vienna/data/hand/annot/mao/selection/ExampleH-audio4.jsonld",
+      "w3id": "https://w3id.org/ssv/hand/annot/mao/selection/ExampleH-audio4",
+      "quick": false
+    },
+    {
+      "set": "hand",
+      "folder": "selection",
+      "name": "ExampleI-audio1",
+      "obj": "https://raw.githubusercontent.com/Signature-Sound-Vienna/data/hand/annot/mao/selection/ExampleI-audio1.jsonld",
+      "w3id": "https://w3id.org/ssv/hand/annot/mao/selection/ExampleI-audio1",
+      "quick": false
+    },
+    {
+      "set": "hand",
+      "folder": "selection",
+      "name": "ExampleI-audio2",
+      "obj": "https://raw.githubusercontent.com/Signature-Sound-Vienna/data/hand/annot/mao/selection/ExampleI-audio2.jsonld",
+      "w3id": "https://w3id.org/ssv/hand/annot/mao/selection/ExampleI-audio2",
+      "quick": false
+    },
+    {
+      "set": "hand",
+      "folder": "selection",
+      "name": "ExampleI",
+      "obj": "https://raw.githubusercontent.com/Signature-Sound-Vienna/data/hand/annot/mao/selection/ExampleI.jsonld",
+      "w3id": "https://w3id.org/ssv/hand/annot/mao/selection/ExampleI",
+      "quick": false
+    },
+    {
+      "set": "hand",
+      "folder": "selection",
+      "name": "ExampleIDresden",
+      "obj": "https://raw.githubusercontent.com/Signature-Sound-Vienna/data/hand/annot/mao/selection/ExampleIDresden.jsonld",
+      "w3id": "https://w3id.org/ssv/hand/annot/mao/selection/ExampleIDresden",
+      "quick": false
+    },
+    {
+      "set": "hand",
+      "folder": "selection",
+      "name": "ExampleJ-audio1",
+      "obj": "https://raw.githubusercontent.com/Signature-Sound-Vienna/data/hand/annot/mao/selection/ExampleJ-audio1.jsonld",
+      "w3id": "https://w3id.org/ssv/hand/annot/mao/selection/ExampleJ-audio1",
+      "quick": false
+    },
+    {
+      "set": "hand",
+      "folder": "selection",
+      "name": "ExampleJ",
+      "obj": "https://raw.githubusercontent.com/Signature-Sound-Vienna/data/hand/annot/mao/selection/ExampleJ.jsonld",
+      "w3id": "https://w3id.org/ssv/hand/annot/mao/selection/ExampleJ",
+      "quick": false
+    },
+    {
+      "set": "hand",
+      "folder": "selection",
+      "name": "ExampleK-audio1",
+      "obj": "https://raw.githubusercontent.com/Signature-Sound-Vienna/data/hand/annot/mao/selection/ExampleK-audio1.jsonld",
+      "w3id": "https://w3id.org/ssv/hand/annot/mao/selection/ExampleK-audio1",
+      "quick": false
+    },
+    {
+      "set": "hand",
+      "folder": "selection",
+      "name": "ExampleK-audio2",
+      "obj": "https://raw.githubusercontent.com/Signature-Sound-Vienna/data/hand/annot/mao/selection/ExampleK-audio2.jsonld",
+      "w3id": "https://w3id.org/ssv/hand/annot/mao/selection/ExampleK-audio2",
+      "quick": false
+    },
+    {
+      "set": "hand",
+      "folder": "selection",
+      "name": "ExampleK-audio3",
+      "obj": "https://raw.githubusercontent.com/Signature-Sound-Vienna/data/hand/annot/mao/selection/ExampleK-audio3.jsonld",
+      "w3id": "https://w3id.org/ssv/hand/annot/mao/selection/ExampleK-audio3",
+      "quick": false
+    },
+    {
+      "set": "hand",
+      "folder": "selection",
+      "name": "ExampleK",
+      "obj": "https://raw.githubusercontent.com/Signature-Sound-Vienna/data/hand/annot/mao/selection/ExampleK.jsonld",
+      "w3id": "https://w3id.org/ssv/hand/annot/mao/selection/ExampleK",
+      "quick": false
+    },
+    {
+      "set": "hand",
+      "folder": "selection",
+      "name": "ExampleL-audio1",
+      "obj": "https://raw.githubusercontent.com/Signature-Sound-Vienna/data/hand/annot/mao/selection/ExampleL-audio1.jsonld",
+      "w3id": "https://w3id.org/ssv/hand/annot/mao/selection/ExampleL-audio1",
+      "quick": false
+    },
+    {
+      "set": "hand",
+      "folder": "selection",
+      "name": "ExampleL-audio2",
+      "obj": "https://raw.githubusercontent.com/Signature-Sound-Vienna/data/hand/annot/mao/selection/ExampleL-audio2.jsonld",
+      "w3id": "https://w3id.org/ssv/hand/annot/mao/selection/ExampleL-audio2",
+      "quick": false
+    },
+    {
+      "set": "hand",
+      "folder": "selection",
+      "name": "ExampleL-audio3",
+      "obj": "https://raw.githubusercontent.com/Signature-Sound-Vienna/data/hand/annot/mao/selection/ExampleL-audio3.jsonld",
+      "w3id": "https://w3id.org/ssv/hand/annot/mao/selection/ExampleL-audio3",
+      "quick": false
+    },
+    {
+      "set": "hand",
+      "folder": "selection",
+      "name": "ExampleL",
+      "obj": "https://raw.githubusercontent.com/Signature-Sound-Vienna/data/hand/annot/mao/selection/ExampleL.jsonld",
+      "w3id": "https://w3id.org/ssv/hand/annot/mao/selection/ExampleL",
+      "quick": false
+    },
+    {
+      "set": "hand",
+      "folder": "oa",
+      "name": "ExampleA",
+      "obj": "https://raw.githubusercontent.com/Signature-Sound-Vienna/data/hand/annot/oa/ExampleA.jsonld",
+      "w3id": "https://w3id.org/ssv/hand/annot/oa/ExampleA",
+      "quick": true
+    },
+    {
+      "set": "hand",
+      "folder": "oa",
+      "name": "ExampleB",
+      "obj": "https://raw.githubusercontent.com/Signature-Sound-Vienna/data/hand/annot/oa/ExampleB.jsonld",
+      "w3id": "https://w3id.org/ssv/hand/annot/oa/ExampleB",
+      "quick": true
+    },
+    {
+      "set": "hand",
+      "folder": "oa",
+      "name": "ExampleC",
+      "obj": "https://raw.githubusercontent.com/Signature-Sound-Vienna/data/hand/annot/oa/ExampleC.jsonld",
+      "w3id": "https://w3id.org/ssv/hand/annot/oa/ExampleC",
+      "quick": true
+    },
+    {
+      "set": "hand",
+      "folder": "oa",
+      "name": "ExampleD",
+      "obj": "https://raw.githubusercontent.com/Signature-Sound-Vienna/data/hand/annot/oa/ExampleD.jsonld",
+      "w3id": "https://w3id.org/ssv/hand/annot/oa/ExampleD",
+      "quick": true
+    },
+    {
+      "set": "hand",
+      "folder": "oa",
+      "name": "ExampleE",
+      "obj": "https://raw.githubusercontent.com/Signature-Sound-Vienna/data/hand/annot/oa/ExampleE.jsonld",
+      "w3id": "https://w3id.org/ssv/hand/annot/oa/ExampleE",
+      "quick": true
+    },
+    {
+      "set": "hand",
+      "folder": "oa",
+      "name": "ExampleF",
+      "obj": "https://raw.githubusercontent.com/Signature-Sound-Vienna/data/hand/annot/oa/ExampleF.jsonld",
+      "w3id": "https://w3id.org/ssv/hand/annot/oa/ExampleF",
+      "quick": true
+    },
+    {
+      "set": "hand",
+      "folder": "oa",
+      "name": "ExampleG",
+      "obj": "https://raw.githubusercontent.com/Signature-Sound-Vienna/data/hand/annot/oa/ExampleG.jsonld",
+      "w3id": "https://w3id.org/ssv/hand/annot/oa/ExampleG",
+      "quick": true
+    },
+    {
+      "set": "hand",
+      "folder": "oa",
+      "name": "ExampleH",
+      "obj": "https://raw.githubusercontent.com/Signature-Sound-Vienna/data/hand/annot/oa/ExampleH.jsonld",
+      "w3id": "https://w3id.org/ssv/hand/annot/oa/ExampleH",
+      "quick": true
+    },
+    {
+      "set": "hand",
+      "folder": "oa",
+      "name": "ExampleI",
+      "obj": "https://raw.githubusercontent.com/Signature-Sound-Vienna/data/hand/annot/oa/ExampleI.jsonld",
+      "w3id": "https://w3id.org/ssv/hand/annot/oa/ExampleI",
+      "quick": true
+    },
+    {
+      "set": "hand",
+      "folder": "oa",
+      "name": "ExampleJ",
+      "obj": "https://raw.githubusercontent.com/Signature-Sound-Vienna/data/hand/annot/oa/ExampleJ.jsonld",
+      "w3id": "https://w3id.org/ssv/hand/annot/oa/ExampleJ",
+      "quick": true
+    },
+    {
+      "set": "hand",
+      "folder": "oa",
+      "name": "ExampleK",
+      "obj": "https://raw.githubusercontent.com/Signature-Sound-Vienna/data/hand/annot/oa/ExampleK.jsonld",
+      "w3id": "https://w3id.org/ssv/hand/annot/oa/ExampleK",
+      "quick": true
+    },
+    {
+      "set": "hand",
+      "folder": "oa",
+      "name": "ExampleL",
+      "obj": "https://raw.githubusercontent.com/Signature-Sound-Vienna/data/hand/annot/oa/ExampleL.jsonld",
+      "w3id": "https://w3id.org/ssv/hand/annot/oa/ExampleL",
+      "quick": true
+    },
+    {
+      "set": "TISMIR",
+      "folder": "extract",
+      "name": "ExDonau",
+      "obj": "https://raw.githubusercontent.com/Signature-Sound-Vienna/data/TISMIR/annot/mao/extract/ExDonau.jsonld",
+      "w3id": "https://w3id.org/ssv/TISMIR/annot/mao/extract/ExDonau",
+      "quick": false
+    },
+    {
+      "set": "TISMIR",
+      "folder": "extract",
+      "name": "ExElj1",
+      "obj": "https://raw.githubusercontent.com/Signature-Sound-Vienna/data/TISMIR/annot/mao/extract/ExElj1.jsonld",
+      "w3id": "https://w3id.org/ssv/TISMIR/annot/mao/extract/ExElj1",
+      "quick": false
+    },
+    {
+      "set": "TISMIR",
+      "folder": "extract",
+      "name": "ExElj2",
+      "obj": "https://raw.githubusercontent.com/Signature-Sound-Vienna/data/TISMIR/annot/mao/extract/ExElj2.jsonld",
+      "w3id": "https://w3id.org/ssv/TISMIR/annot/mao/extract/ExElj2",
+      "quick": false
+    },
+    {
+      "set": "TISMIR",
+      "folder": "extract",
+      "name": "ExElj3",
+      "obj": "https://raw.githubusercontent.com/Signature-Sound-Vienna/data/TISMIR/annot/mao/extract/ExElj3.jsonld",
+      "w3id": "https://w3id.org/ssv/TISMIR/annot/mao/extract/ExElj3",
+      "quick": false
+    },
+    {
+      "set": "TISMIR",
+      "folder": "extract",
+      "name": "ExFled",
+      "obj": "https://raw.githubusercontent.com/Signature-Sound-Vienna/data/TISMIR/annot/mao/extract/ExFled.jsonld",
+      "w3id": "https://w3id.org/ssv/TISMIR/annot/mao/extract/ExFled",
+      "quick": false
+    },
+    {
+      "set": "TISMIR",
+      "folder": "extract",
+      "name": "ExSph",
+      "obj": "https://raw.githubusercontent.com/Signature-Sound-Vienna/data/TISMIR/annot/mao/extract/ExSph.jsonld",
+      "w3id": "https://w3id.org/ssv/TISMIR/annot/mao/extract/ExSph",
+      "quick": false
+    },
+    {
+      "set": "TISMIR",
+      "folder": "extract",
+      "name": "ExVer1",
+      "obj": "https://raw.githubusercontent.com/Signature-Sound-Vienna/data/TISMIR/annot/mao/extract/ExVer1.jsonld",
+      "w3id": "https://w3id.org/ssv/TISMIR/annot/mao/extract/ExVer1",
+      "quick": false
+    },
+    {
+      "set": "TISMIR",
+      "folder": "extract",
+      "name": "ExVer2",
+      "obj": "https://raw.githubusercontent.com/Signature-Sound-Vienna/data/TISMIR/annot/mao/extract/ExVer2.jsonld",
+      "w3id": "https://w3id.org/ssv/TISMIR/annot/mao/extract/ExVer2",
+      "quick": false
+    },
+    {
+      "set": "TISMIR",
+      "folder": "musicalMaterial",
+      "name": "ExDonau",
+      "obj": "https://raw.githubusercontent.com/Signature-Sound-Vienna/data/TISMIR/annot/mao/musicalMaterial/ExDonau.jsonld",
+      "w3id": "https://w3id.org/ssv/TISMIR/annot/mao/musicalMaterial/ExDonau",
+      "quick": false
+    },
+    {
+      "set": "TISMIR",
+      "folder": "musicalMaterial",
+      "name": "ExElj1",
+      "obj": "https://raw.githubusercontent.com/Signature-Sound-Vienna/data/TISMIR/annot/mao/musicalMaterial/ExElj1.jsonld",
+      "w3id": "https://w3id.org/ssv/TISMIR/annot/mao/musicalMaterial/ExElj1",
+      "quick": false
+    },
+    {
+      "set": "TISMIR",
+      "folder": "musicalMaterial",
+      "name": "ExElj2",
+      "obj": "https://raw.githubusercontent.com/Signature-Sound-Vienna/data/TISMIR/annot/mao/musicalMaterial/ExElj2.jsonld",
+      "w3id": "https://w3id.org/ssv/TISMIR/annot/mao/musicalMaterial/ExElj2",
+      "quick": false
+    },
+    {
+      "set": "TISMIR",
+      "folder": "musicalMaterial",
+      "name": "ExElj3",
+      "obj": "https://raw.githubusercontent.com/Signature-Sound-Vienna/data/TISMIR/annot/mao/musicalMaterial/ExElj3.jsonld",
+      "w3id": "https://w3id.org/ssv/TISMIR/annot/mao/musicalMaterial/ExElj3",
+      "quick": false
+    },
+    {
+      "set": "TISMIR",
+      "folder": "musicalMaterial",
+      "name": "ExFled",
+      "obj": "https://raw.githubusercontent.com/Signature-Sound-Vienna/data/TISMIR/annot/mao/musicalMaterial/ExFled.jsonld",
+      "w3id": "https://w3id.org/ssv/TISMIR/annot/mao/musicalMaterial/ExFled",
+      "quick": false
+    },
+    {
+      "set": "TISMIR",
+      "folder": "musicalMaterial",
+      "name": "ExSph",
+      "obj": "https://raw.githubusercontent.com/Signature-Sound-Vienna/data/TISMIR/annot/mao/musicalMaterial/ExSph.jsonld",
+      "w3id": "https://w3id.org/ssv/TISMIR/annot/mao/musicalMaterial/ExSph",
+      "quick": false
+    },
+    {
+      "set": "TISMIR",
+      "folder": "musicalMaterial",
+      "name": "ExVer1",
+      "obj": "https://raw.githubusercontent.com/Signature-Sound-Vienna/data/TISMIR/annot/mao/musicalMaterial/ExVer1.jsonld",
+      "w3id": "https://w3id.org/ssv/TISMIR/annot/mao/musicalMaterial/ExVer1",
+      "quick": false
+    },
+    {
+      "set": "TISMIR",
+      "folder": "musicalMaterial",
+      "name": "ExVer2",
+      "obj": "https://raw.githubusercontent.com/Signature-Sound-Vienna/data/TISMIR/annot/mao/musicalMaterial/ExVer2.jsonld",
+      "w3id": "https://w3id.org/ssv/TISMIR/annot/mao/musicalMaterial/ExVer2",
+      "quick": false
+    },
+    {
+      "set": "TISMIR",
+      "folder": "selection",
+      "name": "ExDonau-audio1",
+      "obj": "https://raw.githubusercontent.com/Signature-Sound-Vienna/data/TISMIR/annot/mao/selection/ExDonau-audio1.jsonld",
+      "w3id": "https://w3id.org/ssv/TISMIR/annot/mao/selection/ExDonau-audio1",
+      "quick": false
+    },
+    {
+      "set": "TISMIR",
+      "folder": "selection",
+      "name": "ExDonau-audio2",
+      "obj": "https://raw.githubusercontent.com/Signature-Sound-Vienna/data/TISMIR/annot/mao/selection/ExDonau-audio2.jsonld",
+      "w3id": "https://w3id.org/ssv/TISMIR/annot/mao/selection/ExDonau-audio2",
+      "quick": false
+    },
+    {
+      "set": "TISMIR",
+      "folder": "selection",
+      "name": "ExDonau-audio3",
+      "obj": "https://raw.githubusercontent.com/Signature-Sound-Vienna/data/TISMIR/annot/mao/selection/ExDonau-audio3.jsonld",
+      "w3id": "https://w3id.org/ssv/TISMIR/annot/mao/selection/ExDonau-audio3",
+      "quick": false
+    },
+    {
+      "set": "TISMIR",
+      "folder": "selection",
+      "name": "ExDonau-audio4",
+      "obj": "https://raw.githubusercontent.com/Signature-Sound-Vienna/data/TISMIR/annot/mao/selection/ExDonau-audio4.jsonld",
+      "w3id": "https://w3id.org/ssv/TISMIR/annot/mao/selection/ExDonau-audio4",
+      "quick": false
+    },
+    {
+      "set": "TISMIR",
+      "folder": "selection",
+      "name": "ExDonau-audio5",
+      "obj": "https://raw.githubusercontent.com/Signature-Sound-Vienna/data/TISMIR/annot/mao/selection/ExDonau-audio5.jsonld",
+      "w3id": "https://w3id.org/ssv/TISMIR/annot/mao/selection/ExDonau-audio5",
+      "quick": false
+    },
+    {
+      "set": "TISMIR",
+      "folder": "selection",
+      "name": "ExDonau",
+      "obj": "https://raw.githubusercontent.com/Signature-Sound-Vienna/data/TISMIR/annot/mao/selection/ExDonau.jsonld",
+      "w3id": "https://w3id.org/ssv/TISMIR/annot/mao/selection/ExDonau",
+      "quick": false
+    },
+    {
+      "set": "TISMIR",
+      "folder": "selection",
+      "name": "ExElj1-audio1",
+      "obj": "https://raw.githubusercontent.com/Signature-Sound-Vienna/data/TISMIR/annot/mao/selection/ExElj1-audio1.jsonld",
+      "w3id": "https://w3id.org/ssv/TISMIR/annot/mao/selection/ExElj1-audio1",
+      "quick": false
+    },
+    {
+      "set": "TISMIR",
+      "folder": "selection",
+      "name": "ExElj1-audio2",
+      "obj": "https://raw.githubusercontent.com/Signature-Sound-Vienna/data/TISMIR/annot/mao/selection/ExElj1-audio2.jsonld",
+      "w3id": "https://w3id.org/ssv/TISMIR/annot/mao/selection/ExElj1-audio2",
+      "quick": false
+    },
+    {
+      "set": "TISMIR",
+      "folder": "selection",
+      "name": "ExElj1-audio3",
+      "obj": "https://raw.githubusercontent.com/Signature-Sound-Vienna/data/TISMIR/annot/mao/selection/ExElj1-audio3.jsonld",
+      "w3id": "https://w3id.org/ssv/TISMIR/annot/mao/selection/ExElj1-audio3",
+      "quick": false
+    },
+    {
+      "set": "TISMIR",
+      "folder": "selection",
+      "name": "ExElj1",
+      "obj": "https://raw.githubusercontent.com/Signature-Sound-Vienna/data/TISMIR/annot/mao/selection/ExElj1.jsonld",
+      "w3id": "https://w3id.org/ssv/TISMIR/annot/mao/selection/ExElj1",
+      "quick": false
+    },
+    {
+      "set": "TISMIR",
+      "folder": "selection",
+      "name": "ExElj2-audio1",
+      "obj": "https://raw.githubusercontent.com/Signature-Sound-Vienna/data/TISMIR/annot/mao/selection/ExElj2-audio1.jsonld",
+      "w3id": "https://w3id.org/ssv/TISMIR/annot/mao/selection/ExElj2-audio1",
+      "quick": false
+    },
+    {
+      "set": "TISMIR",
+      "folder": "selection",
+      "name": "ExElj2-audio2",
+      "obj": "https://raw.githubusercontent.com/Signature-Sound-Vienna/data/TISMIR/annot/mao/selection/ExElj2-audio2.jsonld",
+      "w3id": "https://w3id.org/ssv/TISMIR/annot/mao/selection/ExElj2-audio2",
+      "quick": false
+    },
+    {
+      "set": "TISMIR",
+      "folder": "selection",
+      "name": "ExElj2-audio3",
+      "obj": "https://raw.githubusercontent.com/Signature-Sound-Vienna/data/TISMIR/annot/mao/selection/ExElj2-audio3.jsonld",
+      "w3id": "https://w3id.org/ssv/TISMIR/annot/mao/selection/ExElj2-audio3",
+      "quick": false
+    },
+    {
+      "set": "TISMIR",
+      "folder": "selection",
+      "name": "ExElj2-audio4",
+      "obj": "https://raw.githubusercontent.com/Signature-Sound-Vienna/data/TISMIR/annot/mao/selection/ExElj2-audio4.jsonld",
+      "w3id": "https://w3id.org/ssv/TISMIR/annot/mao/selection/ExElj2-audio4",
+      "quick": false
+    },
+    {
+      "set": "TISMIR",
+      "folder": "selection",
+      "name": "ExElj2",
+      "obj": "https://raw.githubusercontent.com/Signature-Sound-Vienna/data/TISMIR/annot/mao/selection/ExElj2.jsonld",
+      "w3id": "https://w3id.org/ssv/TISMIR/annot/mao/selection/ExElj2",
+      "quick": false
+    },
+    {
+      "set": "TISMIR",
+      "folder": "selection",
+      "name": "ExElj3-audio1",
+      "obj": "https://raw.githubusercontent.com/Signature-Sound-Vienna/data/TISMIR/annot/mao/selection/ExElj3-audio1.jsonld",
+      "w3id": "https://w3id.org/ssv/TISMIR/annot/mao/selection/ExElj3-audio1",
+      "quick": false
+    },
+    {
+      "set": "TISMIR",
+      "folder": "selection",
+      "name": "ExElj3-audio2",
+      "obj": "https://raw.githubusercontent.com/Signature-Sound-Vienna/data/TISMIR/annot/mao/selection/ExElj3-audio2.jsonld",
+      "w3id": "https://w3id.org/ssv/TISMIR/annot/mao/selection/ExElj3-audio2",
+      "quick": false
+    },
+    {
+      "set": "TISMIR",
+      "folder": "selection",
+      "name": "ExElj3",
+      "obj": "https://raw.githubusercontent.com/Signature-Sound-Vienna/data/TISMIR/annot/mao/selection/ExElj3.jsonld",
+      "w3id": "https://w3id.org/ssv/TISMIR/annot/mao/selection/ExElj3",
+      "quick": false
+    },
+    {
+      "set": "TISMIR",
+      "folder": "selection",
+      "name": "ExFled-audio1",
+      "obj": "https://raw.githubusercontent.com/Signature-Sound-Vienna/data/TISMIR/annot/mao/selection/ExFled-audio1.jsonld",
+      "w3id": "https://w3id.org/ssv/TISMIR/annot/mao/selection/ExFled-audio1",
+      "quick": false
+    },
+    {
+      "set": "TISMIR",
+      "folder": "selection",
+      "name": "ExFled-audio2",
+      "obj": "https://raw.githubusercontent.com/Signature-Sound-Vienna/data/TISMIR/annot/mao/selection/ExFled-audio2.jsonld",
+      "w3id": "https://w3id.org/ssv/TISMIR/annot/mao/selection/ExFled-audio2",
+      "quick": false
+    },
+    {
+      "set": "TISMIR",
+      "folder": "selection",
+      "name": "ExFled-audio3",
+      "obj": "https://raw.githubusercontent.com/Signature-Sound-Vienna/data/TISMIR/annot/mao/selection/ExFled-audio3.jsonld",
+      "w3id": "https://w3id.org/ssv/TISMIR/annot/mao/selection/ExFled-audio3",
+      "quick": false
+    },
+    {
+      "set": "TISMIR",
+      "folder": "selection",
+      "name": "ExFled-audio4",
+      "obj": "https://raw.githubusercontent.com/Signature-Sound-Vienna/data/TISMIR/annot/mao/selection/ExFled-audio4.jsonld",
+      "w3id": "https://w3id.org/ssv/TISMIR/annot/mao/selection/ExFled-audio4",
+      "quick": false
+    },
+    {
+      "set": "TISMIR",
+      "folder": "selection",
+      "name": "ExFled-audio5",
+      "obj": "https://raw.githubusercontent.com/Signature-Sound-Vienna/data/TISMIR/annot/mao/selection/ExFled-audio5.jsonld",
+      "w3id": "https://w3id.org/ssv/TISMIR/annot/mao/selection/ExFled-audio5",
+      "quick": false
+    },
+    {
+      "set": "TISMIR",
+      "folder": "selection",
+      "name": "ExFled-audio6",
+      "obj": "https://raw.githubusercontent.com/Signature-Sound-Vienna/data/TISMIR/annot/mao/selection/ExFled-audio6.jsonld",
+      "w3id": "https://w3id.org/ssv/TISMIR/annot/mao/selection/ExFled-audio6",
+      "quick": false
+    },
+    {
+      "set": "TISMIR",
+      "folder": "selection",
+      "name": "ExFled-audio7",
+      "obj": "https://raw.githubusercontent.com/Signature-Sound-Vienna/data/TISMIR/annot/mao/selection/ExFled-audio7.jsonld",
+      "w3id": "https://w3id.org/ssv/TISMIR/annot/mao/selection/ExFled-audio7",
+      "quick": false
+    },
+    {
+      "set": "TISMIR",
+      "folder": "selection",
+      "name": "ExFled-audio8",
+      "obj": "https://raw.githubusercontent.com/Signature-Sound-Vienna/data/TISMIR/annot/mao/selection/ExFled-audio8.jsonld",
+      "w3id": "https://w3id.org/ssv/TISMIR/annot/mao/selection/ExFled-audio8",
+      "quick": false
+    },
+    {
+      "set": "TISMIR",
+      "folder": "selection",
+      "name": "ExFled",
+      "obj": "https://raw.githubusercontent.com/Signature-Sound-Vienna/data/TISMIR/annot/mao/selection/ExFled.jsonld",
+      "w3id": "https://w3id.org/ssv/TISMIR/annot/mao/selection/ExFled",
+      "quick": false
+    },
+    {
+      "set": "TISMIR",
+      "folder": "selection",
+      "name": "ExSph-audio1",
+      "obj": "https://raw.githubusercontent.com/Signature-Sound-Vienna/data/TISMIR/annot/mao/selection/ExSph-audio1.jsonld",
+      "w3id": "https://w3id.org/ssv/TISMIR/annot/mao/selection/ExSph-audio1",
+      "quick": false
+    },
+    {
+      "set": "TISMIR",
+      "folder": "selection",
+      "name": "ExSph-audio2",
+      "obj": "https://raw.githubusercontent.com/Signature-Sound-Vienna/data/TISMIR/annot/mao/selection/ExSph-audio2.jsonld",
+      "w3id": "https://w3id.org/ssv/TISMIR/annot/mao/selection/ExSph-audio2",
+      "quick": false
+    },
+    {
+      "set": "TISMIR",
+      "folder": "selection",
+      "name": "ExSph-audio3",
+      "obj": "https://raw.githubusercontent.com/Signature-Sound-Vienna/data/TISMIR/annot/mao/selection/ExSph-audio3.jsonld",
+      "w3id": "https://w3id.org/ssv/TISMIR/annot/mao/selection/ExSph-audio3",
+      "quick": false
+    },
+    {
+      "set": "TISMIR",
+      "folder": "selection",
+      "name": "ExSph",
+      "obj": "https://raw.githubusercontent.com/Signature-Sound-Vienna/data/TISMIR/annot/mao/selection/ExSph.jsonld",
+      "w3id": "https://w3id.org/ssv/TISMIR/annot/mao/selection/ExSph",
+      "quick": false
+    },
+    {
+      "set": "TISMIR",
+      "folder": "selection",
+      "name": "ExVer1-audio1",
+      "obj": "https://raw.githubusercontent.com/Signature-Sound-Vienna/data/TISMIR/annot/mao/selection/ExVer1-audio1.jsonld",
+      "w3id": "https://w3id.org/ssv/TISMIR/annot/mao/selection/ExVer1-audio1",
+      "quick": false
+    },
+    {
+      "set": "TISMIR",
+      "folder": "selection",
+      "name": "ExVer1-audio10",
+      "obj": "https://raw.githubusercontent.com/Signature-Sound-Vienna/data/TISMIR/annot/mao/selection/ExVer1-audio10.jsonld",
+      "w3id": "https://w3id.org/ssv/TISMIR/annot/mao/selection/ExVer1-audio10",
+      "quick": false
+    },
+    {
+      "set": "TISMIR",
+      "folder": "selection",
+      "name": "ExVer1-audio11",
+      "obj": "https://raw.githubusercontent.com/Signature-Sound-Vienna/data/TISMIR/annot/mao/selection/ExVer1-audio11.jsonld",
+      "w3id": "https://w3id.org/ssv/TISMIR/annot/mao/selection/ExVer1-audio11",
+      "quick": false
+    },
+    {
+      "set": "TISMIR",
+      "folder": "selection",
+      "name": "ExVer1-audio2",
+      "obj": "https://raw.githubusercontent.com/Signature-Sound-Vienna/data/TISMIR/annot/mao/selection/ExVer1-audio2.jsonld",
+      "w3id": "https://w3id.org/ssv/TISMIR/annot/mao/selection/ExVer1-audio2",
+      "quick": false
+    },
+    {
+      "set": "TISMIR",
+      "folder": "selection",
+      "name": "ExVer1-audio3",
+      "obj": "https://raw.githubusercontent.com/Signature-Sound-Vienna/data/TISMIR/annot/mao/selection/ExVer1-audio3.jsonld",
+      "w3id": "https://w3id.org/ssv/TISMIR/annot/mao/selection/ExVer1-audio3",
+      "quick": false
+    },
+    {
+      "set": "TISMIR",
+      "folder": "selection",
+      "name": "ExVer1-audio4",
+      "obj": "https://raw.githubusercontent.com/Signature-Sound-Vienna/data/TISMIR/annot/mao/selection/ExVer1-audio4.jsonld",
+      "w3id": "https://w3id.org/ssv/TISMIR/annot/mao/selection/ExVer1-audio4",
+      "quick": false
+    },
+    {
+      "set": "TISMIR",
+      "folder": "selection",
+      "name": "ExVer1-audio6",
+      "obj": "https://raw.githubusercontent.com/Signature-Sound-Vienna/data/TISMIR/annot/mao/selection/ExVer1-audio6.jsonld",
+      "w3id": "https://w3id.org/ssv/TISMIR/annot/mao/selection/ExVer1-audio6",
+      "quick": false
+    },
+    {
+      "set": "TISMIR",
+      "folder": "selection",
+      "name": "ExVer1-audio7",
+      "obj": "https://raw.githubusercontent.com/Signature-Sound-Vienna/data/TISMIR/annot/mao/selection/ExVer1-audio7.jsonld",
+      "w3id": "https://w3id.org/ssv/TISMIR/annot/mao/selection/ExVer1-audio7",
+      "quick": false
+    },
+    {
+      "set": "TISMIR",
+      "folder": "selection",
+      "name": "ExVer1-audio8",
+      "obj": "https://raw.githubusercontent.com/Signature-Sound-Vienna/data/TISMIR/annot/mao/selection/ExVer1-audio8.jsonld",
+      "w3id": "https://w3id.org/ssv/TISMIR/annot/mao/selection/ExVer1-audio8",
+      "quick": false
+    },
+    {
+      "set": "TISMIR",
+      "folder": "selection",
+      "name": "ExVer1-audio9",
+      "obj": "https://raw.githubusercontent.com/Signature-Sound-Vienna/data/TISMIR/annot/mao/selection/ExVer1-audio9.jsonld",
+      "w3id": "https://w3id.org/ssv/TISMIR/annot/mao/selection/ExVer1-audio9",
+      "quick": false
+    },
+    {
+      "set": "TISMIR",
+      "folder": "selection",
+      "name": "ExVer1",
+      "obj": "https://raw.githubusercontent.com/Signature-Sound-Vienna/data/TISMIR/annot/mao/selection/ExVer1.jsonld",
+      "w3id": "https://w3id.org/ssv/TISMIR/annot/mao/selection/ExVer1",
+      "quick": false
+    },
+    {
+      "set": "TISMIR",
+      "folder": "selection",
+      "name": "ExVer2-audio1",
+      "obj": "https://raw.githubusercontent.com/Signature-Sound-Vienna/data/TISMIR/annot/mao/selection/ExVer2-audio1.jsonld",
+      "w3id": "https://w3id.org/ssv/TISMIR/annot/mao/selection/ExVer2-audio1",
+      "quick": false
+    },
+    {
+      "set": "TISMIR",
+      "folder": "selection",
+      "name": "ExVer2",
+      "obj": "https://raw.githubusercontent.com/Signature-Sound-Vienna/data/TISMIR/annot/mao/selection/ExVer2.jsonld",
+      "w3id": "https://w3id.org/ssv/TISMIR/annot/mao/selection/ExVer2",
+      "quick": false
+    },
+    {
+      "set": "TISMIR",
+      "folder": "oa",
+      "name": "ExDonau",
+      "obj": "https://raw.githubusercontent.com/Signature-Sound-Vienna/data/TISMIR/annot/oa/ExDonau.jsonld",
+      "w3id": "https://w3id.org/ssv/TISMIR/annot/oa/ExDonau",
+      "quick": true
+    },
+    {
+      "set": "TISMIR",
+      "folder": "oa",
+      "name": "ExElj1",
+      "obj": "https://raw.githubusercontent.com/Signature-Sound-Vienna/data/TISMIR/annot/oa/ExElj1.jsonld",
+      "w3id": "https://w3id.org/ssv/TISMIR/annot/oa/ExElj1",
+      "quick": true
+    },
+    {
+      "set": "TISMIR",
+      "folder": "oa",
+      "name": "ExElj2",
+      "obj": "https://raw.githubusercontent.com/Signature-Sound-Vienna/data/TISMIR/annot/oa/ExElj2.jsonld",
+      "w3id": "https://w3id.org/ssv/TISMIR/annot/oa/ExElj2",
+      "quick": true
+    },
+    {
+      "set": "TISMIR",
+      "folder": "oa",
+      "name": "ExElj3",
+      "obj": "https://raw.githubusercontent.com/Signature-Sound-Vienna/data/TISMIR/annot/oa/ExElj3.jsonld",
+      "w3id": "https://w3id.org/ssv/TISMIR/annot/oa/ExElj3",
+      "quick": true
+    },
+    {
+      "set": "TISMIR",
+      "folder": "oa",
+      "name": "ExFled",
+      "obj": "https://raw.githubusercontent.com/Signature-Sound-Vienna/data/TISMIR/annot/oa/ExFled.jsonld",
+      "w3id": "https://w3id.org/ssv/TISMIR/annot/oa/ExFled",
+      "quick": true
+    },
+    {
+      "set": "TISMIR",
+      "folder": "oa",
+      "name": "ExSph",
+      "obj": "https://raw.githubusercontent.com/Signature-Sound-Vienna/data/TISMIR/annot/oa/ExSph.jsonld",
+      "w3id": "https://w3id.org/ssv/TISMIR/annot/oa/ExSph",
+      "quick": true
+    },
+    {
+      "set": "TISMIR",
+      "folder": "oa",
+      "name": "ExVer1",
+      "obj": "https://raw.githubusercontent.com/Signature-Sound-Vienna/data/TISMIR/annot/oa/ExVer1.jsonld",
+      "w3id": "https://w3id.org/ssv/TISMIR/annot/oa/ExVer1",
+      "quick": true
+    },
+    {
+      "set": "TISMIR",
+      "folder": "oa",
+      "name": "ExVer2",
+      "obj": "https://raw.githubusercontent.com/Signature-Sound-Vienna/data/TISMIR/annot/oa/ExVer2.jsonld",
+      "w3id": "https://w3id.org/ssv/TISMIR/annot/oa/ExVer2",
+      "quick": true
+    }
+  ]
+}

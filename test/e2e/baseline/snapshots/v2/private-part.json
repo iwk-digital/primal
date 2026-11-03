@@ -1,0 +1,310 @@
+{
+  "root": {
+    "set": "v2",
+    "folder": null,
+    "name": "private-part",
+    "obj": "https://listenhere.pod.test/at.ac.mdw.mei-friend/oa/private-part/oa-top",
+    "note": "as full, with beta's note and the Brass group note private (401)",
+    "private": [
+      "/at.ac.mdw.mei-friend/oa/private-part/oa-track-beta",
+      "/at.ac.mdw.mei-friend/oa/private-part/oa-group-g-brass"
+    ]
+  },
+  "recordedAt": "2026-11-02T23:03:27.860Z",
+  "compare": {
+    "splash": false,
+    "traversalsComplete": true,
+    "sections": {
+      "h-text-content": {
+        "loaded": true,
+        "noContent": []
+      },
+      "h-music-scores": {
+        "loaded": true,
+        "noContent": []
+      },
+      "h-audio-examples": {
+        "loaded": true,
+        "noContent": []
+      },
+      "h-metadata": {
+        "loaded": true,
+        "noContent": []
+      },
+      "h-graph": {
+        "loaded": true,
+        "noContent": []
+      },
+      "h-json-display": {
+        "loaded": true,
+        "noContent": []
+      }
+    },
+    "banners": [],
+    "notices": [
+      "Part of this annotation is not shown: 2 linked resources are not public.Resourceshttps://listenhere.pod.test/at.ac.mdw.mei-friend/oa/private-part/oa-group-g-brasshttps://listenhere.pod.test/at.ac.mdw.mei-friend/oa/private-part/oa-track-beta×"
+    ],
+    "textBodies": [
+      [
+        "Comparison: Strings vs (not accessible)",
+        "Strings phrase across bar two; brass divides it."
+      ],
+      [
+        "Description",
+        "The opening phrase, compared across sections."
+      ],
+      [
+        "Group: Strings",
+        "The strings agree on the shape."
+      ],
+      [
+        "Recording: alpha.wav",
+        "Alpha takes the phrase slowly."
+      ]
+    ],
+    "scores": [
+      {
+        "id": "http://localhost:8000/test/example.mei",
+        "highlighted": [
+          "n172sakw",
+          "n1tqvgeb"
+        ],
+        "svg": {
+          "viewBox": "0 0 2100 3950",
+          "elementsWithDataId": 1892
+        }
+      }
+    ],
+    "meiFriendLinks": [
+      "https://mei-friend.mdw.ac.at/?file=http://localhost:8000/test/example.mei&select=n1tqvgeb,n172sakw"
+    ],
+    "audio": [
+      {
+        "id": "https://listenhere.pod.test/audio/alpha.wav-container",
+        "hidden": false,
+        "label": "Opening phrase — alpha.wav [playback restricted] (00:02.00–00:06.00, 00:14.00–00:21.00)",
+        "waveform": true,
+        "regions": [
+          {
+            "left": "6.66667%",
+            "width": ""
+          },
+          {
+            "left": "46.6667%",
+            "width": ""
+          }
+        ]
+      },
+      {
+        "id": "https://listenhere.pod.test/audio/beta.wav-container",
+        "hidden": false,
+        "label": "Opening phrase — beta.wav [playback restricted] (00:02.20–00:06.20, 00:14.30–00:21.30)",
+        "waveform": true,
+        "regions": [
+          {
+            "left": "7.33333%",
+            "width": ""
+          },
+          {
+            "left": "47.6667%",
+            "width": ""
+          }
+        ]
+      },
+      {
+        "id": "https://listenhere.pod.test/audio/gamma%20(&%20friends),%20live.wav-container",
+        "hidden": false,
+        "label": "Opening phrase — gamma (& friends), live.wav [playback restricted] (00:02.40–00:06.40, 00:14.60–00:21.60)",
+        "waveform": true,
+        "regions": [
+          {
+            "left": "8%",
+            "width": ""
+          },
+          {
+            "left": "48.6667%",
+            "width": ""
+          }
+        ]
+      }
+    ],
+    "metadata": {
+      "currentUri": "Current resource: <https://listenhere.pod.test/at.ac.mdw.mei-friend/oa/private-part/oa-top>",
+      "createdBy": "Created by: <https://listenhere.pod.test/profile/card#me>",
+      "createdByLinks": [
+        {
+          "text": "<https://listenhere.pod.test/profile/card#me>",
+          "href": "https://listenhere.pod.test/profile/card#me"
+        }
+      ],
+      "audioSelectionsHeading": null,
+      "audioSelections": []
+    },
+    "graph": {
+      "svg": true,
+      "nodes": 26,
+      "edges": 25
+    },
+    "mermaid": [
+      [
+        "</em>\")",
+        "</em>\")",
+        "</em>\")",
+        "</em>\")",
+        "Alpha takes the phrase slowly.&quot",
+        "Strings phrase across bar two",
+        "The opening phrase, compared across sections.&quot",
+        "The strings agree on the shape.&quot",
+        "blank_0 -- oa:items --> blank_1",
+        "blank_0",
+        "blank_0(\"oa:CompositeTarget<span class='v2-lines'></span>\")",
+        "blank_1 -- oa:hasSource --> listenhere.pod.test/at.ac.mdw.mei-friend/oa/private-part/oa-cmp-c1",
+        "blank_1(\"oa:SpecificResource<span class='v2-lines'><br>[oa:hasPurpose: sda:evidencing]<br><span class='scope-chip' data-scope='listenhere.pod.test/at.ac.mdw.mei-friend/mao/extract/private-part/extract'>scope: mao:Extract «Opening phrase»</span></span>\")",
+        "blank_10",
+        "blank_2 -- oa:items --> blank_3",
+        "blank_2 -- oa:items --> blank_8",
+        "blank_2(\"oa:CompositeTarget<span class='v2-lines'></span>\")",
+        "blank_3 -- oa:hasSource --> listenhere.pod.test/at.ac.mdw.mei-friend/oa/private-part/oa-group-g-strings",
+        "blank_3(\"oa:SpecificResource<span class='v2-lines'><br>[oa:hasPurpose: sda:evidencing]<br><span class='scope-chip' data-scope='listenhere.pod.test/at.ac.mdw.mei-friend/mao/extract/private-part/extract'>scope: mao:Extract «Opening phrase»</span></span>\")",
+        "blank_4 -- oa:hasSource --> listenhere.pod.test/at.ac.mdw.mei-friend/oa/private-part/oa-track-alpha",
+        "blank_4(\"oa:SpecificResource<span class='v2-lines'><br><span class='scope-chip' data-scope='listenhere.pod.test/at.ac.mdw.mei-friend/mao/extract/private-part/extract'>scope: mao:Extract «Opening phrase»</span></span>\")",
+        "blank_6 -- oa:hasSource --> listenhere.pod.test/at.ac.mdw.mei-friend/oa/private-part/oa-track-beta(\"oa-track-beta\")",
+        "blank_6(\"oa:SpecificResource<span class='v2-lines'><br><span class='scope-chip' data-scope='listenhere.pod.test/at.ac.mdw.mei-friend/mao/extract/private-part/extract'>scope: mao:Extract «Opening phrase»</span></span>\")",
+        "blank_8 -- oa:hasSource --> listenhere.pod.test/at.ac.mdw.mei-friend/oa/private-part/oa-group-g-brass(\"oa-group-g-brass\")",
+        "blank_8(\"oa:SpecificResource<span class='v2-lines'><br>[oa:hasPurpose: sda:evidencing]<br><span class='scope-chip' data-scope='listenhere.pod.test/at.ac.mdw.mei-friend/mao/extract/private-part/extract'>scope: mao:Extract «Opening phrase»</span></span>\")",
+        "brass divides it.&quot",
+        "class listenhere.pod.test/at.ac.mdw.mei-friend/oa/private-part/oa-top current",
+        "click blank_10 \"#a-text-content\" \"View textual body\"",
+        "click blank_5 \"#a-text-content\" \"View textual body\"",
+        "click blank_7 \"#a-text-content\" \"View textual body\"",
+        "click blank_9 \"#a-text-content\" \"View textual body\"",
+        "click listenhere.pod.test/at.ac.mdw.mei-friend/mao/extract/private-part/extract \"http://primal.mdw.ac.at/?obj=https://listenhere.pod.test/at.ac.mdw.mei-friend/mao/extract/private-part/extract\" \"Tooltip: \"",
+        "click listenhere.pod.test/at.ac.mdw.mei-friend/mao/selection/private-part/sel-alpha \"http://primal.mdw.ac.at/?obj=https://listenhere.pod.test/at.ac.mdw.mei-friend/mao/selection/private-part/sel-alpha\" \"Tooltip: \"",
+        "click listenhere.pod.test/at.ac.mdw.mei-friend/mao/selection/private-part/sel-beta \"http://primal.mdw.ac.at/?obj=https://listenhere.pod.test/at.ac.mdw.mei-friend/mao/selection/private-part/sel-beta\" \"Tooltip: \"",
+        "click listenhere.pod.test/at.ac.mdw.mei-friend/mao/selection/private-part/sel-gamma-friends-live \"http://primal.mdw.ac.at/?obj=https://listenhere.pod.test/at.ac.mdw.mei-friend/mao/selection/private-part/sel-gamma-friends-live\" \"Tooltip: \"",
+        "click listenhere.pod.test/at.ac.mdw.mei-friend/oa/private-part/oa-cmp-c1 \"http://primal.mdw.ac.at/?obj=https://listenhere.pod.test/at.ac.mdw.mei-friend/oa/private-part/oa-cmp-c1\" \"Tooltip: \"",
+        "click listenhere.pod.test/at.ac.mdw.mei-friend/oa/private-part/oa-group-g-strings \"http://primal.mdw.ac.at/?obj=https://listenhere.pod.test/at.ac.mdw.mei-friend/oa/private-part/oa-group-g-strings\" \"Tooltip: \"",
+        "click listenhere.pod.test/at.ac.mdw.mei-friend/oa/private-part/oa-top \"http://primal.mdw.ac.at/?obj=https://listenhere.pod.test/at.ac.mdw.mei-friend/oa/private-part/oa-top\" \"Tooltip: \"",
+        "click listenhere.pod.test/at.ac.mdw.mei-friend/oa/private-part/oa-track-alpha \"http://primal.mdw.ac.at/?obj=https://listenhere.pod.test/at.ac.mdw.mei-friend/oa/private-part/oa-track-alpha\" \"Tooltip: \"",
+        "click localhost:8000/test/example-mao-selection.jsonld \"http://primal.mdw.ac.at/?obj=http://localhost:8000/test/example-mao-selection.jsonld\" \"Tooltip: \"",
+        "end",
+        "friends), live.wav\"]",
+        "graph TD",
+        "listenhere.pod.test/at.ac.mdw.mei-friend/mao/extract/private-part/extract -- frbr:embodiment --> listenhere.pod.test/at.ac.mdw.mei-friend/mao/selection/private-part/sel-alpha",
+        "listenhere.pod.test/at.ac.mdw.mei-friend/mao/extract/private-part/extract -- frbr:embodiment --> listenhere.pod.test/at.ac.mdw.mei-friend/mao/selection/private-part/sel-beta",
+        "listenhere.pod.test/at.ac.mdw.mei-friend/mao/extract/private-part/extract -- frbr:embodiment --> listenhere.pod.test/at.ac.mdw.mei-friend/mao/selection/private-part/sel-gamma-friends-live",
+        "listenhere.pod.test/at.ac.mdw.mei-friend/mao/extract/private-part/extract -- frbr:embodiment --> localhost:8000/test/example-mao-selection.jsonld",
+        "listenhere.pod.test/at.ac.mdw.mei-friend/mao/extract/private-part/extract(\"mao:Extract: <em>Opening phrase</em>\")",
+        "listenhere.pod.test/at.ac.mdw.mei-friend/mao/selection/private-part/sel-alpha -- frbr:part (2 time intervals) --> alpha.wav",
+        "listenhere.pod.test/at.ac.mdw.mei-friend/mao/selection/private-part/sel-alpha(\"mao:Selection: <em>Opening phrase — alpha.wav</em>\")",
+        "listenhere.pod.test/at.ac.mdw.mei-friend/mao/selection/private-part/sel-beta -- frbr:part (2 time intervals) --> beta.wav",
+        "listenhere.pod.test/at.ac.mdw.mei-friend/mao/selection/private-part/sel-beta(\"mao:Selection: <em>Opening phrase — beta.wav</em>\")",
+        "listenhere.pod.test/at.ac.mdw.mei-friend/mao/selection/private-part/sel-gamma-friends-live -- frbr:part (2 time intervals) --> gamma%20__%20friends__%20live.wav[\"gamma (&amp",
+        "listenhere.pod.test/at.ac.mdw.mei-friend/mao/selection/private-part/sel-gamma-friends-live(\"mao:Selection: <em>Opening phrase — gamma (& friends), live.wav</em>\")",
+        "listenhere.pod.test/at.ac.mdw.mei-friend/oa/private-part/oa-cmp-c1 -- oa:hasBody --> blank_9(\"<em>&quot",
+        "listenhere.pod.test/at.ac.mdw.mei-friend/oa/private-part/oa-cmp-c1 -- oa:hasTarget --> blank_2",
+        "listenhere.pod.test/at.ac.mdw.mei-friend/oa/private-part/oa-cmp-c1(\"oa:Annotation\")",
+        "listenhere.pod.test/at.ac.mdw.mei-friend/oa/private-part/oa-group-g-strings -- oa:hasBody --> blank_7(\"<em>&quot",
+        "listenhere.pod.test/at.ac.mdw.mei-friend/oa/private-part/oa-group-g-strings -- oa:hasTarget --> blank_4",
+        "listenhere.pod.test/at.ac.mdw.mei-friend/oa/private-part/oa-group-g-strings -- oa:hasTarget --> blank_6",
+        "listenhere.pod.test/at.ac.mdw.mei-friend/oa/private-part/oa-group-g-strings(\"oa:Annotation: <em>Strings</em>\")",
+        "listenhere.pod.test/at.ac.mdw.mei-friend/oa/private-part/oa-top -- oa:hasBody --> blank_10(\"<em>&quot",
+        "listenhere.pod.test/at.ac.mdw.mei-friend/oa/private-part/oa-top -- oa:hasTarget --> blank_0",
+        "listenhere.pod.test/at.ac.mdw.mei-friend/oa/private-part/oa-top",
+        "listenhere.pod.test/at.ac.mdw.mei-friend/oa/private-part/oa-top(\"oa:Annotation\")",
+        "listenhere.pod.test/at.ac.mdw.mei-friend/oa/private-part/oa-track-alpha -- oa:hasBody --> blank_5(\"<em>&quot",
+        "listenhere.pod.test/at.ac.mdw.mei-friend/oa/private-part/oa-track-alpha -- oa:hasTarget --> listenhere.pod.test/at.ac.mdw.mei-friend/mao/selection/private-part/sel-alpha",
+        "listenhere.pod.test/at.ac.mdw.mei-friend/oa/private-part/oa-track-alpha(\"oa:Annotation\")",
+        "localhost:8000/test/example-mao-selection.jsonld -- frbr:part (2 fragments) --> example.mei",
+        "localhost:8000/test/example-mao-selection.jsonld(\"mao:Selection\")",
+        "subgraph Current resource"
+      ]
+    ],
+    "json": "{\n  \"@context\": {\n    \"@vocab\": \"http://www.w3.org/ns/oa#\",\n    \"oa\": \"http://www.w3.org/ns/oa#\",\n    \"mao\": \"https://domestic-beethoven.eu/ontology/1.0/music-annotation-ontology.ttl#\",\n    \"frbr\": \"http://purl.org/vocab/frbr/core#\",\n    \"dc\": \"http://purl.org/dc/terms/\",\n    \"rdfs\": \"http://www.w3.org/2000/01/rdf-schema#\",\n    \"rdf\": \"http://www.w3.org/1999/02/22-rdf-syntax-ns#\",\n    \"mo\": \"http://purl.org/ontology/mo/\",\n    \"tl\": \"http://purl.org/NET/c4dm/timeline.owl#\",\n    \"ssv\": \"https://w3id.org/ssv/vocab#\"\n  },\n  \"@id\": \"https://listenhere.pod.test/at.ac.mdw.mei-friend/oa/private-part/oa-top\",\n  \"@type\": [\n    \"Annotation\",\n    \"https://schema.org/Dataset\"\n  ],\n  \"dc:created\": \"2026-11-02T12:00:00.000Z\",\n  \"dc:creator\": {\n    \"@id\": \"https://listenhere.pod.test/profile/card#me\"\n  },\n  \"dc:provenance\": \"Generated using Listen Here (Primal test fixture, from mao-adapter.js)\",\n  \"hasBody\": {\n    \"@type\": \"TextualBody\",\n    \"rdf:value\": \"The opening phrase, compared across sections.\"\n  },\n  \"hasTarget\": {\n    \"@type\": \"CompositeTarget\",\n    \"items\": {\n      \"@type\": \"SpecificResource\",\n      \"hasPurpose\": {\n        \"@id\": \"https://w3id.org/sda#evidencing\"\n      },\n      \"hasScope\": {\n        \"@id\": \"https://listenhere.pod.test/at.ac.mdw.mei-friend/mao/extract/private-part/extract\"\n      },\n      \"hasSource\": {\n        \"@id\": \"https://listenhere.pod.test/at.ac.mdw.mei-friend/oa/private-part/oa-cmp-c1\"\n      }\n    }\n  },\n  \"motivatedBy\": {\n    \"@id\": \"https://w3id.org/sda#commenting\"\n  }\n}",
+    "versions": {
+      "verovio": "6.4.0-33d1633",
+      "mermaid": "10.9.8"
+    },
+    "requests": {
+      "GET app:/?obj=https://listenhere.pod.test/at.ac.mdw.mei-friend/oa/private-part/oa-top": 1,
+      "GET app:/css/prism.css": 1,
+      "GET app:/css/styles.css": 1,
+      "GET app:/deps/regions.js": 1,
+      "GET app:/deps/wavesurfer.js": 1,
+      "GET app:/img/logo.png": 1,
+      "GET app:/lib/LDObj.js": 1,
+      "GET app:/lib/defaults.js": 1,
+      "GET app:/lib/env.js": 1,
+      "GET app:/lib/errorBanner.js": 1,
+      "GET app:/lib/graph.js": 1,
+      "GET app:/lib/graphModal.js": 1,
+      "GET app:/lib/httpUtil.js": 1,
+      "GET app:/lib/main.js": 1,
+      "GET app:/lib/namespaceManager.js": 1,
+      "GET app:/lib/namespaceMap.js": 1,
+      "GET app:/lib/render.js": 1,
+      "GET app:/lib/sanitize.js": 1,
+      "GET app:/lib/traverser.js": 1,
+      "GET http://localhost:8000/test/example-mao-selection.jsonld": 1,
+      "GET http://localhost:8000/test/example.mei": 1,
+      "GET https://cdnjs.cloudflare.com/ajax/libs/jsonld/1.0.0/jsonld.min.js": 1,
+      "GET https://cdnjs.cloudflare.com/ajax/libs/prism/1.29.0/components/prism-json.min.js": 1,
+      "GET https://cdnjs.cloudflare.com/ajax/libs/prism/1.29.0/prism.min.js": 1,
+      "GET https://cdnjs.cloudflare.com/ajax/libs/prism/1.29.0/themes/prism.min.css": 1,
+      "GET https://listenhere.pod.test/at.ac.mdw.mei-friend/mao/extract/private-part/extract": 1,
+      "GET https://listenhere.pod.test/at.ac.mdw.mei-friend/mao/selection/private-part/sel-alpha": 1,
+      "GET https://listenhere.pod.test/at.ac.mdw.mei-friend/mao/selection/private-part/sel-beta": 1,
+      "GET https://listenhere.pod.test/at.ac.mdw.mei-friend/mao/selection/private-part/sel-gamma-friends-live": 1,
+      "GET https://listenhere.pod.test/at.ac.mdw.mei-friend/oa/private-part/oa-cmp-c1": 1,
+      "GET https://listenhere.pod.test/at.ac.mdw.mei-friend/oa/private-part/oa-group-g-brass": 1,
+      "GET https://listenhere.pod.test/at.ac.mdw.mei-friend/oa/private-part/oa-group-g-strings": 1,
+      "GET https://listenhere.pod.test/at.ac.mdw.mei-friend/oa/private-part/oa-top": 1,
+      "GET https://listenhere.pod.test/at.ac.mdw.mei-friend/oa/private-part/oa-track-alpha": 1,
+      "GET https://listenhere.pod.test/at.ac.mdw.mei-friend/oa/private-part/oa-track-beta": 1,
+      "GET https://unpkg.com/mermaid@10/dist/mermaid.min.js": 1,
+      "GET https://www.verovio.org/javascript/latest/verovio-toolkit-wasm.js": 1,
+      "HEAD https://listenhere.pod.test/audio/alpha.wav": 1,
+      "HEAD https://listenhere.pod.test/audio/beta.wav": 1,
+      "HEAD https://listenhere.pod.test/audio/gamma%20(&%20friends),%20live.wav": 1
+    },
+    "consoleErrors": {
+      "Failed to load resource: the server responded with a status of 401 (Unauthorized)": 2,
+      "Failed to load resource: the server responded with a status of 403 (Forbidden)": 3,
+      "Traversal failed for https://listenhere.pod.test/at.ac.mdw.mei-friend/oa/private-part/oa-group-g-brass Error: Fetch failed: 401 Unauthorized": 1,
+      "Traversal failed for https://listenhere.pod.test/at.ac.mdw.mei-friend/oa/private-part/oa-track-beta Error: Fetch failed: 401 Unauthorized": 1,
+      "URL not accessible: Forbidden": 3
+    },
+    "pageErrors": {}
+  },
+  "info": {
+    "timings": {
+      "traversalMs": 374,
+      "networkIdle": true,
+      "idleMs": 2596,
+      "stablePolls": 0,
+      "totalMs": 3355
+    },
+    "order": {
+      "textBodies": [
+        "Description",
+        "Comparison: Strings vs (not accessible)",
+        "Group: Strings",
+        "Recording: alpha.wav"
+      ],
+      "scores": [
+        "http://localhost:8000/test/example.mei"
+      ],
+      "audio": [
+        "https://listenhere.pod.test/audio/alpha.wav-container",
+        "https://listenhere.pod.test/audio/beta.wav-container",
+        "https://listenhere.pod.test/audio/gamma%20(&%20friends),%20live.wav-container"
+      ],
+      "audioSelections": []
+    },
+    "mermaidSources": [
+      "graph TD; class listenhere.pod.test/at.ac.mdw.mei-friend/oa/private-part/oa-top current;\nlistenhere.pod.test/at.ac.mdw.mei-friend/oa/private-part/oa-top(\"oa:Annotation\");listenhere.pod.test/at.ac.mdw.mei-friend/oa/private-part/oa-top -- oa:hasTarget --> blank_0;blank_0(\"oa:CompositeTarget<span class='v2-lines'></span>\");blank_0 -- oa:items --> blank_1;blank_1(\"oa:SpecificResource<span class='v2-lines'><br>[oa:hasPurpose: sda:evidencing]<br><span class='scope-chip' data-scope='listenhere.pod.test/at.ac.mdw.mei-friend/mao/extract/private-part/extract'>scope: mao:Extract «Opening phrase»</span></span>\");listenhere.pod.test/at.ac.mdw.mei-friend/mao/extract/private-part/extract(\"mao:Extract: <em>Opening phrase</em>\");listenhere.pod.test/at.ac.mdw.mei-friend/mao/extract/private-part/extract -- frbr:embodiment --> listenhere.pod.test/at.ac.mdw.mei-friend/mao/selection/private-part/sel-alpha;listenhere.pod.test/at.ac.mdw.mei-friend/mao/selection/private-part/sel-alpha(\"mao:Selection: <em>Opening phrase — alpha.wav</em>\");listenhere.pod.test/at.ac.mdw.mei-friend/mao/selection/private-part/sel-alpha -- frbr:part (2 time intervals) --> alpha.wav;listenhere.pod.test/at.ac.mdw.mei-friend/mao/extract/private-part/extract -- frbr:embodiment --> listenhere.pod.test/at.ac.mdw.mei-friend/mao/selection/private-part/sel-beta;listenhere.pod.test/at.ac.mdw.mei-friend/mao/selection/private-part/sel-beta(\"mao:Selection: <em>Opening phrase — beta.wav</em>\");listenhere.pod.test/at.ac.mdw.mei-friend/mao/selection/private-part/sel-beta -- frbr:part (2 time intervals) --> beta.wav;listenhere.pod.test/at.ac.mdw.mei-friend/mao/extract/private-part/extract -- frbr:embodiment --> listenhere.pod.test/at.ac.mdw.mei-friend/mao/selection/private-part/sel-gamma-friends-live;listenhere.pod.test/at.ac.mdw.mei-friend/mao/selection/private-part/sel-gamma-friends-live(\"mao:Selection: <em>Opening phrase — gamma (& friends), live.wav</em>\");listenhere.pod.test/at.ac.mdw.mei-friend/mao/selection/private-part/sel-gamma-friends-live -- frbr:part (2 time intervals) --> gamma%20__%20friends__%20live.wav[\"gamma (&amp; friends), live.wav\"];listenhere.pod.test/at.ac.mdw.mei-friend/mao/extract/private-part/extract -- frbr:embodiment --> localhost:8000/test/example-mao-selection.jsonld;localhost:8000/test/example-mao-selection.jsonld(\"mao:Selection\");localhost:8000/test/example-mao-selection.jsonld -- frbr:part (2 fragments) --> example.mei;blank_1 -- oa:hasSource --> listenhere.pod.test/at.ac.mdw.mei-friend/oa/private-part/oa-cmp-c1;listenhere.pod.test/at.ac.mdw.mei-friend/oa/private-part/oa-cmp-c1(\"oa:Annotation\");listenhere.pod.test/at.ac.mdw.mei-friend/oa/private-part/oa-cmp-c1 -- oa:hasTarget --> blank_2;blank_2(\"oa:CompositeTarget<span class='v2-lines'></span>\");blank_2 -- oa:items --> blank_3;blank_3(\"oa:SpecificResource<span class='v2-lines'><br>[oa:hasPurpose: sda:evidencing]<br><span class='scope-chip' data-scope='listenhere.pod.test/at.ac.mdw.mei-friend/mao/extract/private-part/extract'>scope: mao:Extract «Opening phrase»</span></span>\");blank_3 -- oa:hasSource --> listenhere.pod.test/at.ac.mdw.mei-friend/oa/private-part/oa-group-g-strings;listenhere.pod.test/at.ac.mdw.mei-friend/oa/private-part/oa-group-g-strings(\"oa:Annotation: <em>Strings</em>\");listenhere.pod.test/at.ac.mdw.mei-friend/oa/private-part/oa-group-g-strings -- oa:hasTarget --> blank_4;blank_4(\"oa:SpecificResource<span class='v2-lines'><br><span class='scope-chip' data-scope='listenhere.pod.test/at.ac.mdw.mei-friend/mao/extract/private-part/extract'>scope: mao:Extract «Opening phrase»</span></span>\");blank_4 -- oa:hasSource --> listenhere.pod.test/at.ac.mdw.mei-friend/oa/private-part/oa-track-alpha;listenhere.pod.test/at.ac.mdw.mei-friend/oa/private-part/oa-track-alpha(\"oa:Annotation\");listenhere.pod.test/at.ac.mdw.mei-friend/oa/private-part/oa-track-alpha -- oa:hasTarget --> listenhere.pod.test/at.ac.mdw.mei-friend/mao/selection/private-part/sel-alpha;listenhere.pod.test/at.ac.mdw.mei-friend/oa/private-part/oa-track-alpha -- oa:hasBody --> blank_5(\"<em>&quot;Alpha takes the phrase slowly.&quot;</em>\");\n click blank_5 \"#a-text-content\" \"View textual body\";listenhere.pod.test/at.ac.mdw.mei-friend/oa/private-part/oa-group-g-strings -- oa:hasTarget --> blank_6;blank_6(\"oa:SpecificResource<span class='v2-lines'><br><span class='scope-chip' data-scope='listenhere.pod.test/at.ac.mdw.mei-friend/mao/extract/private-part/extract'>scope: mao:Extract «Opening phrase»</span></span>\");blank_6 -- oa:hasSource --> listenhere.pod.test/at.ac.mdw.mei-friend/oa/private-part/oa-track-beta(\"oa-track-beta\");listenhere.pod.test/at.ac.mdw.mei-friend/oa/private-part/oa-group-g-strings -- oa:hasBody --> blank_7(\"<em>&quot;The strings agree on the shape.&quot;</em>\");\n click blank_7 \"#a-text-content\" \"View textual body\";blank_2 -- oa:items --> blank_8;blank_8(\"oa:SpecificResource<span class='v2-lines'><br>[oa:hasPurpose: sda:evidencing]<br><span class='scope-chip' data-scope='listenhere.pod.test/at.ac.mdw.mei-friend/mao/extract/private-part/extract'>scope: mao:Extract «Opening phrase»</span></span>\");blank_8 -- oa:hasSource --> listenhere.pod.test/at.ac.mdw.mei-friend/oa/private-part/oa-group-g-brass(\"oa-group-g-brass\");listenhere.pod.test/at.ac.mdw.mei-friend/oa/private-part/oa-cmp-c1 -- oa:hasBody --> blank_9(\"<em>&quot;Strings phrase across bar two; brass divides it.&quot;</em>\");\n click blank_9 \"#a-text-content\" \"View textual body\";listenhere.pod.test/at.ac.mdw.mei-friend/oa/private-part/oa-top -- oa:hasBody --> blank_10(\"<em>&quot;The opening phrase, compared across sections.&quot;</em>\");\n click blank_10 \"#a-text-content\" \"View textual body\";\n click listenhere.pod.test/at.ac.mdw.mei-friend/mao/selection/private-part/sel-alpha \"http://primal.mdw.ac.at/?obj=https://listenhere.pod.test/at.ac.mdw.mei-friend/mao/selection/private-part/sel-alpha\" \"Tooltip: \";\n click listenhere.pod.test/at.ac.mdw.mei-friend/mao/selection/private-part/sel-beta \"http://primal.mdw.ac.at/?obj=https://listenhere.pod.test/at.ac.mdw.mei-friend/mao/selection/private-part/sel-beta\" \"Tooltip: \";\n click listenhere.pod.test/at.ac.mdw.mei-friend/mao/selection/private-part/sel-gamma-friends-live \"http://primal.mdw.ac.at/?obj=https://listenhere.pod.test/at.ac.mdw.mei-friend/mao/selection/private-part/sel-gamma-friends-live\" \"Tooltip: \";\n click listenhere.pod.test/at.ac.mdw.mei-friend/oa/private-part/oa-track-alpha \"http://primal.mdw.ac.at/?obj=https://listenhere.pod.test/at.ac.mdw.mei-friend/oa/private-part/oa-track-alpha\" \"Tooltip: \";\n click listenhere.pod.test/at.ac.mdw.mei-friend/oa/private-part/oa-group-g-strings \"http://primal.mdw.ac.at/?obj=https://listenhere.pod.test/at.ac.mdw.mei-friend/oa/private-part/oa-group-g-strings\" \"Tooltip: \";\n click listenhere.pod.test/at.ac.mdw.mei-friend/oa/private-part/oa-cmp-c1 \"http://primal.mdw.ac.at/?obj=https://listenhere.pod.test/at.ac.mdw.mei-friend/oa/private-part/oa-cmp-c1\" \"Tooltip: \";\n click localhost:8000/test/example-mao-selection.jsonld \"http://primal.mdw.ac.at/?obj=http://localhost:8000/test/example-mao-selection.jsonld\" \"Tooltip: \";\n click listenhere.pod.test/at.ac.mdw.mei-friend/mao/extract/private-part/extract \"http://primal.mdw.ac.at/?obj=https://listenhere.pod.test/at.ac.mdw.mei-friend/mao/extract/private-part/extract\" \"Tooltip: \";\n click listenhere.pod.test/at.ac.mdw.mei-friend/oa/private-part/oa-top \"http://primal.mdw.ac.at/?obj=https://listenhere.pod.test/at.ac.mdw.mei-friend/oa/private-part/oa-top\" \"Tooltip: \";\n subgraph Current resource\nlistenhere.pod.test/at.ac.mdw.mei-friend/oa/private-part/oa-top\nblank_0\n\nblank_10\n\n end\n"
+    ],
+    "requestCount": 40,
+    "corsBlocked": []
+  }
+}

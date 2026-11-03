@@ -1,0 +1,179 @@
+{
+  "root": {
+    "set": "TISMIR",
+    "folder": "selection",
+    "name": "ExVer1-audio1",
+    "obj": "https://raw.githubusercontent.com/Signature-Sound-Vienna/data/TISMIR/annot/mao/selection/ExVer1-audio1.jsonld",
+    "w3id": "https://w3id.org/ssv/TISMIR/annot/mao/selection/ExVer1-audio1",
+    "quick": false
+  },
+  "recordedAt": "2026-11-02T16:28:53.838Z",
+  "compare": {
+    "splash": false,
+    "traversalsComplete": true,
+    "sections": {
+      "h-text-content": {
+        "loaded": true,
+        "noContent": [
+          "No text content found in this annotation."
+        ]
+      },
+      "h-music-scores": {
+        "loaded": true,
+        "noContent": [
+          "No music scores found in this annotation."
+        ]
+      },
+      "h-audio-examples": {
+        "loaded": true,
+        "noContent": []
+      },
+      "h-metadata": {
+        "loaded": true,
+        "noContent": []
+      },
+      "h-graph": {
+        "loaded": true,
+        "noContent": []
+      },
+      "h-json-display": {
+        "loaded": true,
+        "noContent": []
+      }
+    },
+    "banners": [],
+    "textBodies": [],
+    "scores": [],
+    "meiFriendLinks": [],
+    "audio": [
+      {
+        "id": "https://w3id.org/ssv/TISMIR/data/signal/1951-1954#13-container",
+        "hidden": false,
+        "label": "TISMIR Example 5.2.5a: Vienna Philharmonic Orchestra, Clemens Krauss (1951-1954) -- Vergnügungszug [playback restricted] (01:35.90–01:40.55)",
+        "waveform": true,
+        "regions": [
+          {
+            "left": "53.9808%",
+            "width": ""
+          }
+        ]
+      }
+    ],
+    "metadata": {
+      "currentUri": "Current resource: <https://raw.githubusercontent.com/Signature-Sound-Vienna/data/TISMIR/annot/mao/selection/ExVer1-audio1.jsonld>",
+      "createdBy": "Created by: <https://ssv.solidcommunity.net/profile/card#me>",
+      "createdByLinks": [
+        {
+          "text": "<https://ssv.solidcommunity.net/profile/card#me>",
+          "href": "https://ssv.solidcommunity.net/profile/card#me"
+        }
+      ],
+      "audioSelectionsHeading": "Audio Files",
+      "audioSelections": [
+        {
+          "text": "TISMIR Example 5.2.5a: Vienna Philharmonic Orchestra, Clemens Krauss (1951-1954) -- VergnügungszugSignal: 1951-1954#13Track: &quot;Vergnugunszug, Polka schnell, Op.281&quot;MusicBrainz: 1cf29f9b-0d36-46db-b394-4dc1efe74f5d",
+          "links": [
+            {
+              "text": "Signal: 1951-1954#13",
+              "href": "https://w3id.org/ssv/TISMIR/data/signal/1951-1954#13"
+            },
+            {
+              "text": "Track: &quot;Vergnugunszug, Polka schnell, Op.281&quot;",
+              "href": "https://w3id.org/ssv/TISMIR/data/track/1951-1954#13"
+            },
+            {
+              "text": "MusicBrainz: 1cf29f9b-0d36-46db-b394-4dc1efe74f5d",
+              "href": "https://musicbrainz.org/track/1cf29f9b-0d36-46db-b394-4dc1efe74f5d"
+            }
+          ]
+        }
+      ]
+    },
+    "graph": {
+      "svg": true,
+      "nodes": 2,
+      "edges": 1
+    },
+    "mermaid": [
+      [
+        "class raw.githubusercontent.com/Signature-Sound-Vienna/data/TISMIR/annot/mao/selection/ExVer1-audio1.jsonld current",
+        "click raw.githubusercontent.com/Signature-Sound-Vienna/data/TISMIR/annot/mao/selection/ExVer1-audio1.jsonld \"http://primal.mdw.ac.at/?obj=https://raw.githubusercontent.com/Signature-Sound-Vienna/data/TISMIR/annot/mao/selection/ExVer1-audio1.jsonld\" \"Tooltip: \"",
+        "click selection:ExVer1-audio1.jsonld \"http://primal.mdw.ac.at/?obj=selection:ExVer1-audio1.jsonld\" \"Tooltip: \"",
+        "end",
+        "graph TD",
+        "raw.githubusercontent.com/Signature-Sound-Vienna/data/TISMIR/annot/mao/selection/ExVer1-audio1.jsonld -- frbr:part (1 time interval) --> 13-StraussII_Vergnugungszug%2C%20Op.281%2C%20Polka%20schnell.wav",
+        "raw.githubusercontent.com/Signature-Sound-Vienna/data/TISMIR/annot/mao/selection/ExVer1-audio1.jsonld",
+        "raw.githubusercontent.com/Signature-Sound-Vienna/data/TISMIR/annot/mao/selection/ExVer1-audio1.jsonld(\"mao:Selection: <em>TISMIR Example 5.2.5a: Vienna Philharmonic Orchestra, Clemens Krauss (1951-1954) -- Vergnügungszug</em>\")",
+        "subgraph Current resource"
+      ]
+    ],
+    "json": "{\n  \"@context\": {\n    \"@vocab\": \"http://www.w3.org/ns/oa#\",\n    \"oa\": \"http://www.w3.org/ns/oa#\",\n    \"mao\": \"https://domestic-beethoven.eu/ontology/1.0/music-annotation-ontology.ttl#\",\n    \"frbr\": \"http://purl.org/vocab/frbr/core#\",\n    \"dc\": \"http://purl.org/dc/terms/\",\n    \"rdfs\": \"http://www.w3.org/2000/01/rdf-schema#\",\n    \"rdf\": \"http://www.w3.org/1999/02/22-rdf-syntax-ns#\",\n    \"mo\": \"http://purl.org/ontology/mo/\",\n    \"tl\": \"http://purl.org/NET/c4dm/timeline.owl#\",\n    \"ssv\": \"https://w3id.org/ssv/vocab#\"\n  },\n  \"@id\": \"https://raw.githubusercontent.com/Signature-Sound-Vienna/data/TISMIR/annot/mao/selection/ExVer1-audio1.jsonld\",\n  \"@type\": [\n    \"mao:Selection\",\n    \"https://schema.org/Dataset\"\n  ],\n  \"dc:created\": \"2026-07-10T12:00:00.000Z\",\n  \"dc:creator\": {\n    \"@id\": \"https://ssv.solidcommunity.net/profile/card#me\"\n  },\n  \"frbr:part\": {\n    \"@id\": \"https://w3id.org/ssv/audio/1951-1954/13-StraussII_Vergnugungszug%2C%20Op.281%2C%20Polka%20schnell.wav#t=95.9,100.55\",\n    \"@type\": \"tl:Interval\",\n    \"tl:onTimeLine\": {\n      \"@id\": \"https://w3id.org/ssv/TISMIR/data/signal/1951-1954#13\"\n    }\n  },\n  \"rdfs:label\": \"TISMIR Example 5.2.5a: Vienna Philharmonic Orchestra, Clemens Krauss (1951-1954) -- Vergnügungszug\",\n  \"https://schema.org/about\": {\n    \"@id\": \"https://raw.githubusercontent.com/Signature-Sound-Vienna/Johann-Strauss-Sohn_Op281_Vergnuegungszug_Spina/main/Josef-Strauss_Vergnuegungszug_Spina.mei\"\n  }\n}",
+    "versions": {
+      "verovio": "6.4.0-33d1633",
+      "mermaid": "10.9.8"
+    },
+    "requests": {
+      "GET app:/?obj=https://raw.githubusercontent.com/Signature-Sound-Vienna/data/TISMIR/annot/mao/selection/ExVer1-audio1.jsonld": 1,
+      "GET app:/css/prism.css": 1,
+      "GET app:/css/styles.css": 1,
+      "GET app:/deps/regions.js": 1,
+      "GET app:/deps/wavesurfer.js": 1,
+      "GET app:/img/logo.png": 1,
+      "GET app:/lib/LDObj.js": 1,
+      "GET app:/lib/defaults.js": 1,
+      "GET app:/lib/env.js": 1,
+      "GET app:/lib/errorBanner.js": 1,
+      "GET app:/lib/graph.js": 1,
+      "GET app:/lib/graphModal.js": 1,
+      "GET app:/lib/httpUtil.js": 1,
+      "GET app:/lib/main.js": 1,
+      "GET app:/lib/namespaceManager.js": 1,
+      "GET app:/lib/namespaceMap.js": 1,
+      "GET app:/lib/render.js": 1,
+      "GET app:/lib/sanitize.js": 1,
+      "GET app:/lib/traverser.js": 1,
+      "GET https://cdnjs.cloudflare.com/ajax/libs/jsonld/1.0.0/jsonld.min.js": 1,
+      "GET https://cdnjs.cloudflare.com/ajax/libs/prism/1.29.0/components/prism-json.min.js": 1,
+      "GET https://cdnjs.cloudflare.com/ajax/libs/prism/1.29.0/prism.min.js": 1,
+      "GET https://cdnjs.cloudflare.com/ajax/libs/prism/1.29.0/themes/prism.min.css": 1,
+      "GET https://raw.githubusercontent.com/Signature-Sound-Vienna/data/TISMIR/annot/mao/selection/ExVer1-audio1.jsonld": 1,
+      "GET https://unpkg.com/mermaid@10/dist/mermaid.min.js": 1,
+      "GET https://w3id.org/ssv/TISMIR/data/peaks/1951-1954/13.peaks.json": 1,
+      "GET https://w3id.org/ssv/TISMIR/data/signal/1951-1954": 2,
+      "GET https://w3id.org/ssv/TISMIR/data/track/1951-1954": 1,
+      "GET https://www.verovio.org/javascript/latest/verovio-toolkit-wasm.js": 1,
+      "HEAD https://w3id.org/ssv/audio/1951-1954/13-StraussII_Vergnugungszug%2C%20Op.281%2C%20Polka%20schnell.wav": 2
+    },
+    "consoleErrors": {
+      "Error fetching content type: Error: Network response was not ok": 1,
+      "Failed to load resource: the server responded with a status of 403 (Forbidden)": 2,
+      "Failed to prepare LD object Error: Object must be an OA or MAO object": 2,
+      "URL not accessible: Forbidden": 1
+    },
+    "pageErrors": {}
+  },
+  "info": {
+    "timings": {
+      "traversalMs": 1199,
+      "networkIdle": true,
+      "idleMs": 4127,
+      "stablePolls": 0,
+      "totalMs": 4890
+    },
+    "order": {
+      "textBodies": [],
+      "scores": [],
+      "audio": [
+        "https://w3id.org/ssv/TISMIR/data/signal/1951-1954#13-container"
+      ],
+      "audioSelections": [
+        "TISMIR Example 5.2.5a: Vienna Philharmonic Orchestra, Clemen"
+      ]
+    },
+    "mermaidSources": [
+      "graph TD; class raw.githubusercontent.com/Signature-Sound-Vienna/data/TISMIR/annot/mao/selection/ExVer1-audio1.jsonld current;\nraw.githubusercontent.com/Signature-Sound-Vienna/data/TISMIR/annot/mao/selection/ExVer1-audio1.jsonld(\"mao:Selection: <em>TISMIR Example 5.2.5a: Vienna Philharmonic Orchestra, Clemens Krauss (1951-1954) -- Vergnügungszug</em>\");raw.githubusercontent.com/Signature-Sound-Vienna/data/TISMIR/annot/mao/selection/ExVer1-audio1.jsonld -- frbr:part (1 time interval) --> 13-StraussII_Vergnugungszug%2C%20Op.281%2C%20Polka%20schnell.wav;\n click raw.githubusercontent.com/Signature-Sound-Vienna/data/TISMIR/annot/mao/selection/ExVer1-audio1.jsonld \"http://primal.mdw.ac.at/?obj=https://raw.githubusercontent.com/Signature-Sound-Vienna/data/TISMIR/annot/mao/selection/ExVer1-audio1.jsonld\" \"Tooltip: \";\n click selection:ExVer1-audio1.jsonld \"http://primal.mdw.ac.at/?obj=selection:ExVer1-audio1.jsonld\" \"Tooltip: \";\n subgraph Current resource\nraw.githubusercontent.com/Signature-Sound-Vienna/data/TISMIR/annot/mao/selection/ExVer1-audio1.jsonld\n end\n"
+    ],
+    "requestCount": 32,
+    "corsBlocked": []
+  }
+}

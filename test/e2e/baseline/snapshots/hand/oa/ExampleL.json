@@ -1,0 +1,316 @@
+{
+  "root": {
+    "set": "hand",
+    "folder": "oa",
+    "name": "ExampleL",
+    "obj": "https://raw.githubusercontent.com/Signature-Sound-Vienna/data/hand/annot/oa/ExampleL.jsonld",
+    "w3id": "https://w3id.org/ssv/hand/annot/oa/ExampleL",
+    "quick": true
+  },
+  "recordedAt": "2026-11-02T16:20:09.236Z",
+  "compare": {
+    "splash": false,
+    "traversalsComplete": true,
+    "sections": {
+      "h-text-content": {
+        "loaded": true,
+        "noContent": []
+      },
+      "h-music-scores": {
+        "loaded": true,
+        "noContent": []
+      },
+      "h-audio-examples": {
+        "loaded": true,
+        "noContent": []
+      },
+      "h-metadata": {
+        "loaded": true,
+        "noContent": []
+      },
+      "h-graph": {
+        "loaded": true,
+        "noContent": []
+      },
+      "h-json-display": {
+        "loaded": true,
+        "noContent": []
+      }
+    },
+    "banners": [],
+    "textBodies": [
+      [
+        "Over the years, a gradual broadening of tempo has become evident, particularly in performances by the Vienna Philharmonic, where the characteristic Viennese Schwung increasingly defines the style—even in passages of pronounced martial character. This tendency is especially prominent in recordings such as the 2021 New Year’s Concert conducted by Franz Welser-Möst and the 2008 rendition led by Georges Prêtre. In both, the rhythmic lilt is so accentuated, the percussion so understated, and the inner textures so prominent that the resulting theme evokes the gentle charm of a child’s carousel more than the urgency of a military summons. A comparable effect is found in the Berlin Philharmonic’s 1984 performance, where the legato phrasing of the trumpets renders the theme entirely lyrical, if not innocuous."
+      ]
+    ],
+    "scores": [
+      {
+        "id": "https://raw.githubusercontent.com/Signature-Sound-Vienna/Johann-Strauss-Sohn-Op437_Kaiser-Walzer_Breitkopf/main/Kaiser-Walzer_Breitkopf-expanded.mei",
+        "highlighted": [
+          "m1l1viks",
+          "m1ubaoez",
+          "mjmgyw6",
+          "mky4q00",
+          "mwk5q3l"
+        ],
+        "svg": {
+          "viewBox": "0 0 2100 3818",
+          "elementsWithDataId": 1833
+        }
+      }
+    ],
+    "meiFriendLinks": [
+      "https://mei-friend.mdw.ac.at/?file=https://raw.githubusercontent.com/Signature-Sound-Vienna/Johann-Strauss-Sohn-Op437_Kaiser-Walzer_Breitkopf/main/Kaiser-Walzer_Breitkopf-expanded.mei&select=m1l1viks,m1ubaoez,mky4q00,mwk5q3l,mjmgyw6,m1gjyand,m1cvs2s3,mmt2g7p,m2xgzkm,m1u2mo51,m1g358yg,m4lb5sb"
+    ],
+    "audio": [
+      {
+        "id": "https://w3id.org/ssv/0.9/data/signal/1984_Berliner_-20Philharmoniker_-2C_-20Karajan_-20_-28Kaiser_-E2_-80_-93Walzer_-29#1-container",
+        "hidden": false,
+        "label": "Example L: Karajan, Berliner Philharmoniker (1984) [playback restricted] (04:56.74–05:07.80)",
+        "waveform": true,
+        "regions": [
+          {
+            "left": "44.9682%",
+            "width": ""
+          }
+        ]
+      },
+      {
+        "id": "https://w3id.org/ssv/0.9/data/signal/2008#18-container",
+        "hidden": false,
+        "label": "Example L: Prêtre, Wiener Philharmoniker (2008) [playback restricted] (05:15.95–05:26.74)",
+        "waveform": true,
+        "regions": [
+          {
+            "left": "38.7681%",
+            "width": ""
+          }
+        ]
+      },
+      {
+        "id": "https://w3id.org/ssv/0.9/data/signal/2021#14-container",
+        "hidden": false,
+        "label": "Example L: Welser-Möst, Wiener Philharmoniker (2021) [playback restricted] (06:15.20–06:26.78)",
+        "waveform": true,
+        "regions": [
+          {
+            "left": "42.3785%",
+            "width": ""
+          }
+        ]
+      }
+    ],
+    "metadata": {
+      "currentUri": "Current resource: <https://raw.githubusercontent.com/Signature-Sound-Vienna/data/hand/annot/oa/ExampleL.jsonld>",
+      "createdBy": "Created by: Dr. Chanda VanderHart",
+      "createdByLinks": [
+        {
+          "text": "Dr. Chanda VanderHart",
+          "href": "https://orcid.org/0000-0002-2055-273X"
+        }
+      ],
+      "audioSelectionsHeading": "Audio Files",
+      "audioSelections": [
+        {
+          "text": "Example L: Karajan, Berliner Philharmoniker (1984)Signal: 1984_Berliner_-20Philharmoniker_-2C_-20Karajan_-20_-28Kaiser_-E2_-80_-93Walzer_-29#1Track: &quot;Kaiser–Walzer, op. 437&quot;MusicBrainz: 83870041-e855-3b97-825c-8ce7525c91fa",
+          "links": [
+            {
+              "text": "Signal: 1984_Berliner_-20Philharmoniker_-2C_-20Karajan_-20_-28Kaiser_-E2_-80_-93Walzer_-29#1",
+              "href": "https://w3id.org/ssv/0.9/data/signal/1984_Berliner_-20Philharmoniker_-2C_-20Karajan_-20_-28Kaiser_-E2_-80_-93Walzer_-29#1"
+            },
+            {
+              "text": "Track: &quot;Kaiser–Walzer, op. 437&quot;",
+              "href": "https://w3id.org/ssv/0.9/data/track/1984_Berliner_-20Philharmoniker_-2C_-20Karajan_-20_-28Kaiser_-E2_-80_-93Walzer_-29#1"
+            },
+            {
+              "text": "MusicBrainz: 83870041-e855-3b97-825c-8ce7525c91fa",
+              "href": "https://musicbrainz.org/track/83870041-e855-3b97-825c-8ce7525c91fa"
+            }
+          ]
+        },
+        {
+          "text": "Example L: Prêtre, Wiener Philharmoniker (2008)Signal: 2008#18Track: &quot;Kaiser-Walzer, op. 437&quot;MusicBrainz: 1a2c4f62-9254-430f-9ab4-ce4817187cf4",
+          "links": [
+            {
+              "text": "Signal: 2008#18",
+              "href": "https://w3id.org/ssv/0.9/data/signal/2008#18"
+            },
+            {
+              "text": "Track: &quot;Kaiser-Walzer, op. 437&quot;",
+              "href": "https://w3id.org/ssv/0.9/data/track/2008#18"
+            },
+            {
+              "text": "MusicBrainz: 1a2c4f62-9254-430f-9ab4-ce4817187cf4",
+              "href": "https://musicbrainz.org/track/1a2c4f62-9254-430f-9ab4-ce4817187cf4"
+            }
+          ]
+        },
+        {
+          "text": "Example L: Welser-Möst, Wiener Philharmoniker (2021)Signal: 2021#14Track: &quot;Kaiserwalzer, op. 437&quot;MusicBrainz: e2d7751e-7885-4b4e-826d-e9de6601f969",
+          "links": [
+            {
+              "text": "Signal: 2021#14",
+              "href": "https://w3id.org/ssv/0.9/data/signal/2021#14"
+            },
+            {
+              "text": "Track: &quot;Kaiserwalzer, op. 437&quot;",
+              "href": "https://w3id.org/ssv/0.9/data/track/2021#14"
+            },
+            {
+              "text": "MusicBrainz: e2d7751e-7885-4b4e-826d-e9de6601f969",
+              "href": "https://musicbrainz.org/track/e2d7751e-7885-4b4e-826d-e9de6601f969"
+            }
+          ]
+        }
+      ]
+    },
+    "graph": {
+      "svg": true,
+      "nodes": 12,
+      "edges": 11
+    },
+    "mermaid": [
+      [
+        "</em>\")",
+        "Over the years, a gradual broadening of tempo has become evident, particularly in ...&quot",
+        "blank_0",
+        "class raw.githubusercontent.com/Signature-Sound-Vienna/data/hand/annot/oa/ExampleL.jsonld current",
+        "click anno:ExampleL.jsonld \"http://primal.mdw.ac.at/?obj=anno:ExampleL.jsonld\" \"Tooltip: \"",
+        "click blank_0 \"#a-text-content\" \"View textual body\"",
+        "click extract:ExampleL.jsonld \"http://primal.mdw.ac.at/?obj=extract:ExampleL.jsonld\" \"Tooltip: \"",
+        "click musMat:ExampleL.jsonld \"http://primal.mdw.ac.at/?obj=musMat:ExampleL.jsonld\" \"Tooltip: \"",
+        "click raw.githubusercontent.com/Signature-Sound-Vienna/data/hand/annot/mao/extract/ExampleL.jsonld \"http://primal.mdw.ac.at/?obj=https://raw.githubusercontent.com/Signature-Sound-Vienna/data/hand/annot/mao/extract/ExampleL.jsonld\" \"Tooltip: \"",
+        "click raw.githubusercontent.com/Signature-Sound-Vienna/data/hand/annot/mao/musicalMaterial/ExampleL.jsonld \"http://primal.mdw.ac.at/?obj=https://raw.githubusercontent.com/Signature-Sound-Vienna/data/hand/annot/mao/musicalMaterial/ExampleL.jsonld\" \"Tooltip: \"",
+        "click raw.githubusercontent.com/Signature-Sound-Vienna/data/hand/annot/mao/selection/ExampleL-audio1.jsonld \"http://primal.mdw.ac.at/?obj=https://raw.githubusercontent.com/Signature-Sound-Vienna/data/hand/annot/mao/selection/ExampleL-audio1.jsonld\" \"Tooltip: \"",
+        "click raw.githubusercontent.com/Signature-Sound-Vienna/data/hand/annot/mao/selection/ExampleL-audio2.jsonld \"http://primal.mdw.ac.at/?obj=https://raw.githubusercontent.com/Signature-Sound-Vienna/data/hand/annot/mao/selection/ExampleL-audio2.jsonld\" \"Tooltip: \"",
+        "click raw.githubusercontent.com/Signature-Sound-Vienna/data/hand/annot/mao/selection/ExampleL-audio3.jsonld \"http://primal.mdw.ac.at/?obj=https://raw.githubusercontent.com/Signature-Sound-Vienna/data/hand/annot/mao/selection/ExampleL-audio3.jsonld\" \"Tooltip: \"",
+        "click raw.githubusercontent.com/Signature-Sound-Vienna/data/hand/annot/mao/selection/ExampleL.jsonld \"http://primal.mdw.ac.at/?obj=https://raw.githubusercontent.com/Signature-Sound-Vienna/data/hand/annot/mao/selection/ExampleL.jsonld\" \"Tooltip: \"",
+        "click raw.githubusercontent.com/Signature-Sound-Vienna/data/hand/annot/oa/ExampleL.jsonld \"http://primal.mdw.ac.at/?obj=https://raw.githubusercontent.com/Signature-Sound-Vienna/data/hand/annot/oa/ExampleL.jsonld\" \"Tooltip: \"",
+        "click selection:ExampleL-audio1.jsonld \"http://primal.mdw.ac.at/?obj=selection:ExampleL-audio1.jsonld\" \"Tooltip: \"",
+        "click selection:ExampleL-audio2.jsonld \"http://primal.mdw.ac.at/?obj=selection:ExampleL-audio2.jsonld\" \"Tooltip: \"",
+        "click selection:ExampleL-audio3.jsonld \"http://primal.mdw.ac.at/?obj=selection:ExampleL-audio3.jsonld\" \"Tooltip: \"",
+        "click selection:ExampleL.jsonld \"http://primal.mdw.ac.at/?obj=selection:ExampleL.jsonld\" \"Tooltip: \"",
+        "end",
+        "graph TD",
+        "raw.githubusercontent.com/Signature-Sound-Vienna/data/hand/annot/mao/extract/ExampleL.jsonld -- frbr:embodiment --> raw.githubusercontent.com/Signature-Sound-Vienna/data/hand/annot/mao/selection/ExampleL-audio1.jsonld",
+        "raw.githubusercontent.com/Signature-Sound-Vienna/data/hand/annot/mao/extract/ExampleL.jsonld -- frbr:embodiment --> raw.githubusercontent.com/Signature-Sound-Vienna/data/hand/annot/mao/selection/ExampleL-audio2.jsonld",
+        "raw.githubusercontent.com/Signature-Sound-Vienna/data/hand/annot/mao/extract/ExampleL.jsonld -- frbr:embodiment --> raw.githubusercontent.com/Signature-Sound-Vienna/data/hand/annot/mao/selection/ExampleL-audio3.jsonld",
+        "raw.githubusercontent.com/Signature-Sound-Vienna/data/hand/annot/mao/extract/ExampleL.jsonld -- frbr:embodiment --> raw.githubusercontent.com/Signature-Sound-Vienna/data/hand/annot/mao/selection/ExampleL.jsonld",
+        "raw.githubusercontent.com/Signature-Sound-Vienna/data/hand/annot/mao/extract/ExampleL.jsonld(\"mao:Extract: <em>Example L</em>\")",
+        "raw.githubusercontent.com/Signature-Sound-Vienna/data/hand/annot/mao/musicalMaterial/ExampleL.jsonld -- mao:setting --> raw.githubusercontent.com/Signature-Sound-Vienna/data/hand/annot/mao/extract/ExampleL.jsonld",
+        "raw.githubusercontent.com/Signature-Sound-Vienna/data/hand/annot/mao/musicalMaterial/ExampleL.jsonld(\"mao:MusicalMaterial: <em>Example L</em>\")",
+        "raw.githubusercontent.com/Signature-Sound-Vienna/data/hand/annot/mao/selection/ExampleL-audio1.jsonld -- frbr:part (1 time interval) --> 14%20-%20Kaiserwalzer%2C%20op.%20437%20-%20Johann%20Strauss%20II.wav",
+        "raw.githubusercontent.com/Signature-Sound-Vienna/data/hand/annot/mao/selection/ExampleL-audio1.jsonld(\"mao:Selection: <em>Example L: Welser-Möst, Wiener Philharmoniker (2021)</em>\")",
+        "raw.githubusercontent.com/Signature-Sound-Vienna/data/hand/annot/mao/selection/ExampleL-audio2.jsonld -- frbr:part (1 time interval) --> 17%20-%20Kaiser-Walzer%2C%20op.%20437%20-%20Johann%20Strauss%20II.wav",
+        "raw.githubusercontent.com/Signature-Sound-Vienna/data/hand/annot/mao/selection/ExampleL-audio2.jsonld(\"mao:Selection: <em>Example L: Prêtre, Wiener Philharmoniker (2008)</em>\")",
+        "raw.githubusercontent.com/Signature-Sound-Vienna/data/hand/annot/mao/selection/ExampleL-audio3.jsonld -- frbr:part (1 time interval) --> 01-Kaiser%E2%80%93Walzer%2C%20op.%20437.wav",
+        "raw.githubusercontent.com/Signature-Sound-Vienna/data/hand/annot/mao/selection/ExampleL-audio3.jsonld(\"mao:Selection: <em>Example L: Karajan, Berliner Philharmoniker (1984)</em>\")",
+        "raw.githubusercontent.com/Signature-Sound-Vienna/data/hand/annot/mao/selection/ExampleL.jsonld -- frbr:part (12 fragments) --> Kaiser-Walzer_Breitkopf-expanded.mei",
+        "raw.githubusercontent.com/Signature-Sound-Vienna/data/hand/annot/mao/selection/ExampleL.jsonld(\"mao:Selection: <em>Example K</em>\")",
+        "raw.githubusercontent.com/Signature-Sound-Vienna/data/hand/annot/oa/ExampleL.jsonld -- oa:hasBody --> blank_0(\"<em>&quot",
+        "raw.githubusercontent.com/Signature-Sound-Vienna/data/hand/annot/oa/ExampleL.jsonld -- oa:hasTarget --> raw.githubusercontent.com/Signature-Sound-Vienna/data/hand/annot/mao/musicalMaterial/ExampleL.jsonld",
+        "raw.githubusercontent.com/Signature-Sound-Vienna/data/hand/annot/oa/ExampleL.jsonld",
+        "raw.githubusercontent.com/Signature-Sound-Vienna/data/hand/annot/oa/ExampleL.jsonld(\"oa:Annotation\")",
+        "subgraph Current resource"
+      ]
+    ],
+    "json": "{\n  \"@context\": {\n    \"@vocab\": \"http://www.w3.org/ns/oa#\",\n    \"oa\": \"http://www.w3.org/ns/oa#\",\n    \"mao\": \"https://domestic-beethoven.eu/ontology/1.0/music-annotation-ontology.ttl#\",\n    \"frbr\": \"http://purl.org/vocab/frbr/core#\",\n    \"dc\": \"http://purl.org/dc/terms/\",\n    \"rdfs\": \"http://www.w3.org/2000/01/rdf-schema#\",\n    \"rdf\": \"http://www.w3.org/1999/02/22-rdf-syntax-ns#\",\n    \"mo\": \"http://purl.org/ontology/mo/\",\n    \"tl\": \"http://purl.org/NET/c4dm/timeline.owl#\",\n    \"ssv\": \"https://w3id.org/ssv/vocab#\"\n  },\n  \"@id\": \"https://raw.githubusercontent.com/Signature-Sound-Vienna/data/hand/annot/oa/ExampleL.jsonld\",\n  \"@type\": \"Annotation\",\n  \"dc:creator\": {\n    \"@id\": \"https://orcid.org/0000-0002-2055-273X\",\n    \"rdfs:label\": \"Dr. Chanda VanderHart\"\n  },\n  \"hasBody\": {\n    \"@type\": \"TextualBody\",\n    \"rdf:value\": \"Over the years, a gradual broadening of tempo has become evident, particularly in performances by the Vienna Philharmonic, where the characteristic Viennese Schwung increasingly defines the style—even in passages of pronounced martial character. This tendency is especially prominent in recordings such as the 2021 New Year’s Concert conducted by Franz Welser-Möst and the 2008 rendition led by Georges Prêtre. In both, the rhythmic lilt is so accentuated, the percussion so understated, and the inner textures so prominent that the resulting theme evokes the gentle charm of a child’s carousel more than the urgency of a military summons. A comparable effect is found in the Berlin Philharmonic’s 1984 performance, where the legato phrasing of the trumpets renders the theme entirely lyrical, if not innocuous.\"\n  },\n  \"hasTarget\": {\n    \"@id\": \"https://raw.githubusercontent.com/Signature-Sound-Vienna/data/hand/annot/mao/musicalMaterial/ExampleL.jsonld\"\n  },\n  \"motivatedBy\": {\n    \"@id\": \"mao:commenting\"\n  }\n}",
+    "versions": {
+      "verovio": "6.4.0-33d1633",
+      "mermaid": "10.9.8"
+    },
+    "requests": {
+      "GET app:/?obj=https://raw.githubusercontent.com/Signature-Sound-Vienna/data/hand/annot/oa/ExampleL.jsonld": 1,
+      "GET app:/css/prism.css": 1,
+      "GET app:/css/styles.css": 1,
+      "GET app:/deps/regions.js": 1,
+      "GET app:/deps/wavesurfer.js": 1,
+      "GET app:/img/logo.png": 1,
+      "GET app:/lib/LDObj.js": 1,
+      "GET app:/lib/defaults.js": 1,
+      "GET app:/lib/env.js": 1,
+      "GET app:/lib/errorBanner.js": 1,
+      "GET app:/lib/graph.js": 1,
+      "GET app:/lib/graphModal.js": 1,
+      "GET app:/lib/httpUtil.js": 1,
+      "GET app:/lib/main.js": 1,
+      "GET app:/lib/namespaceManager.js": 1,
+      "GET app:/lib/namespaceMap.js": 1,
+      "GET app:/lib/render.js": 1,
+      "GET app:/lib/sanitize.js": 1,
+      "GET app:/lib/traverser.js": 1,
+      "GET https://cdnjs.cloudflare.com/ajax/libs/jsonld/1.0.0/jsonld.min.js": 1,
+      "GET https://cdnjs.cloudflare.com/ajax/libs/prism/1.29.0/components/prism-json.min.js": 1,
+      "GET https://cdnjs.cloudflare.com/ajax/libs/prism/1.29.0/prism.min.js": 1,
+      "GET https://cdnjs.cloudflare.com/ajax/libs/prism/1.29.0/themes/prism.min.css": 1,
+      "GET https://raw.githubusercontent.com/Signature-Sound-Vienna/Johann-Strauss-Sohn-Op437_Kaiser-Walzer_Breitkopf/main/Kaiser-Walzer_Breitkopf-expanded.mei": 1,
+      "GET https://raw.githubusercontent.com/Signature-Sound-Vienna/data/hand/annot/mao/extract/ExampleL.jsonld": 1,
+      "GET https://raw.githubusercontent.com/Signature-Sound-Vienna/data/hand/annot/mao/musicalMaterial/ExampleL.jsonld": 1,
+      "GET https://raw.githubusercontent.com/Signature-Sound-Vienna/data/hand/annot/mao/selection/ExampleL-audio1.jsonld": 1,
+      "GET https://raw.githubusercontent.com/Signature-Sound-Vienna/data/hand/annot/mao/selection/ExampleL-audio2.jsonld": 1,
+      "GET https://raw.githubusercontent.com/Signature-Sound-Vienna/data/hand/annot/mao/selection/ExampleL-audio3.jsonld": 1,
+      "GET https://raw.githubusercontent.com/Signature-Sound-Vienna/data/hand/annot/mao/selection/ExampleL.jsonld": 1,
+      "GET https://raw.githubusercontent.com/Signature-Sound-Vienna/data/hand/annot/oa/ExampleL.jsonld": 1,
+      "GET https://unpkg.com/mermaid@10/dist/mermaid.min.js": 1,
+      "GET https://w3id.org/ssv/0.9/data/peaks/1984_Berliner_-20Philharmoniker_-2C_-20Karajan_-20_-28Kaiser_-E2_-80_-93Walzer_-29/1.peaks.json": 1,
+      "GET https://w3id.org/ssv/0.9/data/peaks/2008/18.peaks.json": 1,
+      "GET https://w3id.org/ssv/0.9/data/peaks/2021/14.peaks.json": 1,
+      "GET https://w3id.org/ssv/0.9/data/signal/1984_Berliner_-20Philharmoniker_-2C_-20Karajan_-20_-28Kaiser_-E2_-80_-93Walzer_-29": 2,
+      "GET https://w3id.org/ssv/0.9/data/signal/2008": 2,
+      "GET https://w3id.org/ssv/0.9/data/signal/2021": 2,
+      "GET https://w3id.org/ssv/0.9/data/track/1984_Berliner_-20Philharmoniker_-2C_-20Karajan_-20_-28Kaiser_-E2_-80_-93Walzer_-29": 1,
+      "GET https://w3id.org/ssv/0.9/data/track/2008": 1,
+      "GET https://w3id.org/ssv/0.9/data/track/2021": 1,
+      "GET https://www.verovio.org/javascript/latest/verovio-toolkit-wasm.js": 1,
+      "HEAD https://raw.githubusercontent.com/Signature-Sound-Vienna/Johann-Strauss-Sohn-Op437_Kaiser-Walzer_Breitkopf/main/Kaiser-Walzer_Breitkopf-expanded.mei": 24,
+      "HEAD https://raw.githubusercontent.com/Signature-Sound-Vienna/data/hand/annot/mao/extract/ExampleL.jsonld": 2,
+      "HEAD https://raw.githubusercontent.com/Signature-Sound-Vienna/data/hand/annot/mao/musicalMaterial/ExampleL.jsonld": 2,
+      "HEAD https://raw.githubusercontent.com/Signature-Sound-Vienna/data/hand/annot/mao/selection/ExampleL-audio1.jsonld": 2,
+      "HEAD https://raw.githubusercontent.com/Signature-Sound-Vienna/data/hand/annot/mao/selection/ExampleL-audio2.jsonld": 2,
+      "HEAD https://raw.githubusercontent.com/Signature-Sound-Vienna/data/hand/annot/mao/selection/ExampleL-audio3.jsonld": 2,
+      "HEAD https://raw.githubusercontent.com/Signature-Sound-Vienna/data/hand/annot/mao/selection/ExampleL.jsonld": 2,
+      "HEAD https://w3id.org/ssv/audio/1984_Berliner_-20Philharmoniker_-2C_-20Karajan_-20_-28Kaiser_-E2_-80_-93Walzer_-29/01-Kaiser%E2%80%93Walzer%2C%20op.%20437.wav": 2,
+      "HEAD https://w3id.org/ssv/audio/2008/17%20-%20Kaiser-Walzer%2C%20op.%20437%20-%20Johann%20Strauss%20II.wav": 2,
+      "HEAD https://w3id.org/ssv/audio/2021/14%20-%20Kaiserwalzer%2C%20op.%20437%20-%20Johann%20Strauss%20II.wav": 2
+    },
+    "consoleErrors": {
+      "Error fetching content type: Error: Network response was not ok": 3,
+      "Failed to load resource: the server responded with a status of 403 (Forbidden)": 6,
+      "Failed to prepare LD object Error: Object must be an OA or MAO object": 6,
+      "URL not accessible: Forbidden": 3
+    },
+    "pageErrors": {}
+  },
+  "info": {
+    "timings": {
+      "traversalMs": 2684,
+      "networkIdle": true,
+      "idleMs": 9962,
+      "stablePolls": 0,
+      "totalMs": 10722
+    },
+    "order": {
+      "textBodies": [
+        "Over the years, a gradual broadening of "
+      ],
+      "scores": [
+        "https://raw.githubusercontent.com/Signature-Sound-Vienna/Johann-Strauss-Sohn-Op437_Kaiser-Walzer_Breitkopf/main/Kaiser-Walzer_Breitkopf-expanded.mei"
+      ],
+      "audio": [
+        "https://w3id.org/ssv/0.9/data/signal/2021#14-container",
+        "https://w3id.org/ssv/0.9/data/signal/2008#18-container",
+        "https://w3id.org/ssv/0.9/data/signal/1984_Berliner_-20Philharmoniker_-2C_-20Karajan_-20_-28Kaiser_-E2_-80_-93Walzer_-29#1-container"
+      ],
+      "audioSelections": [
+        "Example L: Welser-Möst, Wiener Philharmoniker (2021)Signal: ",
+        "Example L: Prêtre, Wiener Philharmoniker (2008)Signal: 2008#",
+        "Example L: Karajan, Berliner Philharmoniker (1984)Signal: 19"
+      ]
+    },
+    "mermaidSources": [
+      "graph TD; class raw.githubusercontent.com/Signature-Sound-Vienna/data/hand/annot/oa/ExampleL.jsonld current;\nraw.githubusercontent.com/Signature-Sound-Vienna/data/hand/annot/oa/ExampleL.jsonld(\"oa:Annotation\");raw.githubusercontent.com/Signature-Sound-Vienna/data/hand/annot/oa/ExampleL.jsonld -- oa:hasTarget --> raw.githubusercontent.com/Signature-Sound-Vienna/data/hand/annot/mao/musicalMaterial/ExampleL.jsonld;raw.githubusercontent.com/Signature-Sound-Vienna/data/hand/annot/mao/musicalMaterial/ExampleL.jsonld(\"mao:MusicalMaterial: <em>Example L</em>\");raw.githubusercontent.com/Signature-Sound-Vienna/data/hand/annot/mao/musicalMaterial/ExampleL.jsonld -- mao:setting --> raw.githubusercontent.com/Signature-Sound-Vienna/data/hand/annot/mao/extract/ExampleL.jsonld;raw.githubusercontent.com/Signature-Sound-Vienna/data/hand/annot/mao/extract/ExampleL.jsonld(\"mao:Extract: <em>Example L</em>\");raw.githubusercontent.com/Signature-Sound-Vienna/data/hand/annot/mao/extract/ExampleL.jsonld -- frbr:embodiment --> raw.githubusercontent.com/Signature-Sound-Vienna/data/hand/annot/mao/selection/ExampleL.jsonld;raw.githubusercontent.com/Signature-Sound-Vienna/data/hand/annot/mao/selection/ExampleL.jsonld(\"mao:Selection: <em>Example K</em>\");raw.githubusercontent.com/Signature-Sound-Vienna/data/hand/annot/mao/selection/ExampleL.jsonld -- frbr:part (12 fragments) --> Kaiser-Walzer_Breitkopf-expanded.mei;raw.githubusercontent.com/Signature-Sound-Vienna/data/hand/annot/mao/extract/ExampleL.jsonld -- frbr:embodiment --> raw.githubusercontent.com/Signature-Sound-Vienna/data/hand/annot/mao/selection/ExampleL-audio1.jsonld;raw.githubusercontent.com/Signature-Sound-Vienna/data/hand/annot/mao/selection/ExampleL-audio1.jsonld(\"mao:Selection: <em>Example L: Welser-Möst, Wiener Philharmoniker (2021)</em>\");raw.githubusercontent.com/Signature-Sound-Vienna/data/hand/annot/mao/selection/ExampleL-audio1.jsonld -- frbr:part (1 time interval) --> 14%20-%20Kaiserwalzer%2C%20op.%20437%20-%20Johann%20Strauss%20II.wav;raw.githubusercontent.com/Signature-Sound-Vienna/data/hand/annot/mao/extract/ExampleL.jsonld -- frbr:embodiment --> raw.githubusercontent.com/Signature-Sound-Vienna/data/hand/annot/mao/selection/ExampleL-audio2.jsonld;raw.githubusercontent.com/Signature-Sound-Vienna/data/hand/annot/mao/selection/ExampleL-audio2.jsonld(\"mao:Selection: <em>Example L: Prêtre, Wiener Philharmoniker (2008)</em>\");raw.githubusercontent.com/Signature-Sound-Vienna/data/hand/annot/mao/selection/ExampleL-audio2.jsonld -- frbr:part (1 time interval) --> 17%20-%20Kaiser-Walzer%2C%20op.%20437%20-%20Johann%20Strauss%20II.wav;raw.githubusercontent.com/Signature-Sound-Vienna/data/hand/annot/mao/extract/ExampleL.jsonld -- frbr:embodiment --> raw.githubusercontent.com/Signature-Sound-Vienna/data/hand/annot/mao/selection/ExampleL-audio3.jsonld;raw.githubusercontent.com/Signature-Sound-Vienna/data/hand/annot/mao/selection/ExampleL-audio3.jsonld(\"mao:Selection: <em>Example L: Karajan, Berliner Philharmoniker (1984)</em>\");raw.githubusercontent.com/Signature-Sound-Vienna/data/hand/annot/mao/selection/ExampleL-audio3.jsonld -- frbr:part (1 time interval) --> 01-Kaiser%E2%80%93Walzer%2C%20op.%20437.wav;raw.githubusercontent.com/Signature-Sound-Vienna/data/hand/annot/oa/ExampleL.jsonld -- oa:hasBody --> blank_0(\"<em>&quot;Over the years, a gradual broadening of tempo has become evident, particularly in ...&quot;</em>\");\n click blank_0 \"#a-text-content\" \"View textual body\";\n click raw.githubusercontent.com/Signature-Sound-Vienna/data/hand/annot/mao/selection/ExampleL.jsonld \"http://primal.mdw.ac.at/?obj=https://raw.githubusercontent.com/Signature-Sound-Vienna/data/hand/annot/mao/selection/ExampleL.jsonld\" \"Tooltip: \";\n click selection:ExampleL.jsonld \"http://primal.mdw.ac.at/?obj=selection:ExampleL.jsonld\" \"Tooltip: \";\n click raw.githubusercontent.com/Signature-Sound-Vienna/data/hand/annot/mao/selection/ExampleL-audio1.jsonld \"http://primal.mdw.ac.at/?obj=https://raw.githubusercontent.com/Signature-Sound-Vienna/data/hand/annot/mao/selection/ExampleL-audio1.jsonld\" \"Tooltip: \";\n click selection:ExampleL-audio1.jsonld \"http://primal.mdw.ac.at/?obj=selection:ExampleL-audio1.jsonld\" \"Tooltip: \";\n click raw.githubusercontent.com/Signature-Sound-Vienna/data/hand/annot/mao/selection/ExampleL-audio2.jsonld \"http://primal.mdw.ac.at/?obj=https://raw.githubusercontent.com/Signature-Sound-Vienna/data/hand/annot/mao/selection/ExampleL-audio2.jsonld\" \"Tooltip: \";\n click selection:ExampleL-audio2.jsonld \"http://primal.mdw.ac.at/?obj=selection:ExampleL-audio2.jsonld\" \"Tooltip: \";\n click raw.githubusercontent.com/Signature-Sound-Vienna/data/hand/annot/mao/selection/ExampleL-audio3.jsonld \"http://primal.mdw.ac.at/?obj=https://raw.githubusercontent.com/Signature-Sound-Vienna/data/hand/annot/mao/selection/ExampleL-audio3.jsonld\" \"Tooltip: \";\n click selection:ExampleL-audio3.jsonld \"http://primal.mdw.ac.at/?obj=selection:ExampleL-audio3.jsonld\" \"Tooltip: \";\n click raw.githubusercontent.com/Signature-Sound-Vienna/data/hand/annot/mao/extract/ExampleL.jsonld \"http://primal.mdw.ac.at/?obj=https://raw.githubusercontent.com/Signature-Sound-Vienna/data/hand/annot/mao/extract/ExampleL.jsonld\" \"Tooltip: \";\n click extract:ExampleL.jsonld \"http://primal.mdw.ac.at/?obj=extract:ExampleL.jsonld\" \"Tooltip: \";\n click raw.githubusercontent.com/Signature-Sound-Vienna/data/hand/annot/mao/musicalMaterial/ExampleL.jsonld \"http://primal.mdw.ac.at/?obj=https://raw.githubusercontent.com/Signature-Sound-Vienna/data/hand/annot/mao/musicalMaterial/ExampleL.jsonld\" \"Tooltip: \";\n click musMat:ExampleL.jsonld \"http://primal.mdw.ac.at/?obj=musMat:ExampleL.jsonld\" \"Tooltip: \";\n click raw.githubusercontent.com/Signature-Sound-Vienna/data/hand/annot/oa/ExampleL.jsonld \"http://primal.mdw.ac.at/?obj=https://raw.githubusercontent.com/Signature-Sound-Vienna/data/hand/annot/oa/ExampleL.jsonld\" \"Tooltip: \";\n click anno:ExampleL.jsonld \"http://primal.mdw.ac.at/?obj=anno:ExampleL.jsonld\" \"Tooltip: \";\n subgraph Current resource\nraw.githubusercontent.com/Signature-Sound-Vienna/data/hand/annot/oa/ExampleL.jsonld\nblank_0\n\n end\n"
+    ],
+    "requestCount": 87,
+    "corsBlocked": []
+  }
+}

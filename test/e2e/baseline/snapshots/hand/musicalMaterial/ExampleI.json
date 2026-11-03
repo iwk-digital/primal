@@ -1,0 +1,253 @@
+{
+  "root": {
+    "set": "hand",
+    "folder": "musicalMaterial",
+    "name": "ExampleI",
+    "obj": "https://raw.githubusercontent.com/Signature-Sound-Vienna/data/hand/annot/mao/musicalMaterial/ExampleI.jsonld",
+    "w3id": "https://w3id.org/ssv/hand/annot/mao/musicalMaterial/ExampleI",
+    "quick": false
+  },
+  "recordedAt": "2026-11-02T16:15:11.623Z",
+  "compare": {
+    "splash": false,
+    "traversalsComplete": true,
+    "sections": {
+      "h-text-content": {
+        "loaded": true,
+        "noContent": [
+          "No text content found in this annotation."
+        ]
+      },
+      "h-music-scores": {
+        "loaded": true,
+        "noContent": []
+      },
+      "h-audio-examples": {
+        "loaded": true,
+        "noContent": []
+      },
+      "h-metadata": {
+        "loaded": true,
+        "noContent": []
+      },
+      "h-graph": {
+        "loaded": true,
+        "noContent": []
+      },
+      "h-json-display": {
+        "loaded": true,
+        "noContent": []
+      }
+    },
+    "banners": [],
+    "textBodies": [],
+    "scores": [
+      {
+        "id": "https://raw.githubusercontent.com/Signature-Sound-Vienna/Johann-Strauss-Sohn-Op437_Kaiser-Walzer_Breitkopf/main/Kaiser-Walzer_Breitkopf-expanded.mei",
+        "highlighted": [
+          "mvwgv8k",
+          "myges6s",
+          "mysbj6x"
+        ],
+        "svg": {
+          "viewBox": "0 0 2100 3804",
+          "elementsWithDataId": 2263
+        }
+      }
+    ],
+    "meiFriendLinks": [
+      "https://mei-friend.mdw.ac.at/?file=https://raw.githubusercontent.com/Signature-Sound-Vienna/Johann-Strauss-Sohn-Op437_Kaiser-Walzer_Breitkopf/main/Kaiser-Walzer_Breitkopf-expanded.mei&select=mysbj6x,myges6s,mvwgv8k,mrz8fk,moirvvh,mwz2fnl,mc5edl0,m1db30h4,mxen4wc,m15eby3j,m1e4kf4q,mul574b,mgfod1o,mein1za,mnzoxlp,mgqrzqs"
+    ],
+    "audio": [
+      {
+        "id": "https://w3id.org/ssv/0.9/data/ext/signal/dresden-1939-boehm#1-container",
+        "hidden": false,
+        "label": "Example I: Böhm, Sächsiche Staatskapelle Dresden (1939) [playback restricted] (04:30.08–04:33.89)",
+        "waveform": true,
+        "regions": [
+          {
+            "left": "97.7344%",
+            "width": ""
+          }
+        ]
+      },
+      {
+        "id": "https://w3id.org/ssv/0.9/data/signal/Wiener_-20Philharmoniker_-20_-2810_-20CDs_4-6_-29__CD_-206_-20-_-20Johann_-20Strauss_-20Jr#38-container",
+        "hidden": false,
+        "label": "Example I: Karajan, Vienna Philharmonic Orchestra (1946) [playback restricted] (08:14.95–08:16.76)",
+        "waveform": true,
+        "regions": [
+          {
+            "left": "96.3292%",
+            "width": ""
+          }
+        ]
+      }
+    ],
+    "metadata": {
+      "currentUri": "Current resource: <https://raw.githubusercontent.com/Signature-Sound-Vienna/data/hand/annot/mao/musicalMaterial/ExampleI.jsonld>",
+      "createdBy": "Created by: <https://ssv.solidcommunity.net/profile/card#me>",
+      "createdByLinks": [
+        {
+          "text": "<https://ssv.solidcommunity.net/profile/card#me>",
+          "href": "https://ssv.solidcommunity.net/profile/card#me"
+        }
+      ],
+      "audioSelectionsHeading": "Audio Files",
+      "audioSelections": [
+        {
+          "text": "Example I: Böhm, Sächsiche Staatskapelle Dresden (1939)Signal: dresden-1939-boehm#1Track: &quot;Kaiser-Walzer",
+          "links": [
+            {
+              "text": "Signal: dresden-1939-boehm#1",
+              "href": "https://w3id.org/ssv/0.9/data/ext/signal/dresden-1939-boehm#1"
+            },
+            {
+              "text": "Track: &quot;Kaiser-Walzer",
+              "href": "https://w3id.org/ssv/0.9/data/ext/track/dresden-1939-boehm#1"
+            }
+          ]
+        },
+        {
+          "text": "Example I: Karajan, Vienna Philharmonic Orchestra (1946)Signal: Wiener_-20Philharmoniker_-20_-2810_-20CDs_4-6_-29__CD_-206_-20-_-20Johann_-20Strauss_-20Jr#38Track: &quot;Kaiserwalzer Op. 437&quot;MusicBrainz: 64022c93-49d7-482e-aa83-ed5def7f51ca",
+          "links": [
+            {
+              "text": "Signal: Wiener_-20Philharmoniker_-20_-2810_-20CDs_4-6_-29__CD_-206_-20-_-20Johann_-20Strauss_-20Jr#38",
+              "href": "https://w3id.org/ssv/0.9/data/signal/Wiener_-20Philharmoniker_-20_-2810_-20CDs_4-6_-29__CD_-206_-20-_-20Johann_-20Strauss_-20Jr#38"
+            },
+            {
+              "text": "Track: &quot;Kaiserwalzer Op. 437&quot;",
+              "href": "https://w3id.org/ssv/0.9/data/track/Wiener_-20Philharmoniker_-20_-2810_-20CDs_4-6_-29__CD_-206_-20-_-20Johann_-20Strauss_-20Jr#38"
+            },
+            {
+              "text": "MusicBrainz: 64022c93-49d7-482e-aa83-ed5def7f51ca",
+              "href": "https://musicbrainz.org/track/64022c93-49d7-482e-aa83-ed5def7f51ca"
+            }
+          ]
+        }
+      ]
+    },
+    "graph": {
+      "svg": true,
+      "nodes": 8,
+      "edges": 7
+    },
+    "mermaid": [
+      [
+        "class raw.githubusercontent.com/Signature-Sound-Vienna/data/hand/annot/mao/musicalMaterial/ExampleI.jsonld current",
+        "click extract:ExampleI.jsonld \"http://primal.mdw.ac.at/?obj=extract:ExampleI.jsonld\" \"Tooltip: \"",
+        "click musMat:ExampleI.jsonld \"http://primal.mdw.ac.at/?obj=musMat:ExampleI.jsonld\" \"Tooltip: \"",
+        "click raw.githubusercontent.com/Signature-Sound-Vienna/data/hand/annot/mao/extract/ExampleI.jsonld \"http://primal.mdw.ac.at/?obj=https://raw.githubusercontent.com/Signature-Sound-Vienna/data/hand/annot/mao/extract/ExampleI.jsonld\" \"Tooltip: \"",
+        "click raw.githubusercontent.com/Signature-Sound-Vienna/data/hand/annot/mao/musicalMaterial/ExampleI.jsonld \"http://primal.mdw.ac.at/?obj=https://raw.githubusercontent.com/Signature-Sound-Vienna/data/hand/annot/mao/musicalMaterial/ExampleI.jsonld\" \"Tooltip: \"",
+        "click raw.githubusercontent.com/Signature-Sound-Vienna/data/hand/annot/mao/selection/ExampleI-audio1.jsonld \"http://primal.mdw.ac.at/?obj=https://raw.githubusercontent.com/Signature-Sound-Vienna/data/hand/annot/mao/selection/ExampleI-audio1.jsonld\" \"Tooltip: \"",
+        "click raw.githubusercontent.com/Signature-Sound-Vienna/data/hand/annot/mao/selection/ExampleI-audio2.jsonld \"http://primal.mdw.ac.at/?obj=https://raw.githubusercontent.com/Signature-Sound-Vienna/data/hand/annot/mao/selection/ExampleI-audio2.jsonld\" \"Tooltip: \"",
+        "click raw.githubusercontent.com/Signature-Sound-Vienna/data/hand/annot/mao/selection/ExampleI.jsonld \"http://primal.mdw.ac.at/?obj=https://raw.githubusercontent.com/Signature-Sound-Vienna/data/hand/annot/mao/selection/ExampleI.jsonld\" \"Tooltip: \"",
+        "click selection:ExampleI-audio1.jsonld \"http://primal.mdw.ac.at/?obj=selection:ExampleI-audio1.jsonld\" \"Tooltip: \"",
+        "click selection:ExampleI-audio2.jsonld \"http://primal.mdw.ac.at/?obj=selection:ExampleI-audio2.jsonld\" \"Tooltip: \"",
+        "click selection:ExampleI.jsonld \"http://primal.mdw.ac.at/?obj=selection:ExampleI.jsonld\" \"Tooltip: \"",
+        "end",
+        "graph TD",
+        "raw.githubusercontent.com/Signature-Sound-Vienna/data/hand/annot/mao/extract/ExampleI.jsonld -- frbr:embodiment --> raw.githubusercontent.com/Signature-Sound-Vienna/data/hand/annot/mao/selection/ExampleI-audio1.jsonld",
+        "raw.githubusercontent.com/Signature-Sound-Vienna/data/hand/annot/mao/extract/ExampleI.jsonld -- frbr:embodiment --> raw.githubusercontent.com/Signature-Sound-Vienna/data/hand/annot/mao/selection/ExampleI-audio2.jsonld",
+        "raw.githubusercontent.com/Signature-Sound-Vienna/data/hand/annot/mao/extract/ExampleI.jsonld -- frbr:embodiment --> raw.githubusercontent.com/Signature-Sound-Vienna/data/hand/annot/mao/selection/ExampleI.jsonld",
+        "raw.githubusercontent.com/Signature-Sound-Vienna/data/hand/annot/mao/extract/ExampleI.jsonld(\"mao:Extract: <em>Example I</em>\")",
+        "raw.githubusercontent.com/Signature-Sound-Vienna/data/hand/annot/mao/musicalMaterial/ExampleI.jsonld -- mao:setting --> raw.githubusercontent.com/Signature-Sound-Vienna/data/hand/annot/mao/extract/ExampleI.jsonld",
+        "raw.githubusercontent.com/Signature-Sound-Vienna/data/hand/annot/mao/musicalMaterial/ExampleI.jsonld",
+        "raw.githubusercontent.com/Signature-Sound-Vienna/data/hand/annot/mao/musicalMaterial/ExampleI.jsonld(\"mao:MusicalMaterial: <em>Example I</em>\")",
+        "raw.githubusercontent.com/Signature-Sound-Vienna/data/hand/annot/mao/selection/ExampleI-audio1.jsonld -- frbr:part (1 time interval) --> 02-Kaiserwalzer%20Op.%20437.wav",
+        "raw.githubusercontent.com/Signature-Sound-Vienna/data/hand/annot/mao/selection/ExampleI-audio1.jsonld(\"mao:Selection: <em>Example I: Karajan, Vienna Philharmonic Orchestra (1946)</em>\")",
+        "raw.githubusercontent.com/Signature-Sound-Vienna/data/hand/annot/mao/selection/ExampleI-audio2.jsonld -- frbr:part (1 time interval) --> dresden-1939-boehm.wav",
+        "raw.githubusercontent.com/Signature-Sound-Vienna/data/hand/annot/mao/selection/ExampleI-audio2.jsonld(\"mao:Selection: <em>Example I: Böhm, Sächsiche Staatskapelle Dresden (1939)</em>\")",
+        "raw.githubusercontent.com/Signature-Sound-Vienna/data/hand/annot/mao/selection/ExampleI.jsonld -- frbr:part (16 fragments) --> Kaiser-Walzer_Breitkopf-expanded.mei",
+        "raw.githubusercontent.com/Signature-Sound-Vienna/data/hand/annot/mao/selection/ExampleI.jsonld(\"mao:Selection: <em>Example I</em>\")",
+        "subgraph Current resource"
+      ]
+    ],
+    "json": "{\n  \"@context\": {\n    \"@vocab\": \"http://www.w3.org/ns/oa#\",\n    \"oa\": \"http://www.w3.org/ns/oa#\",\n    \"mao\": \"https://domestic-beethoven.eu/ontology/1.0/music-annotation-ontology.ttl#\",\n    \"frbr\": \"http://purl.org/vocab/frbr/core#\",\n    \"dc\": \"http://purl.org/dc/terms/\",\n    \"rdfs\": \"http://www.w3.org/2000/01/rdf-schema#\",\n    \"rdf\": \"http://www.w3.org/1999/02/22-rdf-syntax-ns#\",\n    \"mo\": \"http://purl.org/ontology/mo/\",\n    \"tl\": \"http://purl.org/NET/c4dm/timeline.owl#\",\n    \"ssv\": \"https://w3id.org/ssv/vocab#\"\n  },\n  \"@id\": \"https://raw.githubusercontent.com/Signature-Sound-Vienna/data/hand/annot/mao/musicalMaterial/ExampleI.jsonld\",\n  \"@type\": [\n    \"mao:MusicalMaterial\",\n    \"https://schema.org/Dataset\"\n  ],\n  \"dc:created\": \"2024-05-28T11:59:57.417Z\",\n  \"dc:creator\": {\n    \"@id\": \"https://ssv.solidcommunity.net/profile/card#me\"\n  },\n  \"dc:provenance\": \"Generated using mei-friend v.1.0.14: https://mei-friend.mdw.ac.at\",\n  \"rdfs:label\": \"Example I\",\n  \"mao:setting\": {\n    \"@id\": \"https://raw.githubusercontent.com/Signature-Sound-Vienna/data/hand/annot/mao/extract/ExampleI.jsonld\"\n  },\n  \"https://schema.org/about\": {\n    \"@id\": \"https://raw.githubusercontent.com/Signature-Sound-Vienna/Johann-Strauss-Sohn-Op437_Kaiser-Walzer_Breitkopf/main/Kaiser-Walzer_Breitkopf-expanded.mei\"\n  }\n}",
+    "versions": {
+      "verovio": "6.4.0-33d1633",
+      "mermaid": "10.9.8"
+    },
+    "requests": {
+      "GET app:/?obj=https://raw.githubusercontent.com/Signature-Sound-Vienna/data/hand/annot/mao/musicalMaterial/ExampleI.jsonld": 1,
+      "GET app:/css/prism.css": 1,
+      "GET app:/css/styles.css": 1,
+      "GET app:/deps/regions.js": 1,
+      "GET app:/deps/wavesurfer.js": 1,
+      "GET app:/img/logo.png": 1,
+      "GET app:/lib/LDObj.js": 1,
+      "GET app:/lib/defaults.js": 1,
+      "GET app:/lib/env.js": 1,
+      "GET app:/lib/errorBanner.js": 1,
+      "GET app:/lib/graph.js": 1,
+      "GET app:/lib/graphModal.js": 1,
+      "GET app:/lib/httpUtil.js": 1,
+      "GET app:/lib/main.js": 1,
+      "GET app:/lib/namespaceManager.js": 1,
+      "GET app:/lib/namespaceMap.js": 1,
+      "GET app:/lib/render.js": 1,
+      "GET app:/lib/sanitize.js": 1,
+      "GET app:/lib/traverser.js": 1,
+      "GET https://cdnjs.cloudflare.com/ajax/libs/jsonld/1.0.0/jsonld.min.js": 1,
+      "GET https://cdnjs.cloudflare.com/ajax/libs/prism/1.29.0/components/prism-json.min.js": 1,
+      "GET https://cdnjs.cloudflare.com/ajax/libs/prism/1.29.0/prism.min.js": 1,
+      "GET https://cdnjs.cloudflare.com/ajax/libs/prism/1.29.0/themes/prism.min.css": 1,
+      "GET https://raw.githubusercontent.com/Signature-Sound-Vienna/Johann-Strauss-Sohn-Op437_Kaiser-Walzer_Breitkopf/main/Kaiser-Walzer_Breitkopf-expanded.mei": 1,
+      "GET https://raw.githubusercontent.com/Signature-Sound-Vienna/data/hand/annot/mao/extract/ExampleI.jsonld": 1,
+      "GET https://raw.githubusercontent.com/Signature-Sound-Vienna/data/hand/annot/mao/musicalMaterial/ExampleI.jsonld": 1,
+      "GET https://raw.githubusercontent.com/Signature-Sound-Vienna/data/hand/annot/mao/selection/ExampleI-audio1.jsonld": 1,
+      "GET https://raw.githubusercontent.com/Signature-Sound-Vienna/data/hand/annot/mao/selection/ExampleI-audio2.jsonld": 1,
+      "GET https://raw.githubusercontent.com/Signature-Sound-Vienna/data/hand/annot/mao/selection/ExampleI.jsonld": 1,
+      "GET https://unpkg.com/mermaid@10/dist/mermaid.min.js": 1,
+      "GET https://w3id.org/ssv/0.9/data/ext/peaks/dresden-1939-boehm/1.peaks.json": 1,
+      "GET https://w3id.org/ssv/0.9/data/ext/signal/dresden-1939-boehm": 2,
+      "GET https://w3id.org/ssv/0.9/data/ext/track/dresden-1939-boehm": 1,
+      "GET https://w3id.org/ssv/0.9/data/peaks/Wiener_-20Philharmoniker_-20_-2810_-20CDs_4-6_-29__CD_-206_-20-_-20Johann_-20Strauss_-20Jr/38.peaks.json": 1,
+      "GET https://w3id.org/ssv/0.9/data/signal/Wiener_-20Philharmoniker_-20_-2810_-20CDs_4-6_-29__CD_-206_-20-_-20Johann_-20Strauss_-20Jr": 2,
+      "GET https://w3id.org/ssv/0.9/data/track/Wiener_-20Philharmoniker_-20_-2810_-20CDs_4-6_-29__CD_-206_-20-_-20Johann_-20Strauss_-20Jr": 1,
+      "GET https://www.verovio.org/javascript/latest/verovio-toolkit-wasm.js": 1,
+      "HEAD https://raw.githubusercontent.com/Signature-Sound-Vienna/Johann-Strauss-Sohn-Op437_Kaiser-Walzer_Breitkopf/main/Kaiser-Walzer_Breitkopf-expanded.mei": 32,
+      "HEAD https://raw.githubusercontent.com/Signature-Sound-Vienna/data/hand/annot/mao/extract/ExampleI.jsonld": 2,
+      "HEAD https://raw.githubusercontent.com/Signature-Sound-Vienna/data/hand/annot/mao/selection/ExampleI-audio1.jsonld": 2,
+      "HEAD https://raw.githubusercontent.com/Signature-Sound-Vienna/data/hand/annot/mao/selection/ExampleI-audio2.jsonld": 2,
+      "HEAD https://raw.githubusercontent.com/Signature-Sound-Vienna/data/hand/annot/mao/selection/ExampleI.jsonld": 2,
+      "HEAD https://w3id.org/ssv/audio/Wiener_-20Philharmoniker_-20_-2810_-20CDs_4-6_-29__CD_-206_-20-_-20Johann_-20Strauss_-20Jr/02-Kaiserwalzer%20Op.%20437.wav": 2,
+      "HEAD https://w3id.org/ssv/audio/dresden-1939-boehm.wav": 2
+    },
+    "consoleErrors": {
+      "Error fetching content type: Error: Network response was not ok": 2,
+      "Failed to load resource: the server responded with a status of 403 (Forbidden)": 4,
+      "Failed to prepare LD object Error: Object must be an OA or MAO object": 4,
+      "URL not accessible: Forbidden": 2
+    },
+    "pageErrors": {}
+  },
+  "info": {
+    "timings": {
+      "traversalMs": 1200,
+      "networkIdle": true,
+      "idleMs": 5338,
+      "stablePolls": 0,
+      "totalMs": 6103
+    },
+    "order": {
+      "textBodies": [],
+      "scores": [
+        "https://raw.githubusercontent.com/Signature-Sound-Vienna/Johann-Strauss-Sohn-Op437_Kaiser-Walzer_Breitkopf/main/Kaiser-Walzer_Breitkopf-expanded.mei"
+      ],
+      "audio": [
+        "https://w3id.org/ssv/0.9/data/signal/Wiener_-20Philharmoniker_-20_-2810_-20CDs_4-6_-29__CD_-206_-20-_-20Johann_-20Strauss_-20Jr#38-container",
+        "https://w3id.org/ssv/0.9/data/ext/signal/dresden-1939-boehm#1-container"
+      ],
+      "audioSelections": [
+        "Example I: Karajan, Vienna Philharmonic Orchestra (1946)Sign",
+        "Example I: Böhm, Sächsiche Staatskapelle Dresden (1939)Signa"
+      ]
+    },
+    "mermaidSources": [
+      "graph TD; class raw.githubusercontent.com/Signature-Sound-Vienna/data/hand/annot/mao/musicalMaterial/ExampleI.jsonld current;\nraw.githubusercontent.com/Signature-Sound-Vienna/data/hand/annot/mao/musicalMaterial/ExampleI.jsonld(\"mao:MusicalMaterial: <em>Example I</em>\");raw.githubusercontent.com/Signature-Sound-Vienna/data/hand/annot/mao/musicalMaterial/ExampleI.jsonld -- mao:setting --> raw.githubusercontent.com/Signature-Sound-Vienna/data/hand/annot/mao/extract/ExampleI.jsonld;raw.githubusercontent.com/Signature-Sound-Vienna/data/hand/annot/mao/extract/ExampleI.jsonld(\"mao:Extract: <em>Example I</em>\");raw.githubusercontent.com/Signature-Sound-Vienna/data/hand/annot/mao/extract/ExampleI.jsonld -- frbr:embodiment --> raw.githubusercontent.com/Signature-Sound-Vienna/data/hand/annot/mao/selection/ExampleI.jsonld;raw.githubusercontent.com/Signature-Sound-Vienna/data/hand/annot/mao/selection/ExampleI.jsonld(\"mao:Selection: <em>Example I</em>\");raw.githubusercontent.com/Signature-Sound-Vienna/data/hand/annot/mao/selection/ExampleI.jsonld -- frbr:part (16 fragments) --> Kaiser-Walzer_Breitkopf-expanded.mei;raw.githubusercontent.com/Signature-Sound-Vienna/data/hand/annot/mao/extract/ExampleI.jsonld -- frbr:embodiment --> raw.githubusercontent.com/Signature-Sound-Vienna/data/hand/annot/mao/selection/ExampleI-audio1.jsonld;raw.githubusercontent.com/Signature-Sound-Vienna/data/hand/annot/mao/selection/ExampleI-audio1.jsonld(\"mao:Selection: <em>Example I: Karajan, Vienna Philharmonic Orchestra (1946)</em>\");raw.githubusercontent.com/Signature-Sound-Vienna/data/hand/annot/mao/selection/ExampleI-audio1.jsonld -- frbr:part (1 time interval) --> 02-Kaiserwalzer%20Op.%20437.wav;raw.githubusercontent.com/Signature-Sound-Vienna/data/hand/annot/mao/extract/ExampleI.jsonld -- frbr:embodiment --> raw.githubusercontent.com/Signature-Sound-Vienna/data/hand/annot/mao/selection/ExampleI-audio2.jsonld;raw.githubusercontent.com/Signature-Sound-Vienna/data/hand/annot/mao/selection/ExampleI-audio2.jsonld(\"mao:Selection: <em>Example I: Böhm, Sächsiche Staatskapelle Dresden (1939)</em>\");raw.githubusercontent.com/Signature-Sound-Vienna/data/hand/annot/mao/selection/ExampleI-audio2.jsonld -- frbr:part (1 time interval) --> dresden-1939-boehm.wav;\n click raw.githubusercontent.com/Signature-Sound-Vienna/data/hand/annot/mao/selection/ExampleI.jsonld \"http://primal.mdw.ac.at/?obj=https://raw.githubusercontent.com/Signature-Sound-Vienna/data/hand/annot/mao/selection/ExampleI.jsonld\" \"Tooltip: \";\n click selection:ExampleI.jsonld \"http://primal.mdw.ac.at/?obj=selection:ExampleI.jsonld\" \"Tooltip: \";\n click raw.githubusercontent.com/Signature-Sound-Vienna/data/hand/annot/mao/selection/ExampleI-audio1.jsonld \"http://primal.mdw.ac.at/?obj=https://raw.githubusercontent.com/Signature-Sound-Vienna/data/hand/annot/mao/selection/ExampleI-audio1.jsonld\" \"Tooltip: \";\n click selection:ExampleI-audio1.jsonld \"http://primal.mdw.ac.at/?obj=selection:ExampleI-audio1.jsonld\" \"Tooltip: \";\n click raw.githubusercontent.com/Signature-Sound-Vienna/data/hand/annot/mao/selection/ExampleI-audio2.jsonld \"http://primal.mdw.ac.at/?obj=https://raw.githubusercontent.com/Signature-Sound-Vienna/data/hand/annot/mao/selection/ExampleI-audio2.jsonld\" \"Tooltip: \";\n click selection:ExampleI-audio2.jsonld \"http://primal.mdw.ac.at/?obj=selection:ExampleI-audio2.jsonld\" \"Tooltip: \";\n click raw.githubusercontent.com/Signature-Sound-Vienna/data/hand/annot/mao/extract/ExampleI.jsonld \"http://primal.mdw.ac.at/?obj=https://raw.githubusercontent.com/Signature-Sound-Vienna/data/hand/annot/mao/extract/ExampleI.jsonld\" \"Tooltip: \";\n click extract:ExampleI.jsonld \"http://primal.mdw.ac.at/?obj=extract:ExampleI.jsonld\" \"Tooltip: \";\n click raw.githubusercontent.com/Signature-Sound-Vienna/data/hand/annot/mao/musicalMaterial/ExampleI.jsonld \"http://primal.mdw.ac.at/?obj=https://raw.githubusercontent.com/Signature-Sound-Vienna/data/hand/annot/mao/musicalMaterial/ExampleI.jsonld\" \"Tooltip: \";\n click musMat:ExampleI.jsonld \"http://primal.mdw.ac.at/?obj=musMat:ExampleI.jsonld\" \"Tooltip: \";\n subgraph Current resource\nraw.githubusercontent.com/Signature-Sound-Vienna/data/hand/annot/mao/musicalMaterial/ExampleI.jsonld\n end\n"
+    ],
+    "requestCount": 83,
+    "corsBlocked": []
+  }
+}

@@ -1,0 +1,53 @@
+{
+  "@id": "https://listenhere.pod.test/at.ac.mdw.mei-friend/mao/extract/bodiless-top/extract",
+  "@type": [
+    "https://domestic-beethoven.eu/ontology/1.0/music-annotation-ontology.ttl#Extract",
+    "https://schema.org/Dataset"
+  ],
+  "http://purl.org/vocab/frbr/core#embodiment": [
+    {
+      "@id": "https://listenhere.pod.test/at.ac.mdw.mei-friend/mao/selection/bodiless-top/sel-alpha"
+    },
+    {
+      "@id": "https://listenhere.pod.test/at.ac.mdw.mei-friend/mao/selection/bodiless-top/sel-beta"
+    },
+    {
+      "@id": "https://listenhere.pod.test/at.ac.mdw.mei-friend/mao/selection/bodiless-top/sel-gamma-friends-live"
+    },
+    {
+      "@id": "http://localhost:8000/test/example-mao-selection.jsonld"
+    }
+  ],
+  "http://www.w3.org/2000/01/rdf-schema#label": [
+    {
+      "@value": "Opening phrase"
+    }
+  ],
+  "https://schema.org/about": [
+    {
+      "@id": "https://listenhere.pod.test/audio/alpha.wav"
+    },
+    {
+      "@id": "https://listenhere.pod.test/audio/beta.wav"
+    },
+    {
+      "@id": "https://listenhere.pod.test/audio/gamma%20(&%20friends),%20live.wav"
+    }
+  ],
+  "https://schema.org/includedInDataCatalog": [
+    {
+      "@id": "https://listenhere.pod.test/at.ac.mdw.mei-friend/discovery/alpha"
+    },
+    {
+      "@id": "https://listenhere.pod.test/at.ac.mdw.mei-friend/discovery/beta"
+    },
+    {
+      "@id": "https://listenhere.pod.test/at.ac.mdw.mei-friend/discovery/gamma-20-20friends-20live"
+    }
+  ],
+  "http://purl.org/dc/terms/creator": {
+    "@id": "https://listenhere.pod.test/profile/card#me"
+  },
+  "http://purl.org/dc/terms/created": "2026-11-02T12:00:00.000Z",
+  "http://purl.org/dc/terms/provenance": "Generated using Listen Here (Primal test fixture, from mao-adapter.js)"
+}
