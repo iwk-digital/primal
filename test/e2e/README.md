@@ -31,8 +31,8 @@ settled, and writes a snapshot:
 Chromium only. The tests serve this checkout on port 8137 (`PRIMAL_PORT`) with
 `support/serve.py`, the same handler as `python -m http.server`.
 
-    npm test                # quick: the 21 annotation-level roots + fixtures, replayed offline
-    npm run test:golden     # all 144 golden roots + fixtures, replayed offline
+    npm test                # quick: the 21 annotation-level roots + fixtures + v2, replayed offline
+    npm run test:golden     # all 144 golden roots + fixtures + v2, replayed offline
     npm run test:live       # sanity check: load the golden roots LIVE and compare
     npm run record          # re-record HARs and snapshots from live (see below)
 
@@ -44,6 +44,21 @@ not necessarily Primal.
 The HAR archives (~100 MB, rewritten in full by every recording) are gitignored and local for
 now; only the snapshots in `baseline/snapshots/` are committed. Without the archives, replay
 cannot run: record them first (below), or use the live check.
+
+## MAO v2 fixtures
+
+`test/v2/` holds MAO v2 annotations as Listen Here posts them, generated from Listen Here's
+own serialiser (`app/static/js/annotation/mao-adapter.js`) by
+
+    node test/e2e/support/make-v2-fixtures.js [<listen-here checkout>]
+
+which also adds what posting adds (`@id`, `dct:creator`, ...) and inline `ssv:peaks` on each
+Selection. The output is committed; re-run the script only to follow a change in Listen Here.
+The `v2` project serves them from a fake Solid pod (`support/pod.js`: extension-less URLs,
+`application/ld+json`, 401 for private resources, 403 for audio, and for throttled resources
+a 429 without CORS headers, as solidcommunity.net appears to answer) and
+compares with `baseline/snapshots/v2/`. Unlike the golden snapshots, these record new
+behaviour and are reviewed by hand; `PRIMAL_UPDATE_V2=1` rewrites them.
 
 ## Recording a baseline
 

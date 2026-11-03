@@ -170,6 +170,7 @@ function readPage() {
     traversalsComplete: window.__primal.traversalsComplete,
     sections,
     banners: [...document.querySelectorAll(".error-banner")].map(text),
+    notices: [...document.querySelectorAll(".notice-banner")].map(text),
     textBodies,
     scores,
     meiFriendLinks,
@@ -222,6 +223,8 @@ function normalise(page, versions, tracker, timings) {
       traversalsComplete: page.traversalsComplete,
       sections: page.sections,
       banners: sorted(page.banners),
+      // MAO v2 notices (part of an annotation not loaded); absent from older snapshots
+      ...(page.notices.length ? { notices: sorted(page.notices) } : {}),
       textBodies: sorted(page.textBodies),
       scores: sorted(page.scores),
       meiFriendLinks: sorted(page.meiFriendLinks),

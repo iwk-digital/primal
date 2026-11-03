@@ -6,6 +6,7 @@
 //   golden       – replay all golden roots from the HARs and compare with the snapshots
 //   golden-quick – the same for the annotation-level roots only (@quick)
 //   fixtures     – the v1 fixtures in test/, replayed and compared the same way
+//   v2           – the MAO v2 fixtures in test/v2/, served by a fake pod (support/pod.js)
 //   live         – opt-in sanity check: load the golden roots live and compare (PRIMAL_LIVE=1)
 import { defineConfig } from "@playwright/test";
 
@@ -35,6 +36,7 @@ export default defineConfig({
     { name: "golden", testMatch: "golden.spec.js" },
     { name: "golden-quick", testMatch: "golden.spec.js", grep: /@quick/ },
     { name: "fixtures", testMatch: "fixtures.spec.js" },
+    { name: "v2", testMatch: "v2.spec.js" },
     { name: "live", testMatch: "live.spec.js" },
   ],
 });

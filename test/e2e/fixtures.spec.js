@@ -8,6 +8,32 @@ import { fixtureRoots, readSnapshot, rootTitle } from "./support/roots.js";
 
 test.describe.configure({ mode: "parallel" });
 
+// Primal's 15 s loading timeout clears every section; a traversal finishing after it must
+// redraw them all, the "Current resource" line included. Time is faked: the timeout fires
+// while the root's response is held back, which is then released.
+test("fixtures/loading timeout, then traversal completes", async ({ browser, baseURL }) => {
+  const root = fixtureRoots.find((r) => r.name === "example-oa");
+  const { context, page } = await replayPage(browser, baseURL, "fixtures");
+  let release;
+  const held = new Promise((resolve) => (release = resolve));
+  await context.route(root.obj, async (route) => {
+    await held;
+    await route.fallback();
+  });
+  await page.clock.install();
+  const rootRequested = page.waitForRequest(root.obj);
+  await page.goto(`/?obj=${root.obj}`);
+  await rootRequested;
+  await page.clock.fastForward(16_000);
+  await expect(page.locator(".error-banner")).toContainText("Loading is taking longer");
+  await expect(page.locator("#meta-current-uri")).toHaveText("");
+  release();
+  await expect(page.locator(".error-banner")).toHaveCount(0);
+  await expect(page.locator("#text-content .textual-body")).not.toHaveCount(0);
+  await expect(page.locator("#meta-current-uri")).toHaveText(`Current resource: <${root.obj}>`);
+  await context.close();
+});
+
 for (const root of fixtureRoots) {
   test(rootTitle(root), async ({ browser, baseURL }, testInfo) => {
     const { context, page } = await replayPage(browser, baseURL, "fixtures");

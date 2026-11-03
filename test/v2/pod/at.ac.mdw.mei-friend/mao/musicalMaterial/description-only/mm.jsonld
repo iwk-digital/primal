@@ -1,0 +1,44 @@
+{
+  "@id": "https://listenhere.pod.test/at.ac.mdw.mei-friend/mao/musicalMaterial/description-only/mm",
+  "@type": [
+    "https://domestic-beethoven.eu/ontology/1.0/music-annotation-ontology.ttl#MusicalMaterial",
+    "https://schema.org/Dataset"
+  ],
+  "https://domestic-beethoven.eu/ontology/1.0/music-annotation-ontology.ttl#setting": [
+    {
+      "@id": "https://listenhere.pod.test/at.ac.mdw.mei-friend/mao/extract/description-only/extract"
+    }
+  ],
+  "http://www.w3.org/2000/01/rdf-schema#label": [
+    {
+      "@value": "Opening phrase"
+    }
+  ],
+  "https://schema.org/about": [
+    {
+      "@id": "https://listenhere.pod.test/audio/alpha.wav"
+    },
+    {
+      "@id": "https://listenhere.pod.test/audio/beta.wav"
+    },
+    {
+      "@id": "https://listenhere.pod.test/audio/gamma%20(&%20friends),%20live.wav"
+    }
+  ],
+  "https://schema.org/includedInDataCatalog": [
+    {
+      "@id": "https://listenhere.pod.test/at.ac.mdw.mei-friend/discovery/alpha"
+    },
+    {
+      "@id": "https://listenhere.pod.test/at.ac.mdw.mei-friend/discovery/beta"
+    },
+    {
+      "@id": "https://listenhere.pod.test/at.ac.mdw.mei-friend/discovery/gamma-20-20friends-20live"
+    }
+  ],
+  "http://purl.org/dc/terms/creator": {
+    "@id": "https://listenhere.pod.test/profile/card#me"
+  },
+  "http://purl.org/dc/terms/created": "2026-11-02T12:00:00.000Z",
+  "http://purl.org/dc/terms/provenance": "Generated using Listen Here (Primal test fixture, from mao-adapter.js)"
+}

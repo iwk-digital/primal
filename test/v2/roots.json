@@ -1,0 +1,72 @@
+{
+  "origin": "https://listenhere.pod.test",
+  "roots": [
+    {
+      "set": "v2",
+      "folder": null,
+      "name": "description-only",
+      "obj": "https://listenhere.pod.test/at.ac.mdw.mei-friend/oa/description-only/oa-top",
+      "note": "description only: oa/top targets the MusicalMaterial directly (v1-shaped path)"
+    },
+    {
+      "set": "v2",
+      "folder": null,
+      "name": "track-note",
+      "obj": "https://listenhere.pod.test/at.ac.mdw.mei-friend/oa/track-note/oa-track-alpha",
+      "note": "no description: as posted today, there is no oa/top; the root is one per-recording note"
+    },
+    {
+      "set": "v2",
+      "folder": null,
+      "name": "full",
+      "obj": "https://listenhere.pod.test/at.ac.mdw.mei-friend/oa/full/oa-top",
+      "note": "per-recording notes, two groups (Brass points at a Selection directly), a comparison, a description, a score-side Selection"
+    },
+    {
+      "set": "v2",
+      "folder": null,
+      "name": "throttled",
+      "obj": "https://listenhere.pod.test/at.ac.mdw.mei-friend/oa/full/oa-top",
+      "note": "as full, served by a pod that refuses two resources twice each (429 without CORS headers): retried",
+      "throttle": {
+        "/at.ac.mdw.mei-friend/oa/full/oa-track-alpha": 2,
+        "/at.ac.mdw.mei-friend/oa/full/oa-group-g-strings": 2
+      }
+    },
+    {
+      "set": "v2",
+      "folder": null,
+      "name": "unavailable",
+      "obj": "https://listenhere.pod.test/at.ac.mdw.mei-friend/oa/full/oa-top",
+      "note": "as full, with beta's note refused every time (429 without CORS headers): a notice says so",
+      "throttle": {
+        "/at.ac.mdw.mei-friend/oa/full/oa-track-beta": -1
+      }
+    },
+    {
+      "set": "v2",
+      "folder": null,
+      "name": "bodiless-top",
+      "obj": "https://listenhere.pod.test/at.ac.mdw.mei-friend/oa/bodiless-top/oa-top",
+      "note": "the agreed URL contract: oa/top is always written, here without a body"
+    },
+    {
+      "set": "v2",
+      "folder": null,
+      "name": "item-spelling",
+      "obj": "https://listenhere.pod.test/at.ac.mdw.mei-friend/oa/item-spelling/oa-top",
+      "note": "as full, with the MAO v2 draft's oa:item for oa:items"
+    },
+    {
+      "set": "v2",
+      "folder": null,
+      "name": "private-part",
+      "obj": "https://listenhere.pod.test/at.ac.mdw.mei-friend/oa/private-part/oa-top",
+      "note": "as full, with beta's note and the Brass group note private (401)",
+      "private": [
+        "/at.ac.mdw.mei-friend/oa/private-part/oa-track-beta",
+        "/at.ac.mdw.mei-friend/oa/private-part/oa-group-g-brass"
+      ]
+    }
+  ]
+}
